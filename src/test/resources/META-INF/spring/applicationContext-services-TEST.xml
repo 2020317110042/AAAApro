@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:sws="http://www.springframework.org/schema/web-services" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+            http://www.springframework.org/schema/web-services http://www.springframework.org/schema/web-services/web-services-2.0.xsd
+            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <context:component-scan base-package="org.apromore"/>
+
+    <bean id="simpleAuditedService" class="org.apromore.aop.SimpleAuditedService" />
+
+    <!-- ************************** WebServices ************************** -->
+
+    <sws:annotation-driven/>
+
+    <sws:dynamic-wsdl id="manager" portTypeName="manager" locationUri="http://localhost:80/Apromore/services/manager">
+        <sws:xsd location="classpath*:/manager.xsd"/>
+    </sws:dynamic-wsdl>
+
+    <sws:interceptors>
+        <bean class="org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor"/>
+        <bean class="org.springframework.ws.soap.server.endpoint.interceptor.SoapEnvelopeLoggingInterceptor" p:logRequest="true" p:logResponse="true"/>
+        <bean id="validatingInterceptor" class="org.springframework.ws.soap.server.endpoint.interceptor.PayloadValidatingInterceptor" p:schemas-ref="schemasList" p:validateRequest="true" p:validateResponse="true"/>
+    </sws:interceptors>
+
+    <!-- JAXB marshelling -->
+    <bean id="marshallingMethodProcessor" class="org.springframework.ws.server.endpoint.adapter.method.MarshallingPayloadMethodProcessor"
+          p:marshaller-ref="jaxb2Marshaller" p:unmarshaller-ref="jaxb2Marshaller"/>
+
+    <bean id="defaultMethodEndpointAdapter" class="org.springframework.ws.server.endpoint.adapter.DefaultMethodEndpointAdapter">
+        <property name="methodArgumentResolvers">
+            <list>
+                <ref bean="marshallingMethodProcessor"/>
+            </list>
+        </property>
+        <property name="methodReturnValueHandlers">
+            <list>
+                <ref bean="marshallingMethodProcessor"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="jaxb2Marshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+        <property name="schemas" ref="schemasList"/>
+        <property name="contextPaths">
+            <list>
+                <value>org.apromore.model</value>
+            </list>
+        </property>
+    </bean>
+
+    <util:list id="schemasList">
+        <value>classpath*:/manager.xsd</value>
+    </util:list>
+
+    <bean id="messageFactory" class="org.springframework.ws.soap.saaj.SaajSoapMessageFactory"/>
+    <bean id="messageReceiver" class="org.springframework.ws.soap.server.SoapMessageDispatcher"/>
+
+
+    <!-- ************************** Non WebServices ************************** -->
+
+    <bean id="canonicalToGraph" class="org.apromore.graph.canonical.converter.CanonicalToGraph" />
+    <bean id="graphToCanonical" class="org.apromore.graph.canonical.converter.GraphToCanonical" />
+
+    <bean id="epml2bpmnPreAnnotationProcessor" class="org.apromore.annotation.epml2bpmn.Epml2BpmnPreProcessor" />
+    <bean id="xpdl2bpmnPreAnnotationProcessor" class="org.apromore.annotation.xpdl2bpmn.Xpdl2BpmnPreProcessor" />
+    <bean id="cpf2bpmnPreAnnotationProcessor" class="org.apromore.annotation.cpf2bpmn.Cpf2BpmnPreProcessor" />
+    <bean id="epml2xpdlPreAnnotationProcessor" class="org.apromore.annotation.epml2xpdl.Epml2XpdlPreProcessor" />
+    <bean id="bpmn2epmlPreAnnotationProcessor" class="org.apromore.annotation.bpmn2epml.Bpmn2EpmlPreProcessor" />
+    <bean id="xpdl2epmlPreAnnotationProcessor" class="org.apromore.annotation.xpdl2epml.Xpdl2EpmlPreProcessor" />
+    <bean id="yawl2epmlPreAnnotationProcessor" class="org.apromore.annotation.yawl2epml.Yawl2EpmlPreProcessor" />
+    <bean id="bpmn2yawlPreAnnotationProcessor" class="org.apromore.annotation.bpmn2yawl.Bpmn2YawlPreProcessor" />
+    <bean id="epml2yawlPreAnnotationProcessor" class="org.apromore.annotation.epml2yawl.Epml2YawlPreProcessor" />
+
+
+    <!-- Beans used for OSGi setup. -->
+    <bean id="arisCanoniser" class="org.apromore.canoniser.aris.ArisCanoniser" />
+    <bean id="bpmnCanoniser" class="org.apromore.canoniser.bpmn.BPMN20Canoniser" />
+    <bean id="epmlCanoniser" class="org.apromore.canoniser.epml.EPML20Canoniser" />
+    <bean id="pnmlCanoniser" class="org.apromore.canoniser.pnml.PNML132Canoniser" />
+    <bean id="xpdlCanoniser" class="org.apromore.canoniser.xpdl.XPDL22Canoniser" />
+    <bean id="yawlCanoniser" class="org.apromore.canoniser.yawl.YAWL22Canoniser" />
+
+    <util:set id="canonisers">
+        <ref bean="arisCanoniser" />
+        <ref bean="bpmnCanoniser" />
+        <ref bean="epmlCanoniser" />
+        <ref bean="pnmlCanoniser" />
+        <ref bean="xpdlCanoniser" />
+        <ref bean="yawlCanoniser" />
+    </util:set>
+
+    <!-- Just test the provider outside of OSGi -->
+    <bean id="pluginProvider" class="org.apromore.plugin.provider.impl.PluginProviderImpl"/>
+    <bean id="canoniserProvider" class="org.apromore.canoniser.provider.impl.CanoniserProviderImpl" p:canoniserSet-ref="canonisers"/>
+    <bean id="deploymentProvider" class="org.apromore.plugin.deployment.provider.impl.DeploymentPluginProviderImpl"/>
+    <bean id="annotationProcessorProvider" class="org.apromore.annotation.provider.impl.AnnotationProcessorProviderImpl"/>
+    <bean id="metricProvider" class="org.apromore.plugin.metric.provider.impl.MetricPluginProviderImpl"/>
+    <!--<bean id="searchByModelProvider" class="org.apromore.plugin.search.provider.impl.SearchByModelPluginProviderImpl"/>-->
+    <!--<bean id="searchByTextProvider" class="org.apromore.plugin.search.provider.impl.SearchByTextPluginProviderImpl"/>-->
+
+    <!-- Mock Providers -->
+    <bean id="mockDeploymentProvider" class="org.apromore.plugin.deployment.MockDeploymentPluginProvider" />
+
+</beans>
