@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="257" name="1Ku_add8">
+<event id="0"><name>Document
+blocked
+due to
+insufficent
+hedge</name></event>
+<event id="1"><name>Change
+to terms
+of credit
+refused</name></event>
+<xor id="2"/>
+<event id="3"><name>Credit
+limit
+is not
+sufficient</name></event>
+<xor id="4"/>
+<event id="5"><name>Terms
+of credit
+have
+changed</name></event>
+<function id="6"><name>Credit
+Control</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="21"><flow source="2" target="6"/></arc>
+<arc id="24"><flow source="3" target="2"/></arc>
+<arc id="30"><flow source="4" target="1"/></arc>
+<arc id="34"><flow source="4" target="5"/></arc>
+<arc id="47"><flow source="6" target="4"/></arc>
+</epc></epml>

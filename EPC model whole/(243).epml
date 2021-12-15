@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="244" name="1Ku_9vyx">
+<xor id="0"/>
+<xor id="1"/>
+<and id="2"/>
+<function id="3"><name>Monitoring
+of Legal
+Controls</name></function>
+<event id="4"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="5"><name>Credit
+limit
+is not
+sufficient</name></event>
+<event id="6"><name>Order
+generated
+and delivery
+opened</name></event>
+<event id="7"><name>Inspection
+lot status
+allows
+a goods
+issue</name></event>
+<event id="8"><name>Goods
+issue
+blocked
+for export</name></event>
+<event id="9"><name>Goods
+issue
+is posted</name></event>
+<event id="10"><name>Delivery
+is to
+be created</name></event>
+<xor id="11"/>
+<function id="12"><name>Delivery
+Processing</name></function>
+<function id="13"><name>Transportation
+Planning
+and Processing</name></function>
+<event id="14"><name>Inspect
+(independent
+of goods
+issue)</name></event>
+<event id="15"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="16"><name>Delivery
+is relevant
+for shipment</name></event>
+<and id="17"/>
+<event id="18"><name>Inspection
+before
+goods
+issue
+is to be carried out</name></event>
+<function id="19"><name>Goods
+Issue
+Processing</name></function>
+<event id="20"><name>Material
+is removed
+from
+stock</name></event>
+<xor id="21"/>
+<event id="22"><name>Legal
+control
+data
+is processed</name></event>
+<event id="23"><name>Document
+blocked
+due to
+insufficent
+hedge</name></event>
+<event id="24"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="38"><flow source="1" target="12"/></arc>
+<arc id="70"><flow source="2" target="19"/></arc>
+<arc id="98"><flow source="3" target="22"/></arc>
+<arc id="104"><flow source="4" target="3"/></arc>
+<arc id="152"><flow source="6" target="1"/></arc>
+<arc id="178"><flow source="7" target="2"/></arc>
+<arc id="252"><flow source="10" target="1"/></arc>
+<arc id="290"><flow source="11" target="14"/></arc>
+<arc id="294"><flow source="11" target="18"/></arc>
+<arc id="322"><flow source="12" target="21"/></arc>
+<arc id="350"><flow source="13" target="24"/></arc>
+<arc id="414"><flow source="16" target="13"/></arc>
+<arc id="437"><flow source="17" target="11"/></arc>
+<arc id="442"><flow source="17" target="16"/></arc>
+<arc id="446"><flow source="17" target="20"/></arc>
+<arc id="476"><flow source="19" target="0"/></arc>
+<arc id="530"><flow source="21" target="4"/></arc>
+<arc id="541"><flow source="21" target="15"/></arc>
+<arc id="543"><flow source="21" target="17"/></arc>
+<arc id="549"><flow source="21" target="23"/></arc>
+<arc id="603"><flow source="24" target="2"/></arc>
+</epc></epml>

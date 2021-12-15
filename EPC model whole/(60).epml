@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="61" name="1Be_2n6s">
+<event id="0"><name>Purchase
+order
+transmitted</name></event>
+<event id="1"><name>Quotation
+chosen</name></event>
+<event id="2"><name>Quotation
+rejected</name></event>
+<function id="3"><name>RFQ/Quotation</name></function>
+<xor id="4"/>
+<event id="5"><name>Purchase
+requisition
+released
+for issue
+of RFQ</name></event>
+<arc id="23"><flow source="3" target="4"/></arc>
+<arc id="26"><flow source="4" target="1"/></arc>
+<arc id="27"><flow source="4" target="2"/></arc>
+<arc id="34"><flow source="5" target="3"/></arc>
+</epc></epml>

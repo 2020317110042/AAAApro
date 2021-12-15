@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="233" name="1Ku_9e6t">
+<event id="0"><name>Terms
+of credit
+have
+changed</name></event>
+<event id="1"><name>Credit
+limit
+is not
+sufficient</name></event>
+<function id="2"><name>Credit
+Control</name></function>
+<event id="3"><name>Change
+to terms
+of credit
+refused</name></event>
+<xor id="4"/>
+<xor id="5"/>
+<event id="6"><name>Credit
+limit
+check
+is to
+be performed manually</name></event>
+<arc id="13"><flow source="1" target="5"/></arc>
+<arc id="19"><flow source="2" target="4"/></arc>
+<arc id="29"><flow source="4" target="0"/></arc>
+<arc id="32"><flow source="4" target="3"/></arc>
+<arc id="38"><flow source="5" target="2"/></arc>
+<arc id="48"><flow source="6" target="5"/></arc>
+</epc></epml>

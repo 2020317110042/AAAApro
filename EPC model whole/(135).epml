@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="136" name="1Ex_e5ew">
+<event id="0"><name>Intercompany
+profit
+and loss
+in inventory
+is to be eliminated</name></event>
+<and id="1"/>
+<and id="2"/>
+<event id="3"><name>Group
+inventories
+are entered
+for the
+elimination of IC profit and loss</name></event>
+<or id="4"/>
+<event id="5"><name>Elimination
+of IC
+profit
+and loss
+in inventory is completed</name></event>
+<event id="6"><name>Currency
+translation
+carried
+out</name></event>
+<event id="7"><name>Intercompany
+sales
+are entered
+for the
+elimination of IC profit and loss</name></event>
+<function id="8"><name>Elimination
+of IU
+Profit/
+Loss
+in Transferred Inventory</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="14"><flow source="1" target="4"/></arc>
+<arc id="23"><flow source="2" target="4"/></arc>
+<arc id="29"><flow source="3" target="1"/></arc>
+<arc id="45"><flow source="4" target="8"/></arc>
+<arc id="57"><flow source="6" target="2"/></arc>
+<arc id="65"><flow source="7" target="1"/></arc>
+<arc id="78"><flow source="8" target="5"/></arc>
+</epc></epml>

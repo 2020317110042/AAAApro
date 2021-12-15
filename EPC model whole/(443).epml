@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="444" name="1Tr_g563">
+<event id="0"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<event id="1"><name>Key date
+valuation
+carried
+out</name></event>
+<function id="2"><name>Key Date
+Valuation</name></function>
+<and id="3"/>
+<event id="4"><name>Valuation
+flows
+were
+generated</name></event>
+<and id="5"/>
+<and id="6"/>
+<event id="7"><name>Realized
+gains/
+losses
+to be
+determined</name></event>
+<event id="8"><name>List
+of realized
+gains/
+losses
+was output</name></event>
+<event id="9"><name>Transaction
+was posted</name></event>
+<event id="10"><name>Flows
+from
+realized
+gains/
+losses were generated</name></event>
+<function id="11"><name>Realized
+Gains/
+Losses</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="19"><flow source="1" target="6"/></arc>
+<arc id="28"><flow source="2" target="3"/></arc>
+<arc id="38"><flow source="3" target="1"/></arc>
+<arc id="41"><flow source="3" target="4"/></arc>
+<arc id="69"><flow source="5" target="8"/></arc>
+<arc id="71"><flow source="5" target="10"/></arc>
+<arc id="84"><flow source="6" target="11"/></arc>
+<arc id="91"><flow source="7" target="6"/></arc>
+<arc id="115"><flow source="9" target="6"/></arc>
+<arc id="138"><flow source="11" target="5"/></arc>
+</epc></epml>

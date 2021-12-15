@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="564" name="1Ve_7vev">
+<xor id="0"/>
+<event id="1"><name>Group
+Master
+Contract
+is Created</name></event>
+<event id="2"><name>Framework
+agreement
+/ contract
+is agreed
+with reference</name></event>
+<function id="3"><name>Value
+Contract
+Processing</name></function>
+<event id="4"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<function id="5"><name>Quantity
+Contract
+Processing</name></function>
+<function id="6"><name>Customer
+Scheduling
+Agreement
+Processing</name></function>
+<event id="7"><name>Contract
+is created</name></event>
+<event id="8"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="9"><name>Contract
+ist to
+be created</name></event>
+<event id="10"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="11"><name>Contract
+ist to
+be created</name></event>
+<event id="12"><name>Quotation
+is valid</name></event>
+<or id="13"/>
+<xor id="14"/>
+<xor id="15"/>
+<event id="16"><name>Scheduling
+agreement
+is created
+with
+ref. to quote</name></event>
+<event id="17"><name>Sched.agreement
+must
+be created</name></event>
+<and id="18"/>
+<event id="19"><name>Sales
+requirements
+are created</name></event>
+<and id="20"/>
+<xor id="21"/>
+<event id="22"><name>Quotation
+is valid</name></event>
+<xor id="23"/>
+<event id="24"><name>Framework
+agreement
+/ contract
+is agreed
+with reference</name></event>
+<event id="25"><name>Scheduling
+agreement
+is created</name></event>
+<and id="26"/>
+<function id="27"><name>Processing
+Group
+Master
+Contracts</name></function>
+<event id="28"><name>Group
+Master
+Contract
+is to
+be Created</name></event>
+<event id="29"><name>Delivery
+is to
+be created</name></event>
+<xor id="30"/>
+<event id="31"><name>Quotation
+is valid</name></event>
+<event id="32"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="33"><name>Items
+are cancelled</name></event>
+<and id="34"/>
+<and id="35"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="55"><flow source="1" target="18"/></arc>
+<arc id="107"><flow source="2" target="34"/></arc>
+<arc id="123"><flow source="3" target="14"/></arc>
+<arc id="195"><flow source="5" target="14"/></arc>
+<arc id="247"><flow source="6" target="30"/></arc>
+<arc id="325"><flow source="9" target="0"/></arc>
+<arc id="418"><flow source="11" target="21"/></arc>
+<arc id="468"><flow source="12" target="35"/></arc>
+<arc id="476"><flow source="13" target="7"/></arc>
+<arc id="492"><flow source="13" target="23"/></arc>
+<arc id="518"><flow source="14" target="13"/></arc>
+<arc id="547"><flow source="15" target="6"/></arc>
+<arc id="597"><flow source="16" target="20"/></arc>
+<arc id="628"><flow source="17" target="15"/></arc>
+<arc id="649"><flow source="18" target="0"/></arc>
+<arc id="670"><flow source="18" target="21"/></arc>
+<arc id="736"><flow source="20" target="15"/></arc>
+<arc id="762"><flow source="21" target="5"/></arc>
+<arc id="813"><flow source="22" target="20"/></arc>
+<arc id="837"><flow source="23" target="8"/></arc>
+<arc id="839"><flow source="23" target="10"/></arc>
+<arc id="900"><flow source="24" target="35"/></arc>
+<arc id="956"><flow source="26" target="19"/></arc>
+<arc id="962"><flow source="26" target="25"/></arc>
+<arc id="966"><flow source="26" target="29"/></arc>
+<arc id="974"><flow source="27" target="1"/></arc>
+<arc id="1036"><flow source="28" target="27"/></arc>
+<arc id="1085"><flow source="30" target="4"/></arc>
+<arc id="1107"><flow source="30" target="26"/></arc>
+<arc id="1113"><flow source="30" target="32"/></arc>
+<arc id="1114"><flow source="30" target="33"/></arc>
+<arc id="1151"><flow source="31" target="34"/></arc>
+<arc id="1225"><flow source="34" target="0"/></arc>
+<arc id="1282"><flow source="35" target="21"/></arc>
+</epc></epml>

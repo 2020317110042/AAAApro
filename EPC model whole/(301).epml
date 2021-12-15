@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="302" name="1Pe_mgei">
+<or id="0"/>
+<event id="1"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<event id="2"><name>Operative
+personnel
+requirement
+must
+be obtained for org. plan unit</name></event>
+<event id="3"><name>Operative
+personnel
+requirement
+cannot
+be covered by existing human resources</name></event>
+<event id="4"><name>Operative
+personnel
+requirement
+must
+be reformulated</name></event>
+<or id="5"/>
+<event id="6"><name>Personnel
+assignment
+for org.
+plan
+exists</name></event>
+<event id="7"><name>Human
+resource
+cannot
+be used
+to cover the operative personnel requirement</name></event>
+<event id="8"><name>Operative
+personnel
+requirement
+for org.
+plan exists</name></event>
+<and id="9"/>
+<function id="10"><name>Create
+operative
+shift
+plan</name></function>
+<event id="11"><name>Human
+Resource
+Without
+Shift
+Accepted</name></event>
+<function id="12"><name>Determine
+handling
+options
+for coverage
+of operative personnel requirement</name></function>
+<event id="13"><name>Requirement
+for operative
+shift
+planning
+exists</name></event>
+<event id="14"><name>Completed
+operative
+shift
+plan
+is available</name></event>
+<event id="15"><name>Human
+resource
+cannot
+be implemented
+long term</name></event>
+<function id="16"><name>Operative
+adjustment
+of personnel
+reqmnt
+assignment for org. plan unit</name></function>
+<event id="17"><name>Shift
+planning
+for shift
+planning
+group is desired</name></event>
+<event id="18"><name>Long
+term
+personnel
+requirement
+exists</name></event>
+<event id="19"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<event id="20"><name>Uncovered
+operative
+personnel
+requirement
+is accepted</name></event>
+<or id="21"/>
+<or id="22"/>
+<event id="23"><name>Operative
+personnel
+requirement
+must
+be released by org. plan unit</name></event>
+<function id="24"><name>Determine
+handling
+options
+for usage
+of human resources</name></function>
+<or id="25"/>
+<or id="26"/>
+<or id="27"/>
+<event id="28"><name>Human
+resource
+must
+be released
+operatively</name></event>
+<event id="29"><name>Human
+resource
+must
+be obtained
+operatively</name></event>
+<function id="30"><name>Operative
+adjustment
+of personnel
+assignment
+for organizational plan unit</name></function>
+<or id="31"/>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="87"><flow source="2" target="22"/></arc>
+<arc id="109"><flow source="3" target="12"/></arc>
+<arc id="164"><flow source="5" target="3"/></arc>
+<arc id="168"><flow source="5" target="7"/></arc>
+<arc id="175"><flow source="5" target="14"/></arc>
+<arc id="249"><flow source="7" target="24"/></arc>
+<arc id="299"><flow source="9" target="10"/></arc>
+<arc id="326"><flow source="10" target="5"/></arc>
+<arc id="412"><flow source="12" target="27"/></arc>
+<arc id="426"><flow source="13" target="9"/></arc>
+<arc id="519"><flow source="16" target="6"/></arc>
+<arc id="554"><flow source="17" target="9"/></arc>
+<arc id="673"><flow source="21" target="0"/></arc>
+<arc id="675"><flow source="21" target="2"/></arc>
+<arc id="684"><flow source="21" target="11"/></arc>
+<arc id="688"><flow source="21" target="15"/></arc>
+<arc id="699"><flow source="21" target="26"/></arc>
+<arc id="701"><flow source="21" target="28"/></arc>
+<arc id="704"><flow source="21" target="31"/></arc>
+<arc id="735"><flow source="22" target="30"/></arc>
+<arc id="759"><flow source="23" target="22"/></arc>
+<arc id="790"><flow source="24" target="21"/></arc>
+<arc id="817"><flow source="25" target="16"/></arc>
+<arc id="852"><flow source="26" target="19"/></arc>
+<arc id="865"><flow source="27" target="0"/></arc>
+<arc id="883"><flow source="27" target="18"/></arc>
+<arc id="885"><flow source="27" target="20"/></arc>
+<arc id="888"><flow source="27" target="23"/></arc>
+<arc id="891"><flow source="27" target="26"/></arc>
+<arc id="894"><flow source="27" target="29"/></arc>
+<arc id="896"><flow source="27" target="31"/></arc>
+<arc id="922"><flow source="28" target="25"/></arc>
+<arc id="954"><flow source="29" target="25"/></arc>
+<arc id="969"><flow source="30" target="8"/></arc>
+<arc id="997"><flow source="31" target="4"/></arc>
+</epc></epml>

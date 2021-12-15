@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="316" name="1Pr_1j5k">
+<function id="0"><name>Master
+Production
+Scheduling
+- Total
+Planning</name></function>
+<function id="1"><name>Master
+Production
+Scheduling
+- Interactive</name></function>
+<or id="2"/>
+<xor id="3"/>
+<and id="4"/>
+<event id="5"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="6"><name>Purchase
+Requisition
+Created</name></event>
+<event id="7"><name>Separate
+planning
+run to
+be carried
+out for master schedule items</name></event>
+<function id="8"><name>Master
+Production
+Scheduling
+- Single-Item</name></function>
+<event id="9"><name>Planning
+results
+or stock/
+reqmts
+situation is processed</name></event>
+<event id="10"><name>Dependent
+Requirement
+Created</name></event>
+<event id="11"><name>MRP list
+is created</name></event>
+<event id="12"><name>Stock/
+requirements
+list
+to be
+processed</name></event>
+<and id="13"/>
+<and id="14"/>
+<function id="15"><name>Master
+Production
+Scheduling
+- Evaluation</name></function>
+<event id="16"><name>Demand
+Program
+Created</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="31"><flow source="1" target="13"/></arc>
+<arc id="40"><flow source="2" target="5"/></arc>
+<arc id="41"><flow source="2" target="6"/></arc>
+<arc id="45"><flow source="2" target="10"/></arc>
+<arc id="46"><flow source="2" target="11"/></arc>
+<arc id="67"><flow source="3" target="15"/></arc>
+<arc id="83"><flow source="4" target="14"/></arc>
+<arc id="124"><flow source="7" target="4"/></arc>
+<arc id="150"><flow source="8" target="13"/></arc>
+<arc id="191"><flow source="11" target="3"/></arc>
+<arc id="208"><flow source="12" target="3"/></arc>
+<arc id="224"><flow source="13" target="2"/></arc>
+<arc id="239"><flow source="14" target="0"/></arc>
+<arc id="240"><flow source="14" target="1"/></arc>
+<arc id="247"><flow source="14" target="8"/></arc>
+<arc id="265"><flow source="15" target="9"/></arc>
+<arc id="277"><flow source="16" target="4"/></arc>
+</epc></epml>

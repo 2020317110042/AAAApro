@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="120" name="1Er_iif2">
+<event id="0"><name>Production
+order
+settled
+to warehouse</name></event>
+<event id="1"><name>Order
+item
+was debited</name></event>
+<event id="2"><name>Product
+cost
+analysis
+required
+for order-related Controlling</name></event>
+<function id="3"><name>WIP Calculation
+Based
+On Actual
+Costs</name></function>
+<event id="4"><name>Product
+cost
+analysis
+required
+for co-products</name></event>
+<function id="5"><name>Preliminary
+Settlement
+for Co-Products,
+Rework</name></function>
+<function id="6"><name>Settlement
+of Manufacturing
+Order
+to Inventory</name></function>
+<function id="7"><name>Data
+Collection
+for Product
+Drilldown</name></function>
+<function id="8"><name>Overhead
+Calculation
+(Manufacturing
+Order)</name></function>
+<event id="9"><name>Process
+costs
+were
+allocated</name></event>
+<event id="10"><name>Process
+costs
+(production
+order)
+to be allocated</name></event>
+<xor id="11"/>
+<function id="12"><name>Product
+Cost
+Analysis
+for Co-Products</name></function>
+<event id="13"><name>Revaluation
+completed</name></event>
+<function id="14"><name>Template
+Allocation
+(Manufacturing
+Order)</name></function>
+<function id="15"><name>Summarization
+Hierarchy</name></function>
+<function id="16"><name>Variance
+Calculation
+Cumulated</name></function>
+<function id="17"><name>Revaluation
+at Actual
+Prices</name></function>
+<xor id="18"/>
+<event id="19"><name>Order
+header
+is to
+be distributed
+to FS items</name></event>
+<event id="20"><name>Product
+costs
+are to
+be settled</name></event>
+<event id="21"><name>Control
+measures
+taken
+due to
+variances</name></event>
+<function id="22"><name>Product
+Cost
+Analysis
+in Product
+Cost by Order</name></function>
+<event id="23"><name>Costs
+are to
+be analyzed</name></event>
+<event id="24"><name>Overhead
+rates
+(production
+order)
+allocated</name></event>
+<event id="25"><name>Data
+collection
+for product
+drilldown
+completed</name></event>
+<and id="26"/>
+<arc id="44"><flow source="1" target="16"/></arc>
+<arc id="77"><flow source="2" target="22"/></arc>
+<arc id="101"><flow source="3" target="19"/></arc>
+<arc id="121"><flow source="4" target="12"/></arc>
+<arc id="137"><flow source="5" target="1"/></arc>
+<arc id="163"><flow source="6" target="0"/></arc>
+<arc id="215"><flow source="7" target="25"/></arc>
+<arc id="241"><flow source="8" target="24"/></arc>
+<arc id="261"><flow source="9" target="17"/></arc>
+<arc id="285"><flow source="10" target="14"/></arc>
+<arc id="300"><flow source="11" target="2"/></arc>
+<arc id="302"><flow source="11" target="4"/></arc>
+<arc id="343"><flow source="12" target="18"/></arc>
+<arc id="360"><flow source="13" target="8"/></arc>
+<arc id="388"><flow source="14" target="9"/></arc>
+<arc id="417"><flow source="15" target="11"/></arc>
+<arc id="459"><flow source="16" target="26"/></arc>
+<arc id="473"><flow source="17" target="13"/></arc>
+<arc id="508"><flow source="18" target="21"/></arc>
+<arc id="519"><flow source="19" target="5"/></arc>
+<arc id="547"><flow source="20" target="6"/></arc>
+<arc id="613"><flow source="22" target="18"/></arc>
+<arc id="629"><flow source="23" target="7"/></arc>
+<arc id="652"><flow source="24" target="3"/></arc>
+<arc id="691"><flow source="25" target="15"/></arc>
+<arc id="723"><flow source="26" target="20"/></arc>
+<arc id="726"><flow source="26" target="23"/></arc>
+</epc></epml>

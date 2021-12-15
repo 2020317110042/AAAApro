@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="283" name="1Pe_ly3r">
+<or id="0"/>
+<event id="1"><name>Need
+for monitoring
+of career
+planning
+exists</name></event>
+<or id="2"/>
+<event id="3"><name>Need
+for position
+formation
+exists</name></event>
+<or id="4"/>
+<event id="5"><name>Need
+for monitoring
+of individual
+personnel
+development planning exists</name></event>
+<function id="6"><name>Monitoring
+of Individual
+Personnel
+Development
+Planning</name></function>
+<event id="7"><name>Employee
+career
+plan
+must
+be corrected</name></event>
+<event id="8"><name>Individual
+development
+plan
+must
+be corrected</name></event>
+<event id="9"><name>Employee
+career
+plan
+is deactivated</name></event>
+<event id="10"><name>Individual
+development
+plan
+is deactivated</name></event>
+<or id="11"/>
+<function id="12"><name>Monitoring
+of Career
+Planning</name></function>
+<event id="13"><name>Need
+for career
+planning
+exists</name></event>
+<event id="14"><name>Personnel
+development
+system
+must
+be corrected</name></event>
+<event id="15"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<and id="16"/>
+<event id="17"><name>Additional
+implementation
+actions
+are required</name></event>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="18"><flow source="0" target="17"/></arc>
+<arc id="31"><flow source="1" target="12"/></arc>
+<arc id="37"><flow source="2" target="0"/></arc>
+<arc id="75"><flow source="4" target="2"/></arc>
+<arc id="81"><flow source="4" target="8"/></arc>
+<arc id="83"><flow source="4" target="10"/></arc>
+<arc id="88"><flow source="4" target="15"/></arc>
+<arc id="97"><flow source="5" target="6"/></arc>
+<arc id="113"><flow source="6" target="4"/></arc>
+<arc id="201"><flow source="11" target="2"/></arc>
+<arc id="202"><flow source="11" target="3"/></arc>
+<arc id="206"><flow source="11" target="7"/></arc>
+<arc id="215"><flow source="11" target="16"/></arc>
+<arc id="228"><flow source="12" target="11"/></arc>
+<arc id="298"><flow source="16" target="9"/></arc>
+<arc id="302"><flow source="16" target="13"/></arc>
+</epc></epml>

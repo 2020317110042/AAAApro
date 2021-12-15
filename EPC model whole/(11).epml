@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="12" name="1An_kkkz">
+<function id="0"><name>Integrated
+Planning
+in CO</name></function>
+<xor id="1"/>
+<event id="2"><name>Order
+analysis
+completed</name></event>
+<event id="3"><name>Investment
+profile
+with
+line
+item settlement is specified</name></event>
+<function id="4"><name>Program
+Analysis</name></function>
+<event id="5"><name>Deprec-
+iation
+simula-
+tion
+data is maintained</name></event>
+<and id="6"/>
+<event id="7"><name>Planned
+accrued
+depreciation
+and interest
+were transferred to CO</name></event>
+<event id="8"><name>Inv.
+profile
+specified
+w/summary
+settlement</name></event>
+<event id="9"><name>Simulation
+is to
+be car-
+ried
+out for portion of fixed assets (future FY)</name></event>
+<function id="10"><name>Order
+Analysis
+[Direct
+Investment
+Capitalization]</name></function>
+<event id="11"><name>Planned
+deprec-
+iation
+should
+be transferred to controlling</name></event>
+<event id="12"><name>Capital
+investment
+program
+is to
+be analyzed</name></event>
+<event id="13"><name>Simulation
+was carried
+out</name></event>
+<function id="14"><name>Processing
+of Depreciation
+Simulation
+Data</name></function>
+<event id="15"><name>Program
+analysis
+completed</name></event>
+<function id="16"><name>Depreciation
+Simulation/
+Forecast
+[Investment
+Project]</name></function>
+<and id="17"/>
+<event id="18"><name>Blanket
+order
+created</name></event>
+<event id="19"><name>Cost
+development
+of order
+is to
+be checked</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="38"><flow source="1" target="17"/></arc>
+<arc id="62"><flow source="3" target="1"/></arc>
+<arc id="96"><flow source="4" target="15"/></arc>
+<arc id="107"><flow source="5" target="6"/></arc>
+<arc id="130"><flow source="6" target="9"/></arc>
+<arc id="132"><flow source="6" target="11"/></arc>
+<arc id="133"><flow source="6" target="12"/></arc>
+<arc id="140"><flow source="6" target="19"/></arc>
+<arc id="162"><flow source="8" target="1"/></arc>
+<arc id="197"><flow source="9" target="16"/></arc>
+<arc id="203"><flow source="10" target="2"/></arc>
+<arc id="221"><flow source="11" target="0"/></arc>
+<arc id="245"><flow source="12" target="4"/></arc>
+<arc id="286"><flow source="14" target="5"/></arc>
+<arc id="334"><flow source="16" target="13"/></arc>
+<arc id="355"><flow source="17" target="14"/></arc>
+<arc id="378"><flow source="18" target="17"/></arc>
+<arc id="391"><flow source="19" target="10"/></arc>
+</epc></epml>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="197" name="1In_at4y">
+<event id="0"><name>Material
+reservation
+can be
+withdrawn</name></event>
+<function id="1"><name>Order
+Permit</name></function>
+<xor id="2"/>
+<event id="3"><name>General
+maintenance
+task
+list
+is processed</name></event>
+<function id="4"><name>Refurbishment
+Order
+Creation/
+Processing</name></function>
+<event id="5"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<and id="6"/>
+<or id="7"/>
+<event id="8"><name>Material
+components
+are assigned
+directly</name></event>
+<and id="9"/>
+<xor id="10"/>
+<xor id="11"/>
+<function id="12"><name>Material
+Planning</name></function>
+<event id="13"><name>Permits
+Issued</name></event>
+<event id="14"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<event id="15"><name>PM order
+is created
+and released</name></event>
+<event id="16"><name>Maintenance
+operation
+is performed</name></event>
+<event id="17"><name>Maintenance
+order
+is to
+be created
+manually</name></event>
+<event id="18"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<xor id="19"/>
+<event id="20"><name>Release
+is refused</name></event>
+<or id="21"/>
+<event id="22"><name>Order
+is to
+be performed</name></event>
+<event id="23"><name>Material
+reservation
+for materials
+to be
+refubished is generated</name></event>
+<and id="24"/>
+<function id="25"><name>Order
+Release</name></function>
+<and id="26"/>
+<and id="27"/>
+<event id="28"><name>Permit
+is to
+be assigned</name></event>
+<or id="29"/>
+<xor id="30"/>
+<xor id="31"/>
+<event id="32"><name>Maintenance
+order
+is released</name></event>
+<event id="33"><name>Material
+BOM is
+processed</name></event>
+<or id="34"/>
+<and id="35"/>
+<event id="36"><name>Order
+papers
+are to
+be printed</name></event>
+<event id="37"><name>Goods
+issue
+is posted</name></event>
+<event id="38"><name>Refurbishment
+order
+for material/
+equipment
+is to be created</name></event>
+<and id="39"/>
+<and id="40"/>
+<event id="41"><name>Material
+components
+are assigned
+via maintenance
+BOM</name></event>
+<event id="42"><name>Operations
+and Order
+Must
+Be Confirmed</name></event>
+<xor id="43"/>
+<function id="44"><name>Order
+Printing</name></function>
+<xor id="45"/>
+<event id="46"><name>Maintenance
+order
+is created</name></event>
+<event id="47"><name>Order
+papers
+are to
+be printed</name></event>
+<event id="48"><name>Withdrawal
+of the
+repairable
+spare
+to be refurbished is to be posted</name></event>
+<xor id="49"/>
+<event id="50"><name>Maintenance
+order
+is to
+be released</name></event>
+<event id="51"><name>Equipment
+must
+be installed,
+dismantled
+or modified</name></event>
+<xor id="52"/>
+<event id="53"><name>Material
+withdrawal
+is not
+required</name></event>
+<xor id="54"/>
+<event id="55"><name>Capacity
+Leveling
+or Planning
+Is Performed</name></event>
+<event id="56"><name>Material
+components
+are to
+be assigned
+to the operation</name></event>
+<event id="57"><name>External
+procurement
+is provided</name></event>
+<event id="58"><name>Permits
+are assigned
+to the
+order</name></event>
+<xor id="59"/>
+<event id="60"><name>Purchase
+requisitions
+can be
+ordered</name></event>
+<event id="61"><name>Services
+are to
+be entered</name></event>
+<and id="62"/>
+<event id="63"><name>Maintenance
+order
+is to
+be edited</name></event>
+<function id="64"><name>Order
+Execution</name></function>
+<event id="65"><name>Capacity
+requirement
+is created</name></event>
+<event id="66"><name>Order
+is to
+be performed</name></event>
+<and id="67"/>
+<or id="68"/>
+<event id="69"><name>Material
+components
+are copied
+from
+maintenance task list</name></event>
+<and id="70"/>
+<event id="71"><name>Material
+withdrawal
+is not
+required</name></event>
+<event id="72"><name>Capacity
+is available</name></event>
+<or id="73"/>
+<event id="74"><name>Master
+data
+input
+is not
+required</name></event>
+<or id="75"/>
+<event id="76"><name>Maintenance
+requirement
+has arisen</name></event>
+<event id="77"><name>Capacity
+situation
+is to
+be evaluated</name></event>
+<event id="78"><name>Repairable
+spare
+is to
+be refurbished</name></event>
+<event id="79"><name>Purchase
+requisition
+with
+vendor
+has been created</name></event>
+<and id="80"/>
+<event id="81"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<and id="82"/>
+<or id="83"/>
+<event id="84"><name>Maintenance
+order
+is printed</name></event>
+<arc id="125"><flow source="1" target="39"/></arc>
+<arc id="250"><flow source="2" target="79"/></arc>
+<arc id="252"><flow source="2" target="81"/></arc>
+<arc id="285"><flow source="3" target="29"/></arc>
+<arc id="372"><flow source="4" target="31"/></arc>
+<arc id="521"><flow source="6" target="10"/></arc>
+<arc id="527"><flow source="6" target="16"/></arc>
+<arc id="602"><flow source="7" target="6"/></arc>
+<arc id="647"><flow source="7" target="51"/></arc>
+<arc id="764"><flow source="8" target="83"/></arc>
+<arc id="766"><flow source="9" target="0"/></arc>
+<arc id="784"><flow source="9" target="18"/></arc>
+<arc id="788"><flow source="9" target="22"/></arc>
+<arc id="798"><flow source="9" target="32"/></arc>
+<arc id="813"><flow source="9" target="47"/></arc>
+<arc id="814"><flow source="9" target="48"/></arc>
+<arc id="826"><flow source="9" target="60"/></arc>
+<arc id="843"><flow source="9" target="77"/></arc>
+<arc id="912"><flow source="10" target="61"/></arc>
+<arc id="926"><flow source="10" target="75"/></arc>
+<arc id="941"><flow source="11" target="5"/></arc>
+<arc id="1007"><flow source="11" target="71"/></arc>
+<arc id="1089"><flow source="12" target="68"/></arc>
+<arc id="1188"><flow source="13" target="82"/></arc>
+<arc id="1343"><flow source="15" target="67"/></arc>
+<arc id="1486"><flow source="17" target="40"/></arc>
+<arc id="1660"><flow source="19" target="44"/></arc>
+<arc id="1788"><flow source="21" target="2"/></arc>
+<arc id="1797"><flow source="21" target="11"/></arc>
+<arc id="1822"><flow source="21" target="36"/></arc>
+<arc id="1895"><flow source="22" target="24"/></arc>
+<arc id="2086"><flow source="24" target="45"/></arc>
+<arc id="2185"><flow source="25" target="59"/></arc>
+<arc id="2257"><flow source="26" target="46"/></arc>
+<arc id="2261"><flow source="26" target="50"/></arc>
+<arc id="2321"><flow source="27" target="25"/></arc>
+<arc id="2382"><flow source="28" target="1"/></arc>
+<arc id="2536"><flow source="29" target="70"/></arc>
+<arc id="2594"><flow source="30" target="43"/></arc>
+<arc id="2624"><flow source="30" target="73"/></arc>
+<arc id="2671"><flow source="31" target="35"/></arc>
+<arc id="2716"><flow source="31" target="80"/></arc>
+<arc id="2745"><flow source="32" target="24"/></arc>
+<arc id="2835"><flow source="33" target="29"/></arc>
+<arc id="2934"><flow source="34" target="43"/></arc>
+<arc id="2997"><flow source="35" target="21"/></arc>
+<arc id="2999"><flow source="35" target="23"/></arc>
+<arc id="3006"><flow source="35" target="30"/></arc>
+<arc id="3041"><flow source="35" target="65"/></arc>
+<arc id="3195"><flow source="37" target="49"/></arc>
+<arc id="3293"><flow source="38" target="62"/></arc>
+<arc id="3329"><flow source="39" target="13"/></arc>
+<arc id="3374"><flow source="39" target="58"/></arc>
+<arc id="3455"><flow source="40" target="54"/></arc>
+<arc id="3569"><flow source="41" target="83"/></arc>
+<arc id="3682"><flow source="43" target="26"/></arc>
+<arc id="3825"><flow source="44" target="84"/></arc>
+<arc id="3890"><flow source="45" target="64"/></arc>
+<arc id="3938"><flow source="46" target="27"/></arc>
+<arc id="4015"><flow source="47" target="19"/></arc>
+<arc id="4190"><flow source="49" target="24"/></arc>
+<arc id="4278"><flow source="50" target="27"/></arc>
+<arc id="4445"><flow source="52" target="24"/></arc>
+<arc id="4555"><flow source="53" target="49"/></arc>
+<arc id="4661"><flow source="54" target="70"/></arc>
+<arc id="4728"><flow source="55" target="52"/></arc>
+<arc id="4773"><flow source="56" target="12"/></arc>
+<arc id="4929"><flow source="57" target="83"/></arc>
+<arc id="5013"><flow source="58" target="82"/></arc>
+<arc id="5025"><flow source="59" target="9"/></arc>
+<arc id="5036"><flow source="59" target="20"/></arc>
+<arc id="5325"><flow source="62" target="54"/></arc>
+<arc id="5410"><flow source="63" target="54"/></arc>
+<arc id="5448"><flow source="64" target="7"/></arc>
+<arc id="5678"><flow source="66" target="67"/></arc>
+<arc id="5741"><flow source="67" target="45"/></arc>
+<arc id="5789"><flow source="68" target="8"/></arc>
+<arc id="5822"><flow source="68" target="41"/></arc>
+<arc id="5838"><flow source="68" target="57"/></arc>
+<arc id="5850"><flow source="68" target="69"/></arc>
+<arc id="5949"><flow source="69" target="83"/></arc>
+<arc id="5955"><flow source="70" target="4"/></arc>
+<arc id="6173"><flow source="72" target="52"/></arc>
+<arc id="6234"><flow source="73" target="28"/></arc>
+<arc id="6262"><flow source="73" target="56"/></arc>
+<arc id="6320"><flow source="74" target="29"/></arc>
+<arc id="6390"><flow source="75" target="14"/></arc>
+<arc id="6418"><flow source="75" target="42"/></arc>
+<arc id="6501"><flow source="76" target="40"/></arc>
+<arc id="6693"><flow source="78" target="62"/></arc>
+<arc id="6816"><flow source="80" target="15"/></arc>
+<arc id="6867"><flow source="80" target="66"/></arc>
+<arc id="7005"><flow source="82" target="34"/></arc>
+<arc id="7090"><flow source="83" target="34"/></arc>
+</epc></epml>

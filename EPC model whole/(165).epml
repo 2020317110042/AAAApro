@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="166" name="1Ex_epa1">
+<event id="0"><name>Down
+payment
+can be
+cleared
+automatic.</name></event>
+<event id="1"><name>Down
+payment
+is agreed
+with
+vendor</name></event>
+<function id="2"><name>Vendor
+Down
+Payment
+Request</name></function>
+<xor id="3"/>
+<event id="4"><name>Down
+payment
+is to
+be cleared
+manually</name></event>
+<event id="5"><name>Vendor
+down
+payment
+request
+is created</name></event>
+<function id="6"><name>Vendor
+Down
+Payment</name></function>
+<function id="7"><name>Vendor
+Down
+Payment
+Clearing</name></function>
+<xor id="8"/>
+<event id="9"><name>Clearing
+is posted</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="13"><flow source="1" target="2"/></arc>
+<arc id="26"><flow source="2" target="5"/></arc>
+<arc id="38"><flow source="3" target="7"/></arc>
+<arc id="44"><flow source="4" target="3"/></arc>
+<arc id="57"><flow source="5" target="6"/></arc>
+<arc id="69"><flow source="6" target="8"/></arc>
+<arc id="80"><flow source="7" target="9"/></arc>
+<arc id="81"><flow source="8" target="0"/></arc>
+<arc id="85"><flow source="8" target="4"/></arc>
+</epc></epml>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="268" name="1Pe_lrja">
+<xor id="0"/>
+<and id="1"/>
+<event id="2"><name>Time
+for restart
+reached</name></event>
+<and id="3"/>
+<and id="4"/>
+<event id="5"><name>Employee
+is retired</name></event>
+<event id="6"><name>Position
+is vacant</name></event>
+<xor id="7"/>
+<event id="8"><name>Reason
+for employee
+leaving
+has arisen</name></event>
+<and id="9"/>
+<function id="10"><name>Employee
+leaving</name></function>
+<function id="11"><name>Employee
+hiring</name></function>
+<function id="12"><name>Employee
+transfer</name></function>
+<and id="13"/>
+<xor id="14"/>
+<event id="15"><name>Employee
+is in
+an inactive
+work
+relationship</name></event>
+<event id="16"><name>Employee
+staffs
+position</name></event>
+<event id="17"><name>Employee
+is active</name></event>
+<event id="18"><name>Notification
+given
+of approval
+of employee
+transfer</name></event>
+<xor id="19"/>
+<event id="20"><name>Applicant
+must
+be offered
+contract
+for vacancy</name></event>
+<event id="21"><name>Employee
+has left</name></event>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="23"><flow source="1" target="0"/></arc>
+<arc id="37"><flow source="1" target="14"/></arc>
+<arc id="52"><flow source="2" target="7"/></arc>
+<arc id="77"><flow source="3" target="10"/></arc>
+<arc id="92"><flow source="4" target="3"/></arc>
+<arc id="102"><flow source="4" target="13"/></arc>
+<arc id="166"><flow source="7" target="11"/></arc>
+<arc id="180"><flow source="8" target="3"/></arc>
+<arc id="199"><flow source="9" target="0"/></arc>
+<arc id="216"><flow source="9" target="17"/></arc>
+<arc id="240"><flow source="10" target="19"/></arc>
+<arc id="252"><flow source="11" target="9"/></arc>
+<arc id="266"><flow source="12" target="1"/></arc>
+<arc id="299"><flow source="13" target="12"/></arc>
+<arc id="315"><flow source="14" target="6"/></arc>
+<arc id="379"><flow source="17" target="4"/></arc>
+<arc id="410"><flow source="18" target="13"/></arc>
+<arc id="424"><flow source="19" target="5"/></arc>
+<arc id="433"><flow source="19" target="14"/></arc>
+<arc id="434"><flow source="19" target="15"/></arc>
+<arc id="440"><flow source="19" target="21"/></arc>
+<arc id="448"><flow source="20" target="7"/></arc>
+</epc></epml>

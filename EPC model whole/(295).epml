@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="296" name="1Pe_mdi2">
+<and id="0"/>
+<function id="1"><name>Provision
+of required
+personnel
+time
+data</name></function>
+<event id="2"><name>Time
+remuneration
+specification
+is available</name></event>
+<event id="3"><name>Need
+for personnel
+time
+evaluation
+is available</name></event>
+<event id="4"><name>EE -
+planned
+working
+time
+determination - operative is available</name></event>
+<event id="5"><name>Performance
+of personnel
+time
+evaluation
+is desired</name></event>
+<and id="6"/>
+<event id="7"><name>Personnel
+cost
+assignment
+specification
+is available</name></event>
+<event id="8"><name>Actual
+personnel
+time
+specifications
+are available</name></event>
+<event id="9"><name>External
+service
+specifications
+are available</name></event>
+<event id="10"><name>Required
+personnel
+time
+data
+for day is available</name></event>
+<and id="11"/>
+<event id="12"><name>Personnel
+time
+account
+posting
+is available</name></event>
+<function id="13"><name>Hour-based
+day evaluation</name></function>
+<event id="14"><name>Planned
+personnel
+time
+specifications
+are available</name></event>
+<and id="15"/>
+<event id="16"><name>Person-based
+work
+schedules
+are available</name></event>
+<event id="17"><name>Personnel
+time
+evaluation
+message
+is available</name></event>
+<function id="18"><name>Clock-time
+based
+day evaluation</name></function>
+<or id="19"/>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="31"><flow source="1" target="10"/></arc>
+<arc id="61"><flow source="3" target="0"/></arc>
+<arc id="100"><flow source="4" target="19"/></arc>
+<arc id="101"><flow source="5" target="0"/></arc>
+<arc id="134"><flow source="6" target="13"/></arc>
+<arc id="139"><flow source="6" target="18"/></arc>
+<arc id="161"><flow source="8" target="0"/></arc>
+<arc id="207"><flow source="10" target="6"/></arc>
+<arc id="223"><flow source="11" target="2"/></arc>
+<arc id="228"><flow source="11" target="7"/></arc>
+<arc id="230"><flow source="11" target="9"/></arc>
+<arc id="233"><flow source="11" target="12"/></arc>
+<arc id="238"><flow source="11" target="17"/></arc>
+<arc id="276"><flow source="13" target="15"/></arc>
+<arc id="300"><flow source="14" target="19"/></arc>
+<arc id="312"><flow source="15" target="11"/></arc>
+<arc id="340"><flow source="16" target="19"/></arc>
+<arc id="376"><flow source="18" target="15"/></arc>
+<arc id="381"><flow source="19" target="0"/></arc>
+</epc></epml>

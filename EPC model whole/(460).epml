@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="461" name="1Tr_gh7g">
+<event id="0"><name>Netting
+proposal
+to be
+edited</name></event>
+<or id="1"/>
+<event id="2"><name>Netting
+proposal
+was accepted</name></event>
+<function id="3"><name>Netting
+Processing</name></function>
+<and id="4"/>
+<event id="5"><name>Cash
+flow
+transaction
+was selected</name></event>
+<event id="6"><name>Cash
+management
+was updated</name></event>
+<function id="7"><name>Settlement</name></function>
+<event id="8"><name>Cash
+flow
+transaction
+was processed</name></event>
+<event id="9"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<function id="10"><name>Process
+Cash
+Flow</name></function>
+<event id="11"><name>Accrual/
+deferral
+is to
+be performed</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="13"><flow source="1" target="0"/></arc>
+<arc id="22"><flow source="1" target="9"/></arc>
+<arc id="24"><flow source="1" target="11"/></arc>
+<arc id="39"><flow source="3" target="2"/></arc>
+<arc id="55"><flow source="4" target="6"/></arc>
+<arc id="57"><flow source="4" target="8"/></arc>
+<arc id="71"><flow source="5" target="10"/></arc>
+<arc id="86"><flow source="7" target="1"/></arc>
+<arc id="104"><flow source="8" target="7"/></arc>
+<arc id="125"><flow source="10" target="4"/></arc>
+</epc></epml>

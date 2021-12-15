@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="381" name="1Pr_dq8m">
+<event id="0"><name>Material
+requirements
+planning
+to be
+carried out</name></event>
+<function id="1"><name>Material
+Assignment
+to Activities</name></function>
+<event id="2"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="3"><name>Material
+assignment
+to activities
+required</name></event>
+<function id="4"><name>Material
+Requirements
+Planning</name></function>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="6"><flow source="1" target="0"/></arc>
+<arc id="17"><flow source="3" target="1"/></arc>
+<arc id="23"><flow source="4" target="2"/></arc>
+</epc></epml>

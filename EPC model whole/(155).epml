@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="156" name="1Ex_eh68">
+<event id="0"><name>Payment
+must
+be effected</name></event>
+<event id="1"><name>Down
+payment
+is made
+by customer</name></event>
+<event id="2"><name>Customer
+invoice
+is posted</name></event>
+<event id="3"><name>Down
+payment
+request
+cleared</name></event>
+<event id="4"><name>Collection
+authorization
+exists</name></event>
+<xor id="5"/>
+<event id="6"><name>Collection
+authorization
+does
+not exist</name></event>
+<function id="7"><name>Customer
+Down
+Payment
+Clearing</name></function>
+<event id="8"><name>Clearing
+is posted</name></event>
+<function id="9"><name>Customer
+Down
+Payment</name></function>
+<event id="10"><name>Down
+payment
+agreed
+with
+customer</name></event>
+<and id="11"/>
+<and id="12"/>
+<function id="13"><name>Customer
+Down
+Payment
+Request</name></function>
+<event id="14"><name>Down
+payment
+is to
+be cleared
+manually</name></event>
+<event id="15"><name>Down
+payment
+posted</name></event>
+<and id="16"/>
+<arc id="34"><flow source="1" target="16"/></arc>
+<arc id="46"><flow source="2" target="11"/></arc>
+<arc id="86"><flow source="5" target="0"/></arc>
+<arc id="90"><flow source="5" target="4"/></arc>
+<arc id="92"><flow source="5" target="6"/></arc>
+<arc id="119"><flow source="6" target="16"/></arc>
+<arc id="128"><flow source="7" target="8"/></arc>
+<arc id="166"><flow source="9" target="12"/></arc>
+<arc id="184"><flow source="10" target="13"/></arc>
+<arc id="195"><flow source="11" target="7"/></arc>
+<arc id="208"><flow source="12" target="3"/></arc>
+<arc id="220"><flow source="12" target="15"/></arc>
+<arc id="227"><flow source="13" target="5"/></arc>
+<arc id="250"><flow source="14" target="11"/></arc>
+<arc id="267"><flow source="15" target="11"/></arc>
+<arc id="282"><flow source="16" target="9"/></arc>
+</epc></epml>

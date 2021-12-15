@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="247" name="1Ku_9zq8">
+<event id="0"><name>Delivery
+is to
+be created</name></event>
+<function id="1"><name>Service
+Product
+Order
+Processing</name></function>
+<or id="2"/>
+<event id="3"><name>Order
+generated
+and delivery
+opened</name></event>
+<event id="4"><name>Sales
+and Distribution
+Document
+Must
+Be Created for Service Notification</name></event>
+<xor id="5"/>
+<and id="6"/>
+<event id="7"><name>Customer
+release
+order
+received</name></event>
+<and id="8"/>
+<event id="9"><name>Expense-related
+invoice
+to be
+created</name></event>
+<event id="10"><name>Contract
+is valid</name></event>
+<event id="11"><name>Contract
+is created</name></event>
+<event id="12"><name>Order
+is created</name></event>
+<event id="13"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<arc id="23"><flow source="1" target="8"/></arc>
+<arc id="29"><flow source="2" target="0"/></arc>
+<arc id="32"><flow source="2" target="3"/></arc>
+<arc id="38"><flow source="2" target="9"/></arc>
+<arc id="62"><flow source="4" target="5"/></arc>
+<arc id="72"><flow source="5" target="1"/></arc>
+<arc id="90"><flow source="6" target="5"/></arc>
+<arc id="105"><flow source="7" target="6"/></arc>
+<arc id="115"><flow source="8" target="2"/></arc>
+<arc id="125"><flow source="8" target="12"/></arc>
+<arc id="126"><flow source="8" target="13"/></arc>
+<arc id="147"><flow source="10" target="6"/></arc>
+<arc id="161"><flow source="11" target="6"/></arc>
+</epc></epml>

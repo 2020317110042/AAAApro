@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="346" name="1Pr_4ddy">
+<event id="0"><name>Standard
+activities
+are posted</name></event>
+<event id="1"><name>Material
+is produced</name></event>
+<function id="2"><name>Production
+Execution
+(with
+Run Schedule
+Quantities)</name></function>
+<or id="3"/>
+<event id="4"><name>Material
+is staged</name></event>
+<event id="5"><name>Goods
+Issue
+is Posted</name></event>
+<function id="6"><name>REM Backflush</name></function>
+<event id="7"><name>Goods
+Receipt
+Posted</name></event>
+<arc id="15"><flow source="1" target="6"/></arc>
+<arc id="18"><flow source="2" target="1"/></arc>
+<arc id="25"><flow source="3" target="0"/></arc>
+<arc id="30"><flow source="3" target="5"/></arc>
+<arc id="32"><flow source="3" target="7"/></arc>
+<arc id="35"><flow source="4" target="2"/></arc>
+<arc id="52"><flow source="6" target="3"/></arc>
+</epc></epml>

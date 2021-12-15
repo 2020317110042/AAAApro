@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="594" name="1Ve_mw7t">
+<event id="0"><name>Place
+in business
+event
+is available</name></event>
+<event id="1"><name>Cancellation
+order
+exists</name></event>
+<event id="2"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<or id="3"/>
+<and id="4"/>
+<event id="5"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<event id="6"><name>Business
+event
+attendance
+must
+be cancelled</name></event>
+<event id="7"><name>Place
+in business
+event
+is available</name></event>
+<function id="8"><name>Rebooking
+Order
+Processing</name></function>
+<event id="9"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<function id="10"><name>Cancellation
+by Organizer
+of Business
+Event
+Attendance</name></function>
+<function id="11"><name>Cancellation
+Order
+Processing</name></function>
+<event id="12"><name>Replacement
+order
+is rejected</name></event>
+<or id="13"/>
+<event id="14"><name>Business
+event
+attendance
+exists</name></event>
+<event id="15"><name>Rebooking
+order
+is rejected</name></event>
+<event id="16"><name>Rebooking
+order
+is performed</name></event>
+<xor id="17"/>
+<or id="18"/>
+<event id="19"><name>Replacement
+order
+is performed</name></event>
+<event id="20"><name>Organizer
+receives
+rebooking
+order</name></event>
+<or id="21"/>
+<event id="22"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<event id="23"><name>Business
+event
+attendance
+is cancelled</name></event>
+<xor id="24"/>
+<and id="25"/>
+<event id="26"><name>Business
+event
+attendance
+is cancelled
+by organizer</name></event>
+<event id="27"><name>Place
+in business
+event
+is available</name></event>
+<function id="28"><name>Replacement
+Order
+Processing</name></function>
+<event id="29"><name>Organizer
+receives
+replacement
+order</name></event>
+<and id="30"/>
+<and id="31"/>
+<arc id="64"><flow source="1" target="31"/></arc>
+<arc id="102"><flow source="3" target="5"/></arc>
+<arc id="116"><flow source="3" target="19"/></arc>
+<arc id="137"><flow source="4" target="8"/></arc>
+<arc id="203"><flow source="6" target="10"/></arc>
+<arc id="281"><flow source="8" target="24"/></arc>
+<arc id="334"><flow source="10" target="13"/></arc>
+<arc id="371"><flow source="11" target="18"/></arc>
+<arc id="417"><flow source="13" target="0"/></arc>
+<arc id="419"><flow source="13" target="2"/></arc>
+<arc id="443"><flow source="13" target="26"/></arc>
+<arc id="479"><flow source="14" target="30"/></arc>
+<arc id="548"><flow source="17" target="3"/></arc>
+<arc id="557"><flow source="17" target="12"/></arc>
+<arc id="586"><flow source="18" target="9"/></arc>
+<arc id="600"><flow source="18" target="23"/></arc>
+<arc id="604"><flow source="18" target="27"/></arc>
+<arc id="645"><flow source="20" target="4"/></arc>
+<arc id="680"><flow source="21" target="7"/></arc>
+<arc id="689"><flow source="21" target="16"/></arc>
+<arc id="695"><flow source="21" target="22"/></arc>
+<arc id="784"><flow source="24" target="15"/></arc>
+<arc id="790"><flow source="24" target="21"/></arc>
+<arc id="829"><flow source="25" target="28"/></arc>
+<arc id="914"><flow source="28" target="17"/></arc>
+<arc id="954"><flow source="29" target="25"/></arc>
+<arc id="965"><flow source="30" target="4"/></arc>
+<arc id="986"><flow source="30" target="25"/></arc>
+<arc id="992"><flow source="30" target="31"/></arc>
+<arc id="1004"><flow source="31" target="11"/></arc>
+</epc></epml>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="33" name="1An_l7f4">
+<event id="0"><name>New plan
+version
+is to
+be created</name></event>
+<function id="1"><name>Fiscal
+Year
+Change
+for Program</name></function>
+<and id="2"/>
+<event id="3"><name>Program
+structure
+is processed</name></event>
+<xor id="4"/>
+<event id="5"><name>Program
+is to
+be created
+for new
+fiscal year</name></event>
+<event id="6"><name>Fiscal
+year
+change
+was carried
+out for investment program</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="14"><flow source="1" target="6"/></arc>
+<arc id="16"><flow source="2" target="1"/></arc>
+<arc id="24"><flow source="3" target="2"/></arc>
+<arc id="31"><flow source="4" target="2"/></arc>
+<arc id="40"><flow source="5" target="4"/></arc>
+</epc></epml>

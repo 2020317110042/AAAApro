@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="47" name="1Ar_m8qw">
+<or id="0"/>
+<function id="1"><name>Enrollment
+in Benefits
+Plan
+Participation</name></function>
+<event id="2"><name>Payroll
+information
+for benefits
+service
+provider exists</name></event>
+<and id="3"/>
+<event id="4"><name>Adaptation
+of benefits
+participation
+is transmitted
+to employee</name></event>
+<or id="5"/>
+<function id="6"><name>Change
+to Benefits
+Plan
+Participation</name></function>
+<event id="7"><name>Employee
+participation
+in benefits
+is active</name></event>
+<or id="8"/>
+<event id="9"><name>Benefits
+information
+transmitted
+to service
+provider</name></event>
+<event id="10"><name>Employee
+participation
+in benefits
+is complete</name></event>
+<function id="11"><name>Transmission
+of Benefits
+Information
+to Service
+Provider</name></function>
+<event id="12"><name>Employee
+participation
+in benefits
+plan
+is available for enrollment</name></event>
+<function id="13"><name>Confirmation
+of Adjustment
+of Benefits
+Participation</name></function>
+<and id="14"/>
+<event id="15"><name>Employee
+participation
+in benefits
+plan
+is available for changing</name></event>
+<and id="16"/>
+<function id="17"><name>Termination
+of Benefits
+Plan
+Participation</name></function>
+<event id="18"><name>Confirmation
+of adjustment
+of benefits
+participation
+is desired</name></event>
+<event id="19"><name>Time
+for transmission
+of benefits
+information
+has occurred</name></event>
+<event id="20"><name>Employee
+participation
+in benefits
+plan
+is available for termination</name></event>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="30"><flow source="1" target="8"/></arc>
+<arc id="43"><flow source="2" target="0"/></arc>
+<arc id="64"><flow source="3" target="0"/></arc>
+<arc id="78"><flow source="3" target="14"/></arc>
+<arc id="109"><flow source="5" target="3"/></arc>
+<arc id="135"><flow source="6" target="8"/></arc>
+<arc id="153"><flow source="7" target="5"/></arc>
+<arc id="176"><flow source="8" target="7"/></arc>
+<arc id="216"><flow source="10" target="5"/></arc>
+<arc id="241"><flow source="11" target="9"/></arc>
+<arc id="254"><flow source="12" target="1"/></arc>
+<arc id="278"><flow source="13" target="4"/></arc>
+<arc id="308"><flow source="14" target="13"/></arc>
+<arc id="322"><flow source="15" target="6"/></arc>
+<arc id="348"><flow source="16" target="11"/></arc>
+<arc id="368"><flow source="17" target="10"/></arc>
+<arc id="393"><flow source="18" target="14"/></arc>
+<arc id="416"><flow source="19" target="16"/></arc>
+<arc id="438"><flow source="20" target="17"/></arc>
+</epc></epml>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="460" name="1Tr_gh06">
+<xor id="0"/>
+<xor id="1"/>
+<event id="2"><name>Accrual/
+deferral
+flows
+were
+generated</name></event>
+<event id="3"><name>Cash
+flow
+transaction
+was selected</name></event>
+<event id="4"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<or id="5"/>
+<event id="6"><name>Transaction
+was posted</name></event>
+<function id="7"><name>Accounting</name></function>
+<event id="8"><name>Valuation
+flows
+were
+generated</name></event>
+<event id="9"><name>Netting
+proposal
+was accepted</name></event>
+<event id="10"><name>Accrual/
+deferral
+is to
+be performed</name></event>
+<event id="11"><name>G/L posting
+was generated</name></event>
+<and id="12"/>
+<event id="13"><name>Customer
+open
+items
+were
+generated</name></event>
+<event id="14"><name>Payment
+advice
+is sent</name></event>
+<event id="15"><name>Payment
+medium
+transferred</name></event>
+<xor id="16"/>
+<or id="17"/>
+<event id="18"><name>Payment
+is transferred
+by EDI</name></event>
+<function id="19"><name>Transaction
+Processing</name></function>
+<function id="20"><name>Closing
+Operations</name></function>
+<xor id="21"/>
+<arc id="21"><flow source="0" target="20"/></arc>
+<arc id="30"><flow source="1" target="7"/></arc>
+<arc id="46"><flow source="2" target="1"/></arc>
+<arc id="86"><flow source="3" target="19"/></arc>
+<arc id="89"><flow source="4" target="0"/></arc>
+<arc id="115"><flow source="5" target="4"/></arc>
+<arc id="120"><flow source="5" target="9"/></arc>
+<arc id="121"><flow source="5" target="10"/></arc>
+<arc id="167"><flow source="7" target="12"/></arc>
+<arc id="178"><flow source="8" target="1"/></arc>
+<arc id="200"><flow source="9" target="1"/></arc>
+<arc id="221"><flow source="10" target="0"/></arc>
+<arc id="271"><flow source="12" target="6"/></arc>
+<arc id="281"><flow source="12" target="16"/></arc>
+<arc id="364"><flow source="16" target="11"/></arc>
+<arc id="366"><flow source="16" target="13"/></arc>
+<arc id="370"><flow source="16" target="17"/></arc>
+<arc id="389"><flow source="17" target="14"/></arc>
+<arc id="390"><flow source="17" target="15"/></arc>
+<arc id="393"><flow source="17" target="18"/></arc>
+<arc id="424"><flow source="19" target="5"/></arc>
+<arc id="462"><flow source="20" target="21"/></arc>
+<arc id="465"><flow source="21" target="2"/></arc>
+<arc id="471"><flow source="21" target="8"/></arc>
+</epc></epml>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="145" name="1Ex_e8d2">
+<event id="0"><name>List
+of balance
+sheet
+values
+per account was created</name></event>
+<event id="1"><name>Market
+price
+analysis
+carried
+out</name></event>
+<event id="2"><name>Lowest
+value
+has been
+determined</name></event>
+<or id="3"/>
+<event id="4"><name>FIFO
+valuation
+was carried
+out</name></event>
+<event id="5"><name>LIFO
+single
+results
+were
+displayed</name></event>
+<and id="6"/>
+<event id="7"><name>List
+of balance
+sheet
+values
+per account must be created</name></event>
+<function id="8"><name>Balance
+Sheet
+Values
+by Account</name></function>
+<arc id="13"><flow source="1" target="3"/></arc>
+<arc id="22"><flow source="2" target="3"/></arc>
+<arc id="34"><flow source="3" target="6"/></arc>
+<arc id="40"><flow source="4" target="3"/></arc>
+<arc id="49"><flow source="5" target="3"/></arc>
+<arc id="63"><flow source="6" target="8"/></arc>
+<arc id="70"><flow source="7" target="6"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+</epc></epml>

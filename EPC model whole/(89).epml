@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="90" name="1En_cmvz">
+<function id="0"><name>Material
+Master
+Processing
+EH+S</name></function>
+<event id="1"><name>Product
+Safety
+data
+is to
+be processed</name></event>
+<event id="2"><name>EH+S
+master
+data
+is to
+be created</name></event>
+<xor id="3"/>
+<event id="4"><name>Drilldown
+reporting
+is to
+be carried
+out</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="11"><flow source="2" target="0"/></arc>
+<arc id="17"><flow source="3" target="1"/></arc>
+<arc id="20"><flow source="3" target="4"/></arc>
+</epc></epml>

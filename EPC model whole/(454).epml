@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="455" name="1Tr_gd86">
+<event id="0"><name>Currency
+option
+was exercised
+physically</name></event>
+<event id="1"><name>Currency
+option
+has expired</name></event>
+<xor id="2"/>
+<and id="3"/>
+<event id="4"><name>Customer
+open
+items
+were
+generated</name></event>
+<function id="5"><name>Transaction
+Processing
+for Standard
+Currency
+Options</name></function>
+<function id="6"><name>Accounting</name></function>
+<or id="7"/>
+<function id="8"><name>Transaction
+Processing
+for Exotic
+Currency
+Options</name></function>
+<event id="9"><name>Transaction
+was posted</name></event>
+<event id="10"><name>Netting
+proposal
+was accepted</name></event>
+<event id="11"><name>Payment
+medium
+transferred</name></event>
+<event id="12"><name>Termination
+flows
+generate
+settlement
+payments</name></event>
+<xor id="13"/>
+<or id="14"/>
+<xor id="15"/>
+<event id="16"><name>G/L posting
+was generated</name></event>
+<event id="17"><name>Flows
+from
+realized
+gains/
+losses were generated</name></event>
+<xor id="18"/>
+<event id="19"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<event id="20"><name>Payment
+advice
+is sent</name></event>
+<event id="21"><name>Payment
+is transferred
+by EDI</name></event>
+<event id="22"><name>Exotic
+currency
+option
+was chosen</name></event>
+<function id="23"><name>Closing
+Operations</name></function>
+<event id="24"><name>Standard
+currency
+option
+was chosen</name></event>
+<event id="25"><name>Currency
+option
+was exercised
+with
+cash settlement</name></event>
+<arc id="57"><flow source="2" target="4"/></arc>
+<arc id="67"><flow source="2" target="14"/></arc>
+<arc id="69"><flow source="2" target="16"/></arc>
+<arc id="81"><flow source="3" target="2"/></arc>
+<arc id="88"><flow source="3" target="9"/></arc>
+<arc id="149"><flow source="5" target="18"/></arc>
+<arc id="160"><flow source="6" target="3"/></arc>
+<arc id="193"><flow source="7" target="10"/></arc>
+<arc id="202"><flow source="7" target="19"/></arc>
+<arc id="227"><flow source="8" target="18"/></arc>
+<arc id="274"><flow source="10" target="13"/></arc>
+<arc id="326"><flow source="12" target="13"/></arc>
+<arc id="345"><flow source="13" target="6"/></arc>
+<arc id="376"><flow source="14" target="11"/></arc>
+<arc id="385"><flow source="14" target="20"/></arc>
+<arc id="386"><flow source="14" target="21"/></arc>
+<arc id="391"><flow source="15" target="0"/></arc>
+<arc id="392"><flow source="15" target="1"/></arc>
+<arc id="398"><flow source="15" target="7"/></arc>
+<arc id="403"><flow source="15" target="12"/></arc>
+<arc id="416"><flow source="15" target="25"/></arc>
+<arc id="456"><flow source="17" target="13"/></arc>
+<arc id="484"><flow source="18" target="15"/></arc>
+<arc id="518"><flow source="19" target="23"/></arc>
+<arc id="581"><flow source="22" target="8"/></arc>
+<arc id="616"><flow source="23" target="17"/></arc>
+<arc id="630"><flow source="24" target="5"/></arc>
+<arc id="664"><flow source="25" target="13"/></arc>
+</epc></epml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="74" name="1Be_310v">
+<event id="0"><name>Requisition
+released
+for scheduling
+agreement
+schedule/SA release</name></event>
+<event id="1"><name>Purchase
+requisition
+released
+for contract
+release order</name></event>
+<event id="2"><name>Requirement
+for material
+has arisen</name></event>
+<event id="3"><name>Purchase
+requisition
+released
+for purchase
+order</name></event>
+<function id="4"><name>Purchase
+Requisition
+Processing</name></function>
+<xor id="5"/>
+<arc id="17"><flow source="2" target="4"/></arc>
+<arc id="30"><flow source="4" target="5"/></arc>
+<arc id="31"><flow source="5" target="0"/></arc>
+<arc id="32"><flow source="5" target="1"/></arc>
+<arc id="34"><flow source="5" target="3"/></arc>
+</epc></epml>

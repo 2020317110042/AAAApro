@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="160" name="1Ex_eiqj">
+<event id="0"><name>Manual
+clearing
+is complete</name></event>
+<function id="1"><name>Automatic
+Clearing</name></function>
+<xor id="2"/>
+<event id="3"><name>Automatic
+clearing
+completed</name></event>
+<event id="4"><name>Line
+items
+to be
+cleared</name></event>
+<function id="5"><name>Manual
+Clearing</name></function>
+<and id="6"/>
+<event id="7"><name>Item
+balance
+is zero</name></event>
+<event id="8"><name>Line
+items
+to be
+cleared</name></event>
+<xor id="9"/>
+<arc id="20"><flow source="1" target="9"/></arc>
+<arc id="22"><flow source="2" target="1"/></arc>
+<arc id="26"><flow source="2" target="5"/></arc>
+<arc id="43"><flow source="4" target="2"/></arc>
+<arc id="51"><flow source="5" target="0"/></arc>
+<arc id="64"><flow source="6" target="3"/></arc>
+<arc id="68"><flow source="6" target="7"/></arc>
+<arc id="97"><flow source="9" target="6"/></arc>
+<arc id="99"><flow source="9" target="8"/></arc>
+</epc></epml>

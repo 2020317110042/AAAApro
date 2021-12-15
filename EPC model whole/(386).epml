@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="387" name="1Pr_dve4">
+<event id="0"><name>Revenue
+planning
+using
+billing
+plan required</name></event>
+<function id="1"><name>Revenue
+Planning
+in Work
+Breakdown
+Structure</name></function>
+<xor id="2"/>
+<event id="3"><name>Revenue
+planned</name></event>
+<event id="4"><name>Manual
+revenue
+planning
+required</name></event>
+<function id="5"><name>Revenue
+Planning
+with
+SD</name></function>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="9"><flow source="1" target="2"/></arc>
+<arc id="16"><flow source="2" target="3"/></arc>
+<arc id="26"><flow source="4" target="1"/></arc>
+<arc id="33"><flow source="5" target="2"/></arc>
+</epc></epml>

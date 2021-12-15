@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="512" name="1Ve_4ymf">
+<event id="0"><name>Delivery
+is relevant
+for shipment</name></event>
+<and id="1"/>
+<event id="2"><name>Shipment
+is Complete</name></event>
+<event id="3"><name>Deliveries
+need
+to be
+planned</name></event>
+<function id="4"><name>Transportation
+Planning
+and Processing</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="10"><flow source="1" target="4"/></arc>
+<arc id="17"><flow source="3" target="1"/></arc>
+<arc id="23"><flow source="4" target="2"/></arc>
+</epc></epml>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="295" name="1Pe_mdap">
+<event id="0"><name>Need
+for correction
+of personnel
+time
+quota statement</name></event>
+<event id="1"><name>Processing
+of pers.
+time
+evaluation
+messages is desired</name></event>
+<event id="2"><name>Need
+for correction
+of employee
+master
+data</name></event>
+<function id="3"><name>Processing
+of personnel
+time
+evaluation
+messages</name></function>
+<or id="4"/>
+<event id="5"><name>Personnel
+time
+evaluation
+message
+is available</name></event>
+<event id="6"><name>Need
+for personnel
+time
+transfer
+specification</name></event>
+<event id="7"><name>Need
+for correction
+of personnel
+time
+specifications</name></event>
+<event id="8"><name>No need
+to act
+because
+of pers.
+time evaluation message</name></event>
+<and id="9"/>
+<arc id="20"><flow source="1" target="9"/></arc>
+<arc id="35"><flow source="3" target="4"/></arc>
+<arc id="41"><flow source="4" target="0"/></arc>
+<arc id="43"><flow source="4" target="2"/></arc>
+<arc id="47"><flow source="4" target="6"/></arc>
+<arc id="48"><flow source="4" target="7"/></arc>
+<arc id="49"><flow source="4" target="8"/></arc>
+<arc id="60"><flow source="5" target="9"/></arc>
+<arc id="94"><flow source="9" target="3"/></arc>
+</epc></epml>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="173" name="1Ex_esd0">
+<function id="0"><name>Parked
+Document
+Posting
+[Vendors]</name></function>
+<event id="1"><name>Payment
+must
+be effected</name></event>
+<event id="2"><name>Document
+parked</name></event>
+<or id="3"/>
+<event id="4"><name>Down
+payment
+is agreed
+with
+vendor</name></event>
+<event id="5"><name>Vendor
+invoices-
+/recurring
+docu-
+ments were posted on stt. unit</name></event>
+<event id="6"><name>Invoice
+received
+from
+one-time
+vendor</name></event>
+<event id="7"><name>Vendor
+invoice
+is to
+be parked</name></event>
+<event id="8"><name>Invoice
+received
+from
+vendor</name></event>
+<event id="9"><name>Bill
+of exchange
+payable
+to be
+posted</name></event>
+<event id="10"><name>Document
+posted</name></event>
+<event id="11"><name>Internal
+transfer
+posting
+with
+clearing to be carried out</name></event>
+<event id="12"><name>Internal
+transfer
+posting
+is to
+be carried out</name></event>
+<function id="13"><name>Invoice
+Receipt</name></function>
+<event id="14"><name>Internal
+transfer
+posting
+posted</name></event>
+<function id="15"><name>Vendor
+Credit
+Memo</name></function>
+<event id="16"><name>Vendor
+down
+payment
+is to
+be cleared</name></event>
+<event id="17"><name>Credit
+memo
+from
+one-time
+account vendor received</name></event>
+<function id="18"><name>Internal
+Transfer
+Posting
+with
+Clearing</name></function>
+<and id="19"/>
+<event id="20"><name>Internal
+transfer
+posting
+with
+clearing carried out</name></event>
+<or id="21"/>
+<event id="22"><name>Vendor
+invoice
+is to
+be parked</name></event>
+<event id="23"><name>Payments
+must
+be released</name></event>
+<event id="24"><name>Credit
+memo
+received
+from
+vendor</name></event>
+<function id="25"><name>Internal
+Transfer
+Posting</name></function>
+<event id="26"><name>Credit
+memo
+posted</name></event>
+<function id="27"><name>Vendor
+Document
+Parking</name></function>
+<or id="28"/>
+<or id="29"/>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="61"><flow source="2" target="0"/></arc>
+<arc id="92"><flow source="3" target="1"/></arc>
+<arc id="95"><flow source="3" target="4"/></arc>
+<arc id="96"><flow source="3" target="5"/></arc>
+<arc id="100"><flow source="3" target="9"/></arc>
+<arc id="102"><flow source="3" target="11"/></arc>
+<arc id="103"><flow source="3" target="12"/></arc>
+<arc id="107"><flow source="3" target="16"/></arc>
+<arc id="114"><flow source="3" target="23"/></arc>
+<arc id="209"><flow source="6" target="28"/></arc>
+<arc id="240"><flow source="7" target="29"/></arc>
+<arc id="269"><flow source="8" target="28"/></arc>
+<arc id="320"><flow source="10" target="19"/></arc>
+<arc id="349"><flow source="11" target="18"/></arc>
+<arc id="386"><flow source="12" target="25"/></arc>
+<arc id="394"><flow source="13" target="3"/></arc>
+<arc id="477"><flow source="15" target="26"/></arc>
+<arc id="532"><flow source="17" target="21"/></arc>
+<arc id="561"><flow source="18" target="20"/></arc>
+<arc id="584"><flow source="19" target="13"/></arc>
+<arc id="646"><flow source="21" target="15"/></arc>
+<arc id="690"><flow source="22" target="29"/></arc>
+<arc id="742"><flow source="24" target="21"/></arc>
+<arc id="765"><flow source="25" target="14"/></arc>
+<arc id="800"><flow source="26" target="19"/></arc>
+<arc id="813"><flow source="27" target="2"/></arc>
+<arc id="860"><flow source="28" target="19"/></arc>
+<arc id="898"><flow source="29" target="27"/></arc>
+</epc></epml>

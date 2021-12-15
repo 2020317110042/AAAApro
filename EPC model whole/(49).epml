@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="50" name="1Be_1yk5">
+<event id="0"><name>Purchase
+requisition
+released
+for contract
+release order</name></event>
+<function id="1"><name>Release
+Purchase
+Requisition</name></function>
+<event id="2"><name>Source
+of supply
+assigned</name></event>
+<event id="3"><name>Requisition
+released
+for scheduling
+agreement
+schedule/SA release</name></event>
+<event id="4"><name>Requirement
+for material/
+external
+services
+exists</name></event>
+<event id="5"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<xor id="6"/>
+<event id="7"><name>Purchase
+requisition
+released
+for purchase
+order</name></event>
+<function id="8"><name>Purchase
+Requisition
+Processing</name></function>
+<function id="9"><name>Purchase
+Requisition
+Assignment</name></function>
+<arc id="17"><flow source="1" target="6"/></arc>
+<arc id="22"><flow source="2" target="1"/></arc>
+<arc id="49"><flow source="4" target="8"/></arc>
+<arc id="60"><flow source="5" target="9"/></arc>
+<arc id="61"><flow source="6" target="0"/></arc>
+<arc id="64"><flow source="6" target="3"/></arc>
+<arc id="68"><flow source="6" target="7"/></arc>
+<arc id="86"><flow source="8" target="5"/></arc>
+<arc id="93"><flow source="9" target="2"/></arc>
+</epc></epml>

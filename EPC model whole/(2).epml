@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="3" name="1An_kefi">
+<or id="0"/>
+<event id="1"><name>Retirement
+for LVA
+to be
+carried
+out</name></event>
+<event id="2"><name>Plant
+section
+was sold</name></event>
+<function id="3"><name>Mass
+Retirement</name></function>
+<event id="4"><name>Worklist
+was created</name></event>
+<function id="5"><name>Retirement</name></function>
+<xor id="6"/>
+<event id="7"><name>Retirement
+was posted
+and checked</name></event>
+<event id="8"><name>Retirements
+to be
+entered</name></event>
+<and id="9"/>
+<xor id="10"/>
+<event id="11"><name>Plant
+section
+was shut
+down</name></event>
+<event id="12"><name>Fixed
+assets
+should
+be posted
+jointly</name></event>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="24"><flow source="1" target="10"/></arc>
+<arc id="27"><flow source="2" target="0"/></arc>
+<arc id="46"><flow source="3" target="6"/></arc>
+<arc id="62"><flow source="4" target="9"/></arc>
+<arc id="72"><flow source="5" target="6"/></arc>
+<arc id="86"><flow source="6" target="7"/></arc>
+<arc id="115"><flow source="8" target="10"/></arc>
+<arc id="121"><flow source="9" target="3"/></arc>
+<arc id="136"><flow source="10" target="5"/></arc>
+<arc id="144"><flow source="11" target="0"/></arc>
+<arc id="157"><flow source="12" target="0"/></arc>
+</epc></epml>

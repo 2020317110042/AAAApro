@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="440" name="1Tr_fyhp">
+<xor id="0"/>
+<function id="1"><name>Process
+Inquiry</name></function>
+<event id="2"><name>Loan
+contract
+was processed</name></event>
+<event id="3"><name>Loan
+contract
+to be
+created</name></event>
+<event id="4"><name>Payment
+program
+to be
+triggered</name></event>
+<function id="5"><name>Process
+Contract</name></function>
+<xor id="6"/>
+<xor id="7"/>
+<xor id="8"/>
+<event id="9"><name>Loan
+application
+to be
+checked</name></event>
+<event id="10"><name>Loan
+application
+was accepted</name></event>
+<event id="11"><name>Loan
+application
+to be
+approved</name></event>
+<function id="12"><name>Process
+Disbursement</name></function>
+<function id="13"><name>Loan
+Approval</name></function>
+<event id="14"><name>Loan
+application
+was converted
+to offer
+status</name></event>
+<event id="15"><name>Loan
+application
+was rejected</name></event>
+<event id="16"><name>Loan
+offer
+to be
+processed</name></event>
+<event id="17"><name>Interested
+party
+was created</name></event>
+<function id="18"><name>Process
+Offer</name></function>
+<function id="19"><name>Check
+Credit
+Standing</name></function>
+<event id="20"><name>Loan
+application
+to be
+processed</name></event>
+<event id="21"><name>Interested
+party
+makes
+loan
+application</name></event>
+<function id="22"><name>Process
+Application</name></function>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="41"><flow source="1" target="17"/></arc>
+<arc id="59"><flow source="2" target="12"/></arc>
+<arc id="70"><flow source="3" target="0"/></arc>
+<arc id="118"><flow source="5" target="2"/></arc>
+<arc id="149"><flow source="6" target="10"/></arc>
+<arc id="154"><flow source="6" target="15"/></arc>
+<arc id="184"><flow source="7" target="22"/></arc>
+<arc id="203"><flow source="8" target="18"/></arc>
+<arc id="227"><flow source="9" target="19"/></arc>
+<arc id="231"><flow source="10" target="0"/></arc>
+<arc id="267"><flow source="11" target="13"/></arc>
+<arc id="281"><flow source="12" target="4"/></arc>
+<arc id="314"><flow source="13" target="14"/></arc>
+<arc id="331"><flow source="14" target="8"/></arc>
+<arc id="377"><flow source="16" target="8"/></arc>
+<arc id="399"><flow source="17" target="7"/></arc>
+<arc id="421"><flow source="18" target="6"/></arc>
+<arc id="449"><flow source="19" target="11"/></arc>
+<arc id="468"><flow source="20" target="7"/></arc>
+<arc id="485"><flow source="21" target="1"/></arc>
+<arc id="516"><flow source="22" target="9"/></arc>
+</epc></epml>

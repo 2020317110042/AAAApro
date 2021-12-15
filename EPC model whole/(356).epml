@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="357" name="1Pr_d16t">
+<event id="0"><name>Close
+project</name></event>
+<function id="1"><name>Set Project
+Closed
+Status</name></function>
+<and id="2"/>
+<event id="3"><name>Project
+close
+documentation
+is executed</name></event>
+<event id="4"><name>Status
+Complete
+is set</name></event>
+<function id="5"><name>Project
+Closing
+Documentation</name></function>
+<event id="6"><name>Project
+close
+documentation
+to be
+carried out</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="12"><flow source="1" target="4"/></arc>
+<arc id="20"><flow source="2" target="5"/></arc>
+<arc id="31"><flow source="4" target="2"/></arc>
+<arc id="39"><flow source="5" target="3"/></arc>
+<arc id="45"><flow source="6" target="2"/></arc>
+</epc></epml>

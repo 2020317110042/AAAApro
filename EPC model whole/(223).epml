@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="224" name="1Ku_8y3g">
+<xor id="0"/>
+<xor id="1"/>
+<event id="2"><name>Service
+Contract
+must
+be Invoiced</name></event>
+<event id="3"><name>Service
+contract
+to be
+created
+from contact</name></event>
+<and id="4"/>
+<function id="5"><name>Service
+Contract
+Follow-Up
+Activity
+Processing</name></function>
+<event id="6"><name>Down
+payment
+agreed
+with
+customer</name></event>
+<event id="7"><name>Debit
+memo
+request
+is created
+for service contract</name></event>
+<event id="8"><name>Contract
+is created</name></event>
+<event id="9"><name>Service
+contract
+to be
+created
+from existing service contract</name></event>
+<event id="10"><name>Partial
+payment
+should
+be made</name></event>
+<event id="11"><name>Payment
+must
+be effected</name></event>
+<function id="12"><name>Service
+Contract
+Cancellation</name></function>
+<event id="13"><name>Service
+contract
+to be
+canceled
+as follow-up activity</name></event>
+<function id="14"><name>Billing
+Processing
+for Service
+Contract</name></function>
+<and id="15"/>
+<xor id="16"/>
+<xor id="17"/>
+<event id="18"><name>Subsequent
+activities
+are to
+be carried
+out</name></event>
+<event id="19"><name>Service
+contract
+cancellation
+has arrived</name></event>
+<event id="20"><name>Service
+contract
+canceled</name></event>
+<and id="21"/>
+<event id="22"><name>Miscellaneous
+Subsequent
+Activity
+Performed</name></event>
+<or id="23"/>
+<function id="24"><name>Billing
+Request
+Processing</name></function>
+<event id="25"><name>Service
+contract
+to be
+created
+w/o ref. to quotation</name></event>
+<event id="26"><name>Quotation
+is valid</name></event>
+<event id="27"><name>Service
+contract
+to be
+offered</name></event>
+<function id="28"><name>Service
+Contract
+Completion
+and Processing</name></function>
+<arc id="29"><flow source="0" target="28"/></arc>
+<arc id="36"><flow source="1" target="6"/></arc>
+<arc id="40"><flow source="1" target="10"/></arc>
+<arc id="41"><flow source="1" target="11"/></arc>
+<arc id="74"><flow source="2" target="15"/></arc>
+<arc id="88"><flow source="3" target="0"/></arc>
+<arc id="117"><flow source="4" target="0"/></arc>
+<arc id="162"><flow source="5" target="16"/></arc>
+<arc id="218"><flow source="7" target="14"/></arc>
+<arc id="256"><flow source="8" target="23"/></arc>
+<arc id="262"><flow source="9" target="0"/></arc>
+<arc id="369"><flow source="12" target="20"/></arc>
+<arc id="395"><flow source="13" target="17"/></arc>
+<arc id="408"><flow source="14" target="1"/></arc>
+<arc id="460"><flow source="15" target="24"/></arc>
+<arc id="474"><flow source="16" target="9"/></arc>
+<arc id="478"><flow source="16" target="13"/></arc>
+<arc id="487"><flow source="16" target="22"/></arc>
+<arc id="506"><flow source="17" target="12"/></arc>
+<arc id="544"><flow source="18" target="21"/></arc>
+<arc id="569"><flow source="19" target="17"/></arc>
+<arc id="615"><flow source="21" target="5"/></arc>
+<arc id="683"><flow source="23" target="15"/></arc>
+<arc id="689"><flow source="23" target="21"/></arc>
+<arc id="704"><flow source="24" target="7"/></arc>
+<arc id="726"><flow source="25" target="0"/></arc>
+<arc id="759"><flow source="26" target="4"/></arc>
+<arc id="788"><flow source="27" target="4"/></arc>
+<arc id="821"><flow source="28" target="8"/></arc>
+</epc></epml>

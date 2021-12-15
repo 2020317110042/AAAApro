@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="28" name="1An_l51v">
+<function id="0"><name>Overhead
+calculation</name></function>
+<event id="1"><name>Overhead
+Costs
+Are to
+Be Allocated
+Using Overhead Rates</name></event>
+<event id="2"><name>Profit
+and cost
+planning
+to be
+carried out</name></event>
+<event id="3"><name>Budget
+is assigned</name></event>
+<event id="4"><name>Plan
+Data
+for Order
+Exists</name></event>
+<event id="5"><name>Release
+and execution
+of measure
+to be
+triggered</name></event>
+<or id="6"/>
+<event id="7"><name>Period-end
+closing
+and settlement
+to be
+carried out</name></event>
+<function id="8"><name>Order
+Budgeting</name></function>
+<function id="9"><name>Order
+Planning</name></function>
+<and id="10"/>
+<event id="11"><name>Overhead
+debited
+to capital
+investment
+order</name></event>
+<event id="12"><name>Operative
+business
+planning
+to be
+carried out</name></event>
+<event id="13"><name>Order
+is processed</name></event>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="15"><flow source="1" target="0"/></arc>
+<arc id="88"><flow source="6" target="3"/></arc>
+<arc id="90"><flow source="6" target="5"/></arc>
+<arc id="92"><flow source="6" target="7"/></arc>
+<arc id="119"><flow source="8" target="6"/></arc>
+<arc id="137"><flow source="9" target="10"/></arc>
+<arc id="142"><flow source="10" target="1"/></arc>
+<arc id="143"><flow source="10" target="2"/></arc>
+<arc id="145"><flow source="10" target="4"/></arc>
+<arc id="153"><flow source="10" target="12"/></arc>
+<arc id="163"><flow source="11" target="8"/></arc>
+<arc id="192"><flow source="13" target="9"/></arc>
+</epc></epml>

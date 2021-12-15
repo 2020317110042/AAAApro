@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="274" name="1Pe_ltrk">
+<event id="0"><name>Applicant
+has retracted
+application</name></event>
+<event id="1"><name>Applicant
+has been
+entered</name></event>
+<event id="2"><name>Enterprise
+receives
+retraction
+of application</name></event>
+<function id="3"><name>Application
+Retraction
+Processing</name></function>
+<event id="4"><name>Enterprise
+requires
+retraction
+confirmation</name></event>
+<and id="5"/>
+<event id="6"><name>Retraction
+confirmation
+and application
+documents
+transmitted to applicant</name></event>
+<function id="7"><name>Application
+Retraction
+Confirmation</name></function>
+<and id="8"/>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="18"><flow source="1" target="8"/></arc>
+<arc id="27"><flow source="2" target="8"/></arc>
+<arc id="28"><flow source="3" target="0"/></arc>
+<arc id="42"><flow source="4" target="5"/></arc>
+<arc id="53"><flow source="5" target="7"/></arc>
+<arc id="70"><flow source="7" target="6"/></arc>
+<arc id="76"><flow source="8" target="3"/></arc>
+</epc></epml>

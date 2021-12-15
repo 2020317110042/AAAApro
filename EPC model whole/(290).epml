@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="291" name="1Pe_max4">
+<event id="0"><name>Person-based
+work
+schedules
+are available</name></event>
+<event id="1"><name>Transfer
+of planned
+personnel
+time
+specifications as actual is desired</name></event>
+<event id="2"><name>Need
+for correction
+of personnel
+time
+specifications</name></event>
+<event id="3"><name>Performance
+of personnel
+time
+evaluation
+is desired</name></event>
+<function id="4"><name>Personnel
+time
+recording</name></function>
+<event id="5"><name>Personnel
+time
+evaluation
+message
+is available</name></event>
+<and id="6"/>
+<event id="7"><name>Time
+statement
+creation
+is desired</name></event>
+<and id="8"/>
+<event id="9"><name>Requirement
+for operative
+planned
+working
+time determination</name></event>
+<event id="10"><name>Planned
+personnel
+time
+specifications
+are available</name></event>
+<and id="11"/>
+<event id="12"><name>Need
+for correction
+of personnel
+time
+quota statement</name></event>
+<event id="13"><name>Need
+for personnel
+time
+transfer
+specification</name></event>
+<event id="14"><name>Need
+for correction
+of employee
+master
+data</name></event>
+<and id="15"/>
+<event id="16"><name>Need
+for long-term
+work
+scheduling</name></event>
+<event id="17"><name>Need
+for remuneration
+specifications
+is available</name></event>
+<event id="18"><name>Personnel
+cost
+assignment
+specification
+is available</name></event>
+<function id="19"><name>Entry
+of employee
+remuneration
+specifications</name></function>
+<event id="20"><name>Activity
+allocation
+specifications
+are available</name></event>
+<event id="21"><name>Employee
+- personnel
+day times
+are available</name></event>
+<event id="22"><name>Actual
+personnel
+time
+specifications
+are available</name></event>
+<function id="23"><name>Day evaluation</name></function>
+<and id="24"/>
+<event id="25"><name>Time
+remuneration
+specification
+is available</name></event>
+<event id="26"><name>Entry
+of personnel
+time
+specifications
+is desired</name></event>
+<or id="27"/>
+<event id="28"><name>Personnel
+time
+accounts
+are updated</name></event>
+<or id="29"/>
+<event id="30"><name>Update
+of personnel
+time
+accounts
+is desired</name></event>
+<and id="31"/>
+<function id="32"><name>Processing
+of personnel
+time
+evaluation
+messages</name></function>
+<function id="33"><name>Personnel
+time
+planning</name></function>
+<event id="34"><name>Processing
+of pers.
+time
+evaluation
+messages is desired</name></event>
+<xor id="35"/>
+<or id="36"/>
+<and id="37"/>
+<xor id="38"/>
+<and id="39"/>
+<event id="40"><name>Need
+for personnel
+time
+recording
+infrastructure</name></event>
+<and id="41"/>
+<event id="42"><name>Personnel
+time
+recording
+infrastructure
+is available</name></event>
+<event id="43"><name>EE -
+planned
+working
+time
+determination - operative is available</name></event>
+<and id="44"/>
+<function id="45"><name>Infrastructure
+setup
+for personnel
+time
+recording</name></function>
+<event id="46"><name>Absence
+entitlement
+determination
+for employee
+is desired</name></event>
+<event id="47"><name>Personnel
+time
+account
+posting
+is available</name></event>
+<function id="48"><name>Provision
+of additional
+personnel
+time
+specifications</name></function>
+<event id="49"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<event id="50"><name>External
+service
+specifications
+are available</name></event>
+<event id="51"><name>Need
+for absence
+entitlement
+compensation</name></event>
+<and id="52"/>
+<event id="53"><name>Activity
+allocation
+specifications
+transmitted</name></event>
+<event id="54"><name>Need
+for personnel
+time
+evaluation
+is available</name></event>
+<event id="55"><name>No need
+to act
+because
+of pers.
+time evaluation message</name></event>
+<xor id="56"/>
+<and id="57"/>
+<xor id="58"/>
+<event id="59"><name>Operative
+remuneration
+specification
+is available</name></event>
+<xor id="60"/>
+<or id="61"/>
+<event id="62"><name>Time
+statement
+transmitted
+to employee</name></event>
+<and id="63"/>
+<event id="64"><name>Need
+for personnel
+time
+transfer
+specification</name></event>
+<event id="65"><name>Need
+to create
+calendar
+and work
+schedule</name></event>
+<or id="66"/>
+<event id="67"><name>Transfer
+of activity
+allocation
+specifications
+is desired</name></event>
+<function id="68"><name>Time
+statement
+creation</name></function>
+<and id="69"/>
+<function id="70"><name>Personnel
+time
+accounts
+administration</name></function>
+<and id="71"/>
+<arc id="28"><flow source="0" target="27"/></arc>
+<arc id="112"><flow source="1" target="39"/></arc>
+<arc id="254"><flow source="3" target="37"/></arc>
+<arc id="300"><flow source="4" target="11"/></arc>
+<arc id="418"><flow source="5" target="57"/></arc>
+<arc id="491"><flow source="6" target="58"/></arc>
+<arc id="549"><flow source="7" target="44"/></arc>
+<arc id="647"><flow source="8" target="70"/></arc>
+<arc id="715"><flow source="9" target="66"/></arc>
+<arc id="748"><flow source="10" target="27"/></arc>
+<arc id="802"><flow source="11" target="9"/></arc>
+<arc id="814"><flow source="11" target="21"/></arc>
+<arc id="815"><flow source="11" target="22"/></arc>
+<arc id="849"><flow source="11" target="56"/></arc>
+<arc id="995"><flow source="13" target="58"/></arc>
+<arc id="1119"><flow source="15" target="38"/></arc>
+<arc id="1134"><flow source="15" target="53"/></arc>
+<arc id="1219"><flow source="16" target="66"/></arc>
+<arc id="1244"><flow source="17" target="19"/></arc>
+<arc id="1421"><flow source="19" target="52"/></arc>
+<arc id="1502"><flow source="20" target="61"/></arc>
+<arc id="1519"><flow source="21" target="6"/></arc>
+<arc id="1626"><flow source="22" target="41"/></arc>
+<arc id="1688"><flow source="23" target="31"/></arc>
+<arc id="1768"><flow source="24" target="39"/></arc>
+<arc id="1912"><flow source="26" target="39"/></arc>
+<arc id="2016"><flow source="27" target="71"/></arc>
+<arc id="2061"><flow source="28" target="44"/></arc>
+<arc id="2117"><flow source="29" target="28"/></arc>
+<arc id="2124"><flow source="29" target="35"/></arc>
+<arc id="2219"><flow source="30" target="58"/></arc>
+<arc id="2238"><flow source="31" target="5"/></arc>
+<arc id="2302"><flow source="31" target="69"/></arc>
+<arc id="2341"><flow source="32" target="36"/></arc>
+<arc id="2440"><flow source="33" target="63"/></arc>
+<arc id="2506"><flow source="34" target="57"/></arc>
+<arc id="2580"><flow source="35" target="59"/></arc>
+<arc id="2595"><flow source="36" target="2"/></arc>
+<arc id="2605"><flow source="36" target="12"/></arc>
+<arc id="2607"><flow source="36" target="14"/></arc>
+<arc id="2648"><flow source="36" target="55"/></arc>
+<arc id="2657"><flow source="36" target="64"/></arc>
+<arc id="2688"><flow source="37" target="23"/></arc>
+<arc id="2755"><flow source="38" target="18"/></arc>
+<arc id="2813"><flow source="39" target="4"/></arc>
+<arc id="2926"><flow source="40" target="45"/></arc>
+<arc id="2959"><flow source="41" target="6"/></arc>
+<arc id="2990"><flow source="41" target="37"/></arc>
+<arc id="3049"><flow source="42" target="24"/></arc>
+<arc id="3124"><flow source="43" target="27"/></arc>
+<arc id="3237"><flow source="44" target="68"/></arc>
+<arc id="3283"><flow source="45" target="42"/></arc>
+<arc id="3371"><flow source="46" target="58"/></arc>
+<arc id="3393"><flow source="47" target="8"/></arc>
+<arc id="3472"><flow source="48" target="15"/></arc>
+<arc id="3595"><flow source="49" target="66"/></arc>
+<arc id="3731"><flow source="51" target="58"/></arc>
+<arc id="3780"><flow source="52" target="35"/></arc>
+<arc id="3801"><flow source="52" target="56"/></arc>
+<arc id="3805"><flow source="52" target="60"/></arc>
+<arc id="3926"><flow source="54" target="37"/></arc>
+<arc id="4053"><flow source="56" target="20"/></arc>
+<arc id="4137"><flow source="57" target="32"/></arc>
+<arc id="4185"><flow source="58" target="8"/></arc>
+<arc id="4359"><flow source="60" target="38"/></arc>
+<arc id="4441"><flow source="61" target="48"/></arc>
+<arc id="4537"><flow source="63" target="0"/></arc>
+<arc id="4547"><flow source="63" target="10"/></arc>
+<arc id="4580"><flow source="63" target="43"/></arc>
+<arc id="4747"><flow source="65" target="66"/></arc>
+<arc id="4786"><flow source="66" target="33"/></arc>
+<arc id="4886"><flow source="67" target="61"/></arc>
+<arc id="4959"><flow source="68" target="62"/></arc>
+<arc id="4994"><flow source="69" target="25"/></arc>
+<arc id="5016"><flow source="69" target="47"/></arc>
+<arc id="5019"><flow source="69" target="50"/></arc>
+<arc id="5029"><flow source="69" target="60"/></arc>
+<arc id="5070"><flow source="70" target="29"/></arc>
+<arc id="5137"><flow source="71" target="24"/></arc>
+<arc id="5150"><flow source="71" target="37"/></arc>
+</epc></epml>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="37" name="1An_l8wo">
+<function id="0"><name>Periodic
+Reports</name></function>
+<function id="1"><name>Carry
+Out Year-End
+Closing
+in Asset
+Management</name></function>
+<event id="2"><name>Cumulative
+past
+depreciation
+should
+be simulated</name></event>
+<function id="3"><name>Depreciation
+Simulation
+/ Forecast</name></function>
+<event id="4"><name>Periodic
+reports
+are created</name></event>
+<event id="5"><name>Acquisition
+posted
+to Asset
+Accounting</name></event>
+<and id="6"/>
+<and id="7"/>
+<event id="8"><name>Depreciation
+corresponds
+to planned
+P&amp;L statement</name></event>
+<event id="9"><name>Individual
+asset
+should
+be simulated</name></event>
+<event id="10"><name>G/L accounts
+were
+posted</name></event>
+<xor id="11"/>
+<and id="12"/>
+<function id="13"><name>Preparations
+for Year-End
+Closing
+in Asset
+Management</name></function>
+<event id="14"><name>Simulation
+was carried
+out</name></event>
+<event id="15"><name>Mass
+changes
+were
+made</name></event>
+<event id="16"><name>Year-end
+closing
+program
+was carried
+out</name></event>
+<event id="17"><name>[Depreciation
+posting
+run was
+carried
+out]</name></event>
+<event id="18"><name>Several
+asset
+master
+records
+should be changed</name></event>
+<event id="19"><name>Depreciation
+should
+be posted
+regularly</name></event>
+<and id="20"/>
+<event id="21"><name>Periodic
+reporting
+is required</name></event>
+<and id="22"/>
+<event id="23"><name>Recalcula-
+tion
+of de-
+preciation
+was carried out</name></event>
+<xor id="24"/>
+<event id="25"><name>Index
+series
+updated</name></event>
+<function id="26"><name>Recalculation
+of Depreciation</name></function>
+<function id="27"><name>Depreciation
+Posting</name></function>
+<xor id="28"/>
+<event id="29"><name>Transactions
+completed</name></event>
+<event id="30"><name>Depreciation
+transferred</name></event>
+<event id="31"><name>Simulation
+is to
+be car-
+ried
+out for portion of fixed assets (future FY)</name></event>
+<xor id="32"/>
+<event id="33"><name>Depreciation
+does
+not correspond
+to planned
+P&amp;L statement</name></event>
+<event id="34"><name>Retirement
+was posted
+and checked</name></event>
+<function id="35"><name>Mass
+Change</name></function>
+<or id="36"/>
+<or id="37"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="55"><flow source="1" target="16"/></arc>
+<arc id="109"><flow source="2" target="32"/></arc>
+<arc id="127"><flow source="3" target="12"/></arc>
+<arc id="227"><flow source="5" target="36"/></arc>
+<arc id="264"><flow source="6" target="35"/></arc>
+<arc id="277"><flow source="7" target="10"/></arc>
+<arc id="284"><flow source="7" target="17"/></arc>
+<arc id="297"><flow source="7" target="30"/></arc>
+<arc id="316"><flow source="8" target="11"/></arc>
+<arc id="375"><flow source="9" target="32"/></arc>
+<arc id="441"><flow source="11" target="22"/></arc>
+<arc id="471"><flow source="12" target="14"/></arc>
+<arc id="475"><flow source="12" target="18"/></arc>
+<arc id="523"><flow source="13" target="28"/></arc>
+<arc id="539"><flow source="14" target="6"/></arc>
+<arc id="597"><flow source="15" target="26"/></arc>
+<arc id="684"><flow source="17" target="37"/></arc>
+<arc id="691"><flow source="18" target="6"/></arc>
+<arc id="747"><flow source="19" target="24"/></arc>
+<arc id="762"><flow source="20" target="1"/></arc>
+<arc id="788"><flow source="20" target="27"/></arc>
+<arc id="836"><flow source="21" target="37"/></arc>
+<arc id="857"><flow source="22" target="20"/></arc>
+<arc id="899"><flow source="23" target="24"/></arc>
+<arc id="935"><flow source="24" target="22"/></arc>
+<arc id="962"><flow source="25" target="11"/></arc>
+<arc id="1012"><flow source="26" target="23"/></arc>
+<arc id="1034"><flow source="27" target="7"/></arc>
+<arc id="1067"><flow source="28" target="2"/></arc>
+<arc id="1073"><flow source="28" target="8"/></arc>
+<arc id="1074"><flow source="28" target="9"/></arc>
+<arc id="1096"><flow source="28" target="31"/></arc>
+<arc id="1098"><flow source="28" target="33"/></arc>
+<arc id="1139"><flow source="29" target="36"/></arc>
+<arc id="1211"><flow source="31" target="32"/></arc>
+<arc id="1220"><flow source="32" target="3"/></arc>
+<arc id="1287"><flow source="33" target="32"/></arc>
+<arc id="1329"><flow source="34" target="36"/></arc>
+<arc id="1346"><flow source="35" target="15"/></arc>
+<arc id="1382"><flow source="36" target="13"/></arc>
+<arc id="1407"><flow source="37" target="0"/></arc>
+</epc></epml>

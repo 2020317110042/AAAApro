@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="279" name="1Pe_lweq">
+<function id="0"><name>Personnel
+Advertising</name></function>
+<and id="1"/>
+<event id="2"><name>Job advertisement
+is determined</name></event>
+<event id="3"><name>Time
+for job
+advertisement
+reached</name></event>
+<and id="4"/>
+<event id="5"><name>Need
+for personnel
+advertising
+exists</name></event>
+<event id="6"><name>Need
+for services
+has arisen</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="10"><flow source="1" target="2"/></arc>
+<arc id="14"><flow source="1" target="6"/></arc>
+<arc id="26"><flow source="3" target="4"/></arc>
+<arc id="29"><flow source="4" target="0"/></arc>
+<arc id="40"><flow source="5" target="4"/></arc>
+</epc></epml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="556" name="1Ve_7kcl">
+<event id="0"><name>Shipment
+is Complete</name></event>
+<event id="1"><name>Deliveries
+need
+to be
+planned</name></event>
+<event id="2"><name>Shipment
+costs
+per item
+are calculated</name></event>
+<event id="3"><name>Delivery
+is relevant
+for shipment</name></event>
+<event id="4"><name>Shipment
+is relevant
+for freight</name></event>
+<function id="5"><name>Transportation
+Planning
+and Processing</name></function>
+<function id="6"><name>Shipment
+cost
+calculation
+and settlement</name></function>
+<and id="7"/>
+<and id="8"/>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="17"><flow source="1" target="7"/></arc>
+<arc id="35"><flow source="3" target="7"/></arc>
+<arc id="45"><flow source="4" target="8"/></arc>
+<arc id="46"><flow source="5" target="0"/></arc>
+<arc id="57"><flow source="6" target="2"/></arc>
+<arc id="69"><flow source="7" target="5"/></arc>
+<arc id="79"><flow source="8" target="6"/></arc>
+</epc></epml>

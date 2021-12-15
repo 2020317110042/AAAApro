@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="54" name="1Be_25my">
+<function id="0"><name>Goods
+Receipt
+Processing
+with
+Reference</name></function>
+<xor id="1"/>
+<event id="2"><name>Goods
+receipt
+posted</name></event>
+<event id="3"><name>Goods
+received</name></event>
+<event id="4"><name>Inward
+material
+movement
+to be
+posted</name></event>
+<function id="5"><name>Goods
+Receipt
+Processing</name></function>
+<event id="6"><name>Inbound
+delivery
+for PO
+created</name></event>
+<and id="7"/>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="11"><flow source="1" target="2"/></arc>
+<arc id="32"><flow source="3" target="7"/></arc>
+<arc id="38"><flow source="4" target="5"/></arc>
+<arc id="42"><flow source="5" target="1"/></arc>
+<arc id="56"><flow source="6" target="7"/></arc>
+<arc id="57"><flow source="7" target="0"/></arc>
+</epc></epml>

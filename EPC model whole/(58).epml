@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="59" name="1Be_2k7e">
+<function id="0"><name>Manual
+Clearing</name></function>
+<event id="1"><name>Manual
+clearing
+is complete</name></event>
+<function id="2"><name>Invoice
+Reversal</name></function>
+<event id="3"><name>Task-dependent
+follow-up
+actions
+are triggered</name></event>
+<event id="4"><name>Line
+items
+to be
+cleared</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="15"><flow source="2" target="4"/></arc>
+<arc id="18"><flow source="3" target="2"/></arc>
+<arc id="21"><flow source="4" target="0"/></arc>
+</epc></epml>

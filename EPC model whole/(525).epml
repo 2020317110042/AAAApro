@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="526" name="1Ve_5p60">
+<event id="0"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="1"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<and id="2"/>
+<event id="3"><name>Sales
+order
+is processed
+in ordering
+company code</name></event>
+<event id="4"><name>Delivery
+is generated
+in delivering
+company
+code</name></event>
+<and id="5"/>
+<event id="6"><name>Order
+is created</name></event>
+<xor id="7"/>
+<event id="8"><name>Sales
+requirements
+are created</name></event>
+<function id="9"><name>Sales
+Order
+Processing</name></function>
+<event id="10"><name>Items
+are cancelled</name></event>
+<event id="11"><name>Standard
+order
+is received</name></event>
+<arc id="34"><flow source="2" target="9"/></arc>
+<arc id="39"><flow source="3" target="2"/></arc>
+<arc id="65"><flow source="5" target="4"/></arc>
+<arc id="67"><flow source="5" target="6"/></arc>
+<arc id="69"><flow source="5" target="8"/></arc>
+<arc id="85"><flow source="7" target="0"/></arc>
+<arc id="86"><flow source="7" target="1"/></arc>
+<arc id="90"><flow source="7" target="5"/></arc>
+<arc id="95"><flow source="7" target="10"/></arc>
+<arc id="116"><flow source="9" target="7"/></arc>
+<arc id="135"><flow source="11" target="2"/></arc>
+</epc></epml>

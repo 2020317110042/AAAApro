@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="27" name="1An_l2cf">
+<xor id="0"/>
+<and id="1"/>
+<and id="2"/>
+<event id="3"><name>Posting
+error
+from
+primary
+system occurred</name></event>
+<event id="4"><name>Material
+is reserved</name></event>
+<event id="5"><name>Funds
+for anticipated
+costs
+are to
+be set aside</name></event>
+<event id="6"><name>Open
+item
+was detailed</name></event>
+<event id="7"><name>Stock
+material
+is to
+be reserved</name></event>
+<event id="8"><name>Goods
+issue
+is planned</name></event>
+<event id="9"><name>Statistical
+figures
+are to
+be entered</name></event>
+<event id="10"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<xor id="11"/>
+<event id="12"><name>Budget
+is assigned</name></event>
+<event id="13"><name>Wrongly-assigned
+object
+entered</name></event>
+<event id="14"><name>Statistical
+key figure
+was entered
+for reference
+object</name></event>
+<and id="15"/>
+<xor id="16"/>
+<event id="17"><name>Goods
+issue
+is posted</name></event>
+<event id="18"><name>Order
+is released</name></event>
+<function id="19"><name>Manual
+Funds
+Reservation</name></function>
+<function id="20"><name>Order
+Release</name></function>
+<event id="21"><name>Internal
+procurement
+to be
+triggered</name></event>
+<event id="22"><name>Object
+to be
+assigned
+was debited</name></event>
+<function id="23"><name>Goods
+Issue
+Processing
+[Stock
+Material]</name></function>
+<or id="24"/>
+<event id="25"><name>Accounts
+payable/
+down
+payments
+to be triggered</name></event>
+<event id="26"><name>Actual
+costs
+incurred
+are known</name></event>
+<and id="27"/>
+<function id="28"><name>Cost
+Reposting</name></function>
+<and id="29"/>
+<event id="30"><name>Internal
+Activity
+Should
+Be Allocated
+Internally</name></event>
+<event id="31"><name>Reserved
+funds
+are to
+be reduced</name></event>
+<event id="32"><name>Posting
+was rejected
+due to
+budget
+overrun</name></event>
+<event id="33"><name>Release
+and execution
+of measure
+to be
+triggered</name></event>
+<function id="34"><name>Direct
+Activity
+Allocation</name></function>
+<event id="35"><name>Internal
+Activity
+Was Allocated</name></event>
+<event id="36"><name>Open
+item
+is based
+on order</name></event>
+<event id="37"><name>Funds
+are reserved</name></event>
+<function id="38"><name>Manual
+Entry
+of Statistical
+Key Figures</name></function>
+<and id="39"/>
+<event id="40"><name>Need
+for trip
+has arisen</name></event>
+<and id="41"/>
+<event id="42"><name>Reserved
+funds
+were
+reduced</name></event>
+<function id="43"><name>Reservation
+Processing</name></function>
+<function id="44"><name>Manual
+Funds
+Reduction</name></function>
+<or id="45"/>
+<arc id="24"><flow source="0" target="23"/></arc>
+<arc id="60"><flow source="1" target="13"/></arc>
+<arc id="69"><flow source="1" target="22"/></arc>
+<arc id="99"><flow source="2" target="6"/></arc>
+<arc id="135"><flow source="2" target="42"/></arc>
+<arc id="167"><flow source="3" target="28"/></arc>
+<arc id="250"><flow source="5" target="19"/></arc>
+<arc id="366"><flow source="7" target="43"/></arc>
+<arc id="369"><flow source="8" target="0"/></arc>
+<arc id="453"><flow source="9" target="38"/></arc>
+<arc id="461"><flow source="10" target="0"/></arc>
+<arc id="539"><flow source="11" target="32"/></arc>
+<arc id="546"><flow source="11" target="39"/></arc>
+<arc id="580"><flow source="12" target="27"/></arc>
+<arc id="709"><flow source="15" target="18"/></arc>
+<arc id="736"><flow source="15" target="45"/></arc>
+<arc id="742"><flow source="16" target="5"/></arc>
+<arc id="768"><flow source="16" target="31"/></arc>
+<arc id="886"><flow source="19" target="11"/></arc>
+<arc id="936"><flow source="20" target="15"/></arc>
+<arc id="1076"><flow source="23" target="17"/></arc>
+<arc id="1134"><flow source="24" target="29"/></arc>
+<arc id="1221"><flow source="26" target="24"/></arc>
+<arc id="1263"><flow source="27" target="20"/></arc>
+<arc id="1290"><flow source="28" target="1"/></arc>
+<arc id="1379"><flow source="29" target="44"/></arc>
+<arc id="1415"><flow source="30" target="34"/></arc>
+<arc id="1451"><flow source="31" target="24"/></arc>
+<arc id="1546"><flow source="33" target="27"/></arc>
+<arc id="1600"><flow source="34" target="35"/></arc>
+<arc id="1686"><flow source="36" target="29"/></arc>
+<arc id="1732"><flow source="37" target="29"/></arc>
+<arc id="1763"><flow source="38" target="14"/></arc>
+<arc id="1831"><flow source="39" target="36"/></arc>
+<arc id="1832"><flow source="39" target="37"/></arc>
+<arc id="1891"><flow source="41" target="4"/></arc>
+<arc id="1895"><flow source="41" target="8"/></arc>
+<arc id="2020"><flow source="43" target="41"/></arc>
+<arc id="2027"><flow source="44" target="2"/></arc>
+<arc id="2074"><flow source="45" target="3"/></arc>
+<arc id="2078"><flow source="45" target="7"/></arc>
+<arc id="2080"><flow source="45" target="9"/></arc>
+<arc id="2081"><flow source="45" target="10"/></arc>
+<arc id="2087"><flow source="45" target="16"/></arc>
+<arc id="2092"><flow source="45" target="21"/></arc>
+<arc id="2096"><flow source="45" target="25"/></arc>
+<arc id="2101"><flow source="45" target="30"/></arc>
+<arc id="2111"><flow source="45" target="40"/></arc>
+</epc></epml>

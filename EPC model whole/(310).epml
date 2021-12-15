@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="311" name="1Pr_18wm">
+<and id="0"/>
+<xor id="1"/>
+<event id="2"><name>Set up
+product
+structure
+without
+variants</name></event>
+<event id="3"><name>Product
+structure
+for variants
+to be
+set up</name></event>
+<function id="4"><name>Find
+Object</name></function>
+<and id="5"/>
+<event id="6"><name>Perform
+similiar
+part
+search</name></event>
+<event id="7"><name>Set up
+product
+strucuture
+using
+CAD interface</name></event>
+<function id="8"><name>Document
+Search</name></function>
+<function id="9"><name>Material
+Search</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="13"><flow source="1" target="2"/></arc>
+<arc id="14"><flow source="1" target="3"/></arc>
+<arc id="18"><flow source="1" target="7"/></arc>
+<arc id="41"><flow source="4" target="0"/></arc>
+<arc id="55"><flow source="5" target="4"/></arc>
+<arc id="59"><flow source="5" target="8"/></arc>
+<arc id="60"><flow source="5" target="9"/></arc>
+<arc id="66"><flow source="6" target="5"/></arc>
+<arc id="81"><flow source="8" target="0"/></arc>
+<arc id="91"><flow source="9" target="0"/></arc>
+</epc></epml>

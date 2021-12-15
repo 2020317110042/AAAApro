@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="592" name="1Ve_mvdh">
+<xor id="0"/>
+<and id="1"/>
+<event id="2"><name>Organizer
+receives
+inquiry
+of business
+event attendee</name></event>
+<event id="3"><name>Need
+for offer
+of business
+event
+attendances exists</name></event>
+<function id="4"><name>Creation
+of Offer
+of Business
+Event
+Attendances</name></function>
+<event id="5"><name>Inquiry
+of business
+event
+attendee
+is entered</name></event>
+<and id="6"/>
+<event id="7"><name>Offer
+of business
+event
+attendances
+is created</name></event>
+<and id="8"/>
+<event id="9"><name>Place
+for business
+event
+attendee
+is reserved</name></event>
+<event id="10"><name>Offer
+of business
+event
+attendances
+cannot be created</name></event>
+<function id="11"><name>Entry
+of Inquiry
+of Business
+Event
+Attendee</name></function>
+<event id="12"><name>Business
+event
+attendee
+is prebooked</name></event>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="17"><flow source="1" target="3"/></arc>
+<arc id="19"><flow source="1" target="5"/></arc>
+<arc id="38"><flow source="2" target="11"/></arc>
+<arc id="44"><flow source="3" target="4"/></arc>
+<arc id="53"><flow source="4" target="0"/></arc>
+<arc id="89"><flow source="6" target="10"/></arc>
+<arc id="91"><flow source="6" target="12"/></arc>
+<arc id="112"><flow source="8" target="7"/></arc>
+<arc id="114"><flow source="8" target="9"/></arc>
+<arc id="145"><flow source="11" target="1"/></arc>
+</epc></epml>

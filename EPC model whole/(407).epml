@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="408" name="1Qu_br2k">
+<event id="0"><name>Evaluation
+to be
+performed
+using
+the Logistics Information System</name></event>
+<or id="1"/>
+<event id="2"><name>Evaluation
+from
+QMIS
+indicates
+quality problems</name></event>
+<event id="3"><name>Evaluation
+carried
+out</name></event>
+<function id="4"><name>Evaluations
+in the
+Quality
+Information
+System (QMIS)</name></function>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="8"><flow source="1" target="2"/></arc>
+<arc id="9"><flow source="1" target="3"/></arc>
+<arc id="22"><flow source="4" target="1"/></arc>
+</epc></epml>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="481" name="1Un_jqw9">
+<event id="0"><name>Dependent
+Requirement
+Created</name></event>
+<or id="1"/>
+<and id="2"/>
+<event id="3"><name>Safety
+stock
+is generated</name></event>
+<function id="4"><name>Standard
+SOP</name></function>
+<event id="5"><name>MRP list
+to be
+processed</name></event>
+<event id="6"><name>Consumption
+values
+exist</name></event>
+<event id="7"><name>MRP list
+is created</name></event>
+<function id="8"><name>Long-Term
+Planning:
+Evaluation</name></function>
+<or id="9"/>
+<event id="10"><name>Demand
+Program
+Created</name></event>
+<or id="11"/>
+<event id="12"><name>Planned
+independent
+reqmts
+to be
+created for simulation</name></event>
+<event id="13"><name>Demand
+program
+to be
+planned
+in simulative mode</name></event>
+<event id="14"><name>SOP data
+to be
+transferred
+to Demand
+Management</name></event>
+<event id="15"><name>Long-Term
+Planning
+Evaluated</name></event>
+<event id="16"><name>Forecast
+requirements
+generated</name></event>
+<event id="17"><name>Forecast
+values
+are corrected</name></event>
+<and id="18"/>
+<or id="19"/>
+<function id="20"><name>Long-Term
+Planning
+- Total
+Planning</name></function>
+<or id="21"/>
+<xor id="22"/>
+<event id="23"><name>Production
+plan
+is processed</name></event>
+<event id="24"><name>Scenario
+for long-term
+planning
+to be
+processed</name></event>
+<event id="25"><name>MRP list
+is created</name></event>
+<and id="26"/>
+<event id="27"><name>Sales
+quantities
+are forecast</name></event>
+<function id="28"><name>Demand
+management</name></function>
+<function id="29"><name>Forecast</name></function>
+<event id="30"><name>Simulated
+planned
+ind.
+reqmts
+are created</name></event>
+<event id="31"><name>Master
+Production
+Scheduling
+Evaluated</name></event>
+<event id="32"><name>Mat.forecast
+is to
+be carried
+out</name></event>
+<event id="33"><name>Stock/
+requirements
+list
+to be
+processed</name></event>
+<event id="34"><name>Separate
+planning
+run to
+be carried
+out for master schedule items</name></event>
+<event id="35"><name>MRP list
+to be
+processed</name></event>
+<event id="36"><name>Results
+transferred
+to Demand
+Management</name></event>
+<event id="37"><name>Planned
+independent
+requirements
+are forecast</name></event>
+<xor id="38"/>
+<event id="39"><name>Forecast
+values
+created</name></event>
+<xor id="40"/>
+<or id="41"/>
+<event id="42"><name>Stock/
+requirements
+list
+to be
+processed</name></event>
+<event id="43"><name>Demand
+Program
+Activated</name></event>
+<or id="44"/>
+<event id="45"><name>Activity
+requirements
+to be
+transferred
+to Cost Planning</name></event>
+<event id="46"><name>Reorder
+point
+is created</name></event>
+<event id="47"><name>Sales
+plan
+is processed</name></event>
+<function id="48"><name>Overall
+Material
+Requirements
+Planning</name></function>
+<and id="49"/>
+<function id="50"><name>Transfer
+of Results
+to Demand
+Management</name></function>
+<event id="51"><name>Sales
+and production
+quantities
+to be
+planned long to medium term</name></event>
+<event id="52"><name>Plant
+material
+has been
+created</name></event>
+<or id="53"/>
+<and id="54"/>
+<event id="55"><name>Sales
+quantities
+are to
+be forecasted</name></event>
+<event id="56"><name>Planning
+scenario
+is processed</name></event>
+<xor id="57"/>
+<function id="58"><name>Master
+Production
+Scheduling
+- Evaluation</name></function>
+<event id="59"><name>Material
+Requirements
+Planning
+Evaluated</name></event>
+<or id="60"/>
+<event id="61"><name>Planned
+independent
+requirements
+to be
+adjusted</name></event>
+<function id="62"><name>Material
+requirements
+planning
+- evaluation</name></function>
+<event id="63"><name>Planned
+Order
+Created
+Automatically</name></event>
+<function id="64"><name>Master
+Production
+Scheduling
+- Total
+Planning</name></function>
+<function id="65"><name>Planning
+Scenario
+Processing</name></function>
+<and id="66"/>
+<and id="67"/>
+<xor id="68"/>
+<and id="69"/>
+<event id="70"><name>Planned
+independent
+requirements
+to be
+forecast</name></event>
+<event id="71"><name>Forecast
+parameters
+exist</name></event>
+<and id="72"/>
+<event id="73"><name>Demand
+management
+to be
+carried
+out for material or PG</name></event>
+<event id="74"><name>Planned
+sales
+quantities
+to be
+transferred to SOP</name></event>
+<event id="75"><name>Entries
+made
+in MRP
+file</name></event>
+<function id="76"><name>Processing
+of planned
+indep.
+reqmts
+for long-term planning</name></function>
+<or id="77"/>
+<and id="78"/>
+<and id="79"/>
+<arc id="20"><flow source="0" target="19"/></arc>
+<arc id="104"><flow source="1" target="23"/></arc>
+<arc id="126"><flow source="1" target="45"/></arc>
+<arc id="128"><flow source="1" target="47"/></arc>
+<arc id="211"><flow source="2" target="50"/></arc>
+<arc id="322"><flow source="4" target="1"/></arc>
+<arc id="480"><flow source="5" target="79"/></arc>
+<arc id="535"><flow source="6" target="54"/></arc>
+<arc id="610"><flow source="7" target="49"/></arc>
+<arc id="656"><flow source="8" target="15"/></arc>
+<arc id="724"><flow source="9" target="3"/></arc>
+<arc id="737"><flow source="9" target="16"/></arc>
+<arc id="738"><flow source="9" target="17"/></arc>
+<arc id="748"><flow source="9" target="27"/></arc>
+<arc id="758"><flow source="9" target="37"/></arc>
+<arc id="760"><flow source="9" target="39"/></arc>
+<arc id="767"><flow source="9" target="46"/></arc>
+<arc id="822"><flow source="10" target="21"/></arc>
+<arc id="881"><flow source="11" target="0"/></arc>
+<arc id="925"><flow source="11" target="44"/></arc>
+<arc id="979"><flow source="12" target="18"/></arc>
+<arc id="1107"><flow source="13" target="66"/></arc>
+<arc id="1123"><flow source="14" target="2"/></arc>
+<arc id="1479"><flow source="18" target="38"/></arc>
+<arc id="1569"><flow source="19" target="48"/></arc>
+<arc id="1644"><flow source="20" target="43"/></arc>
+<arc id="1746"><flow source="21" target="65"/></arc>
+<arc id="1830"><flow source="22" target="69"/></arc>
+<arc id="1882"><flow source="23" target="41"/></arc>
+<arc id="1942"><flow source="24" target="21"/></arc>
+<arc id="2080"><flow source="25" target="79"/></arc>
+<arc id="2089"><flow source="26" target="8"/></arc>
+<arc id="2221"><flow source="27" target="60"/></arc>
+<arc id="2251"><flow source="28" target="10"/></arc>
+<arc id="2330"><flow source="29" target="9"/></arc>
+<arc id="2468"><flow source="30" target="67"/></arc>
+<arc id="2615"><flow source="32" target="54"/></arc>
+<arc id="2663"><flow source="33" target="22"/></arc>
+<arc id="2793"><flow source="34" target="72"/></arc>
+<arc id="2850"><flow source="35" target="49"/></arc>
+<arc id="2958"><flow source="36" target="77"/></arc>
+<arc id="3117"><flow source="38" target="76"/></arc>
+<arc id="3198"><flow source="39" target="77"/></arc>
+<arc id="3230"><flow source="40" target="29"/></arc>
+<arc id="3283"><flow source="41" target="2"/></arc>
+<arc id="3418"><flow source="42" target="57"/></arc>
+<arc id="3467"><flow source="43" target="26"/></arc>
+<arc id="3584"><flow source="44" target="63"/></arc>
+<arc id="3802"><flow source="47" target="41"/></arc>
+<arc id="3885"><flow source="48" target="44"/></arc>
+<arc id="3943"><flow source="49" target="22"/></arc>
+<arc id="4037"><flow source="50" target="36"/></arc>
+<arc id="4141"><flow source="51" target="60"/></arc>
+<arc id="4229"><flow source="52" target="68"/></arc>
+<arc id="4297"><flow source="53" target="56"/></arc>
+<arc id="4316"><flow source="53" target="75"/></arc>
+<arc id="4361"><flow source="54" target="40"/></arc>
+<arc id="4469"><flow source="55" target="68"/></arc>
+<arc id="4499"><flow source="56" target="18"/></arc>
+<arc id="4587"><flow source="57" target="26"/></arc>
+<arc id="4672"><flow source="58" target="31"/></arc>
+<arc id="4805"><flow source="60" target="4"/></arc>
+<arc id="4919"><flow source="61" target="38"/></arc>
+<arc id="5020"><flow source="62" target="59"/></arc>
+<arc id="5110"><flow source="63" target="69"/></arc>
+<arc id="5132"><flow source="64" target="11"/></arc>
+<arc id="5254"><flow source="65" target="53"/></arc>
+<arc id="5301"><flow source="66" target="20"/></arc>
+<arc id="5380"><flow source="67" target="19"/></arc>
+<arc id="5427"><flow source="67" target="66"/></arc>
+<arc id="5433"><flow source="67" target="72"/></arc>
+<arc id="5481"><flow source="68" target="40"/></arc>
+<arc id="5599"><flow source="69" target="78"/></arc>
+<arc id="5669"><flow source="70" target="68"/></arc>
+<arc id="5735"><flow source="71" target="54"/></arc>
+<arc id="5825"><flow source="72" target="64"/></arc>
+<arc id="5918"><flow source="73" target="77"/></arc>
+<arc id="5981"><flow source="74" target="60"/></arc>
+<arc id="6111"><flow source="76" target="30"/></arc>
+<arc id="6189"><flow source="77" target="28"/></arc>
+<arc id="6299"><flow source="78" target="58"/></arc>
+<arc id="6303"><flow source="78" target="62"/></arc>
+<arc id="6378"><flow source="79" target="57"/></arc>
+</epc></epml>

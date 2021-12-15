@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="63" name="1Be_2ork">
+<function id="0"><name>Transmission
+of Scheduling
+Agreements</name></function>
+<event id="1"><name>Quotation
+chosen</name></event>
+<and id="2"/>
+<event id="3"><name>Contract
+is drawn
+up</name></event>
+<function id="4"><name>Transmission
+of Contracts</name></function>
+<or id="5"/>
+<or id="6"/>
+<event id="7"><name>Purchasing
+document
+released</name></event>
+<function id="8"><name>Release
+of Outline
+Agreements</name></function>
+<and id="9"/>
+<event id="10"><name>Purchase
+order
+transmitted</name></event>
+<event id="11"><name>Scheduling
+agreement
+is created</name></event>
+<function id="12"><name>Scheduling
+Agreement
+Processing</name></function>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="16"><flow source="1" target="2"/></arc>
+<arc id="39"><flow source="2" target="12"/></arc>
+<arc id="45"><flow source="3" target="5"/></arc>
+<arc id="59"><flow source="4" target="6"/></arc>
+<arc id="74"><flow source="5" target="8"/></arc>
+<arc id="89"><flow source="6" target="10"/></arc>
+<arc id="101"><flow source="7" target="9"/></arc>
+<arc id="112"><flow source="8" target="7"/></arc>
+<arc id="118"><flow source="9" target="0"/></arc>
+<arc id="122"><flow source="9" target="4"/></arc>
+<arc id="149"><flow source="11" target="5"/></arc>
+<arc id="168"><flow source="12" target="11"/></arc>
+</epc></epml>

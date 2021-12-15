@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="382" name="1Pr_dqw8">
+<event id="0"><name>Cash
+flow
+analyzed</name></event>
+<or id="1"/>
+<event id="2"><name>Cash
+Flow
+Analysis
+Required</name></event>
+<event id="3"><name>Cash
+flow
+planning
+required</name></event>
+<event id="4"><name>Cash
+Flow
+Planned</name></event>
+<function id="5"><name>Manual
+Payment
+Planning</name></function>
+<function id="6"><name>Cash
+Flow
+Evaluation</name></function>
+<arc id="10"><flow source="1" target="2"/></arc>
+<arc id="12"><flow source="1" target="4"/></arc>
+<arc id="21"><flow source="2" target="6"/></arc>
+<arc id="27"><flow source="3" target="5"/></arc>
+<arc id="37"><flow source="5" target="1"/></arc>
+<arc id="43"><flow source="6" target="0"/></arc>
+</epc></epml>

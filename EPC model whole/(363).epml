@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="364" name="1Pr_da70">
+<event id="0"><name>Down
+payment
+agreed
+with
+customer</name></event>
+<event id="1"><name>Resource-related
+billing
+document
+required</name></event>
+<event id="2"><name>Order-related
+invoice
+to be
+created</name></event>
+<function id="3"><name>Billing
+Request
+Processing</name></function>
+<function id="4"><name>Resource-Related
+Billing</name></function>
+<event id="5"><name>Partial
+payment
+should
+be made</name></event>
+<event id="6"><name>Payment
+must
+be effected</name></event>
+<event id="7"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="8"><name>Billing
+request
+is released
+for billing</name></event>
+<function id="9"><name>Invoicing
+Billing
+Plans</name></function>
+<xor id="10"/>
+<arc id="15"><flow source="1" target="3"/></arc>
+<arc id="32"><flow source="2" target="9"/></arc>
+<arc id="42"><flow source="3" target="8"/></arc>
+<arc id="55"><flow source="4" target="10"/></arc>
+<arc id="93"><flow source="8" target="4"/></arc>
+<arc id="107"><flow source="9" target="7"/></arc>
+<arc id="111"><flow source="10" target="0"/></arc>
+<arc id="116"><flow source="10" target="5"/></arc>
+<arc id="117"><flow source="10" target="6"/></arc>
+</epc></epml>

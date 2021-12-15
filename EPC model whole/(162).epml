@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="163" name="1Ex_elth">
+<event id="0"><name>Credit
+management
+analysis
+to be
+carried out</name></event>
+<or id="1"/>
+<event id="2"><name>Balance
+analysis
+to be
+carried
+out</name></event>
+<event id="3"><name>Account
+analysis
+made</name></event>
+<function id="4"><name>Customer
+Evaluations</name></function>
+<event id="5"><name>Evaluations
+exist</name></event>
+<function id="6"><name>Customer
+Line
+Item
+Analysis</name></function>
+<function id="7"><name>Balance
+Analysis</name></function>
+<event id="8"><name>Line
+item
+analysis
+to be
+carried out</name></event>
+<function id="9"><name>Credit
+Management
+Analysis</name></function>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="14"><flow source="1" target="3"/></arc>
+<arc id="28"><flow source="2" target="7"/></arc>
+<arc id="35"><flow source="3" target="4"/></arc>
+<arc id="46"><flow source="4" target="5"/></arc>
+<arc id="62"><flow source="6" target="1"/></arc>
+<arc id="72"><flow source="7" target="1"/></arc>
+<arc id="87"><flow source="8" target="6"/></arc>
+<arc id="92"><flow source="9" target="1"/></arc>
+</epc></epml>

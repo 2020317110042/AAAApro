@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="48" name="1Ar_ma2i">
+<xor id="0"/>
+<event id="1"><name>Employee
+participation
+in benefits
+plan
+is available for termination</name></event>
+<event id="2"><name>Employee
+participation
+in benefits
+plan
+is available for enrollment</name></event>
+<function id="3"><name>Selection
+of Benefits</name></function>
+<event id="4"><name>Benefits
+selection
+of employee
+is available
+to enterprise</name></event>
+<event id="5"><name>Benefits
+plans
+are available
+to employee
+for selection</name></event>
+<event id="6"><name>Employee
+participation
+in benefits
+plan
+is available for changing</name></event>
+<or id="7"/>
+<or id="8"/>
+<or id="9"/>
+<xor id="10"/>
+<and id="11"/>
+<or id="12"/>
+<event id="13"><name>Need
+to correct
+benefits
+selection
+exists</name></event>
+<event id="14"><name>Benefits
+offer
+must
+be adapted
+for employee</name></event>
+<event id="15"><name>Period
+for recurring
+enrollment
+has started</name></event>
+<and id="16"/>
+<function id="17"><name>Consistency
+Check
+for Benefits
+Selection</name></function>
+<function id="18"><name>Determination
+of Benefits
+Offer
+for Employee</name></function>
+<event id="19"><name>Benefits
+program
+is implemented</name></event>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="65"><flow source="3" target="4"/></arc>
+<arc id="98"><flow source="4" target="17"/></arc>
+<arc id="111"><flow source="5" target="10"/></arc>
+<arc id="147"><flow source="7" target="6"/></arc>
+<arc id="163"><flow source="8" target="2"/></arc>
+<arc id="188"><flow source="9" target="7"/></arc>
+<arc id="189"><flow source="9" target="8"/></arc>
+<arc id="193"><flow source="9" target="12"/></arc>
+<arc id="194"><flow source="9" target="13"/></arc>
+<arc id="204"><flow source="10" target="3"/></arc>
+<arc id="226"><flow source="11" target="5"/></arc>
+<arc id="228"><flow source="11" target="7"/></arc>
+<arc id="229"><flow source="11" target="8"/></arc>
+<arc id="233"><flow source="11" target="12"/></arc>
+<arc id="242"><flow source="12" target="1"/></arc>
+<arc id="271"><flow source="13" target="10"/></arc>
+<arc id="281"><flow source="14" target="0"/></arc>
+<arc id="301"><flow source="15" target="0"/></arc>
+<arc id="339"><flow source="16" target="18"/></arc>
+<arc id="350"><flow source="17" target="9"/></arc>
+<arc id="372"><flow source="18" target="11"/></arc>
+<arc id="397"><flow source="19" target="16"/></arc>
+</epc></epml>

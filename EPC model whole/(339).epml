@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="340" name="1Pr_46ft">
+<and id="0"/>
+<event id="1"><name>Process
+order
+is archived</name></event>
+<event id="2"><name>Process
+order
+is finally
+confirmed</name></event>
+<function id="3"><name>Order
+Record
+Archiving</name></function>
+<event id="4"><name>Order
+log is
+archived</name></event>
+<event id="5"><name>Order
+log is
+to be
+archived</name></event>
+<and id="6"/>
+<event id="7"><name>Process
+order
+is finally
+confirmed</name></event>
+<and id="8"/>
+<event id="9"><name>Batch
+record
+is to
+be archived</name></event>
+<event id="10"><name>Batch
+record
+is archived</name></event>
+<function id="11"><name>Process
+Order
+Archiving
+/ Deletion</name></function>
+<event id="12"><name>Process
+order
+is finally
+confirmed</name></event>
+<function id="13"><name>Batch
+Record
+Archiving</name></function>
+<event id="14"><name>Process
+order
+is to
+be archived</name></event>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="31"><flow source="2" target="0"/></arc>
+<arc id="50"><flow source="3" target="4"/></arc>
+<arc id="82"><flow source="5" target="6"/></arc>
+<arc id="94"><flow source="6" target="3"/></arc>
+<arc id="114"><flow source="7" target="8"/></arc>
+<arc id="134"><flow source="8" target="13"/></arc>
+<arc id="144"><flow source="9" target="8"/></arc>
+<arc id="167"><flow source="11" target="1"/></arc>
+<arc id="187"><flow source="12" target="6"/></arc>
+<arc id="206"><flow source="13" target="10"/></arc>
+<arc id="211"><flow source="14" target="0"/></arc>
+</epc></epml>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="212" name="1In_bc12">
+<and id="0"/>
+<event id="1"><name>Maintenance
+plan
+is created</name></event>
+<xor id="2"/>
+<event id="3"><name>Cost
+Estimates
+Should
+Be Made
+for Maintenance Plans</name></event>
+<event id="4"><name>Objects
+in Maintenance
+Plans
+Should
+Be Calculated</name></event>
+<event id="5"><name>Call
+horizon
+is reached</name></event>
+<event id="6"><name>Maintenance
+Costs
+Determined</name></event>
+<event id="7"><name>Call
+horizon
+is not
+reached</name></event>
+<event id="8"><name>Maintenance
+calls
+are updated</name></event>
+<xor id="9"/>
+<or id="10"/>
+<function id="11"><name>Maintenance
+Call
+Processing</name></function>
+<event id="12"><name>Maintenance
+plan
+is to
+be scheduled
+manually</name></event>
+<event id="13"><name/></event>
+<event id="14"><name>Maintenance
+notification
+is to
+be created
+for each maintenance item</name></event>
+<function id="15"><name>Object
+Costing</name></function>
+<event id="16"><name>Service
+entry
+sheet
+to be
+created for each maintenance item</name></event>
+<and id="17"/>
+<event id="18"><name>Maintenance
+plan
+to be
+scheduled
+according to maintenance strategy</name></event>
+<xor id="19"/>
+<or id="20"/>
+<event id="21"><name>Maintenance
+plan
+released
+triggered</name></event>
+<or id="22"/>
+<event id="23"><name>Schedule
+counter
+reading
+mtce
+plan</name></event>
+<event id="24"><name>Maintenance
+order
+to be
+created
+per maintenance item</name></event>
+<xor id="25"/>
+<or id="26"/>
+<event id="27"><name>Maintenance
+plan
+is to
+be scheduled
+automatically</name></event>
+<function id="28"><name>Maintenance
+Plan
+Costing</name></function>
+<xor id="29"/>
+<event id="30"><name>Dates
++ due
+maintenance
+packages
+are determined</name></event>
+<event id="31"><name>Maintenance
+call
+waits</name></event>
+<event id="32"><name>Maintenance
+plan
+calls
+are processed</name></event>
+<function id="33"><name>Maintenance
+Plan
+Scheduling</name></function>
+<and id="34"/>
+<and id="35"/>
+<arc id="30"><flow source="0" target="29"/></arc>
+<arc id="54"><flow source="1" target="17"/></arc>
+<arc id="73"><flow source="2" target="0"/></arc>
+<arc id="107"><flow source="2" target="34"/></arc>
+<arc id="137"><flow source="3" target="28"/></arc>
+<arc id="160"><flow source="4" target="15"/></arc>
+<arc id="181"><flow source="5" target="0"/></arc>
+<arc id="287"><flow source="7" target="34"/></arc>
+<arc id="291"><flow source="8" target="2"/></arc>
+<arc id="338"><flow source="9" target="13"/></arc>
+<arc id="339"><flow source="9" target="14"/></arc>
+<arc id="341"><flow source="9" target="16"/></arc>
+<arc id="349"><flow source="9" target="24"/></arc>
+<arc id="367"><flow source="10" target="6"/></arc>
+<arc id="417"><flow source="11" target="20"/></arc>
+<arc id="452"><flow source="12" target="19"/></arc>
+<arc id="551"><flow source="15" target="10"/></arc>
+<arc id="646"><flow source="17" target="33"/></arc>
+<arc id="668"><flow source="18" target="19"/></arc>
+<arc id="702"><flow source="19" target="17"/></arc>
+<arc id="730"><flow source="20" target="9"/></arc>
+<arc id="746"><flow source="20" target="25"/></arc>
+<arc id="776"><flow source="21" target="19"/></arc>
+<arc id="796"><flow source="22" target="3"/></arc>
+<arc id="797"><flow source="22" target="4"/></arc>
+<arc id="848"><flow source="23" target="19"/></arc>
+<arc id="932"><flow source="25" target="31"/></arc>
+<arc id="933"><flow source="25" target="32"/></arc>
+<arc id="959"><flow source="26" target="22"/></arc>
+<arc id="972"><flow source="26" target="35"/></arc>
+<arc id="992"><flow source="27" target="19"/></arc>
+<arc id="1019"><flow source="28" target="10"/></arc>
+<arc id="1056"><flow source="29" target="11"/></arc>
+<arc id="1215"><flow source="33" target="26"/></arc>
+<arc id="1254"><flow source="34" target="29"/></arc>
+<arc id="1269"><flow source="35" target="8"/></arc>
+<arc id="1291"><flow source="35" target="30"/></arc>
+</epc></epml>

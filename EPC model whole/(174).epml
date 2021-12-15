@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="175" name="1Ex_eugx">
+<event id="0"><name>Direct
+G/L account
+posting
+to be
+made</name></event>
+<and id="1"/>
+<event id="2"><name>Planning
+carried
+out</name></event>
+<xor id="3"/>
+<function id="4"><name>Clearing</name></function>
+<function id="5"><name>Accrual/
+Deferral
+Posting</name></function>
+<function id="6"><name>Recurring
+Entry</name></function>
+<event id="7"><name>G/L account
+document
+parked</name></event>
+<event id="8"><name>Accrual/
+deferral
+posting
+made</name></event>
+<function id="9"><name>G/L Account
+Posting</name></function>
+<event id="10"><name>Offsetting
+reversed</name></event>
+<event id="11"><name>Document
+posted</name></event>
+<event id="12"><name>Recurring
+entry
+is made</name></event>
+<event id="13"><name>Posting
+to be
+made
+in General
+Ledger</name></event>
+<function id="14"><name>Park
+G/L Account
+Document</name></function>
+<xor id="15"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="32"><flow source="1" target="15"/></arc>
+<arc id="34"><flow source="2" target="1"/></arc>
+<arc id="58"><flow source="3" target="9"/></arc>
+<arc id="75"><flow source="4" target="10"/></arc>
+<arc id="89"><flow source="5" target="8"/></arc>
+<arc id="109"><flow source="6" target="12"/></arc>
+<arc id="116"><flow source="7" target="3"/></arc>
+<arc id="156"><flow source="9" target="11"/></arc>
+<arc id="210"><flow source="13" target="1"/></arc>
+<arc id="232"><flow source="14" target="7"/></arc>
+<arc id="245"><flow source="15" target="4"/></arc>
+<arc id="246"><flow source="15" target="5"/></arc>
+<arc id="247"><flow source="15" target="6"/></arc>
+<arc id="255"><flow source="15" target="14"/></arc>
+</epc></epml>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="407" name="1Qu_bniq">
+<and id="0"/>
+<function id="1"><name>Vendor
+Evaluation</name></function>
+<function id="2"><name>Editing
+of QM
+Documents</name></function>
+<xor id="3"/>
+<event id="4"><name>Quality
+assurance
+agreements
+have
+been defined</name></event>
+<event id="5"><name>Define
+quality
+assurance
+agreements</name></event>
+<event id="6"><name>Vendor
+is locked
+for future
+goods
+entries</name></event>
+<or id="7"/>
+<xor id="8"/>
+<function id="9"><name>Quality
+Info
+Record
+Processing</name></function>
+<event id="10"><name>Material
+master
+has been
+processed</name></event>
+<event id="11"><name>Necessary
+to contact
+vendor</name></event>
+<event id="12"><name>Technical
+delivery
+terms
+are to
+be defined</name></event>
+<event id="13"><name>Technical
+delivery
+terms
+have
+been defined</name></event>
+<event id="14"><name>Quality
+info
+record
+must
+be created</name></event>
+<event id="15"><name>Vendor
+is created</name></event>
+<or id="16"/>
+<event id="17"><name>Certificate
+received</name></event>
+<event id="18"><name>No follow-on
+activities
+required</name></event>
+<event id="19"><name>Goods
+receipt
+posted</name></event>
+<and id="20"/>
+<event id="21"><name>Certificate
+receipt
+is processed</name></event>
+<or id="22"/>
+<event id="23"><name>Vendor
+evaluation
+to be
+carried
+out</name></event>
+<xor id="24"/>
+<event id="25"><name>Quality
+info
+record
+is created
+/ changed</name></event>
+<event id="26"><name>Vendor
+to be
+blocked</name></event>
+<function id="27"><name>Processing
+of Certificate
+Receipt</name></function>
+<and id="28"/>
+<event id="29"><name>Vendor
+is released</name></event>
+<event id="30"><name>Vendor
+must
+be locked
+as regards
+this material</name></event>
+<event id="31"><name>Vendor
+is locked
+for future
+orders</name></event>
+<xor id="32"/>
+<and id="33"/>
+<event id="34"><name>Vendor
+is locked
+for future
+requests
+for quotation</name></event>
+<or id="35"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="40"><flow source="1" target="3"/></arc>
+<arc id="108"><flow source="2" target="35"/></arc>
+<arc id="120"><flow source="3" target="11"/></arc>
+<arc id="127"><flow source="3" target="18"/></arc>
+<arc id="135"><flow source="3" target="26"/></arc>
+<arc id="139"><flow source="3" target="30"/></arc>
+<arc id="188"><flow source="5" target="7"/></arc>
+<arc id="253"><flow source="7" target="0"/></arc>
+<arc id="322"><flow source="8" target="33"/></arc>
+<arc id="353"><flow source="9" target="28"/></arc>
+<arc id="369"><flow source="10" target="8"/></arc>
+<arc id="440"><flow source="12" target="7"/></arc>
+<arc id="538"><flow source="14" target="33"/></arc>
+<arc id="549"><flow source="15" target="8"/></arc>
+<arc id="577"><flow source="16" target="0"/></arc>
+<arc id="596"><flow source="16" target="19"/></arc>
+<arc id="633"><flow source="17" target="20"/></arc>
+<arc id="705"><flow source="19" target="20"/></arc>
+<arc id="748"><flow source="20" target="27"/></arc>
+<arc id="799"><flow source="22" target="6"/></arc>
+<arc id="824"><flow source="22" target="31"/></arc>
+<arc id="827"><flow source="22" target="34"/></arc>
+<arc id="830"><flow source="23" target="1"/></arc>
+<arc id="887"><flow source="24" target="22"/></arc>
+<arc id="894"><flow source="24" target="29"/></arc>
+<arc id="969"><flow source="26" target="32"/></arc>
+<arc id="994"><flow source="27" target="21"/></arc>
+<arc id="1033"><flow source="28" target="24"/></arc>
+<arc id="1034"><flow source="28" target="25"/></arc>
+<arc id="1061"><flow source="29" target="16"/></arc>
+<arc id="1113"><flow source="30" target="32"/></arc>
+<arc id="1162"><flow source="32" target="9"/></arc>
+<arc id="1221"><flow source="33" target="32"/></arc>
+<arc id="1265"><flow source="35" target="4"/></arc>
+<arc id="1274"><flow source="35" target="13"/></arc>
+</epc></epml>

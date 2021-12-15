@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="466" name="1Tr_gkss">
+<function id="0"><name>Realized
+Gains/
+Losses</name></function>
+<function id="1"><name>Key Date
+Valuation</name></function>
+<event id="2"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<event id="3"><name>Accrual/
+deferral
+is to
+be performed</name></event>
+<and id="4"/>
+<and id="5"/>
+<event id="6"><name>Accrual/
+deferral
+run was
+performed</name></event>
+<function id="7"><name>Accrual/
+Deferral</name></function>
+<and id="8"/>
+<event id="9"><name>Flows
+from
+realized
+gains/
+losses were generated</name></event>
+<event id="10"><name>Key date
+valuation
+carried
+out</name></event>
+<event id="11"><name>Accrual/
+deferral
+flows
+were
+generated</name></event>
+<event id="12"><name>List
+of realized
+gains/
+losses
+was sent</name></event>
+<and id="13"/>
+<event id="14"><name>Valuation
+flows
+were
+generated</name></event>
+<event id="15"><name>Transaction
+was posted</name></event>
+<event id="16"><name>Realized
+gains/
+losses
+to be
+determined</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="26"><flow source="1" target="8"/></arc>
+<arc id="36"><flow source="2" target="1"/></arc>
+<arc id="59"><flow source="3" target="7"/></arc>
+<arc id="75"><flow source="4" target="6"/></arc>
+<arc id="80"><flow source="4" target="11"/></arc>
+<arc id="95"><flow source="5" target="9"/></arc>
+<arc id="98"><flow source="5" target="12"/></arc>
+<arc id="124"><flow source="7" target="4"/></arc>
+<arc id="147"><flow source="8" target="10"/></arc>
+<arc id="151"><flow source="8" target="14"/></arc>
+<arc id="184"><flow source="10" target="13"/></arc>
+<arc id="222"><flow source="13" target="0"/></arc>
+<arc id="269"><flow source="15" target="13"/></arc>
+<arc id="286"><flow source="16" target="13"/></arc>
+</epc></epml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="319" name="1Pr_1n9b">
+<function id="0"><name>Planning</name></function>
+<function id="1"><name>Distribution
+Network</name></function>
+<event id="2"><name>Forecast
+is necessary</name></event>
+<function id="3"><name>Deployment</name></function>
+<event id="4"><name/></event>
+<event id="5"><name>Stock
+transport
+requisition
+is generated</name></event>
+<xor id="6"/>
+<event id="7"><name>DRP run
+is to
+be executed
+for material</name></event>
+<xor id="8"/>
+<event id="9"><name>DRP run
+to be
+executed
+for plant
+/ distribution center</name></event>
+<event id="10"><name>Distribution
+network
+is to
+be processed</name></event>
+<function id="11"><name>DRP -
+Distribution
+Resource
+Planning
+Run</name></function>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="15"><flow source="1" target="2"/></arc>
+<arc id="25"><flow source="2" target="0"/></arc>
+<arc id="41"><flow source="3" target="4"/></arc>
+<arc id="64"><flow source="5" target="3"/></arc>
+<arc id="84"><flow source="6" target="11"/></arc>
+<arc id="91"><flow source="7" target="6"/></arc>
+<arc id="104"><flow source="8" target="7"/></arc>
+<arc id="106"><flow source="8" target="9"/></arc>
+<arc id="115"><flow source="9" target="6"/></arc>
+<arc id="122"><flow source="10" target="1"/></arc>
+<arc id="138"><flow source="11" target="5"/></arc>
+</epc></epml>

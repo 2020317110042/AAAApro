@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="152" name="1Ex_ec3f">
+<event id="0"><name>Data
+transferred
+from
+external
+systems</name></event>
+<event id="1"><name>Planning
+carried
+out</name></event>
+<xor id="2"/>
+<event id="3"><name>Document
+is to
+be entered
+for company</name></event>
+<or id="4"/>
+<and id="5"/>
+<xor id="6"/>
+<event id="7"><name>Document
+was entered
+(local)</name></event>
+<function id="8"><name>Direct
+Data
+Entry</name></function>
+<event id="9"><name>Document
+was entered
+(local)</name></event>
+<event id="10"><name>Document
+was entered
+(global)</name></event>
+<event id="11"><name>Document
+was transferred
+to FI-Special
+Ledger</name></event>
+<xor id="12"/>
+<xor id="13"/>
+<event id="14"><name>Planning
+carried
+out</name></event>
+<event id="15"><name>Document
+was entered
+(global)</name></event>
+<event id="16"><name>Data
+is to
+be posted
+from
+the CO component</name></event>
+<or id="17"/>
+<event id="18"><name>Update
+data
+from
+other
+SAP components (MM,SD,CO, FI)</name></event>
+<function id="19"><name>Integration
+Interface</name></function>
+<event id="20"><name>Data
+is to
+be posted
+from
+the FI component</name></event>
+<function id="21"><name>Data
+Transfer</name></function>
+<event id="22"><name>Statistical
+key figures
+should
+be transferred
+from CO</name></event>
+<event id="23"><name>Document
+is to
+be entered
+for company
+code</name></event>
+<event id="24"><name>Update
+external
+data</name></event>
+<event id="25"><name>Data
+from
+the MM
+component
+should be follow-up posted</name></event>
+<event id="26"><name>Data
+from
+the SD
+component
+should be follow-up posted</name></event>
+<arc id="40"><flow source="1" target="12"/></arc>
+<arc id="62"><flow source="2" target="7"/></arc>
+<arc id="70"><flow source="2" target="15"/></arc>
+<arc id="95"><flow source="3" target="13"/></arc>
+<arc id="128"><flow source="4" target="19"/></arc>
+<arc id="144"><flow source="5" target="8"/></arc>
+<arc id="167"><flow source="6" target="4"/></arc>
+<arc id="219"><flow source="8" target="2"/></arc>
+<arc id="250"><flow source="9" target="6"/></arc>
+<arc id="277"><flow source="10" target="6"/></arc>
+<arc id="329"><flow source="12" target="4"/></arc>
+<arc id="330"><flow source="12" target="5"/></arc>
+<arc id="357"><flow source="13" target="5"/></arc>
+<arc id="396"><flow source="14" target="17"/></arc>
+<arc id="450"><flow source="16" target="17"/></arc>
+<arc id="481"><flow source="17" target="21"/></arc>
+<arc id="493"><flow source="18" target="6"/></arc>
+<arc id="525"><flow source="19" target="11"/></arc>
+<arc id="558"><flow source="20" target="17"/></arc>
+<arc id="568"><flow source="21" target="0"/></arc>
+<arc id="612"><flow source="22" target="17"/></arc>
+<arc id="635"><flow source="23" target="13"/></arc>
+<arc id="655"><flow source="24" target="6"/></arc>
+<arc id="693"><flow source="25" target="17"/></arc>
+<arc id="720"><flow source="26" target="17"/></arc>
+</epc></epml>

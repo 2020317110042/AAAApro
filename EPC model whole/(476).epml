@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="477" name="1Un_j86j">
+<xor id="0"/>
+<function id="1"><name>Manual
+Profit
+Planning</name></function>
+<function id="2"><name>Analysis
+of Results
+And Contribution
+Margins</name></function>
+<event id="3"><name>Project
+costs
+are allocated</name></event>
+<xor id="4"/>
+<event id="5"><name>Control
+measures
+taken
+due to
+variances</name></event>
+<event id="6"><name>Settle
+project</name></event>
+<event id="7"><name>Plan
+Proposal
+for Sales
+Planning
+to be Created</name></event>
+<event id="8"><name>Sales
+plan
+is consistent
+and can
+be valuated</name></event>
+<event id="9"><name>Overhead
+cost
+orders
+are allocated</name></event>
+<function id="10"><name>Project
+Settlement</name></function>
+<event id="11"><name>Plan
+needs
+to be
+changed</name></event>
+<function id="12"><name>Settlement
+of Overhead
+Cost
+Orders
+(Planning Data)</name></function>
+<xor id="13"/>
+<event id="14"><name>Plan
+allocation
+of process
+costs
+required</name></event>
+<xor id="15"/>
+<event id="16"><name>Plan
+allocation
+of cost
+center
+costs required</name></event>
+<function id="17"><name>Planned
+Allocation
+Cost
+Center
+Costs to Profitability Analysis</name></function>
+<event id="18"><name>Process
+costs
+are allocated</name></event>
+<function id="19"><name>Creation
+of Proposal
+for Profit
+Planning</name></function>
+<function id="20"><name>Planned
+Allocation
+of Process
+Costs
+to Profitability Analysis</name></function>
+<xor id="21"/>
+<event id="22"><name>Cost
+center
+costs
+are allocated</name></event>
+<event id="23"><name>Organizational
+operating
+profit
+(plan)
+exists</name></event>
+<event id="24"><name>Overhead
+cost
+orders
+to be
+settled</name></event>
+<function id="25"><name>Valuation
+of Sales
+Planning</name></function>
+<and id="26"/>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="43"><flow source="1" target="15"/></arc>
+<arc id="81"><flow source="2" target="26"/></arc>
+<arc id="103"><flow source="3" target="21"/></arc>
+<arc id="109"><flow source="4" target="0"/></arc>
+<arc id="124"><flow source="4" target="15"/></arc>
+<arc id="173"><flow source="6" target="10"/></arc>
+<arc id="209"><flow source="7" target="19"/></arc>
+<arc id="242"><flow source="8" target="25"/></arc>
+<arc id="265"><flow source="9" target="21"/></arc>
+<arc id="274"><flow source="10" target="3"/></arc>
+<arc id="299"><flow source="11" target="1"/></arc>
+<arc id="334"><flow source="12" target="9"/></arc>
+<arc id="358"><flow source="13" target="6"/></arc>
+<arc id="366"><flow source="13" target="14"/></arc>
+<arc id="368"><flow source="13" target="16"/></arc>
+<arc id="376"><flow source="13" target="24"/></arc>
+<arc id="399"><flow source="14" target="20"/></arc>
+<arc id="419"><flow source="15" target="13"/></arc>
+<arc id="450"><flow source="16" target="17"/></arc>
+<arc id="482"><flow source="17" target="22"/></arc>
+<arc id="508"><flow source="18" target="21"/></arc>
+<arc id="518"><flow source="19" target="4"/></arc>
+<arc id="559"><flow source="20" target="18"/></arc>
+<arc id="570"><flow source="21" target="2"/></arc>
+<arc id="616"><flow source="22" target="21"/></arc>
+<arc id="661"><flow source="24" target="12"/></arc>
+<arc id="680"><flow source="25" target="4"/></arc>
+<arc id="708"><flow source="26" target="5"/></arc>
+<arc id="726"><flow source="26" target="23"/></arc>
+</epc></epml>

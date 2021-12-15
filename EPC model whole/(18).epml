@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="19" name="1An_ks1c">
+<event id="0"><name>Posting
+was allowed
+despite
+budget
+overrun</name></event>
+<event id="1"><name>Assigned
+funds
+are within
+tolerance
+limits</name></event>
+<event id="2"><name>Budget
+is updated</name></event>
+<event id="3"><name>Posting
+was rejected
+due to
+budget
+overrun</name></event>
+<event id="4"><name>Release
+and execution
+of measure
+completed</name></event>
+<event id="5"><name>Budget
+is to
+be updated</name></event>
+<function id="6"><name>Budget
+Update
+[Capital
+Investment
+Project]</name></function>
+<and id="7"/>
+<xor id="8"/>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="18"><flow source="1" target="8"/></arc>
+<arc id="36"><flow source="3" target="8"/></arc>
+<arc id="44"><flow source="4" target="7"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="57"><flow source="6" target="2"/></arc>
+<arc id="70"><flow source="7" target="6"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

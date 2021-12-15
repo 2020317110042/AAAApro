@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="541" name="1Ve_6n9a">
+<and id="0"/>
+<event id="1"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="2"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<event id="3"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<xor id="4"/>
+<event id="5"><name>Quotation
+is valid</name></event>
+<event id="6"><name>Quotation
+is created</name></event>
+<event id="7"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<event id="8"><name>Quotation
+items
+are rejected</name></event>
+<function id="9"><name>Third-party
+Sales
+Order
+Processing</name></function>
+<event id="10"><name>Standard
+order
+is received</name></event>
+<event id="11"><name>Order
+is created</name></event>
+<and id="12"/>
+<xor id="13"/>
+<event id="14"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<event id="15"><name>Items
+are cancelled</name></event>
+<xor id="16"/>
+<function id="17"><name>Customer
+Quotation
+Processing</name></function>
+<event id="18"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="19"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="20"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="21"><name>Quotation
+reason
+occurred</name></event>
+<xor id="22"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="69"><flow source="2" target="22"/></arc>
+<arc id="92"><flow source="3" target="22"/></arc>
+<arc id="94"><flow source="4" target="1"/></arc>
+<arc id="101"><flow source="4" target="8"/></arc>
+<arc id="113"><flow source="4" target="20"/></arc>
+<arc id="152"><flow source="6" target="13"/></arc>
+<arc id="175"><flow source="7" target="13"/></arc>
+<arc id="224"><flow source="9" target="16"/></arc>
+<arc id="244"><flow source="10" target="13"/></arc>
+<arc id="288"><flow source="12" target="11"/></arc>
+<arc id="291"><flow source="12" target="14"/></arc>
+<arc id="309"><flow source="13" target="9"/></arc>
+<arc id="381"><flow source="16" target="12"/></arc>
+<arc id="384"><flow source="16" target="15"/></arc>
+<arc id="387"><flow source="16" target="18"/></arc>
+<arc id="388"><flow source="16" target="19"/></arc>
+<arc id="392"><flow source="17" target="0"/></arc>
+<arc id="506"><flow source="21" target="22"/></arc>
+<arc id="524"><flow source="22" target="17"/></arc>
+</epc></epml>

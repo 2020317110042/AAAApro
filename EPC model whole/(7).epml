@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="8" name="1An_khe0">
+<event id="0"><name>G/L accounts
+were
+posted</name></event>
+<event id="1"><name>Create
+tax depreciation
+area</name></event>
+<event id="2"><name>New valuation
+key is
+necessary</name></event>
+<event id="3"><name>Unit-of-production
+depreciation
+is to
+be posted</name></event>
+<xor id="4"/>
+<event id="5"><name>Create
+group
+depreciation
+area</name></event>
+<event id="6"><name>Useful
+life
+should
+be changed</name></event>
+<event id="7"><name>Shortened
+fiscal
+year
+is necessary</name></event>
+<event id="8"><name>New valuation
+method
+is defined</name></event>
+<xor id="9"/>
+<event id="10"><name>Recalcula-
+tion
+of de-
+preciation
+was carried out</name></event>
+<event id="11"><name>Depreciation
+should
+be posted
+regularly</name></event>
+<or id="12"/>
+<event id="13"><name>Costs
+were
+settled
+by cost
+element to asset under construction</name></event>
+<and id="14"/>
+<event id="15"><name>Create
+foreign
+currency
+depreciation
+area</name></event>
+<function id="16"><name>Manual
+Depreciation
+Planning</name></function>
+<and id="17"/>
+<xor id="18"/>
+<event id="19"><name>Cost-accounting
+depreciation/
+interest
+transferred
+to Cost Accounting</name></event>
+<event id="20"><name>Create
+statistical
+depreciation
+area</name></event>
+<event id="21"><name>Costs
+were
+settled
+with
+secondary cost elements to asset under construction</name></event>
+<function id="22"><name>Unit-of-Production
+Depreciation</name></function>
+<function id="23"><name>Depreciation
+Processing</name></function>
+<event id="24"><name>Create
+ins./
+net worth
+tax depreciation
+area</name></event>
+<event id="25"><name>Unit-of-production
+method
+of depreciation
+has been
+prepared</name></event>
+<function id="26"><name>Depreciation
+Posting</name></function>
+<event id="27"><name>Features
+of depreciation
+area
+must
+be changed</name></event>
+<event id="28"><name>Manual
+depreciation
+is planned</name></event>
+<event id="29"><name>[Depreciation
+posting
+run was
+carried
+out]</name></event>
+<event id="30"><name>Special
+tax depreciation
+is only
+to be
+partly claimed</name></event>
+<event id="31"><name>Employment
+fluctuations
+are to
+be included
+when calculating depreciation</name></event>
+<event id="32"><name>[Unplanned
+depreciation
+should
+be used]</name></event>
+<arc id="46"><flow source="1" target="12"/></arc>
+<arc id="71"><flow source="2" target="4"/></arc>
+<arc id="118"><flow source="3" target="18"/></arc>
+<arc id="156"><flow source="4" target="23"/></arc>
+<arc id="178"><flow source="5" target="12"/></arc>
+<arc id="203"><flow source="6" target="4"/></arc>
+<arc id="236"><flow source="7" target="4"/></arc>
+<arc id="282"><flow source="8" target="17"/></arc>
+<arc id="324"><flow source="9" target="26"/></arc>
+<arc id="340"><flow source="10" target="9"/></arc>
+<arc id="381"><flow source="11" target="17"/></arc>
+<arc id="401"><flow source="12" target="4"/></arc>
+<arc id="439"><flow source="13" target="9"/></arc>
+<arc id="463"><flow source="14" target="0"/></arc>
+<arc id="482"><flow source="14" target="19"/></arc>
+<arc id="492"><flow source="14" target="29"/></arc>
+<arc id="508"><flow source="15" target="12"/></arc>
+<arc id="557"><flow source="16" target="28"/></arc>
+<arc id="571"><flow source="17" target="9"/></arc>
+<arc id="611"><flow source="18" target="16"/></arc>
+<arc id="673"><flow source="20" target="12"/></arc>
+<arc id="703"><flow source="21" target="9"/></arc>
+<arc id="752"><flow source="22" target="25"/></arc>
+<arc id="768"><flow source="23" target="8"/></arc>
+<arc id="805"><flow source="24" target="12"/></arc>
+<arc id="835"><flow source="25" target="9"/></arc>
+<arc id="873"><flow source="26" target="14"/></arc>
+<arc id="896"><flow source="27" target="4"/></arc>
+<arc id="937"><flow source="28" target="12"/></arc>
+<arc id="1009"><flow source="30" target="18"/></arc>
+<arc id="1046"><flow source="31" target="22"/></arc>
+<arc id="1075"><flow source="32" target="18"/></arc>
+</epc></epml>

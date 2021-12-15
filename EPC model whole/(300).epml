@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="301" name="1Pe_mg84">
+<event id="0"><name>Completed
+operative
+shift
+plan
+is available</name></event>
+<event id="1"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<event id="2"><name>Operative
+personnel
+requirement
+for org.
+plan exists</name></event>
+<event id="3"><name>Human
+Resource
+Without
+Shift
+Accepted</name></event>
+<event id="4"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<event id="5"><name>Requirement
+for operative
+shift
+planning
+exists</name></event>
+<or id="6"/>
+<event id="7"><name>Shift
+planning
+for shift
+planning
+group is desired</name></event>
+<function id="8"><name>Personnel
+shift
+planning
+- operative</name></function>
+<event id="9"><name>Long
+term
+personnel
+requirement
+exists</name></event>
+<event id="10"><name>Uncovered
+operative
+personnel
+requirement
+is accepted</name></event>
+<event id="11"><name>Human
+resource
+cannot
+be implemented
+long term</name></event>
+<and id="12"/>
+<event id="13"><name>Operative
+personnel
+requirement
+must
+be reformulated</name></event>
+<event id="14"><name>Personnel
+assignment
+for org.
+plan
+exists</name></event>
+<arc id="88"><flow source="5" target="12"/></arc>
+<arc id="91"><flow source="6" target="0"/></arc>
+<arc id="92"><flow source="6" target="1"/></arc>
+<arc id="93"><flow source="6" target="2"/></arc>
+<arc id="94"><flow source="6" target="3"/></arc>
+<arc id="95"><flow source="6" target="4"/></arc>
+<arc id="100"><flow source="6" target="9"/></arc>
+<arc id="101"><flow source="6" target="10"/></arc>
+<arc id="102"><flow source="6" target="11"/></arc>
+<arc id="104"><flow source="6" target="13"/></arc>
+<arc id="105"><flow source="6" target="14"/></arc>
+<arc id="118"><flow source="7" target="12"/></arc>
+<arc id="127"><flow source="8" target="6"/></arc>
+<arc id="189"><flow source="12" target="8"/></arc>
+</epc></epml>

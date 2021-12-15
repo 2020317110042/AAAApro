@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="398" name="1Pr_lp7-">
+<event id="0"><name>Perform
+similiar
+part
+search</name></event>
+<event id="1"><name>Product
+structure
+for variants
+to be
+set up</name></event>
+<event id="2"><name>Create
+product
+draft</name></event>
+<function id="3"><name>Product
+Structure
+Management
+via CAD</name></function>
+<event id="4"><name>Close
+project</name></event>
+<event id="5"><name>Set up
+product
+strucuture
+using
+CAD interface</name></event>
+<function id="6"><name>Product
+Structure
+Management
+for Variant
+Products</name></function>
+<and id="7"/>
+<function id="8"><name>Project
+Monitoring
+and Analysis</name></function>
+<function id="9"><name>Product
+Structure
+Management
+W/o Variants</name></function>
+<event id="10"><name>Guarantee
+product
+service</name></event>
+<function id="11"><name>Similar
+Part
+Search</name></function>
+<function id="12"><name>Specification</name></function>
+<event id="13"><name>Check
+project
+data</name></event>
+<function id="14"><name>Design</name></function>
+<function id="15"><name>Schedule
+Update
+and Confirmation</name></function>
+<function id="16"><name>Project
+Completion
+Activities</name></function>
+<xor id="17"/>
+<event id="18"><name>Check
+dates
+and transactions</name></event>
+<event id="19"><name>Carry
+out product
+development</name></event>
+<and id="20"/>
+<xor id="21"/>
+<event id="22"><name>Set up
+product
+structure
+without
+variants</name></event>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="30"><flow source="1" target="6"/></arc>
+<arc id="61"><flow source="2" target="14"/></arc>
+<arc id="87"><flow source="3" target="17"/></arc>
+<arc id="109"><flow source="4" target="16"/></arc>
+<arc id="119"><flow source="5" target="3"/></arc>
+<arc id="156"><flow source="6" target="17"/></arc>
+<arc id="162"><flow source="7" target="0"/></arc>
+<arc id="164"><flow source="7" target="2"/></arc>
+<arc id="189"><flow source="8" target="4"/></arc>
+<arc id="225"><flow source="9" target="17"/></arc>
+<arc id="274"><flow source="11" target="20"/></arc>
+<arc id="284"><flow source="12" target="7"/></arc>
+<arc id="308"><flow source="13" target="8"/></arc>
+<arc id="343"><flow source="14" target="20"/></arc>
+<arc id="359"><flow source="15" target="13"/></arc>
+<arc id="379"><flow source="16" target="10"/></arc>
+<arc id="410"><flow source="17" target="18"/></arc>
+<arc id="430"><flow source="18" target="15"/></arc>
+<arc id="450"><flow source="19" target="12"/></arc>
+<arc id="482"><flow source="20" target="21"/></arc>
+<arc id="485"><flow source="21" target="1"/></arc>
+<arc id="489"><flow source="21" target="5"/></arc>
+<arc id="506"><flow source="21" target="22"/></arc>
+<arc id="516"><flow source="22" target="9"/></arc>
+</epc></epml>

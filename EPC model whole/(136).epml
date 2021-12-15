@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="137" name="1Ex_e5k6">
+<and id="0"/>
+<event id="1"><name>Inter-
+company
+payables
+and receiv-
+ables were eliminated</name></event>
+<and id="2"/>
+<function id="3"><name>Elimination
+of IC
+Payables
+&amp; Receivables</name></function>
+<and id="4"/>
+<and id="5"/>
+<event id="6"><name>Intercompany
+payables
+and receivables
+are to
+be eliminated</name></event>
+<event id="7"><name>Data
+entered
+for items
+is broken
+down by trading partner</name></event>
+<event id="8"><name>Inter-
+company
+revenue
+and expense
+was eliminated</name></event>
+<event id="9"><name>Elimination
+of IC
+revenue
+and expense
+is to be performed</name></event>
+<function id="10"><name>Intercompany
+Balance
+Verification</name></function>
+<and id="11"/>
+<event id="12"><name>Data
+entered
+for items
+is broken
+down by trading partner</name></event>
+<event id="13"><name>FS item
+sets
+were
+specified</name></event>
+<event id="14"><name>Intercompany
+balances
+are to
+be reconciled
+in advance</name></event>
+<event id="15"><name>Provisional
+currency
+translation
+is carried
+out</name></event>
+<event id="16"><name>List
+created
+for balance
+reconciliation</name></event>
+<and id="17"/>
+<event id="18"><name>Currency
+translation
+carried
+out</name></event>
+<function id="19"><name>Elimination
+of IC
+Revenue
+and Expense</name></function>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="18"><flow source="0" target="17"/></arc>
+<arc id="44"><flow source="2" target="3"/></arc>
+<arc id="62"><flow source="3" target="1"/></arc>
+<arc id="100"><flow source="4" target="19"/></arc>
+<arc id="103"><flow source="5" target="2"/></arc>
+<arc id="105"><flow source="5" target="4"/></arc>
+<arc id="123"><flow source="6" target="2"/></arc>
+<arc id="143"><flow source="7" target="2"/></arc>
+<arc id="185"><flow source="9" target="4"/></arc>
+<arc id="217"><flow source="10" target="16"/></arc>
+<arc id="231"><flow source="11" target="10"/></arc>
+<arc id="252"><flow source="12" target="11"/></arc>
+<arc id="261"><flow source="13" target="0"/></arc>
+<arc id="292"><flow source="14" target="11"/></arc>
+<arc id="312"><flow source="15" target="11"/></arc>
+<arc id="346"><flow source="17" target="5"/></arc>
+<arc id="378"><flow source="18" target="17"/></arc>
+<arc id="389"><flow source="19" target="8"/></arc>
+</epc></epml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="158" name="1Ex_ei2s">
+<event id="0"><name>Interest
+to be
+calculated
+on account
+balances</name></event>
+<function id="1"><name>Customer
+Account
+Balance
+Interest
+Calculation</name></function>
+<function id="2"><name>Calculation
+of Interest
+on Arrears
+- Customers</name></function>
+<or id="3"/>
+<event id="4"><name>Interest
+on arrears
+to be
+calculated</name></event>
+<event id="5"><name>Interest
+calculation
+is completed</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="10"><flow source="1" target="3"/></arc>
+<arc id="16"><flow source="2" target="3"/></arc>
+<arc id="24"><flow source="3" target="5"/></arc>
+<arc id="27"><flow source="4" target="2"/></arc>
+</epc></epml>

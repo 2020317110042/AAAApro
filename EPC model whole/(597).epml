@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="598" name="1Ve_mz1m">
+<event id="0"><name>Business
+event
+requirement
+must
+be determined</name></event>
+<event id="1"><name>Business
+event
+catalog
+must
+be corrected</name></event>
+<event id="2"><name>Need
+for business
+event
+planning
+exists</name></event>
+<event id="3"><name>Need
+for business
+event
+monitoring
+exists</name></event>
+<event id="4"><name>Business
+event
+planning
+must
+be corrected</name></event>
+<event id="5"><name>Resource
+reservation
+plan
+must
+be corrected</name></event>
+<or id="6"/>
+<function id="7"><name>Business
+Event
+Monitoring</name></function>
+<arc id="32"><flow source="3" target="7"/></arc>
+<arc id="49"><flow source="6" target="0"/></arc>
+<arc id="50"><flow source="6" target="1"/></arc>
+<arc id="51"><flow source="6" target="2"/></arc>
+<arc id="53"><flow source="6" target="4"/></arc>
+<arc id="54"><flow source="6" target="5"/></arc>
+<arc id="63"><flow source="7" target="6"/></arc>
+</epc></epml>

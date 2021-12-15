@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="127" name="1Ex_dwdy">
+<function id="0"><name>Budget
+Execution</name></function>
+<event id="1"><name>Status
+management
+to be
+set to
+active</name></event>
+<function id="2"><name>Budget
+Planning</name></function>
+<function id="3"><name>Fiscal
+Year
+Change
+Operations
+[Funds Management]</name></function>
+<event id="4"><name>Revenues
+increasing
+the budget
+to be
+prepared</name></event>
+<event id="5"><name>Current
+budget
+values
+maintained</name></event>
+<xor id="6"/>
+<event id="7"><name>Order
+assignment
+to be
+carried
+out</name></event>
+<event id="8"><name>Budget
+must
+be planned</name></event>
+<event id="9"><name>Set invoice
+to paid</name></event>
+<and id="10"/>
+<and id="11"/>
+<event id="12"><name>Profit
+center
+assignment
+to be
+carried out</name></event>
+<event id="13"><name>Expenditure
+budget
+increased</name></event>
+<function id="14"><name>Information
+System
+[Funds
+Management]</name></function>
+<event id="15"><name>Budget
+release
+available</name></event>
+<event id="16"><name>Evaluations
+to be
+carried
+out</name></event>
+<and id="17"/>
+<and id="18"/>
+<event id="19"><name>Warehouse
+funds
+center
+assignment
+to be carried out</name></event>
+<event id="20"><name>Residual
+budget
+transferred</name></event>
+<xor id="21"/>
+<event id="22"><name>Evaluations
+exist</name></event>
+<event id="23"><name>Cost
+center
+assignment
+to be
+carried out</name></event>
+<function id="24"><name>Edit
+Basic
+Settings</name></function>
+<event id="25"><name>Balances
+carried
+forward</name></event>
+<event id="26"><name>Fiscal
+year
+change
+operations
+to be performed</name></event>
+<event id="27"><name>Cost
+element
+assignment
+to be
+carried out</name></event>
+<event id="28"><name>WBS element
+assignment
+to be
+carried
+out</name></event>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="48"><flow source="1" target="18"/></arc>
+<arc id="74"><flow source="2" target="15"/></arc>
+<arc id="98"><flow source="3" target="10"/></arc>
+<arc id="135"><flow source="4" target="18"/></arc>
+<arc id="157"><flow source="5" target="11"/></arc>
+<arc id="184"><flow source="6" target="9"/></arc>
+<arc id="188"><flow source="6" target="13"/></arc>
+<arc id="222"><flow source="7" target="18"/></arc>
+<arc id="235"><flow source="8" target="2"/></arc>
+<arc id="283"><flow source="9" target="21"/></arc>
+<arc id="307"><flow source="10" target="16"/></arc>
+<arc id="311"><flow source="10" target="20"/></arc>
+<arc id="316"><flow source="10" target="25"/></arc>
+<arc id="320"><flow source="11" target="0"/></arc>
+<arc id="367"><flow source="12" target="18"/></arc>
+<arc id="399"><flow source="13" target="21"/></arc>
+<arc id="429"><flow source="14" target="22"/></arc>
+<arc id="447"><flow source="15" target="11"/></arc>
+<arc id="479"><flow source="16" target="14"/></arc>
+<arc id="497"><flow source="17" target="3"/></arc>
+<arc id="547"><flow source="18" target="24"/></arc>
+<arc id="570"><flow source="19" target="18"/></arc>
+<arc id="627"><flow source="21" target="17"/></arc>
+<arc id="686"><flow source="23" target="18"/></arc>
+<arc id="705"><flow source="24" target="8"/></arc>
+<arc id="772"><flow source="26" target="17"/></arc>
+<arc id="802"><flow source="27" target="18"/></arc>
+<arc id="831"><flow source="28" target="18"/></arc>
+</epc></epml>

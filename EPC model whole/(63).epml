@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="64" name="1Be_2rd6">
+<event id="0"><name>Payment
+must
+be effected</name></event>
+<function id="1"><name>Pipeline
+Withdrawal</name></function>
+<function id="2"><name>Invoice
+Verification</name></function>
+<and id="3"/>
+<event id="4"><name>Consignment/
+pipeline
+liability
+is created</name></event>
+<and id="5"/>
+<event id="6"><name>Consignment/
+pipeline
+liabilities
+are to
+be settled</name></event>
+<event id="7"><name>Consignment/
+pipeline
+settlement
+document
+transmitted</name></event>
+<event id="8"><name>Unplanned
+goods
+issue
+occurred</name></event>
+<arc id="14"><flow source="1" target="4"/></arc>
+<arc id="22"><flow source="2" target="3"/></arc>
+<arc id="28"><flow source="3" target="0"/></arc>
+<arc id="35"><flow source="3" target="7"/></arc>
+<arc id="42"><flow source="4" target="5"/></arc>
+<arc id="48"><flow source="5" target="2"/></arc>
+<arc id="60"><flow source="6" target="5"/></arc>
+<arc id="74"><flow source="8" target="1"/></arc>
+</epc></epml>

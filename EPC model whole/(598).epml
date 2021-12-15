@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="599" name="1Ve_mzcb">
+<function id="0"><name>Appraisal
+of Business
+Event
+Attendees</name></function>
+<or id="1"/>
+<event id="2"><name>Business
+event
+costs
+are reposted</name></event>
+<and id="3"/>
+<event id="4"><name>Specifications
+for appraisal
+of business
+event
+attendees exist</name></event>
+<event id="5"><name>Business
+event
+is complete</name></event>
+<and id="6"/>
+<function id="7"><name>Allocation
+and Reposting
+of Business
+Event
+Costs</name></function>
+<event id="8"><name>Need
+for settlement
+and allocation
+of business
+event fees exists</name></event>
+<function id="9"><name>Appraisal
+of Business
+Event</name></function>
+<event id="10"><name>Appraisal
+of business
+event
+exists</name></event>
+<event id="11"><name>Business
+event
+is performed</name></event>
+<event id="12"><name>Need
+for allocation
+and reposting
+of business
+event costs exists</name></event>
+<event id="13"><name>Appraisals
+of business
+event
+attendees
+exist</name></event>
+<event id="14"><name>Specifications
+for appraisal
+of business
+event
+exist</name></event>
+<event id="15"><name>Need
+for appraisal
+of business
+event
+exists</name></event>
+<and id="16"/>
+<event id="17"><name>Need
+for appraisal
+of business
+event
+attendees exists</name></event>
+<function id="18"><name>Processing
+of Business
+Event
+Results</name></function>
+<or id="19"/>
+<function id="20"><name>Settlement
+and Allocation
+of Business
+Event
+Fees</name></function>
+<event id="21"><name>Specifications
+for settlement
+and allocation
+of business
+event fees exist</name></event>
+<event id="22"><name>Business
+event
+costs
+are allocated</name></event>
+<event id="23"><name>Specifications
+for allocation
+and reposting
+of business
+event costs exist</name></event>
+<event id="24"><name>Business
+event
+fees
+are settled</name></event>
+<and id="25"/>
+<event id="26"><name>Business
+event
+fees
+are allocated</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="30"><flow source="1" target="2"/></arc>
+<arc id="50"><flow source="1" target="22"/></arc>
+<arc id="89"><flow source="3" target="7"/></arc>
+<arc id="134"><flow source="4" target="25"/></arc>
+<arc id="172"><flow source="6" target="9"/></arc>
+<arc id="191"><flow source="7" target="1"/></arc>
+<arc id="233"><flow source="8" target="16"/></arc>
+<arc id="254"><flow source="9" target="10"/></arc>
+<arc id="316"><flow source="11" target="18"/></arc>
+<arc id="328"><flow source="12" target="3"/></arc>
+<arc id="385"><flow source="14" target="6"/></arc>
+<arc id="412"><flow source="15" target="6"/></arc>
+<arc id="453"><flow source="16" target="20"/></arc>
+<arc id="485"><flow source="17" target="25"/></arc>
+<arc id="492"><flow source="18" target="5"/></arc>
+<arc id="538"><flow source="19" target="24"/></arc>
+<arc id="540"><flow source="19" target="26"/></arc>
+<arc id="560"><flow source="20" target="19"/></arc>
+<arc id="584"><flow source="21" target="16"/></arc>
+<arc id="625"><flow source="23" target="3"/></arc>
+<arc id="676"><flow source="25" target="0"/></arc>
+</epc></epml>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="506" name="1Ve_4mua">
+<event id="0"><name>Rebate
+agreement
+is to
+be settled</name></event>
+<event id="1"><name>Condition
+is to
+be processed</name></event>
+<event id="2"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="3"><name>Condition
+is processed</name></event>
+<function id="4"><name>Rebate
+Agreements</name></function>
+<function id="5"><name>Rebate
+Settlement</name></function>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="11"><flow source="1" target="4"/></arc>
+<arc id="28"><flow source="4" target="3"/></arc>
+<arc id="33"><flow source="5" target="2"/></arc>
+</epc></epml>

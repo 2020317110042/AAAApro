@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="365" name="1Pr_dbx-">
+<function id="0"><name>Recipient
+List
+Processing</name></function>
+<function id="1"><name>Document
+Distribution</name></function>
+<event id="2"><name>Distribute
+documents</name></event>
+<function id="3"><name>Distribution
+Monitoring</name></function>
+<and id="4"/>
+<event id="5"><name>Monitor
+distribution</name></event>
+<function id="6"><name>Recipient
+Processing</name></function>
+<event id="7"><name>Check
+product
+data</name></event>
+<and id="8"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="14"><flow source="1" target="4"/></arc>
+<arc id="27"><flow source="2" target="8"/></arc>
+<arc id="35"><flow source="3" target="7"/></arc>
+<arc id="42"><flow source="4" target="5"/></arc>
+<arc id="49"><flow source="5" target="3"/></arc>
+<arc id="59"><flow source="6" target="4"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+<arc id="74"><flow source="8" target="1"/></arc>
+<arc id="79"><flow source="8" target="6"/></arc>
+</epc></epml>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="350" name="1Pr_afh-">
+<event id="0"><name>Send
+product
+data
+manually</name></event>
+<function id="1"><name>Table
+Contents
+Distribution</name></function>
+<function id="2"><name>Dependency
+Distribution</name></function>
+<function id="3"><name>Configuration
+Profile
+Distribution</name></function>
+<function id="4"><name>Table
+Structure
+Distribution</name></function>
+<event id="5"><name>Check
+product
+data</name></event>
+<and id="6"/>
+<function id="7"><name>Material
+Master
+Distribution</name></function>
+<function id="8"><name>Material
+Variant
+Distribution</name></function>
+<function id="9"><name>Change
+Number
+Distribution</name></function>
+<function id="10"><name>Material
+BOM Distribution</name></function>
+<function id="11"><name>Order
+BOM Distribution</name></function>
+<function id="12"><name>Characteristics
+Distribution</name></function>
+<function id="13"><name>Plant
+Assignment
+Distribution</name></function>
+<and id="14"/>
+<function id="15"><name>Function
+Distribution</name></function>
+<function id="16"><name>Class
+Distribution</name></function>
+<function id="17"><name>Document
+Structure
+Distribution</name></function>
+<function id="18"><name>Document
+Distribution
+ALE</name></function>
+<function id="19"><name>Classification
+Distribution</name></function>
+<function id="20"><name>Dependency
+Net Distribution</name></function>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="36"><flow source="1" target="14"/></arc>
+<arc id="57"><flow source="2" target="14"/></arc>
+<arc id="78"><flow source="3" target="14"/></arc>
+<arc id="99"><flow source="4" target="14"/></arc>
+<arc id="128"><flow source="6" target="1"/></arc>
+<arc id="129"><flow source="6" target="2"/></arc>
+<arc id="130"><flow source="6" target="3"/></arc>
+<arc id="131"><flow source="6" target="4"/></arc>
+<arc id="134"><flow source="6" target="7"/></arc>
+<arc id="135"><flow source="6" target="8"/></arc>
+<arc id="136"><flow source="6" target="9"/></arc>
+<arc id="137"><flow source="6" target="10"/></arc>
+<arc id="138"><flow source="6" target="11"/></arc>
+<arc id="139"><flow source="6" target="12"/></arc>
+<arc id="140"><flow source="6" target="13"/></arc>
+<arc id="142"><flow source="6" target="15"/></arc>
+<arc id="143"><flow source="6" target="16"/></arc>
+<arc id="144"><flow source="6" target="17"/></arc>
+<arc id="145"><flow source="6" target="18"/></arc>
+<arc id="146"><flow source="6" target="19"/></arc>
+<arc id="147"><flow source="6" target="20"/></arc>
+<arc id="162"><flow source="7" target="14"/></arc>
+<arc id="183"><flow source="8" target="14"/></arc>
+<arc id="204"><flow source="9" target="14"/></arc>
+<arc id="225"><flow source="10" target="14"/></arc>
+<arc id="246"><flow source="11" target="14"/></arc>
+<arc id="267"><flow source="12" target="14"/></arc>
+<arc id="288"><flow source="13" target="14"/></arc>
+<arc id="300"><flow source="14" target="5"/></arc>
+<arc id="330"><flow source="15" target="14"/></arc>
+<arc id="351"><flow source="16" target="14"/></arc>
+<arc id="372"><flow source="17" target="14"/></arc>
+<arc id="393"><flow source="18" target="14"/></arc>
+<arc id="414"><flow source="19" target="14"/></arc>
+<arc id="435"><flow source="20" target="14"/></arc>
+</epc></epml>

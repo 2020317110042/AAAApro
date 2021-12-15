@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="431" name="1Tr_f66p">
+<event id="0"><name>Planned
+record
+processing
+completed</name></event>
+<event id="1"><name>Bank/
+customer
+payment
+advice
+for payment inflow/outflow</name></event>
+<xor id="2"/>
+<or id="3"/>
+<event id="4"><name>Planned
+record
+created</name></event>
+<or id="5"/>
+<event id="6"><name>Planned
+records
+to be
+archived</name></event>
+<event id="7"><name>Status
+analysis
+carried
+out</name></event>
+<event id="8"><name>Planned
+items
+to be
+changed</name></event>
+<function id="9"><name>Process
+Planned
+Items</name></function>
+<function id="10"><name>Status
+Analysis</name></function>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="17"><flow source="1" target="5"/></arc>
+<arc id="23"><flow source="2" target="0"/></arc>
+<arc id="27"><flow source="2" target="4"/></arc>
+<arc id="44"><flow source="3" target="10"/></arc>
+<arc id="48"><flow source="4" target="3"/></arc>
+<arc id="65"><flow source="5" target="9"/></arc>
+<arc id="72"><flow source="6" target="5"/></arc>
+<arc id="94"><flow source="8" target="5"/></arc>
+<arc id="102"><flow source="9" target="2"/></arc>
+<arc id="118"><flow source="10" target="7"/></arc>
+</epc></epml>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="525" name="1Ve_5otm">
+<and id="0"/>
+<xor id="1"/>
+<or id="2"/>
+<and id="3"/>
+<function id="4"><name>Shipping</name></function>
+<function id="5"><name>Sales
+Order</name></function>
+<function id="6"><name>Warehouse
+Management</name></function>
+<event id="7"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="8"><name>Delivering
+company
+code
+bills
+to ordering company code</name></event>
+<event id="9"><name>Delivery
+is generated
+in delivering
+company
+code</name></event>
+<event id="10"><name>Goods
+movement
+is posted</name></event>
+<xor id="11"/>
+<function id="12"><name>Billing</name></function>
+<event id="13"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="14"><name>Sales
+order
+is processed
+in ordering
+company code</name></event>
+<event id="15"><name>Ordering
+company
+code
+bills
+to customers</name></event>
+<event id="16"><name>Internal
+settlement
+takes
+place</name></event>
+<event id="17"><name>Deliveries
+need
+to be
+planned</name></event>
+<and id="18"/>
+<event id="19"><name>Sales
+requirements
+are created</name></event>
+<event id="20"><name>Transfer
+order
+item
+is confirmed</name></event>
+<and id="21"/>
+<event id="22"><name>Standard
+order
+is received</name></event>
+<event id="23"><name>Order
+is created</name></event>
+<event id="24"><name>Delivery
+is relevant
+for shipment</name></event>
+<xor id="25"/>
+<xor id="26"/>
+<event id="27"><name>Items
+are cancelled</name></event>
+<function id="28"><name>Transport</name></function>
+<and id="29"/>
+<xor id="30"/>
+<event id="31"><name>Transfer
+order
+created
+manually</name></event>
+<event id="32"><name>Shipment
+costs
+per item
+are calculated</name></event>
+<event id="33"><name>Goods
+issue
+is posted</name></event>
+<event id="34"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="35"><name>Transfer
+order
+created
+automatically</name></event>
+<event id="36"><name>Material
+is issued</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="41"><flow source="1" target="3"/></arc>
+<arc id="51"><flow source="1" target="13"/></arc>
+<arc id="65"><flow source="1" target="27"/></arc>
+<arc id="72"><flow source="1" target="34"/></arc>
+<arc id="82"><flow source="2" target="7"/></arc>
+<arc id="91"><flow source="2" target="16"/></arc>
+<arc id="121"><flow source="3" target="9"/></arc>
+<arc id="131"><flow source="3" target="19"/></arc>
+<arc id="135"><flow source="3" target="23"/></arc>
+<arc id="178"><flow source="4" target="29"/></arc>
+<arc id="187"><flow source="5" target="1"/></arc>
+<arc id="241"><flow source="6" target="18"/></arc>
+<arc id="308"><flow source="8" target="11"/></arc>
+<arc id="338"><flow source="9" target="4"/></arc>
+<arc id="429"><flow source="11" target="21"/></arc>
+<arc id="447"><flow source="12" target="2"/></arc>
+<arc id="519"><flow source="14" target="0"/></arc>
+<arc id="567"><flow source="15" target="11"/></arc>
+<arc id="655"><flow source="17" target="25"/></arc>
+<arc id="677"><flow source="18" target="10"/></arc>
+<arc id="687"><flow source="18" target="20"/></arc>
+<arc id="790"><flow source="21" target="12"/></arc>
+<arc id="815"><flow source="22" target="0"/></arc>
+<arc id="914"><flow source="24" target="25"/></arc>
+<arc id="954"><flow source="25" target="28"/></arc>
+<arc id="994"><flow source="26" target="31"/></arc>
+<arc id="998"><flow source="26" target="35"/></arc>
+<arc id="999"><flow source="26" target="36"/></arc>
+<arc id="1069"><flow source="28" target="32"/></arc>
+<arc id="1098"><flow source="29" target="24"/></arc>
+<arc id="1100"><flow source="29" target="26"/></arc>
+<arc id="1107"><flow source="29" target="33"/></arc>
+<arc id="1117"><flow source="30" target="6"/></arc>
+<arc id="1178"><flow source="31" target="30"/></arc>
+<arc id="1243"><flow source="33" target="21"/></arc>
+<arc id="1326"><flow source="35" target="30"/></arc>
+</epc></epml>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="472" name="1Tr_gogd">
+<xor id="0"/>
+<function id="1"><name>Process
+Deposit
+at Notice</name></function>
+<and id="2"/>
+<event id="3"><name>Accrual/
+deferral
+is to
+be performed</name></event>
+<event id="4"><name>Deposit
+at notice
+was chosen</name></event>
+<event id="5"><name>Deposit
+at notice
+was edited</name></event>
+<event id="6"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<and id="7"/>
+<event id="8"><name>Cash
+management
+was updated</name></event>
+<event id="9"><name>Notice
+was given
+on deposit
+at notice</name></event>
+<and id="10"/>
+<function id="11"><name>Netting
+Processing</name></function>
+<event id="12"><name>Notice
+to be
+given
+on deposit
+at notice</name></event>
+<function id="13"><name>Rollover</name></function>
+<event id="14"><name>Cash
+management
+was updated</name></event>
+<event id="15"><name>Transaction
+is to
+be rolled
+over</name></event>
+<function id="16"><name>Settlement</name></function>
+<event id="17"><name>Transaction
+was rolled
+over</name></event>
+<function id="18"><name>Give
+Notice
+on Deposit
+at Notice</name></function>
+<event id="19"><name>Netting
+proposal
+to be
+edited</name></event>
+<event id="20"><name>Cash
+management
+was updated</name></event>
+<or id="21"/>
+<event id="22"><name>Cash
+flow
+is to
+be updated</name></event>
+<event id="23"><name>Netting
+proposal
+was accepted</name></event>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="32"><flow source="1" target="7"/></arc>
+<arc id="63"><flow source="2" target="14"/></arc>
+<arc id="66"><flow source="2" target="17"/></arc>
+<arc id="98"><flow source="4" target="1"/></arc>
+<arc id="121"><flow source="5" target="0"/></arc>
+<arc id="174"><flow source="7" target="5"/></arc>
+<arc id="189"><flow source="7" target="20"/></arc>
+<arc id="217"><flow source="9" target="0"/></arc>
+<arc id="249"><flow source="10" target="8"/></arc>
+<arc id="250"><flow source="10" target="9"/></arc>
+<arc id="288"><flow source="11" target="23"/></arc>
+<arc id="307"><flow source="12" target="18"/></arc>
+<arc id="315"><flow source="13" target="2"/></arc>
+<arc id="374"><flow source="15" target="13"/></arc>
+<arc id="406"><flow source="16" target="21"/></arc>
+<arc id="409"><flow source="17" target="0"/></arc>
+<arc id="443"><flow source="18" target="10"/></arc>
+<arc id="468"><flow source="19" target="11"/></arc>
+<arc id="508"><flow source="21" target="3"/></arc>
+<arc id="511"><flow source="21" target="6"/></arc>
+<arc id="524"><flow source="21" target="19"/></arc>
+<arc id="527"><flow source="21" target="22"/></arc>
+</epc></epml>

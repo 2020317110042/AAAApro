@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="590" name="1Ve_m75y">
+<and id="0"/>
+<function id="1"><name>Creation
+/ Correction
+of Grant
+Plan</name></function>
+<event id="2"><name>Need
+for determination
+of specifications
+for granting</name></event>
+<event id="3"><name>Specifications
+for granting
+exist</name></event>
+<event id="4"><name>Need
+for granting
+exists</name></event>
+<event id="5"><name>Long-term
+incentives
+program
+is implemented</name></event>
+<function id="6"><name>Employee
+Notification
+of Granting
+of Long-Term
+Incentive</name></function>
+<xor id="7"/>
+<function id="8"><name>Approval
+of Grant
+Plan</name></function>
+<event id="9"><name>Need
+for employee
+notification
+of granting</name></event>
+<xor id="10"/>
+<function id="11"><name>Granting
+of Long-Term
+Incentives</name></function>
+<event id="12"><name>Grant
+plan
+exists
+for consolidation</name></event>
+<event id="13"><name>Need
+to correct
+grant
+plan
+exists</name></event>
+<function id="14"><name>Consolidation
+of Grant
+Plan</name></function>
+<and id="15"/>
+<xor id="16"/>
+<event id="17"><name>Grant
+plan
+is approved</name></event>
+<function id="18"><name>Delegation
+of Need
+to Correct
+Grant
+Plan</name></function>
+<event id="19"><name>Employee
+long-term
+incentive
+is granted</name></event>
+<event id="20"><name>Employee
+is notified
+of granting</name></event>
+<event id="21"><name>Need
+for granting
+exists
+and cannot
+be delegated further</name></event>
+<and id="22"/>
+<xor id="23"/>
+<event id="24"><name>Need
+to correct
+exists
+and cannot
+be delegated further</name></event>
+<event id="25"><name>Grant
+plan
+is released
+for approval</name></event>
+<function id="26"><name>Delegation
+of Need
+for Grant</name></function>
+<function id="27"><name>Determination
+of Specifications
+for Granting</name></function>
+<arc id="27"><flow source="0" target="26"/></arc>
+<arc id="41"><flow source="1" target="12"/></arc>
+<arc id="79"><flow source="2" target="22"/></arc>
+<arc id="85"><flow source="3" target="0"/></arc>
+<arc id="113"><flow source="4" target="0"/></arc>
+<arc id="163"><flow source="5" target="22"/></arc>
+<arc id="189"><flow source="6" target="20"/></arc>
+<arc id="210"><flow source="7" target="13"/></arc>
+<arc id="248"><flow source="8" target="23"/></arc>
+<arc id="259"><flow source="9" target="6"/></arc>
+<arc id="285"><flow source="10" target="4"/></arc>
+<arc id="288"><flow source="10" target="7"/></arc>
+<arc id="306"><flow source="10" target="25"/></arc>
+<arc id="324"><flow source="11" target="15"/></arc>
+<arc id="351"><flow source="12" target="14"/></arc>
+<arc id="383"><flow source="13" target="18"/></arc>
+<arc id="403"><flow source="14" target="10"/></arc>
+<arc id="430"><flow source="15" target="9"/></arc>
+<arc id="440"><flow source="15" target="19"/></arc>
+<arc id="450"><flow source="16" target="1"/></arc>
+<arc id="488"><flow source="17" target="11"/></arc>
+<arc id="529"><flow source="18" target="24"/></arc>
+<arc id="605"><flow source="21" target="16"/></arc>
+<arc id="644"><flow source="22" target="27"/></arc>
+<arc id="652"><flow source="23" target="7"/></arc>
+<arc id="662"><flow source="23" target="17"/></arc>
+<arc id="709"><flow source="25" target="8"/></arc>
+<arc id="750"><flow source="26" target="21"/></arc>
+<arc id="760"><flow source="27" target="3"/></arc>
+</epc></epml>

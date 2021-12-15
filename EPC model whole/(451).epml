@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="452" name="1Tr_gabg">
+<or id="0"/>
+<and id="1"/>
+<function id="2"><name>Settlement</name></function>
+<event id="3"><name>Automatic
+fixing
+was chosen</name></event>
+<xor id="4"/>
+<function id="5"><name>Manual
+Fixing
+Processing</name></function>
+<event id="6"><name>Transaction
+is to
+be rolled
+over</name></event>
+<event id="7"><name>Order
+has expired</name></event>
+<xor id="8"/>
+<event id="9"><name>Transaction
+was settled
+prematurely</name></event>
+<event id="10"><name>Netting
+proposal
+was accepted</name></event>
+<event id="11"><name>Forex
+spot
+transaction,
+forex
+forward transaction was selected</name></event>
+<event id="12"><name>Transaction
+was rolled
+over</name></event>
+<event id="13"><name>Cash
+management
+was updated</name></event>
+<event id="14"><name>Currency
+swap
+was chosen</name></event>
+<event id="15"><name>Netting
+proposal
+to be
+edited</name></event>
+<xor id="16"/>
+<function id="17"><name>Automatic
+Fixing
+Processing</name></function>
+<and id="18"/>
+<event id="19"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<event id="20"><name>Cash
+management
+was updated</name></event>
+<xor id="21"/>
+<event id="22"><name>Order
+is to
+be executed</name></event>
+<and id="23"/>
+<xor id="24"/>
+<event id="25"><name>Cash
+management
+was updated</name></event>
+<event id="26"><name>Order
+is not
+to be
+executed</name></event>
+<function id="27"><name>Order
+Execution</name></function>
+<event id="28"><name>Transaction
+exists
+with
+contract
+status</name></event>
+<function id="29"><name>Premature
+Settlement</name></function>
+<function id="30"><name>Rollover</name></function>
+<xor id="31"/>
+<xor id="32"/>
+<event id="33"><name>Manual
+fixing
+was chosen</name></event>
+<function id="34"><name>Spot/
+Forward
+Exchange
+Transaction</name></function>
+<function id="35"><name>Netting
+Processing</name></function>
+<function id="36"><name>Process
+Forex
+Swap</name></function>
+<event id="37"><name>Transaction
+is to
+be settled
+prematurely</name></event>
+<function id="38"><name>Order
+Expiration</name></function>
+<arc id="16"><flow source="0" target="15"/></arc>
+<arc id="20"><flow source="0" target="19"/></arc>
+<arc id="52"><flow source="1" target="12"/></arc>
+<arc id="53"><flow source="1" target="13"/></arc>
+<arc id="79"><flow source="2" target="0"/></arc>
+<arc id="135"><flow source="3" target="17"/></arc>
+<arc id="175"><flow source="4" target="18"/></arc>
+<arc id="217"><flow source="5" target="21"/></arc>
+<arc id="265"><flow source="6" target="30"/></arc>
+<arc id="315"><flow source="8" target="2"/></arc>
+<arc id="360"><flow source="9" target="8"/></arc>
+<arc id="464"><flow source="11" target="34"/></arc>
+<arc id="477"><flow source="12" target="8"/></arc>
+<arc id="583"><flow source="14" target="36"/></arc>
+<arc id="621"><flow source="15" target="35"/></arc>
+<arc id="647"><flow source="16" target="22"/></arc>
+<arc id="651"><flow source="16" target="26"/></arc>
+<arc id="685"><flow source="17" target="21"/></arc>
+<arc id="723"><flow source="18" target="20"/></arc>
+<arc id="731"><flow source="18" target="28"/></arc>
+<arc id="824"><flow source="21" target="4"/></arc>
+<arc id="886"><flow source="22" target="27"/></arc>
+<arc id="907"><flow source="23" target="9"/></arc>
+<arc id="923"><flow source="23" target="25"/></arc>
+<arc id="941"><flow source="24" target="4"/></arc>
+<arc id="953"><flow source="24" target="16"/></arc>
+<arc id="969"><flow source="24" target="32"/></arc>
+<arc id="1053"><flow source="26" target="38"/></arc>
+<arc id="1058"><flow source="27" target="4"/></arc>
+<arc id="1101"><flow source="28" target="8"/></arc>
+<arc id="1155"><flow source="29" target="23"/></arc>
+<arc id="1172"><flow source="30" target="1"/></arc>
+<arc id="1234"><flow source="31" target="24"/></arc>
+<arc id="1252"><flow source="32" target="3"/></arc>
+<arc id="1282"><flow source="32" target="33"/></arc>
+<arc id="1293"><flow source="33" target="5"/></arc>
+<arc id="1358"><flow source="34" target="31"/></arc>
+<arc id="1376"><flow source="35" target="10"/></arc>
+<arc id="1436"><flow source="36" target="31"/></arc>
+<arc id="1473"><flow source="37" target="29"/></arc>
+<arc id="1490"><flow source="38" target="7"/></arc>
+</epc></epml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="53" name="1Be_25fz">
+<event id="0"><name>Service
+is accepted</name></event>
+<function id="1"><name>Service
+Entry
+Sheet</name></function>
+<and id="2"/>
+<event id="3"><name>Service
+entry
+sheet
+is transmitted</name></event>
+<event id="4"><name>Services
+are to
+be entered</name></event>
+<arc id="8"><flow source="1" target="2"/></arc>
+<arc id="11"><flow source="2" target="0"/></arc>
+<arc id="14"><flow source="2" target="3"/></arc>
+<arc id="22"><flow source="4" target="1"/></arc>
+</epc></epml>

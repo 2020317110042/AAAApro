@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="299" name="1Pe_mew4">
+<and id="0"/>
+<function id="1"><name>Transfer
+of planned
+personnel
+time
+specifications as actual</name></function>
+<function id="2"><name>Entry
+of Personnel
+Time
+Specifications-Actual</name></function>
+<event id="3"><name>Activity
+allocation
+specifications
+are available</name></event>
+<and id="4"/>
+<event id="5"><name>Planned
+personnel
+time
+specifications
+are available</name></event>
+<or id="6"/>
+<event id="7"><name>Personnel
+time
+recording
+infrastructure
+is available</name></event>
+<event id="8"><name>Person-based
+work
+schedules
+are available</name></event>
+<event id="9"><name>Transfer
+of planned
+personnel
+time
+specifications as actual is desired</name></event>
+<event id="10"><name>Need
+to count
+personnel
+time
+specifications is available</name></event>
+<event id="11"><name>EE -
+planned
+working
+time
+determination - operative is available</name></event>
+<event id="12"><name>Actual
+personnel
+time
+specifications
+are available</name></event>
+<event id="13"><name>Entry
+of personnel
+time
+specifications
+is desired</name></event>
+<and id="14"/>
+<event id="15"><name>Planned
+personnel
+time
+specifications
+are available</name></event>
+<or id="16"/>
+<and id="17"/>
+<event id="18"><name>Employee
+- personnel
+day times
+are available</name></event>
+<and id="19"/>
+<event id="20"><name>Requirement
+for operative
+planned
+working
+time determination</name></event>
+<function id="21"><name>Counting
+of personnel
+time
+specifications</name></function>
+<arc id="18"><flow source="0" target="17"/></arc>
+<arc id="20"><flow source="0" target="19"/></arc>
+<arc id="39"><flow source="1" target="16"/></arc>
+<arc id="61"><flow source="2" target="16"/></arc>
+<arc id="89"><flow source="4" target="0"/></arc>
+<arc id="117"><flow source="5" target="6"/></arc>
+<arc id="137"><flow source="6" target="4"/></arc>
+<arc id="159"><flow source="7" target="4"/></arc>
+<arc id="183"><flow source="8" target="6"/></arc>
+<arc id="216"><flow source="9" target="17"/></arc>
+<arc id="242"><flow source="10" target="21"/></arc>
+<arc id="249"><flow source="11" target="6"/></arc>
+<arc id="306"><flow source="13" target="19"/></arc>
+<arc id="312"><flow source="14" target="3"/></arc>
+<arc id="319"><flow source="14" target="10"/></arc>
+<arc id="321"><flow source="14" target="12"/></arc>
+<arc id="324"><flow source="14" target="15"/></arc>
+<arc id="329"><flow source="14" target="20"/></arc>
+<arc id="367"><flow source="16" target="14"/></arc>
+<arc id="376"><flow source="17" target="1"/></arc>
+<arc id="421"><flow source="19" target="2"/></arc>
+<arc id="481"><flow source="21" target="18"/></arc>
+</epc></epml>

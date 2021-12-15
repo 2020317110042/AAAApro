@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="24" name="1An_kzoq">
+<event id="0"><name>Valuation
+of balances
+affecting
+financial
+statement to be carried out</name></event>
+<and id="1"/>
+<function id="2"><name>Investment
+Settlement
+[Investment
+Order]</name></function>
+<event id="3"><name>Order
+is closed
+technically</name></event>
+<or id="4"/>
+<xor id="5"/>
+<event id="6"><name>Determine
+blanket
+distribution
+rule
+for periodic settlement</name></event>
+<xor id="7"/>
+<xor id="8"/>
+<function id="9"><name>Settlement
+Account
+Assignment</name></function>
+<event id="10"><name>Distrb.
+rules
+for full
+settlement
+are entered</name></event>
+<event id="11"><name>Overhead
+Costs
+Are to
+Be Allocated
+Using Overhead Rates</name></event>
+<event id="12"><name>Distrbution
+rules
+for periodic
+settlement
+are entered</name></event>
+<event id="13"><name>Settlement
+receiver
+is to
+be determined</name></event>
+<event id="14"><name>Costs
+were
+settled
+by cost
+element to asset under construction</name></event>
+<function id="15"><name>Periodic
+Settlement</name></function>
+<function id="16"><name>Overhead
+Calculation
+[Investment
+Order]</name></function>
+<event id="17"><name>Overhead
+debited
+to capital
+investment
+order</name></event>
+<and id="18"/>
+<or id="19"/>
+<event id="20"><name>Costs
+were
+settled
+with
+secondary cost elements to asset under construction</name></event>
+<event id="21"><name>Distrb.
+rules
+for partial
+settlement
+are entered</name></event>
+<event id="22"><name>Actual
+costs
+were
+incurred</name></event>
+<event id="23"><name>Measure
+settled
+partially</name></event>
+<xor id="24"/>
+<or id="25"/>
+<event id="26"><name>Costs
+were
+settled
+as non-operating
+expense</name></event>
+<and id="27"/>
+<xor id="28"/>
+<xor id="29"/>
+<event id="30"><name>Indirect
+costs
+have
+not been
+incurred</name></event>
+<event id="31"><name>Measure
+is settled
+completely</name></event>
+<arc id="37"><flow source="1" target="4"/></arc>
+<arc id="94"><flow source="2" target="29"/></arc>
+<arc id="98"><flow source="3" target="1"/></arc>
+<arc id="156"><flow source="4" target="27"/></arc>
+<arc id="175"><flow source="5" target="14"/></arc>
+<arc id="181"><flow source="5" target="20"/></arc>
+<arc id="187"><flow source="5" target="26"/></arc>
+<arc id="200"><flow source="6" target="7"/></arc>
+<arc id="244"><flow source="7" target="19"/></arc>
+<arc id="263"><flow source="8" target="6"/></arc>
+<arc id="267"><flow source="8" target="10"/></arc>
+<arc id="269"><flow source="8" target="12"/></arc>
+<arc id="278"><flow source="8" target="21"/></arc>
+<arc id="297"><flow source="9" target="8"/></arc>
+<arc id="322"><flow source="10" target="1"/></arc>
+<arc id="369"><flow source="11" target="16"/></arc>
+<arc id="392"><flow source="12" target="7"/></arc>
+<arc id="426"><flow source="13" target="9"/></arc>
+<arc id="473"><flow source="14" target="24"/></arc>
+<arc id="486"><flow source="15" target="5"/></arc>
+<arc id="530"><flow source="16" target="17"/></arc>
+<arc id="573"><flow source="17" target="28"/></arc>
+<arc id="577"><flow source="18" target="0"/></arc>
+<arc id="604"><flow source="18" target="27"/></arc>
+<arc id="624"><flow source="19" target="15"/></arc>
+<arc id="665"><flow source="20" target="24"/></arc>
+<arc id="677"><flow source="21" target="4"/></arc>
+<arc id="730"><flow source="22" target="25"/></arc>
+<arc id="787"><flow source="24" target="18"/></arc>
+<arc id="820"><flow source="25" target="19"/></arc>
+<arc id="867"><flow source="27" target="2"/></arc>
+<arc id="922"><flow source="28" target="25"/></arc>
+<arc id="952"><flow source="29" target="23"/></arc>
+<arc id="960"><flow source="29" target="31"/></arc>
+<arc id="989"><flow source="30" target="28"/></arc>
+</epc></epml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="253" name="1Ku_a813">
+<event id="0"><name>Evaluation
+to be
+performed
+using
+the Logistics Information System</name></event>
+<function id="1"><name>Evaluations
+of Customer
+Service
+Information
+System [SMIS]</name></function>
+<event id="2"><name>Evaluation
+carried
+out</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="6"><flow source="1" target="2"/></arc>
+</epc></epml>

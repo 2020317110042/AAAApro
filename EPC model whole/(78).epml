@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="79" name="1Be_38qs">
+<event id="0"><name>Goods
+issue
+is posted</name></event>
+<or id="1"/>
+<and id="2"/>
+<event id="3"><name>Material
+is issued</name></event>
+<function id="4"><name>Warehouse/
+Stores</name></function>
+<and id="5"/>
+<function id="6"><name>Goods
+Receipt</name></function>
+<event id="7"><name>TO item
+confirmed
+without
+differences</name></event>
+<event id="8"><name>Requirement
+for material/
+external
+services
+exists</name></event>
+<xor id="9"/>
+<xor id="10"/>
+<function id="11"><name>Provision
+of Components</name></function>
+<event id="12"><name>Transfer
+order
+item
+is confirmed</name></event>
+<function id="13"><name>Purchase
+Requisition</name></function>
+<and id="14"/>
+<event id="15"><name>Over/
+under-consumption
+of components
+reported</name></event>
+<event id="16"><name>Invoice
+received</name></event>
+<event id="17"><name>Requisition
+released
+for scheduling
+agreement
+schedule/SA release</name></event>
+<event id="18"><name>Inbound
+delivery
+for PO
+created</name></event>
+<event id="19"><name>Payment
+must
+be effected</name></event>
+<event id="20"><name>GR items
+for components
+corrected</name></event>
+<and id="21"/>
+<event id="22"><name>Shipping
+notification
+transmitted</name></event>
+<event id="23"><name>Material
+is released</name></event>
+<and id="24"/>
+<event id="25"><name>Components
+to be
+replenished
+as per
+delivery</name></event>
+<event id="26"><name>Purchase
+requisition
+released
+for contract
+release order</name></event>
+<event id="27"><name>GR posted</name></event>
+<function id="28"><name>Invoice
+Verification</name></function>
+<xor id="29"/>
+<xor id="30"/>
+<and id="31"/>
+<xor id="32"/>
+<event id="33"><name>Purchase
+requisition
+released
+for purchase
+order</name></event>
+<event id="34"><name>Purchase
+order
+created</name></event>
+<xor id="35"/>
+<event id="36"><name>Components
+are to
+be replenished
+per goods
+issue</name></event>
+<function id="37"><name>Purchasing</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="43"><flow source="1" target="4"/></arc>
+<arc id="105"><flow source="2" target="28"/></arc>
+<arc id="163"><flow source="4" target="10"/></arc>
+<arc id="191"><flow source="5" target="0"/></arc>
+<arc id="194"><flow source="5" target="3"/></arc>
+<arc id="250"><flow source="6" target="21"/></arc>
+<arc id="318"><flow source="8" target="13"/></arc>
+<arc id="345"><flow source="9" target="2"/></arc>
+<arc id="388"><flow source="10" target="7"/></arc>
+<arc id="393"><flow source="10" target="12"/></arc>
+<arc id="424"><flow source="11" target="5"/></arc>
+<arc id="527"><flow source="13" target="32"/></arc>
+<arc id="534"><flow source="14" target="1"/></arc>
+<arc id="542"><flow source="14" target="9"/></arc>
+<arc id="595"><flow source="15" target="24"/></arc>
+<arc id="611"><flow source="16" target="2"/></arc>
+<arc id="676"><flow source="17" target="29"/></arc>
+<arc id="709"><flow source="18" target="24"/></arc>
+<arc id="819"><flow source="21" target="20"/></arc>
+<arc id="826"><flow source="21" target="27"/></arc>
+<arc id="877"><flow source="23" target="2"/></arc>
+<arc id="919"><flow source="24" target="6"/></arc>
+<arc id="986"><flow source="25" target="35"/></arc>
+<arc id="1018"><flow source="26" target="29"/></arc>
+<arc id="1041"><flow source="27" target="14"/></arc>
+<arc id="1084"><flow source="28" target="19"/></arc>
+<arc id="1140"><flow source="29" target="37"/></arc>
+<arc id="1166"><flow source="30" target="25"/></arc>
+<arc id="1177"><flow source="30" target="36"/></arc>
+<arc id="1197"><flow source="31" target="18"/></arc>
+<arc id="1201"><flow source="31" target="22"/></arc>
+<arc id="1209"><flow source="31" target="30"/></arc>
+<arc id="1213"><flow source="31" target="34"/></arc>
+<arc id="1234"><flow source="32" target="17"/></arc>
+<arc id="1243"><flow source="32" target="26"/></arc>
+<arc id="1250"><flow source="32" target="33"/></arc>
+<arc id="1284"><flow source="33" target="29"/></arc>
+<arc id="1302"><flow source="34" target="9"/></arc>
+<arc id="1342"><flow source="35" target="11"/></arc>
+<arc id="1404"><flow source="36" target="35"/></arc>
+<arc id="1438"><flow source="37" target="31"/></arc>
+</epc></epml>

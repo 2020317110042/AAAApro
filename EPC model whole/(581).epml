@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="582" name="1Ve_m4y2">
+<event id="0"><name>Need
+for granting
+exists</name></event>
+<and id="1"/>
+<event id="2"><name>Reason
+for forfeiture
+of long-term
+incentive
+has occurred</name></event>
+<event id="3"><name>Employee
+notified
+of approval
+of exercise</name></event>
+<and id="4"/>
+<event id="5"><name>Employee
+is notified
+of forfeiture</name></event>
+<event id="6"><name>Employee
+is notified
+of imminent
+expiration</name></event>
+<event id="7"><name>Need
+for correction
+of long-term
+incentives
+program</name></event>
+<function id="8"><name>Sale
+of Long-Term
+Incentives</name></function>
+<and id="9"/>
+<event id="10"><name>Need
+for monitoring
+of long-term
+incentives
+program</name></event>
+<event id="11"><name>Employee
+notified
+of retraction</name></event>
+<and id="12"/>
+<and id="13"/>
+<event id="14"><name>Need
+for retraction
+of long-term
+incentives
+exists</name></event>
+<event id="15"><name>Employee
+notified
+of sale
+of long-term
+incentives</name></event>
+<event id="16"><name>Employee
+requires
+sale
+of long-term
+incentives</name></event>
+<function id="17"><name>Exercise
+of Long-Term
+Incentive
+Rights
+by Employee</name></function>
+<function id="18"><name>Monitoring
+of Long-Term
+Incentives
+Program</name></function>
+<event id="19"><name>No need
+to act
+regarding
+long-term
+incentives program</name></event>
+<and id="20"/>
+<event id="21"><name>Employee
+requires
+exercise
+of long-term
+incentive rights</name></event>
+<event id="22"><name>Employee
+is notified
+of expiration</name></event>
+<xor id="23"/>
+<event id="24"><name>Employee
+long-term
+incentive
+is granted</name></event>
+<and id="25"/>
+<event id="26"><name>Need
+for long-term
+incentives
+program</name></event>
+<and id="27"/>
+<and id="28"/>
+<function id="29"><name>Retraction
+of Long-Term
+Incentives</name></function>
+<event id="30"><name>Employee
+notified
+of exercise</name></event>
+<event id="31"><name>Time
+for announcement
+of expiration
+is reached</name></event>
+<event id="32"><name>Employee
+is notified
+of granting</name></event>
+<event id="33"><name>Long-term
+incentives
+program
+is implemented</name></event>
+<function id="34"><name>Granting
+of Share
+of Long-Term
+Incentive
+to Employee</name></function>
+<function id="35"><name>Design
+of Long-Term
+Incentives
+Program</name></function>
+<event id="36"><name>Need
+for determination
+of specifications
+for granting</name></event>
+<event id="37"><name>Employee
+notified
+of approval
+of sales
+order</name></event>
+<xor id="38"/>
+<event id="39"><name>Employee
+notified
+of rejection
+of sales
+order</name></event>
+<and id="40"/>
+<function id="41"><name>Forfeiture
+of Long-Term
+Incentives</name></function>
+<xor id="42"/>
+<event id="43"><name>Time
+for exercising
+rights
+is reached</name></event>
+<event id="44"><name>Time
+for expiration
+of long-term
+incentive
+is reached</name></event>
+<function id="45"><name>Expiration
+of Long-Term
+Incentives</name></function>
+<event id="46"><name>Long-term
+incentives
+program
+is deactivated</name></event>
+<and id="47"/>
+<event id="48"><name>Employee
+notified
+of rejection
+of exercise</name></event>
+<xor id="49"/>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="92"><flow source="1" target="41"/></arc>
+<arc id="102"><flow source="2" target="1"/></arc>
+<arc id="207"><flow source="4" target="6"/></arc>
+<arc id="223"><flow source="4" target="22"/></arc>
+<arc id="389"><flow source="7" target="38"/></arc>
+<arc id="450"><flow source="8" target="49"/></arc>
+<arc id="485"><flow source="9" target="34"/></arc>
+<arc id="519"><flow source="10" target="18"/></arc>
+<arc id="616"><flow source="12" target="15"/></arc>
+<arc id="638"><flow source="12" target="37"/></arc>
+<arc id="675"><flow source="13" target="24"/></arc>
+<arc id="683"><flow source="13" target="32"/></arc>
+<arc id="726"><flow source="14" target="25"/></arc>
+<arc id="848"><flow source="16" target="47"/></arc>
+<arc id="893"><flow source="17" target="42"/></arc>
+<arc id="924"><flow source="18" target="23"/></arc>
+<arc id="1046"><flow source="20" target="45"/></arc>
+<arc id="1078"><flow source="21" target="27"/></arc>
+<arc id="1158"><flow source="23" target="7"/></arc>
+<arc id="1170"><flow source="23" target="19"/></arc>
+<arc id="1197"><flow source="23" target="46"/></arc>
+<arc id="1241"><flow source="24" target="40"/></arc>
+<arc id="1280"><flow source="25" target="29"/></arc>
+<arc id="1339"><flow source="26" target="38"/></arc>
+<arc id="1368"><flow source="27" target="17"/></arc>
+<arc id="1404"><flow source="28" target="3"/></arc>
+<arc id="1431"><flow source="28" target="30"/></arc>
+<arc id="1462"><flow source="29" target="11"/></arc>
+<arc id="1571"><flow source="31" target="20"/></arc>
+<arc id="1660"><flow source="33" target="9"/></arc>
+<arc id="1714"><flow source="34" target="13"/></arc>
+<arc id="1784"><flow source="35" target="33"/></arc>
+<arc id="1810"><flow source="36" target="9"/></arc>
+<arc id="1936"><flow source="38" target="35"/></arc>
+<arc id="2002"><flow source="40" target="1"/></arc>
+<arc id="2021"><flow source="40" target="20"/></arc>
+<arc id="2026"><flow source="40" target="25"/></arc>
+<arc id="2028"><flow source="40" target="27"/></arc>
+<arc id="2048"><flow source="40" target="47"/></arc>
+<arc id="2056"><flow source="41" target="5"/></arc>
+<arc id="2129"><flow source="42" target="28"/></arc>
+<arc id="2149"><flow source="42" target="48"/></arc>
+<arc id="2178"><flow source="43" target="27"/></arc>
+<arc id="2221"><flow source="44" target="20"/></arc>
+<arc id="2255"><flow source="45" target="4"/></arc>
+<arc id="2359"><flow source="47" target="8"/></arc>
+<arc id="2463"><flow source="49" target="12"/></arc>
+<arc id="2490"><flow source="49" target="39"/></arc>
+</epc></epml>

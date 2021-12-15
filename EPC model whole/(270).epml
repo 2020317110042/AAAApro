@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="271" name="1Pe_lsq3">
+<event id="0"><name>Payroll
+accounting
+specifications
+changed</name></event>
+<event id="1"><name>Benefits
+offer
+must
+be adapted
+for employee</name></event>
+<event id="2"><name>Employee
+staffs
+position</name></event>
+<event id="3"><name>Employee
+is active</name></event>
+<and id="4"/>
+<event id="5"><name>Position
+is vacant</name></event>
+<event id="6"><name>Notification
+given
+of approval
+of employee
+transfer</name></event>
+<function id="7"><name>Employee
+transfer</name></function>
+<and id="8"/>
+<arc id="36"><flow source="3" target="8"/></arc>
+<arc id="37"><flow source="4" target="0"/></arc>
+<arc id="38"><flow source="4" target="1"/></arc>
+<arc id="39"><flow source="4" target="2"/></arc>
+<arc id="42"><flow source="4" target="5"/></arc>
+<arc id="63"><flow source="6" target="8"/></arc>
+<arc id="68"><flow source="7" target="4"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

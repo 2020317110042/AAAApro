@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="535" name="1Ve_6bms">
+<xor id="0"/>
+<function id="1"><name>Stock
+Removal
+Processing</name></function>
+<event id="2"><name>Goods
+movement
+is posted</name></event>
+<function id="3"><name>Putaway
+Processing</name></function>
+<event id="4"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="5"><name>Material
+placed
+in storage</name></event>
+<event id="6"><name>Transfer
+order
+created
+manually</name></event>
+<xor id="7"/>
+<xor id="8"/>
+<event id="9"><name>Physical
+inventory
+is to
+be carried
+out</name></event>
+<event id="10"><name>Stock
+placement
+should
+be carried
+out via WCU</name></event>
+<event id="11"><name>Transfer
+order
+created
+automatically</name></event>
+<event id="12"><name>Difference
+must
+be adjusted
+in Inventory
+Management</name></event>
+<xor id="13"/>
+<event id="14"><name>Transfer
+order
+created
+automatically</name></event>
+<xor id="15"/>
+<xor id="16"/>
+<event id="17"><name>Transfer
+order
+created
+manually</name></event>
+<event id="18"><name>Stock
+removal
+to be
+carried
+out via WCU</name></event>
+<and id="19"/>
+<event id="20"><name>Material
+is removed
+from
+stock</name></event>
+<event id="21"><name>TO item
+confirmed
+without
+differences</name></event>
+<event id="22"><name>Transfer
+order
+item
+with
+difference exists</name></event>
+<function id="23"><name>Difference
+Processing</name></function>
+<xor id="24"/>
+<function id="25"><name>Confirmation</name></function>
+<and id="26"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="44"><flow source="1" target="16"/></arc>
+<arc id="106"><flow source="3" target="24"/></arc>
+<arc id="144"><flow source="5" target="8"/></arc>
+<arc id="163"><flow source="6" target="0"/></arc>
+<arc id="199"><flow source="7" target="9"/></arc>
+<arc id="202"><flow source="7" target="12"/></arc>
+<arc id="242"><flow source="8" target="25"/></arc>
+<arc id="311"><flow source="11" target="13"/></arc>
+<arc id="353"><flow source="13" target="1"/></arc>
+<arc id="379"><flow source="14" target="0"/></arc>
+<arc id="427"><flow source="15" target="21"/></arc>
+<arc id="428"><flow source="15" target="22"/></arc>
+<arc id="451"><flow source="16" target="18"/></arc>
+<arc id="453"><flow source="16" target="20"/></arc>
+<arc id="473"><flow source="17" target="13"/></arc>
+<arc id="516"><flow source="19" target="2"/></arc>
+<arc id="529"><flow source="19" target="15"/></arc>
+<arc id="549"><flow source="20" target="8"/></arc>
+<arc id="618"><flow source="22" target="23"/></arc>
+<arc id="648"><flow source="23" target="26"/></arc>
+<arc id="654"><flow source="24" target="5"/></arc>
+<arc id="659"><flow source="24" target="10"/></arc>
+<arc id="695"><flow source="25" target="19"/></arc>
+<arc id="707"><flow source="26" target="4"/></arc>
+<arc id="710"><flow source="26" target="7"/></arc>
+</epc></epml>

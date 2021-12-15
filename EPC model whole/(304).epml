@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="305" name="1Pe_mi2b">
+<event id="0"><name>Time
+for remuneration
+payment
+is scheduled</name></event>
+<event id="1"><name>Settlement
+amounts
+for further
+benefits
+exist</name></event>
+<function id="2"><name>Calculation
+of Payment
+Amounts</name></function>
+<and id="3"/>
+<event id="4"><name>Payment
+amounts
+exist</name></event>
+<event id="5"><name>Net remuneration
+exists</name></event>
+<event id="6"><name>Garnishment
+amounts
+exist</name></event>
+<or id="7"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="16"><flow source="1" target="7"/></arc>
+<arc id="21"><flow source="2" target="4"/></arc>
+<arc id="27"><flow source="3" target="2"/></arc>
+<arc id="48"><flow source="5" target="7"/></arc>
+<arc id="56"><flow source="6" target="7"/></arc>
+<arc id="60"><flow source="7" target="3"/></arc>
+</epc></epml>

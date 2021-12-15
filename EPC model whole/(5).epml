@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="6" name="1An_kg4m">
+<function id="0"><name>Revaluation</name></function>
+<event id="1"><name>Index
+series
+must
+be updated</name></event>
+<function id="2"><name>Index
+Series</name></function>
+<event id="3"><name>Fixed
+asset
+should
+be insured</name></event>
+<function id="4"><name>Closing
+of Insurance
+Contract</name></function>
+<xor id="5"/>
+<xor id="6"/>
+<event id="7"><name>Index
+series
+was updated</name></event>
+<xor id="8"/>
+<event id="9"><name>Insurance
+contract
+was closed</name></event>
+<event id="10"><name>Revaluation
+was made</name></event>
+<event id="11"><name>Revaluation
+should
+be carr.
+out f
+first time</name></event>
+<event id="12"><name>Revaluation
+is used
+repeatedly</name></event>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="16"><flow source="1" target="2"/></arc>
+<arc id="33"><flow source="2" target="6"/></arc>
+<arc id="44"><flow source="3" target="4"/></arc>
+<arc id="59"><flow source="4" target="6"/></arc>
+<arc id="73"><flow source="5" target="7"/></arc>
+<arc id="75"><flow source="5" target="9"/></arc>
+<arc id="76"><flow source="5" target="10"/></arc>
+<arc id="84"><flow source="6" target="5"/></arc>
+<arc id="105"><flow source="8" target="0"/></arc>
+<arc id="152"><flow source="11" target="8"/></arc>
+<arc id="165"><flow source="12" target="8"/></arc>
+</epc></epml>

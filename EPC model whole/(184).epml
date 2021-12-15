@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="185" name="1Im_ljm4">
+<function id="0"><name>Activating
+Rent
+Adjustment
+(Including
+Approval)</name></function>
+<function id="1"><name>Data
+Entry
+for Cost
+Efficiency
+Analysis</name></function>
+<function id="2"><name>Generating
+Rent
+Adjustment
+Data</name></function>
+<function id="3"><name>Comparative
+Group
+Rent
+Adjustment
+Preparation</name></function>
+<and id="4"/>
+<event id="5"><name>If required,
+meet
+prerequisites
+for rent
+adjustment methods</name></event>
+<function id="6"><name>Modernization
+Measure
+Processing</name></function>
+<event id="7"><name>Rent
+adjustment
+is possible</name></event>
+<or id="8"/>
+<and id="9"/>
+<function id="10"><name>Expert
+Opinion
+Processing</name></function>
+<event id="11"><name/></event>
+<and id="12"/>
+<event id="13"><name>Change
+conditions
+on lease-out/
+rental
+unit</name></event>
+<event id="14"><name>Adjustment
+of advance
+payments/
+flat
+rates should be carried out</name></event>
+<event id="15"><name>Rent
+adjustment
+was carried
+out</name></event>
+<function id="16"><name>Rent
+Reduction
+Processing</name></function>
+<function id="17"><name>Advance
+Payment/
+Flat
+Rates
+Adjustment</name></function>
+<and id="18"/>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="29"><flow source="1" target="9"/></arc>
+<arc id="46"><flow source="2" target="7"/></arc>
+<arc id="67"><flow source="3" target="9"/></arc>
+<arc id="89"><flow source="4" target="12"/></arc>
+<arc id="93"><flow source="4" target="16"/></arc>
+<arc id="108"><flow source="5" target="12"/></arc>
+<arc id="124"><flow source="6" target="9"/></arc>
+<arc id="134"><flow source="7" target="0"/></arc>
+<arc id="168"><flow source="8" target="15"/></arc>
+<arc id="183"><flow source="9" target="11"/></arc>
+<arc id="200"><flow source="10" target="9"/></arc>
+<arc id="212"><flow source="11" target="2"/></arc>
+<arc id="247"><flow source="12" target="18"/></arc>
+<arc id="252"><flow source="13" target="4"/></arc>
+<arc id="284"><flow source="14" target="17"/></arc>
+<arc id="313"><flow source="16" target="8"/></arc>
+<arc id="332"><flow source="17" target="8"/></arc>
+<arc id="344"><flow source="18" target="1"/></arc>
+<arc id="346"><flow source="18" target="3"/></arc>
+<arc id="349"><flow source="18" target="6"/></arc>
+<arc id="353"><flow source="18" target="10"/></arc>
+</epc></epml>

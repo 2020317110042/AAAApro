@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="55" name="1Be_2aze">
+<and id="0"/>
+<event id="1"><name>Inbound
+delivery
+for PO
+created</name></event>
+<event id="2"><name>Shipping
+notification
+to be
+transmitted</name></event>
+<xor id="3"/>
+<event id="4"><name>Shipping
+notification
+transmitted</name></event>
+<function id="5"><name>Scheduling
+Agreement
+Delivery
+Schedule</name></function>
+<event id="6"><name>Scheduling
+agreement
+schedule/
+SA release
+created</name></event>
+<function id="7"><name>Transmission
+of Scheduling
+Agreements</name></function>
+<xor id="8"/>
+<event id="9"><name>Purchase
+order
+transmitted</name></event>
+<event id="10"><name>Purchase
+order
+released</name></event>
+<function id="11"><name>Release
+of Purchase
+Orders</name></function>
+<function id="12"><name>Transmission
+of Purchase
+Orders</name></function>
+<event id="13"><name>Purchase
+order
+created</name></event>
+<event id="14"><name>Purchase
+requisition
+released
+for contract
+release order</name></event>
+<function id="15"><name>Contract
+Release
+Order</name></function>
+<function id="16"><name>Transmission
+of Shipping
+Notifications</name></function>
+<event id="17"><name>Purchase
+requisition
+released
+for purchase
+order</name></event>
+<function id="18"><name>Delivery
+and Acknowledgment
+Expediter</name></function>
+<function id="19"><name>Purchase
+Order
+Processing</name></function>
+<event id="20"><name>Delivery/
+confirmation
+expedited</name></event>
+<event id="21"><name>Requisition
+released
+for scheduling
+agreement
+schedule/SA release</name></event>
+<function id="22"><name>Processing
+of Shipping
+Notifications/
+Confirmations</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="63"><flow source="2" target="16"/></arc>
+<arc id="79"><flow source="3" target="9"/></arc>
+<arc id="122"><flow source="5" target="6"/></arc>
+<arc id="146"><flow source="6" target="7"/></arc>
+<arc id="165"><flow source="7" target="3"/></arc>
+<arc id="198"><flow source="8" target="13"/></arc>
+<arc id="226"><flow source="9" target="18"/></arc>
+<arc id="243"><flow source="10" target="12"/></arc>
+<arc id="264"><flow source="11" target="10"/></arc>
+<arc id="280"><flow source="12" target="3"/></arc>
+<arc id="311"><flow source="13" target="11"/></arc>
+<arc id="338"><flow source="14" target="15"/></arc>
+<arc id="354"><flow source="15" target="8"/></arc>
+<arc id="373"><flow source="16" target="4"/></arc>
+<arc id="411"><flow source="17" target="19"/></arc>
+<arc id="435"><flow source="18" target="20"/></arc>
+<arc id="446"><flow source="19" target="8"/></arc>
+<arc id="483"><flow source="20" target="22"/></arc>
+<arc id="489"><flow source="21" target="5"/></arc>
+<arc id="507"><flow source="22" target="0"/></arc>
+</epc></epml>

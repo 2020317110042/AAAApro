@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="178" name="1Ex_expg">
+<event id="0"><name>Planning
+carried
+out</name></event>
+<event id="1"><name>P+L statement
+account
+is created</name></event>
+<function id="2"><name>General
+Ledger
+Planning</name></function>
+<or id="3"/>
+<xor id="4"/>
+<event id="5"><name>G/L account
+planning
+is to
+be carried
+out</name></event>
+<event id="6"><name>Balance
+sheet
+account
+is created</name></event>
+<arc id="12"><flow source="1" target="4"/></arc>
+<arc id="15"><flow source="2" target="0"/></arc>
+<arc id="24"><flow source="3" target="2"/></arc>
+<arc id="32"><flow source="4" target="3"/></arc>
+<arc id="39"><flow source="5" target="3"/></arc>
+<arc id="47"><flow source="6" target="4"/></arc>
+</epc></epml>

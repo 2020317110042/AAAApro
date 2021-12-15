@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="479" name="1Un_jdpj">
+<function id="0"><name>Price
+Release
+with
+Standard
+Cost Estimate</name></function>
+<event id="1"><name>Costing
+(without
+quantity
+structure)
+prepared</name></event>
+<event id="2"><name>Costing
+(for
+co-products)
+is prepared</name></event>
+<function id="3"><name>Price
+Marking</name></function>
+<function id="4"><name>Costing
+analysis</name></function>
+<event id="5"><name>Stock
+revaluated</name></event>
+<function id="6"><name>Standard
+Cost
+Estimate
+for Co-Products</name></function>
+<xor id="7"/>
+<and id="8"/>
+<function id="9"><name>Standard
+Cost
+Estimate
+Without
+Quantity Structure</name></function>
+<event id="10"><name>Standard
+price
+updated
+in material
+master[]</name></event>
+<event id="11"><name>Result
+complete;
+costing
+released</name></event>
+<event id="12"><name>Cost
+estimate
+needs
+to be
+revised due to variances</name></event>
+<function id="13"><name>Standard
+Cost
+Estimate
+with
+Quantity Structure</name></function>
+<event id="14"><name>Costing
+results
+recorded
+in material
+master as future standard price</name></event>
+<xor id="15"/>
+<event id="16"><name>Fiscal
+year/
+period
+is to
+be costed</name></event>
+<function id="17"><name>Preparation
+for Costing</name></function>
+<event id="18"><name>Product
+Costs
+Are Allocated</name></event>
+<event id="19"><name>Costing
+(with
+quantity
+structure)
+prepared</name></event>
+<xor id="20"/>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="31"><flow source="1" target="9"/></arc>
+<arc id="49"><flow source="2" target="6"/></arc>
+<arc id="78"><flow source="3" target="14"/></arc>
+<arc id="92"><flow source="4" target="7"/></arc>
+<arc id="142"><flow source="6" target="15"/></arc>
+<arc id="159"><flow source="7" target="11"/></arc>
+<arc id="160"><flow source="7" target="12"/></arc>
+<arc id="174"><flow source="8" target="5"/></arc>
+<arc id="179"><flow source="8" target="10"/></arc>
+<arc id="205"><flow source="9" target="15"/></arc>
+<arc id="235"><flow source="11" target="3"/></arc>
+<arc id="289"><flow source="13" target="15"/></arc>
+<arc id="295"><flow source="14" target="0"/></arc>
+<arc id="334"><flow source="15" target="18"/></arc>
+<arc id="354"><flow source="16" target="17"/></arc>
+<arc id="378"><flow source="17" target="20"/></arc>
+<arc id="383"><flow source="18" target="4"/></arc>
+<arc id="413"><flow source="19" target="13"/></arc>
+<arc id="422"><flow source="20" target="1"/></arc>
+<arc id="423"><flow source="20" target="2"/></arc>
+<arc id="440"><flow source="20" target="19"/></arc>
+</epc></epml>

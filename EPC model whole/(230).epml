@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="231" name="1Ku_9bjf">
+<event id="0"><name>Shipment
+is Complete</name></event>
+<xor id="1"/>
+<event id="2"><name>Delivery
+is to
+be created</name></event>
+<event id="3"><name>Delivery
+is relevant
+for billing</name></event>
+<xor id="4"/>
+<function id="5"><name>Transportation
+Planning
+and Processing</name></function>
+<function id="6"><name>Delivery
+Processing</name></function>
+<and id="7"/>
+<event id="8"><name>Inspection
+before
+goods
+issue
+is to be carried out</name></event>
+<event id="9"><name>Inspect
+(independent
+of goods
+issue)</name></event>
+<event id="10"><name>Order
+generated
+and delivery
+opened</name></event>
+<event id="11"><name>Delivery
+is relevant
+for shipment</name></event>
+<xor id="12"/>
+<event id="13"><name>Material
+is removed
+from
+stock</name></event>
+<arc id="21"><flow source="1" target="6"/></arc>
+<arc id="30"><flow source="2" target="1"/></arc>
+<arc id="65"><flow source="4" target="8"/></arc>
+<arc id="66"><flow source="4" target="9"/></arc>
+<arc id="71"><flow source="5" target="0"/></arc>
+<arc id="97"><flow source="6" target="12"/></arc>
+<arc id="103"><flow source="7" target="4"/></arc>
+<arc id="110"><flow source="7" target="11"/></arc>
+<arc id="112"><flow source="7" target="13"/></arc>
+<arc id="142"><flow source="10" target="1"/></arc>
+<arc id="160"><flow source="11" target="5"/></arc>
+<arc id="172"><flow source="12" target="3"/></arc>
+<arc id="176"><flow source="12" target="7"/></arc>
+</epc></epml>

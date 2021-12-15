@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="98" name="1En_cqec">
+<event id="0"><name>Entering
+data
+is completed</name></event>
+<event id="1"><name>Shipping
+(printing)
+of reports
+is to
+be triggered</name></event>
+<function id="2"><name>Report
+Shipping</name></function>
+<and id="3"/>
+<function id="4"><name>Processing
+of Substance
+Report
+Generation
+Variants</name></function>
+<event id="5"><name>Create
+standard
+operating
+procedure</name></event>
+<function id="6"><name>Document
+Template
+Processing</name></function>
+<function id="7"><name>Substance
+Report
+Processing</name></function>
+<and id="8"/>
+<arc id="12"><flow source="1" target="2"/></arc>
+<arc id="19"><flow source="2" target="0"/></arc>
+<arc id="29"><flow source="3" target="1"/></arc>
+<arc id="40"><flow source="4" target="3"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="58"><flow source="6" target="3"/></arc>
+<arc id="67"><flow source="7" target="3"/></arc>
+<arc id="77"><flow source="8" target="4"/></arc>
+<arc id="79"><flow source="8" target="6"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

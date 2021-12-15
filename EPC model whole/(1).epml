@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="31" name="1An_l6tr">
+<event id="0"><name>Program
+structure
+is processed</name></event>
+<event id="1"><name>Program
+definition
+is changed</name></event>
+<function id="2"><name>Program
+Structuring</name></function>
+<xor id="3"/>
+<event id="4"><name>Program
+structure
+is to
+be determined</name></event>
+<event id="5"><name>Program
+positions
+are changed</name></event>
+<or id="6"/>
+<event id="7"><name>Program
+definition
+is to
+be changed</name></event>
+<xor id="8"/>
+<arc id="27"><flow source="2" target="8"/></arc>
+<arc id="30"><flow source="3" target="2"/></arc>
+<arc id="40"><flow source="4" target="3"/></arc>
+<arc id="56"><flow source="6" target="1"/></arc>
+<arc id="60"><flow source="6" target="5"/></arc>
+<arc id="67"><flow source="7" target="3"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+<arc id="79"><flow source="8" target="6"/></arc>
+</epc></epml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="495" name="1Un_k964">
+<event id="0"><name>Summarization
+Levels
+Defined</name></event>
+<function id="1"><name>Basic
+key figures</name></function>
+<function id="2"><name>Data
+slices</name></function>
+<function id="3"><name>Currency
+Translation
+Types
+for Data
+Transfer and Planning Layouts</name></function>
+<function id="4"><name>Validation</name></function>
+<event id="5"><name>Currency
+Translation
+Defined</name></event>
+<function id="6"><name>Characteristics</name></function>
+<function id="7"><name>Derivation</name></function>
+<event id="8"><name>Derivations
+Specified</name></event>
+<function id="9"><name>Calculated
+Key Figures</name></function>
+<event id="10"><name>Data
+Basis
+Determined</name></event>
+<event id="11"><name>Validation
+Completed</name></event>
+<event id="12"><name>Data
+Basis
+needs
+to be
+defined</name></event>
+<function id="13"><name>Fixed
+Characteristics</name></function>
+<event id="14"><name>Characteristics
+Defined</name></event>
+<function id="15"><name>Comment
+tables</name></function>
+<event id="16"><name>Accounted
+Key Figures
+Defined</name></event>
+<function id="17"><name>Summarization
+levels</name></function>
+<function id="18"><name>Aspect</name></function>
+<event id="19"><name>Specify
+Field
+Groups</name></event>
+<event id="20"><name>Basic
+Key Figures
+Specified</name></event>
+<event id="21"><name>Comment
+Tables
+Defined</name></event>
+<event id="22"><name>Fixed
+Characteristics
+Specified</name></event>
+<function id="23"><name>Field
+groups</name></function>
+<event id="24"><name>Aspects
+Specified</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="46"><flow source="1" target="20"/></arc>
+<arc id="61"><flow source="2" target="10"/></arc>
+<arc id="81"><flow source="3" target="5"/></arc>
+<arc id="112"><flow source="4" target="11"/></arc>
+<arc id="133"><flow source="5" target="7"/></arc>
+<arc id="165"><flow source="6" target="14"/></arc>
+<arc id="184"><flow source="7" target="8"/></arc>
+<arc id="205"><flow source="8" target="4"/></arc>
+<arc id="242"><flow source="9" target="16"/></arc>
+<arc id="278"><flow source="11" target="2"/></arc>
+<arc id="307"><flow source="12" target="6"/></arc>
+<arc id="348"><flow source="13" target="22"/></arc>
+<arc id="352"><flow source="14" target="1"/></arc>
+<arc id="397"><flow source="15" target="21"/></arc>
+<arc id="416"><flow source="16" target="15"/></arc>
+<arc id="426"><flow source="17" target="0"/></arc>
+<arc id="475"><flow source="18" target="24"/></arc>
+<arc id="494"><flow source="19" target="18"/></arc>
+<arc id="524"><flow source="20" target="23"/></arc>
+<arc id="539"><flow source="21" target="13"/></arc>
+<arc id="568"><flow source="22" target="17"/></arc>
+<arc id="595"><flow source="23" target="19"/></arc>
+<arc id="610"><flow source="24" target="9"/></arc>
+</epc></epml>

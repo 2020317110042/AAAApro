@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="113" name="1Er_hhi9">
+<function id="0"><name>Transfer
+of Personnel
+Costs</name></function>
+<event id="1"><name>Order
+with
+Integrated
+Planning
+Was Settled</name></event>
+<and id="2"/>
+<function id="3"><name>Copy
+Actual
+Data
+to Cost
+Center Plan</name></function>
+<event id="4"><name>Process
+quantities
+(output)
+to be
+planned using SOP planning</name></event>
+<xor id="5"/>
+<event id="6"><name>Cost
+and activity
+planning
+executed</name></event>
+<and id="7"/>
+<xor id="8"/>
+<event id="9"><name>Activity
+requirements
+transferred
+from
+production planning</name></event>
+<function id="10"><name>Cost
+Accrual
+- Plan</name></function>
+<and id="11"/>
+<function id="12"><name>Overhead
+Calculation
+(Business
+Process)</name></function>
+<function id="13"><name>Splitting</name></function>
+<event id="14"><name>Order
+Costs
+Are to
+Be Integrated
+in Cost Planning</name></event>
+<function id="15"><name>Secondary
+Cost
+Planning
+(Prop./
+Fixed)</name></function>
+<xor id="16"/>
+<function id="17"><name>Activity
+Type
+Planning</name></function>
+<event id="18"><name>Business
+Process
+Is Processed</name></event>
+<event id="19"><name>Exist.
+cost
+planning
+is to
+be revaluated</name></event>
+<event id="20"><name>Overhead
+Was Charged
+to Cost
+Center</name></event>
+<event id="21"><name>Plan
+Reconciliation
+Performed</name></event>
+<function id="22"><name>Settlement
+of Overhead
+Cost
+Orders
+(Planning Data)</name></function>
+<function id="23"><name>Secondary
+Cost
+Planning
+(Full
+Costs)</name></function>
+<function id="24"><name>Order
+Budgeting</name></function>
+<and id="25"/>
+<function id="26"><name>Plan
+Indirect
+Activity
+Allocation
+(Indirect Entry)</name></function>
+<function id="27"><name>Definition
+of Activity
+Type
+for Cost
+Center</name></function>
+<event id="28"><name>Process
+Quantities
+Planned</name></event>
+<event id="29"><name>Planned
+Costs
+Distributed</name></event>
+<function id="30"><name>Transfer
+of Depreciation/
+Interest
+(Activity-Independent)</name></function>
+<and id="31"/>
+<event id="32"><name>New Period
+to Be
+Planned
+(Copy
+of Previous Year's Plan)</name></event>
+<event id="33"><name>Order
+is budgeted</name></event>
+<function id="34"><name>Transfer
+of Scheduled
+Activity
+from
+PP to CO-OM-CCA</name></function>
+<function id="35"><name>Template
+Allocation</name></function>
+<function id="36"><name>Budget
+Planning</name></function>
+<function id="37"><name>Planned
+Interest
+Calculation
+for Order</name></function>
+<event id="38"><name>Interest
+Calculated</name></event>
+<xor id="39"/>
+<function id="40"><name>Plan
+Cost
+Distribution</name></function>
+<event id="41"><name>Secondary
+cost
+planning
+to be
+carried out</name></event>
+<event id="42"><name>Process
+costs
+were
+allocated</name></event>
+<function id="43"><name>Planning
+Revaluation</name></function>
+<event id="44"><name>Cost
+center
+planning
+prepared</name></event>
+<event id="45"><name>Cost
+Center
+Plan
+Data
+Exists</name></event>
+<and id="46"/>
+<event id="47"><name>Planned
+Periodic
+Reposting
+Performed</name></event>
+<event id="48"><name>Key figures
+transferred
+from
+LIS</name></event>
+<event id="49"><name>Planned
+Costs
+Accrued</name></event>
+<event id="50"><name>Personnel
+cost
+planning
+is complete</name></event>
+<event id="51"><name>Activity
+requirements
+transferred
+from
+production planning</name></event>
+<or id="52"/>
+<function id="53"><name>Plan
+Indirect
+Activity
+Allocation
+(Manual Entry)</name></function>
+<xor id="54"/>
+<function id="55"><name>Transfer
+of Statistical
+Key Figures
+from
+LIS (Plan)</name></function>
+<xor id="56"/>
+<and id="57"/>
+<function id="58"><name>Resource
+Planning</name></function>
+<function id="59"><name>Process
+Cost
+Planning</name></function>
+<function id="60"><name>Primary
+Cost
+Planning
+(Full
+Costs)</name></function>
+<function id="61"><name>Redefinition
+of Plan
+Version</name></function>
+<or id="62"/>
+<and id="63"/>
+<function id="64"><name>Transfer
+of Scheduled
+Activity
+PP -&gt;
+CO-ABC</name></function>
+<event id="65"><name>Primary
+cost
+planning
+to be
+carried out</name></event>
+<function id="66"><name>Overall
+Planning
+(Order)</name></function>
+<event id="67"><name>Statistical
+key figure
+was entered
+for reference
+object</name></event>
+<event id="68"><name/></event>
+<event id="69"><name>Splitting
+Executed</name></event>
+<function id="70"><name>Overhead
+Calculation
+(Cost
+Center)</name></function>
+<event id="71"><name>Depreciation
+/interest
+to be
+transferred
+(activity-dependent)</name></event>
+<and id="72"/>
+<event id="73"><name>Activity
+requirements
+transferred
+from
+production planning</name></event>
+<event id="74"><name>Key figures
+from
+LIS to
+be transferred</name></event>
+<event id="75"><name>Order
+Planning
+Is Prepared</name></event>
+<function id="76"><name>Primary
+Cost
+Planning
+(Prop./
+Fixed)</name></function>
+<or id="77"/>
+<function id="78"><name>Plan
+Reconciliation</name></function>
+<function id="79"><name>Copy
+Plan
+from
+Previous
+Year to Cost Center Planning</name></function>
+<event id="80"><name>New Period
+to Be
+Planned
+(New
+Definition of Plan Version)</name></event>
+<event id="81"><name>New Period
+to Be
+Planned
+(Copy
+of Actual)</name></event>
+<function id="82"><name>Unit
+Costing
+(Order)</name></function>
+<function id="83"><name>Plan
+Cost
+Assessment</name></function>
+<function id="84"><name>Transfer
+of Depreciation/
+Interest
+(Activity-Dependent)</name></function>
+<function id="85"><name>Cost
+Element
+Planning
+(Order)</name></function>
+<function id="86"><name>Process
+Quantity
+Planning</name></function>
+<event id="87"><name>Plan
+Data
+for Order
+Exists</name></event>
+<event id="88"><name>Statistical
+key figure
+exists</name></event>
+<event id="89"><name>Process
+quantities
+(output)
+to be
+planned manually</name></event>
+<function id="90"><name>Manual
+Planning
+of Statistical
+Key Figures</name></function>
+<and id="91"/>
+<event id="92"><name>Depreciation
+/ interest
+to be
+transferred
+(activity-independent)</name></event>
+<event id="93"><name>Budget
+is planned</name></event>
+<function id="94"><name>Formula
+Planning</name></function>
+<and id="95"/>
+<and id="96"/>
+<and id="97"/>
+<event id="98"><name>Overhead
+Costs
+Allocated
+Through
+Overhead Charges</name></event>
+<function id="99"><name>Resource
+Planning
+(Order)</name></function>
+<function id="100"><name>Overhead
+Calculation
+(Overhead
+Cost
+Order)</name></function>
+<function id="101"><name>Cost
+Element
+Planning
+(Order
+with Integrated Planning)</name></function>
+<function id="102"><name>Periodic
+Reposting
+of Plan
+Data</name></function>
+<xor id="103"/>
+<function id="104"><name>Planned
+Price
+Calculation</name></function>
+<event id="105"><name>Business
+process
+is planned</name></event>
+<and id="106"/>
+<arc id="63"><flow source="0" target="62"/></arc>
+<arc id="133"><flow source="1" target="25"/></arc>
+<arc id="237"><flow source="2" target="22"/></arc>
+<arc id="378"><flow source="3" target="56"/></arc>
+<arc id="493"><flow source="4" target="64"/></arc>
+<arc id="555"><flow source="5" target="19"/></arc>
+<arc id="590"><flow source="5" target="54"/></arc>
+<arc id="611"><flow source="5" target="75"/></arc>
+<arc id="822"><flow source="7" target="72"/></arc>
+<arc id="919"><flow source="8" target="62"/></arc>
+<arc id="998"><flow source="9" target="34"/></arc>
+<arc id="1120"><flow source="10" target="49"/></arc>
+<arc id="1202"><flow source="11" target="24"/></arc>
+<arc id="1215"><flow source="11" target="37"/></arc>
+<arc id="1316"><flow source="12" target="31"/></arc>
+<arc id="1461"><flow source="13" target="69"/></arc>
+<arc id="1501"><flow source="14" target="2"/></arc>
+<arc id="1703"><flow source="15" target="97"/></arc>
+<arc id="1799"><flow source="16" target="86"/></arc>
+<arc id="1915"><flow source="17" target="95"/></arc>
+<arc id="2023"><flow source="18" target="96"/></arc>
+<arc id="2077"><flow source="19" target="43"/></arc>
+<arc id="2224"><flow source="20" target="83"/></arc>
+<arc id="2261"><flow source="21" target="13"/></arc>
+<arc id="2356"><flow source="22" target="1"/></arc>
+<arc id="2559"><flow source="23" target="97"/></arc>
+<arc id="2602"><flow source="24" target="33"/></arc>
+<arc id="2754"><flow source="25" target="78"/></arc>
+<arc id="2814"><flow source="26" target="31"/></arc>
+<arc id="2985"><flow source="27" target="95"/></arc>
+<arc id="3009"><flow source="28" target="12"/></arc>
+<arc id="3174"><flow source="29" target="70"/></arc>
+<arc id="3219"><flow source="30" target="8"/></arc>
+<arc id="3423"><flow source="31" target="105"/></arc>
+<arc id="3504"><flow source="32" target="79"/></arc>
+<arc id="3712"><flow source="34" target="73"/></arc>
+<arc id="3788"><flow source="35" target="42"/></arc>
+<arc id="3946"><flow source="36" target="93"/></arc>
+<arc id="3998"><flow source="37" target="38"/></arc>
+<arc id="4069"><flow source="38" target="2"/></arc>
+<arc id="4178"><flow source="39" target="4"/></arc>
+<arc id="4242"><flow source="39" target="68"/></arc>
+<arc id="4263"><flow source="39" target="89"/></arc>
+<arc id="4310"><flow source="40" target="29"/></arc>
+<arc id="4395"><flow source="41" target="7"/></arc>
+<arc id="4520"><flow source="42" target="25"/></arc>
+<arc id="4656"><flow source="43" target="54"/></arc>
+<arc id="4800"><flow source="44" target="91"/></arc>
+<arc id="4879"><flow source="45" target="63"/></arc>
+<arc id="4949"><flow source="46" target="26"/></arc>
+<arc id="4976"><flow source="46" target="53"/></arc>
+<arc id="5087"><flow source="47" target="57"/></arc>
+<arc id="5240"><flow source="48" target="103"/></arc>
+<arc id="5301"><flow source="49" target="57"/></arc>
+<arc id="5351"><flow source="50" target="0"/></arc>
+<arc id="5474"><flow source="51" target="16"/></arc>
+<arc id="5631"><flow source="52" target="66"/></arc>
+<arc id="5647"><flow source="52" target="82"/></arc>
+<arc id="5650"><flow source="52" target="85"/></arc>
+<arc id="5664"><flow source="52" target="99"/></arc>
+<arc id="5666"><flow source="52" target="101"/></arc>
+<arc id="5703"><flow source="53" target="31"/></arc>
+<arc id="5823"><flow source="54" target="44"/></arc>
+<arc id="5934"><flow source="55" target="48"/></arc>
+<arc id="5998"><flow source="56" target="5"/></arc>
+<arc id="6140"><flow source="57" target="40"/></arc>
+<arc id="6304"><flow source="58" target="97"/></arc>
+<arc id="6353"><flow source="59" target="39"/></arc>
+<arc id="6518"><flow source="60" target="97"/></arc>
+<arc id="6584"><flow source="61" target="56"/></arc>
+<arc id="6676"><flow source="62" target="41"/></arc>
+<arc id="6752"><flow source="63" target="10"/></arc>
+<arc id="6778"><flow source="63" target="36"/></arc>
+<arc id="6838"><flow source="63" target="96"/></arc>
+<arc id="6844"><flow source="63" target="102"/></arc>
+<arc id="6900"><flow source="64" target="51"/></arc>
+<arc id="7062"><flow source="65" target="106"/></arc>
+<arc id="7140"><flow source="66" target="77"/></arc>
+<arc id="7273"><flow source="67" target="103"/></arc>
+<arc id="7323"><flow source="68" target="46"/></arc>
+<arc id="7488"><flow source="69" target="104"/></arc>
+<arc id="7511"><flow source="70" target="20"/></arc>
+<arc id="7682"><flow source="71" target="84"/></arc>
+<arc id="7720"><flow source="72" target="15"/></arc>
+<arc id="7728"><flow source="72" target="23"/></arc>
+<arc id="7819"><flow source="73" target="7"/></arc>
+<arc id="7974"><flow source="74" target="55"/></arc>
+<arc id="8078"><flow source="75" target="52"/></arc>
+<arc id="8230"><flow source="76" target="97"/></arc>
+<arc id="8327"><flow source="77" target="87"/></arc>
+<arc id="8368"><flow source="78" target="21"/></arc>
+<arc id="8510"><flow source="79" target="56"/></arc>
+<arc id="8622"><flow source="80" target="61"/></arc>
+<arc id="8671"><flow source="81" target="3"/></arc>
+<arc id="8852"><flow source="82" target="77"/></arc>
+<arc id="8896"><flow source="83" target="14"/></arc>
+<arc id="8997"><flow source="84" target="8"/></arc>
+<arc id="9173"><flow source="85" target="77"/></arc>
+<arc id="9231"><flow source="86" target="28"/></arc>
+<arc id="9410"><flow source="87" target="100"/></arc>
+<arc id="9507"><flow source="88" target="90"/></arc>
+<arc id="9540"><flow source="89" target="16"/></arc>
+<arc id="9698"><flow source="90" target="67"/></arc>
+<arc id="9755"><flow source="91" target="17"/></arc>
+<arc id="9765"><flow source="91" target="27"/></arc>
+<arc id="9875"><flow source="92" target="30"/></arc>
+<arc id="10156"><flow source="94" target="97"/></arc>
+<arc id="10269"><flow source="95" target="103"/></arc>
+<arc id="10332"><flow source="96" target="59"/></arc>
+<arc id="10425"><flow source="97" target="45"/></arc>
+<arc id="10498"><flow source="98" target="11"/></arc>
+<arc id="10671"><flow source="99" target="77"/></arc>
+<arc id="10799"><flow source="100" target="98"/></arc>
+<arc id="10885"><flow source="101" target="77"/></arc>
+<arc id="10962"><flow source="102" target="47"/></arc>
+<arc id="11087"><flow source="103" target="65"/></arc>
+<arc id="11135"><flow source="104" target="6"/></arc>
+<arc id="11271"><flow source="105" target="35"/></arc>
+<arc id="11401"><flow source="106" target="58"/></arc>
+<arc id="11403"><flow source="106" target="60"/></arc>
+<arc id="11419"><flow source="106" target="76"/></arc>
+<arc id="11437"><flow source="106" target="94"/></arc>
+</epc></epml>

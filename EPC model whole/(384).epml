@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="385" name="1Pr_dtjg">
+<event id="0"><name>Dates
+must
+be planned
+for WBS
+elements</name></event>
+<xor id="1"/>
+<event id="2"><name>Date
+planning
+is performed</name></event>
+<function id="3"><name>Project
+Scheduling</name></function>
+<event id="4"><name>Cross-project
+scheduling
+required</name></event>
+<event id="5"><name>Project/
+subproject
+with
+activities
+requires scheduling</name></event>
+<function id="6"><name>Manual
+WBS Date
+Planning</name></function>
+<function id="7"><name>Overall
+Network
+Scheduling</name></function>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="11"><flow source="1" target="2"/></arc>
+<arc id="26"><flow source="3" target="1"/></arc>
+<arc id="40"><flow source="4" target="7"/></arc>
+<arc id="44"><flow source="5" target="3"/></arc>
+<arc id="50"><flow source="6" target="1"/></arc>
+<arc id="58"><flow source="7" target="1"/></arc>
+</epc></epml>

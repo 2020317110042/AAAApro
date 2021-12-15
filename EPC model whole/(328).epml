@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="329" name="1Pr_1vyc">
+<event id="0"><name>Dependent
+Requirement
+Created</name></event>
+<or id="1"/>
+<event id="2"><name>Purchase
+Requisition
+Created</name></event>
+<xor id="3"/>
+<and id="4"/>
+<event id="5"><name>MRP list
+is created</name></event>
+<event id="6"><name>Dependent
+Requirement
+Created</name></event>
+<function id="7"><name>Material
+requirements
+planning
+- evaluation</name></function>
+<event id="8"><name>Stock/
+requirements
+list
+to be
+processed</name></event>
+<function id="9"><name>Material
+Requirements
+Planning
+- Sales
+Order-Specific</name></function>
+<event id="10"><name>Planning
+results
+or stock/
+reqmts
+situation is processed</name></event>
+<event id="11"><name>Customer
+Requirements
+Occurred</name></event>
+<function id="12"><name>Material
+Requirements
+Planning
+- Individual</name></function>
+<or id="13"/>
+<function id="14"><name>Overall
+Material
+Requirements
+Planning</name></function>
+<event id="15"><name>Planned
+Order
+Created
+Automatically</name></event>
+<or id="16"/>
+<arc id="22"><flow source="1" target="4"/></arc>
+<arc id="59"><flow source="3" target="7"/></arc>
+<arc id="78"><flow source="4" target="9"/></arc>
+<arc id="81"><flow source="4" target="12"/></arc>
+<arc id="83"><flow source="4" target="14"/></arc>
+<arc id="89"><flow source="5" target="3"/></arc>
+<arc id="104"><flow source="6" target="1"/></arc>
+<arc id="130"><flow source="7" target="10"/></arc>
+<arc id="140"><flow source="8" target="3"/></arc>
+<arc id="170"><flow source="9" target="16"/></arc>
+<arc id="189"><flow source="11" target="1"/></arc>
+<arc id="221"><flow source="12" target="16"/></arc>
+<arc id="222"><flow source="13" target="0"/></arc>
+<arc id="224"><flow source="13" target="2"/></arc>
+<arc id="227"><flow source="13" target="5"/></arc>
+<arc id="237"><flow source="13" target="15"/></arc>
+<arc id="255"><flow source="14" target="16"/></arc>
+<arc id="286"><flow source="16" target="13"/></arc>
+</epc></epml>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="132" name="1Ex_e1oz">
+<event id="0"><name>Currency
+translation
+carried
+out</name></event>
+<and id="1"/>
+<event id="2"><name>Asset
+transfer
+has occurred</name></event>
+<event id="3"><name>Changes
+for current
+year
+are entered
+for proportionally consolidated co.</name></event>
+<event id="4"><name>Export
+file
+(PC)
+is transferred</name></event>
+<function id="5"><name>Elimination
+of IC
+Profit
+and Loss
+in Fixed Assets</name></function>
+<event id="6"><name>Currency
+translation
+carried
+out</name></event>
+<event id="7"><name>New company/
+ies is/
+are created</name></event>
+<function id="8"><name>Preparations
+for Consolidation</name></function>
+<and id="9"/>
+<event id="10"><name>Existing
+items
+should
+be summarized</name></event>
+<event id="11"><name>Data
+is transferred
+from
+FI to
+R/3 by extract</name></event>
+<event id="12"><name>Changes
+in current
+year
+are entered
+for equity method company</name></event>
+<or id="13"/>
+<event id="14"><name>Asset
+from
+in-house
+prod-
+uction was transferred</name></event>
+<event id="15"><name>Existing
+item
+number
+is to
+be changed</name></event>
+<event id="16"><name>Intercompany
+balances
+are to
+be reconciled
+in advance</name></event>
+<event id="17"><name>Extract
+is transferred
+from
+R/2</name></event>
+<event id="18"><name>Investments
+are entered
+in local
+and group
+currency</name></event>
+<or id="19"/>
+<and id="20"/>
+<function id="21"><name>Currency
+Translation</name></function>
+<event id="22"><name>Currency
+translation
+carried
+out</name></event>
+<event id="23"><name>Divestiture
+was entered</name></event>
+<event id="24"><name>Rollup
+is carried
+out in
+the same
+system</name></event>
+<event id="25"><name>Inter-
+company
+payables
+and receiv-
+ables were eliminated</name></event>
+<function id="26"><name>Intercompany
+Eliminations</name></function>
+<event id="27"><name>Inter-
+company
+revenue
+and expense
+was eliminated</name></event>
+<and id="28"/>
+<event id="29"><name>Transfer
+posting
+was created</name></event>
+<xor id="30"/>
+<and id="31"/>
+<and id="32"/>
+<and id="33"/>
+<event id="34"><name>Investment
+write-up
+was entered</name></event>
+<event id="35"><name>Existing
+item
+is to
+be split</name></event>
+<or id="36"/>
+<xor id="37"/>
+<event id="38"><name>Transfer
+has occurred
+in the
+area
+of financial assets</name></event>
+<event id="39"><name>Group
+financial
+state-
+ment
+version created; G/L accounts assigned</name></event>
+<xor id="40"/>
+<function id="41"><name>Centralized
+Data
+Entry</name></function>
+<function id="42"><name>Elimination
+of IC
+Profit
+and Loss
+in Current Assets</name></function>
+<event id="43"><name>Data
+entered
+for items
+is broken
+down by trading partner</name></event>
+<event id="44"><name>No journal
+entries
+exist
+for the
+old item number</name></event>
+<event id="45"><name>Hidden
+reserves
+entered</name></event>
+<event id="46"><name>Rollup
+extract
+file
+is transferred</name></event>
+<event id="47"><name>Companies
+plan
+to merge</name></event>
+<or id="48"/>
+<and id="49"/>
+<event id="50"><name>Investment
+amortization
+was entered</name></event>
+<event id="51"><name>Cross-system
+rollup
+exists</name></event>
+<xor id="52"/>
+<and id="53"/>
+<function id="54"><name>Postings</name></function>
+<xor id="55"/>
+<or id="56"/>
+<event id="57"><name>Equity
+is entered
+in local
+and group
+currency</name></event>
+<event id="58"><name>Step
+acquisition
+entered</name></event>
+<or id="59"/>
+<function id="60"><name>Remote
+Data
+Entry</name></function>
+<or id="61"/>
+<event id="62"><name>Standardizing
+entries
+were
+made</name></event>
+<event id="63"><name>Asset
+transfers
+are entered
+for receiving
+company</name></event>
+<event id="64"><name>Data
+is updated
+realtime</name></event>
+<event id="65"><name>Extract/
+download
+for R/
+2 is
+created</name></event>
+<event id="66"><name>Extract
+is transferred
+by IDOC</name></event>
+<event id="67"><name>Increase/
+reduction
+in capitalization
+entered</name></event>
+<event id="68"><name>Fiscal
+year-end
+is reached</name></event>
+<event id="69"><name>Individual
+financial
+statement
+is entered
+in database</name></event>
+<event id="70"><name>Exchange
+rates
+/ translation
+methods
+are maintained centrally</name></event>
+<event id="71"><name>Balance
+reconcil-
+iation
+was carried
+out</name></event>
+<event id="72"><name>Changes
+in current
+year
+entered
+for purchase method company</name></event>
+<event id="73"><name>Main
+consolidation
+process
+to be
+started</name></event>
+<event id="74"><name>FS item
+sets
+were
+specified</name></event>
+<event id="75"><name>G/L accounts
+are assigned
+to financial
+statement
+items</name></event>
+<or id="76"/>
+<event id="77"><name>Data
+is updated
+realtime</name></event>
+<event id="78"><name>Group
+inventories
+are entered
+for the
+elimination of IC profit and loss</name></event>
+<function id="79"><name>Consolidation
+of Investments</name></function>
+<event id="80"><name>Elimination
+of IC
+profit
+and loss
+in inventory is completed</name></event>
+<and id="81"/>
+<or id="82"/>
+<function id="83"><name>Master
+Data
+Maintenance</name></function>
+<and id="84"/>
+<event id="85"><name>Asset
+transfers
+are entered
+for retiring
+company</name></event>
+<xor id="86"/>
+<event id="87"><name>Individual/
+subgroup
+financial
+state-
+ments are to be sent to parent company</name></event>
+<event id="88"><name>Master
+data
+is maintained
+in local
+system</name></event>
+<event id="89"><name>File
+is transferred
+as PC
+file</name></event>
+<event id="90"><name>Company
+is sold
+to parent
+company
+of a different subgroup</name></event>
+<and id="91"/>
+<event id="92"><name>Company
+is partially
+split
+into
+new company/ies</name></event>
+<event id="93"><name>Intercompany
+profit/
+loss
+in trans-
+ferred assets is eliminated</name></event>
+<event id="94"><name>Company
+is acquired</name></event>
+<event id="95"><name>Company
+is split
+completely
+into
+new companies</name></event>
+<event id="96"><name>New item
+number
+should
+be created</name></event>
+<event id="97"><name>Group
+chart
+of accounts
+created/
+G/L accounts assigned</name></event>
+<event id="98"><name>Intercompany
+profit
+and loss
+in inventory
+is to be eliminated</name></event>
+<and id="99"/>
+<xor id="100"/>
+<and id="101"/>
+<xor id="102"/>
+<xor id="103"/>
+<event id="104"><name>Extract
+is transferred
+as UNIX
+file</name></event>
+<event id="105"><name>Inconsistencies
+are justified</name></event>
+<event id="106"><name>Information
+exists
+for central
+adjustments
+to valuation</name></event>
+<event id="107"><name>Investment
+divesti-
+ture
+to be
+entered for parent of original company</name></event>
+<event id="108"><name>Subsequent
+consolidation
+was carried
+out</name></event>
+<event id="109"><name>Provisional
+currency
+translation
+is carried
+out</name></event>
+<event id="110"><name>Intercompany
+sales
+are entered
+for the
+elimination of IC profit and loss</name></event>
+<arc id="33"><flow source="0" target="32"/></arc>
+<arc id="154"><flow source="1" target="42"/></arc>
+<arc id="255"><flow source="2" target="32"/></arc>
+<arc id="410"><flow source="3" target="76"/></arc>
+<arc id="548"><flow source="4" target="103"/></arc>
+<arc id="656"><flow source="5" target="100"/></arc>
+<arc id="668"><flow source="6" target="1"/></arc>
+<arc id="797"><flow source="7" target="19"/></arc>
+<arc id="990"><flow source="8" target="101"/></arc>
+<arc id="1012"><flow source="9" target="12"/></arc>
+<arc id="1036"><flow source="9" target="36"/></arc>
+<arc id="1037"><flow source="9" target="37"/></arc>
+<arc id="1045"><flow source="9" target="45"/></arc>
+<arc id="1063"><flow source="9" target="63"/></arc>
+<arc id="1069"><flow source="9" target="69"/></arc>
+<arc id="1078"><flow source="9" target="78"/></arc>
+<arc id="1085"><flow source="9" target="85"/></arc>
+<arc id="1110"><flow source="9" target="110"/></arc>
+<arc id="1139"><flow source="10" target="28"/></arc>
+<arc id="1277"><flow source="11" target="55"/></arc>
+<arc id="1409"><flow source="12" target="76"/></arc>
+<arc id="1517"><flow source="13" target="73"/></arc>
+<arc id="1550"><flow source="13" target="106"/></arc>
+<arc id="1603"><flow source="14" target="48"/></arc>
+<arc id="1750"><flow source="15" target="84"/></arc>
+<arc id="1797"><flow source="16" target="20"/></arc>
+<arc id="1991"><flow source="17" target="103"/></arc>
+<arc id="2080"><flow source="18" target="81"/></arc>
+<arc id="2150"><flow source="19" target="40"/></arc>
+<arc id="2247"><flow source="20" target="26"/></arc>
+<arc id="2381"><flow source="21" target="49"/></arc>
+<arc id="2463"><flow source="22" target="20"/></arc>
+<arc id="2594"><flow source="23" target="40"/></arc>
+<arc id="2768"><flow source="24" target="103"/></arc>
+<arc id="2986"><flow source="26" target="99"/></arc>
+<arc id="3149"><flow source="28" target="40"/></arc>
+<arc id="3279"><flow source="29" target="59"/></arc>
+<arc id="3342"><flow source="30" target="11"/></arc>
+<arc id="3408"><flow source="30" target="77"/></arc>
+<arc id="3443"><flow source="31" target="1"/></arc>
+<arc id="3601"><flow source="32" target="48"/></arc>
+<arc id="3767"><flow source="33" target="103"/></arc>
+<arc id="3836"><flow source="34" target="61"/></arc>
+<arc id="3968"><flow source="35" target="82"/></arc>
+<arc id="4015"><flow source="36" target="18"/></arc>
+<arc id="4026"><flow source="36" target="29"/></arc>
+<arc id="4031"><flow source="36" target="34"/></arc>
+<arc id="4047"><flow source="36" target="50"/></arc>
+<arc id="4054"><flow source="36" target="57"/></arc>
+<arc id="4055"><flow source="36" target="58"/></arc>
+<arc id="4064"><flow source="36" target="67"/></arc>
+<arc id="4111"><flow source="37" target="3"/></arc>
+<arc id="4180"><flow source="37" target="72"/></arc>
+<arc id="4278"><flow source="38" target="59"/></arc>
+<arc id="4416"><flow source="39" target="86"/></arc>
+<arc id="4524"><flow source="40" target="83"/></arc>
+<arc id="4561"><flow source="41" target="9"/></arc>
+<arc id="4743"><flow source="42" target="80"/></arc>
+<arc id="4794"><flow source="43" target="20"/></arc>
+<arc id="4969"><flow source="44" target="84"/></arc>
+<arc id="5077"><flow source="45" target="81"/></arc>
+<arc id="5210"><flow source="46" target="103"/></arc>
+<arc id="5258"><flow source="47" target="40"/></arc>
+<arc id="5334"><flow source="48" target="5"/></arc>
+<arc id="5456"><flow source="49" target="16"/></arc>
+<arc id="5462"><flow source="49" target="22"/></arc>
+<arc id="5483"><flow source="49" target="43"/></arc>
+<arc id="5514"><flow source="49" target="74"/></arc>
+<arc id="5549"><flow source="49" target="109"/></arc>
+<arc id="5612"><flow source="50" target="61"/></arc>
+<arc id="5748"><flow source="51" target="86"/></arc>
+<arc id="5844"><flow source="52" target="71"/></arc>
+<arc id="5878"><flow source="52" target="105"/></arc>
+<arc id="5905"><flow source="53" target="21"/></arc>
+<arc id="6057"><flow source="54" target="62"/></arc>
+<arc id="6162"><flow source="55" target="56"/></arc>
+<arc id="6277"><flow source="56" target="60"/></arc>
+<arc id="6409"><flow source="57" target="81"/></arc>
+<arc id="6498"><flow source="58" target="59"/></arc>
+<arc id="6629"><flow source="59" target="79"/></arc>
+<arc id="6763"><flow source="60" target="102"/></arc>
+<arc id="6831"><flow source="61" target="59"/></arc>
+<arc id="6936"><flow source="62" target="53"/></arc>
+<arc id="7085"><flow source="63" target="91"/></arc>
+<arc id="7138"><flow source="64" target="33"/></arc>
+<arc id="7319"><flow source="65" target="103"/></arc>
+<arc id="7430"><flow source="66" target="103"/></arc>
+<arc id="7497"><flow source="67" target="59"/></arc>
+<arc id="7577"><flow source="68" target="28"/></arc>
+<arc id="7713"><flow source="69" target="53"/></arc>
+<arc id="7824"><flow source="70" target="53"/></arc>
+<arc id="8069"><flow source="72" target="76"/></arc>
+<arc id="8112"><flow source="73" target="8"/></arc>
+<arc id="8235"><flow source="74" target="20"/></arc>
+<arc id="8412"><flow source="75" target="86"/></arc>
+<arc id="8496"><flow source="76" target="59"/></arc>
+<arc id="8603"><flow source="77" target="55"/></arc>
+<arc id="8690"><flow source="78" target="31"/></arc>
+<arc id="8878"><flow source="79" target="108"/></arc>
+<arc id="9051"><flow source="81" target="59"/></arc>
+<arc id="9143"><flow source="82" target="40"/></arc>
+<arc id="9227"><flow source="83" target="13"/></arc>
+<arc id="9365"><flow source="84" target="40"/></arc>
+<arc id="9527"><flow source="85" target="91"/></arc>
+<arc id="9603"><flow source="86" target="56"/></arc>
+<arc id="9714"><flow source="87" target="56"/></arc>
+<arc id="9855"><flow source="88" target="86"/></arc>
+<arc id="9983"><flow source="89" target="103"/></arc>
+<arc id="10031"><flow source="90" target="40"/></arc>
+<arc id="10150"><flow source="91" target="48"/></arc>
+<arc id="10232"><flow source="92" target="19"/></arc>
+<arc id="10475"><flow source="94" target="40"/></arc>
+<arc id="10565"><flow source="95" target="19"/></arc>
+<arc id="10739"><flow source="96" target="82"/></arc>
+<arc id="10801"><flow source="97" target="33"/></arc>
+<arc id="10880"><flow source="98" target="1"/></arc>
+<arc id="11015"><flow source="99" target="25"/></arc>
+<arc id="11017"><flow source="99" target="27"/></arc>
+<arc id="11139"><flow source="100" target="38"/></arc>
+<arc id="11194"><flow source="100" target="93"/></arc>
+<arc id="11242"><flow source="101" target="30"/></arc>
+<arc id="11264"><flow source="101" target="52"/></arc>
+<arc id="11327"><flow source="102" target="4"/></arc>
+<arc id="11340"><flow source="102" target="17"/></arc>
+<arc id="11369"><flow source="102" target="46"/></arc>
+<arc id="11387"><flow source="102" target="64"/></arc>
+<arc id="11388"><flow source="102" target="65"/></arc>
+<arc id="11389"><flow source="102" target="66"/></arc>
+<arc id="11412"><flow source="102" target="89"/></arc>
+<arc id="11427"><flow source="102" target="104"/></arc>
+<arc id="11475"><flow source="103" target="41"/></arc>
+<arc id="11648"><flow source="104" target="103"/></arc>
+<arc id="11821"><flow source="106" target="54"/></arc>
+<arc id="11918"><flow source="107" target="40"/></arc>
+<arc id="12120"><flow source="109" target="20"/></arc>
+<arc id="12242"><flow source="110" target="31"/></arc>
+</epc></epml>

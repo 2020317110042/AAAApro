@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="134" name="1Ex_e43l">
+<event id="0"><name>Investment
+amortiz.
+from
+local
+validation must be adjusted in group</name></event>
+<or id="1"/>
+<function id="2"><name>Increase/
+Reduction
+in Capitalization</name></function>
+<or id="3"/>
+<event id="4"><name>Decrease
+in capitali-
+zation
+is to
+be entered for original company</name></event>
+<event id="5"><name>Subsequent
+consolidation
+was carried
+out</name></event>
+<event id="6"><name>Subsequent
+consolidation
+for propor-
+tion-
+ally consolidated company</name></event>
+<and id="7"/>
+<and id="8"/>
+<event id="9"><name>Changes
+in current
+year
+are entered
+for equity method company</name></event>
+<or id="10"/>
+<event id="11"><name>Subseq.
+consolidation
+for 20%-50%
+invest.
+co.</name></event>
+<and id="12"/>
+<event id="13"><name>Increase
+in investment
+for direct
+parent
+company</name></event>
+<event id="14"><name>Company
+is consolidated
+using
+purchase
+method or proportional consolidation</name></event>
+<event id="15"><name>Increase/
+reduction
+in capitalization
+entered</name></event>
+<event id="16"><name>Company
+is also
+parent
+company</name></event>
+<event id="17"><name>Company
+is consolidated
+using
+purchase
+method or proportional consolidation</name></event>
+<or id="18"/>
+<function id="19"><name>Transfer
+Posting
+FI-LC</name></function>
+<and id="20"/>
+<function id="21"><name>Change
+in Indirect
+Investment</name></function>
+<xor id="22"/>
+<event id="23"><name>Transfer
+was posted</name></event>
+<event id="24"><name>Capitalization
+was increased/
+decreased</name></event>
+<event id="25"><name>Subsequent
+consolidation
+for purchase
+method
+company</name></event>
+<or id="26"/>
+<event id="27"><name>Hidden
+reserves
+entered</name></event>
+<event id="28"><name>Increase/
+decrease
+in capitalizat-
+ion carr.
+out</name></event>
+<function id="29"><name>Investment
+Amortization/
+Write-Up</name></function>
+<or id="30"/>
+<function id="31"><name>First
+Consolidation</name></function>
+<event id="32"><name>Currency
+translation
+carried
+out</name></event>
+<event id="33"><name>Currency
+translation
+carried
+out</name></event>
+<event id="34"><name>Capital
+comes
+from
+own funds</name></event>
+<and id="35"/>
+<event id="36"><name>Change
+in indirect
+investment
+was made</name></event>
+<event id="37"><name>Investment
+amortization/
+write-up
+was carried
+out</name></event>
+<and id="38"/>
+<or id="39"/>
+<and id="40"/>
+<event id="41"><name>Currency
+translation
+carried
+out</name></event>
+<event id="42"><name>Investments
+are entered
+in local
+and group
+currency</name></event>
+<event id="43"><name>Investment
+share
+up because
+of third
+-party purchase</name></event>
+<and id="44"/>
+<event id="45"><name>Investment
+write-up
+was entered</name></event>
+<and id="46"/>
+<event id="47"><name>Changes
+in current
+year
+entered
+for purchase method company</name></event>
+<event id="48"><name>Transfer
+posting
+was created</name></event>
+<event id="49"><name>Capital
+from
+parent
+company
+funds</name></event>
+<event id="50"><name>Company
+is included
+in consolidated
+fin.
+statements for the first time</name></event>
+<and id="51"/>
+<or id="52"/>
+<event id="53"><name>Investment
+write-up
+from
+local
+valuation must be adjusted in group</name></event>
+<event id="54"><name>Changes
+for current
+year
+are entered
+for proportionally consolidated co.</name></event>
+<or id="55"/>
+<xor id="56"/>
+<function id="57"><name>Subsequent
+Consolidation</name></function>
+<event id="58"><name>Transfer
+has occurred
+in the
+area
+of financial assets</name></event>
+<event id="59"><name>First
+consolidation
+was carried
+out</name></event>
+<event id="60"><name>Company
+is sold
+to parent
+company
+of a different subgroup</name></event>
+<function id="61"><name>Step
+Acquisition</name></function>
+<event id="62"><name>Step
+acquisition
+entered</name></event>
+<or id="63"/>
+<event id="64"><name>Step
+acquisition
+was carried
+out</name></event>
+<event id="65"><name>Investment
+amortization
+was entered</name></event>
+<event id="66"><name>Equity
+is entered
+in local
+and group
+currency</name></event>
+<arc id="40"><flow source="0" target="39"/></arc>
+<arc id="103"><flow source="1" target="35"/></arc>
+<arc id="163"><flow source="2" target="28"/></arc>
+<arc id="253"><flow source="3" target="51"/></arc>
+<arc id="270"><flow source="4" target="1"/></arc>
+<arc id="458"><flow source="6" target="55"/></arc>
+<arc id="522"><flow source="7" target="52"/></arc>
+<arc id="566"><flow source="8" target="29"/></arc>
+<arc id="622"><flow source="9" target="18"/></arc>
+<arc id="710"><flow source="10" target="39"/></arc>
+<arc id="794"><flow source="11" target="56"/></arc>
+<arc id="831"><flow source="12" target="26"/></arc>
+<arc id="869"><flow source="12" target="64"/></arc>
+<arc id="918"><flow source="13" target="46"/></arc>
+<arc id="983"><flow source="14" target="44"/></arc>
+<arc id="1041"><flow source="15" target="35"/></arc>
+<arc id="1117"><flow source="16" target="44"/></arc>
+<arc id="1191"><flow source="17" target="51"/></arc>
+<arc id="1270"><flow source="18" target="63"/></arc>
+<arc id="1296"><flow source="19" target="22"/></arc>
+<arc id="1348"><flow source="20" target="7"/></arc>
+<arc id="1349"><flow source="20" target="8"/></arc>
+<arc id="1379"><flow source="20" target="38"/></arc>
+<arc id="1387"><flow source="20" target="46"/></arc>
+<arc id="1444"><flow source="21" target="36"/></arc>
+<arc id="1515"><flow source="22" target="40"/></arc>
+<arc id="1535"><flow source="22" target="60"/></arc>
+<arc id="1610"><flow source="24" target="1"/></arc>
+<arc id="1731"><flow source="25" target="55"/></arc>
+<arc id="1759"><flow source="26" target="16"/></arc>
+<arc id="1840"><flow source="27" target="30"/></arc>
+<arc id="1981"><flow source="29" target="37"/></arc>
+<arc id="2063"><flow source="30" target="52"/></arc>
+<arc id="2137"><flow source="31" target="59"/></arc>
+<arc id="2180"><flow source="32" target="35"/></arc>
+<arc id="2263"><flow source="33" target="51"/></arc>
+<arc id="2314"><flow source="34" target="35"/></arc>
+<arc id="2348"><flow source="35" target="2"/></arc>
+<arc id="2603"><flow source="38" target="56"/></arc>
+<arc id="2622"><flow source="39" target="8"/></arc>
+<arc id="2704"><flow source="40" target="23"/></arc>
+<arc id="2707"><flow source="40" target="26"/></arc>
+<arc id="2768"><flow source="41" target="20"/></arc>
+<arc id="2845"><flow source="42" target="30"/></arc>
+<arc id="2928"><flow source="43" target="46"/></arc>
+<arc id="2970"><flow source="44" target="21"/></arc>
+<arc id="3026"><flow source="45" target="10"/></arc>
+<arc id="3144"><flow source="46" target="61"/></arc>
+<arc id="3168"><flow source="47" target="18"/></arc>
+<arc id="3220"><flow source="48" target="3"/></arc>
+<arc id="3319"><flow source="49" target="35"/></arc>
+<arc id="3358"><flow source="50" target="7"/></arc>
+<arc id="3437"><flow source="51" target="19"/></arc>
+<arc id="3516"><flow source="52" target="31"/></arc>
+<arc id="3591"><flow source="53" target="39"/></arc>
+<arc id="3637"><flow source="54" target="18"/></arc>
+<arc id="3724"><flow source="55" target="38"/></arc>
+<arc id="3816"><flow source="56" target="63"/></arc>
+<arc id="3825"><flow source="57" target="5"/></arc>
+<arc id="3894"><flow source="58" target="7"/></arc>
+<arc id="3957"><flow source="59" target="3"/></arc>
+<arc id="4100"><flow source="61" target="12"/></arc>
+<arc id="4201"><flow source="62" target="46"/></arc>
+<arc id="4279"><flow source="63" target="57"/></arc>
+<arc id="4366"><flow source="65" target="10"/></arc>
+<arc id="4453"><flow source="66" target="30"/></arc>
+</epc></epml>

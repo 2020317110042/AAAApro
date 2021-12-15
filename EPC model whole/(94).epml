@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="95" name="1En_cpo4">
+<event id="0"><name>Evaluations
+are to
+be Performed</name></event>
+<function id="1"><name>Answering
+Questionnaires</name></function>
+<function id="2"><name>Medical
+Service
+Processing</name></function>
+<event id="3"><name>Medical
+service
+is to
+be created
+for person</name></event>
+<event id="4"><name>Questionnaire
+answers
+are to
+be entered</name></event>
+<event id="5"><name>Occupational
+health
+data
+is to
+be entered</name></event>
+<function id="6"><name>Determining
+Protocol
+Proposal
+Lists</name></function>
+<function id="7"><name>Protocol
+Assignment</name></function>
+<event id="8"><name>Protocol
+is to
+be assigned
+to person</name></event>
+<function id="9"><name>Open
+Medical
+Service</name></function>
+<event id="10"><name>Entering
+data
+is completed</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="12"><flow source="1" target="0"/></arc>
+<arc id="33"><flow source="2" target="10"/></arc>
+<arc id="43"><flow source="3" target="9"/></arc>
+<arc id="46"><flow source="4" target="1"/></arc>
+<arc id="62"><flow source="5" target="6"/></arc>
+<arc id="75"><flow source="6" target="8"/></arc>
+<arc id="81"><flow source="7" target="3"/></arc>
+<arc id="96"><flow source="8" target="7"/></arc>
+<arc id="104"><flow source="9" target="4"/></arc>
+</epc></epml>

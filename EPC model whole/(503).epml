@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="504" name="1Ve_4k75">
+<event id="0"><name>Goods
+catalog
+to be
+created</name></event>
+<event id="1"><name>Declarations
+transmitted</name></event>
+<event id="2"><name>Declarations
+to the
+authorities
+to be
+carried out</name></event>
+<function id="3"><name>Declarations
+to the
+Authorities</name></function>
+<or id="4"/>
+<and id="5"/>
+<event id="6"><name>Billing
+doc.
+relevant
+to accounting
+is created</name></event>
+<event id="7"><name>Goods
+catalog
+transmitted
+to authorities</name></event>
+<function id="8"><name>Goods
+Catalog
+Processing</name></function>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="24"><flow source="2" target="5"/></arc>
+<arc id="29"><flow source="3" target="1"/></arc>
+<arc id="40"><flow source="4" target="3"/></arc>
+<arc id="50"><flow source="5" target="4"/></arc>
+<arc id="60"><flow source="6" target="5"/></arc>
+<arc id="68"><flow source="7" target="4"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="7" name="1An_kgnx">
+<event id="0"><name>Fixed
+asset
+was rebuilt</name></event>
+<event id="1"><name>Class
+assignment
+needs
+changing</name></event>
+<function id="2"><name>Post-capitalization</name></function>
+<event id="3"><name>Bus.area/
+cost
+center
+assignment
+needs to be changed</name></event>
+<xor id="4"/>
+<xor id="5"/>
+<event id="6"><name>Transactions
+completed</name></event>
+<event id="7"><name>[Subsequent
+valuation
+change
+is necessary]</name></event>
+<event id="8"><name>Stock
+mat.
+should
+be posted
+to fix. asset</name></event>
+<function id="9"><name>Settlement
+of Asset
+under
+Construction</name></function>
+<event id="10"><name>Post-capitalization
+to be
+posted</name></event>
+<function id="11"><name>Reposting</name></function>
+<event id="12"><name>Asset
+under
+construction
+should
+be settled</name></event>
+<function id="13"><name>Write-up</name></function>
+<event id="14"><name>Fixed
+asset
+should
+be split</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="21"><flow source="1" target="5"/></arc>
+<arc id="35"><flow source="2" target="4"/></arc>
+<arc id="51"><flow source="3" target="5"/></arc>
+<arc id="67"><flow source="4" target="6"/></arc>
+<arc id="87"><flow source="5" target="11"/></arc>
+<arc id="119"><flow source="7" target="13"/></arc>
+<arc id="126"><flow source="8" target="5"/></arc>
+<arc id="140"><flow source="9" target="4"/></arc>
+<arc id="153"><flow source="10" target="2"/></arc>
+<arc id="170"><flow source="11" target="4"/></arc>
+<arc id="190"><flow source="12" target="9"/></arc>
+<arc id="200"><flow source="13" target="4"/></arc>
+<arc id="216"><flow source="14" target="5"/></arc>
+</epc></epml>

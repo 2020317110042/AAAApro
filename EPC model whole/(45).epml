@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="46" name="1Ar_m8hl">
+<event id="0"><name>Amount
+to be
+paid
+to benefits
+service provider exists</name></event>
+<function id="1"><name>Update
+for Employee
+Benefits
+Accounts</name></function>
+<event id="2"><name>Employee
+participation
+in benefits
+is complete</name></event>
+<event id="3"><name>Employer
+share
+for benefits
+plans
+exists</name></event>
+<event id="4"><name>Benefits
+amounts
+are transmitted
+to service
+provider</name></event>
+<event id="5"><name>Employee
+benefits
+accounts
+are updated</name></event>
+<and id="6"/>
+<function id="7"><name>Transmission
+of Benefits
+Amounts
+to Service
+Provider</name></function>
+<and id="8"/>
+<event id="9"><name>Time
+for transmission
+of benefits
+amounts
+has occurred</name></event>
+<function id="10"><name>Regular
+Payroll
+Processing
+for Benefits
+Plans</name></function>
+<and id="11"/>
+<event id="12"><name>Payroll
+information
+for benefits
+service
+provider exists</name></event>
+<and id="13"/>
+<or id="14"/>
+<event id="15"><name>Employee
+participation
+in benefits
+is active</name></event>
+<event id="16"><name>Employee
+share
+for benefits
+plans
+exists</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="23"><flow source="1" target="5"/></arc>
+<arc id="49"><flow source="2" target="14"/></arc>
+<arc id="63"><flow source="3" target="11"/></arc>
+<arc id="110"><flow source="6" target="7"/></arc>
+<arc id="124"><flow source="7" target="4"/></arc>
+<arc id="137"><flow source="8" target="0"/></arc>
+<arc id="140"><flow source="8" target="3"/></arc>
+<arc id="149"><flow source="8" target="12"/></arc>
+<arc id="153"><flow source="8" target="16"/></arc>
+<arc id="160"><flow source="9" target="6"/></arc>
+<arc id="179"><flow source="10" target="8"/></arc>
+<arc id="189"><flow source="11" target="1"/></arc>
+<arc id="228"><flow source="13" target="6"/></arc>
+<arc id="233"><flow source="13" target="11"/></arc>
+<arc id="249"><flow source="14" target="10"/></arc>
+<arc id="270"><flow source="15" target="14"/></arc>
+<arc id="284"><flow source="16" target="11"/></arc>
+</epc></epml>

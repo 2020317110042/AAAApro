@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="577" name="1Ve_m3i8">
+<xor id="0"/>
+<xor id="1"/>
+<event id="2"><name>Compensation
+plan
+exists
+for consolidation</name></event>
+<event id="3"><name>Need
+to correct
+compensation
+planning
+exists and cannot be delegated further</name></event>
+<function id="4"><name>Approval
+of Compensation
+Plan</name></function>
+<event id="5"><name>Compensation
+plan
+exists
+for approval</name></event>
+<function id="6"><name>Compensation
+Plan
+Consolidation</name></function>
+<function id="7"><name>Delegation
+of Correction
+Requirement
+for Compensation
+Plan</name></function>
+<function id="8"><name>Creation/
+Correction
+of Compensation
+Plan</name></function>
+<event id="9"><name>Compensation
+Planning
+Specifications
+Approved</name></event>
+<event id="10"><name>Need
+for compensation
+planning
+exists</name></event>
+<function id="11"><name>Delegation
+of Requirement
+for Compensation
+Planning</name></function>
+<and id="12"/>
+<event id="13"><name>Need
+to correct
+compensation
+plan
+exists</name></event>
+<event id="14"><name>Compensation
+plan
+is approved</name></event>
+<event id="15"><name>Need
+for compensation
+planning
+exists
+and cannot be delegated further</name></event>
+<xor id="16"/>
+<xor id="17"/>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="19"><flow source="1" target="0"/></arc>
+<arc id="24"><flow source="1" target="5"/></arc>
+<arc id="43"><flow source="2" target="6"/></arc>
+<arc id="72"><flow source="3" target="17"/></arc>
+<arc id="89"><flow source="4" target="16"/></arc>
+<arc id="95"><flow source="5" target="4"/></arc>
+<arc id="110"><flow source="6" target="1"/></arc>
+<arc id="130"><flow source="7" target="3"/></arc>
+<arc id="147"><flow source="8" target="2"/></arc>
+<arc id="175"><flow source="9" target="12"/></arc>
+<arc id="193"><flow source="10" target="12"/></arc>
+<arc id="214"><flow source="11" target="15"/></arc>
+<arc id="228"><flow source="12" target="11"/></arc>
+<arc id="242"><flow source="13" target="7"/></arc>
+<arc id="288"><flow source="15" target="17"/></arc>
+<arc id="289"><flow source="16" target="0"/></arc>
+<arc id="303"><flow source="16" target="14"/></arc>
+<arc id="315"><flow source="17" target="8"/></arc>
+</epc></epml>

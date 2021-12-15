@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="143" name="1Ex_e76a">
+<event id="0"><name>FIFO
+valuation
+to be
+based
+on single receipts</name></event>
+<function id="1"><name>Balance
+Sheet
+Values</name></function>
+<event id="2"><name>Future
+material
+price
+must
+be activated</name></event>
+<and id="3"/>
+<function id="4"><name>Change
+in Material
+Price</name></function>
+<event id="5"><name>Market
+price
+analysis
+must
+be carried out</name></event>
+<event id="6"><name>LIFO
+begins
+in middle
+of fiscal
+year</name></event>
+<or id="7"/>
+<xor id="8"/>
+<event id="9"><name>Validity
+date
+reset</name></event>
+<event id="10"><name>Revaluation
+document
+has been
+created</name></event>
+<event id="11"><name>LIFO
+valuation
+to be
+based
+on single receipts</name></event>
+<event id="12"><name>List
+of balance
+sheet
+values
+per account was created</name></event>
+<event id="13"><name>LIFO
+single
+results
+were
+displayed</name></event>
+<function id="14"><name>Determination
+of lowest
+value</name></function>
+<event id="15"><name>Lowest
+value
+has been
+determined</name></event>
+<event id="16"><name>Tax-law-based/
+commercial-law-based
+valuation
+price
+in material is determined</name></event>
+<event id="17"><name>Materials
+should
+be subject
+to FIFO
+valuation</name></event>
+<function id="18"><name>FIFO
+Valuation</name></function>
+<and id="19"/>
+<and id="20"/>
+<event id="21"><name>Future
+price
+reset</name></event>
+<event id="22"><name>Materials
+should
+be subject
+to LIFO
+valuation</name></event>
+<function id="23"><name>LIFO
+valuation</name></function>
+<or id="24"/>
+<event id="25"><name>Material
+valuation
+price
+updated</name></event>
+<event id="26"><name>List
+of lowest
+value-price
+variances
+was created</name></event>
+<event id="27"><name>FIFO
+valuation
+was carried
+out</name></event>
+<event id="28"><name>FIFO
+begins
+in the
+middle
+of the fiscal year</name></event>
+<xor id="29"/>
+<event id="30"><name>LIFO
+pools
+must
+be formed</name></event>
+<event id="31"><name>Batch
+input
+has been
+created
+for price change</name></event>
+<arc id="30"><flow source="0" target="29"/></arc>
+<arc id="45"><flow source="1" target="12"/></arc>
+<arc id="69"><flow source="2" target="4"/></arc>
+<arc id="106"><flow source="3" target="9"/></arc>
+<arc id="107"><flow source="3" target="10"/></arc>
+<arc id="118"><flow source="3" target="21"/></arc>
+<arc id="132"><flow source="4" target="3"/></arc>
+<arc id="175"><flow source="5" target="14"/></arc>
+<arc id="201"><flow source="6" target="8"/></arc>
+<arc id="226"><flow source="7" target="1"/></arc>
+<arc id="280"><flow source="8" target="23"/></arc>
+<arc id="361"><flow source="11" target="8"/></arc>
+<arc id="424"><flow source="13" target="7"/></arc>
+<arc id="468"><flow source="14" target="19"/></arc>
+<arc id="488"><flow source="15" target="7"/></arc>
+<arc id="574"><flow source="17" target="29"/></arc>
+<arc id="597"><flow source="18" target="20"/></arc>
+<arc id="624"><flow source="19" target="15"/></arc>
+<arc id="633"><flow source="19" target="24"/></arc>
+<arc id="635"><flow source="19" target="26"/></arc>
+<arc id="668"><flow source="20" target="27"/></arc>
+<arc id="672"><flow source="20" target="31"/></arc>
+<arc id="713"><flow source="22" target="8"/></arc>
+<arc id="750"><flow source="23" target="13"/></arc>
+<arc id="785"><flow source="24" target="16"/></arc>
+<arc id="794"><flow source="24" target="25"/></arc>
+<arc id="872"><flow source="27" target="7"/></arc>
+<arc id="926"><flow source="28" target="29"/></arc>
+<arc id="947"><flow source="29" target="18"/></arc>
+<arc id="969"><flow source="30" target="8"/></arc>
+</epc></epml>

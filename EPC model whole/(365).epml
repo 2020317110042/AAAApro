@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="366" name="1Pr_dc0n">
+<event id="0"><name>Statistical
+figures
+are to
+be entered</name></event>
+<function id="1"><name>Statistical
+Key Figure
+Posting</name></function>
+<event id="2"><name>Statistical
+key figure
+was entered
+for reference
+object</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="6"><flow source="1" target="2"/></arc>
+</epc></epml>

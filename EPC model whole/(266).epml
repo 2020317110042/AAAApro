@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="267" name="1Or_lqhg">
+<event id="0"><name>Notification
+of task
+area
+is transmitted
+to employee</name></event>
+<event id="1"><name>Need
+for individual
+personnel
+development
+planning exists for approval</name></event>
+<event id="2"><name>Position
+exists</name></event>
+<xor id="3"/>
+<function id="4"><name>Employee
+Notification
+of Task
+Area</name></function>
+<event id="5"><name>Department
+and assigned
+employee
+exist</name></event>
+<and id="6"/>
+<event id="7"><name>Need
+for personnel
+staff
+planning
+exists</name></event>
+<function id="8"><name>Approval
+of Results
+of Personnel
+Staff
+Planning</name></function>
+<event id="9"><name>Preparation
+of personnel
+staff
+planning
+is complete</name></event>
+<event id="10"><name>Provisions
+of personnel
+staff
+planning
+are implemented</name></event>
+<event id="11"><name>Personnel
+staff
+plan
+must
+be corrected</name></event>
+<xor id="12"/>
+<or id="13"/>
+<function id="14"><name>Preparation
+of Personnel
+Staff
+Planning</name></function>
+<event id="15"><name>Need
+for monitoring
+of career
+planning
+exists</name></event>
+<event id="16"><name>Personnel
+staff
+plan
+exists</name></event>
+<event id="17"><name>Personnel
+staff
+plan
+exists
+for approval</name></event>
+<event id="18"><name>Need
+for personnel
+change
+planning
+exists</name></event>
+<function id="19"><name>Personnel
+Staff
+Planning</name></function>
+<and id="20"/>
+<or id="21"/>
+<event id="22"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<event id="23"><name>Need
+for change
+planning
+exists
+for approval</name></event>
+<event id="24"><name>Need
+for employee
+notification
+of task
+area exists</name></event>
+<xor id="25"/>
+<arc id="40"><flow source="1" target="13"/></arc>
+<arc id="59"><flow source="2" target="6"/></arc>
+<arc id="86"><flow source="3" target="7"/></arc>
+<arc id="100"><flow source="3" target="21"/></arc>
+<arc id="105"><flow source="4" target="0"/></arc>
+<arc id="137"><flow source="5" target="6"/></arc>
+<arc id="171"><flow source="6" target="14"/></arc>
+<arc id="195"><flow source="7" target="12"/></arc>
+<arc id="234"><flow source="8" target="25"/></arc>
+<arc id="254"><flow source="9" target="19"/></arc>
+<arc id="267"><flow source="10" target="6"/></arc>
+<arc id="299"><flow source="11" target="12"/></arc>
+<arc id="319"><flow source="12" target="6"/></arc>
+<arc id="347"><flow source="13" target="8"/></arc>
+<arc id="374"><flow source="14" target="9"/></arc>
+<arc id="456"><flow source="17" target="13"/></arc>
+<arc id="498"><flow source="19" target="3"/></arc>
+<arc id="536"><flow source="20" target="15"/></arc>
+<arc id="537"><flow source="20" target="16"/></arc>
+<arc id="539"><flow source="20" target="18"/></arc>
+<arc id="543"><flow source="20" target="22"/></arc>
+<arc id="545"><flow source="20" target="24"/></arc>
+<arc id="548"><flow source="21" target="1"/></arc>
+<arc id="564"><flow source="21" target="17"/></arc>
+<arc id="570"><flow source="21" target="23"/></arc>
+<arc id="612"><flow source="23" target="13"/></arc>
+<arc id="629"><flow source="24" target="4"/></arc>
+<arc id="662"><flow source="25" target="11"/></arc>
+<arc id="671"><flow source="25" target="20"/></arc>
+</epc></epml>

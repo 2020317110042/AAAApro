@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="236" name="1Ku_9jfq">
+<event id="0"><name>Order
+is created</name></event>
+<event id="1"><name>Service
+is completed</name></event>
+<or id="2"/>
+<function id="3"><name>Service
+Quotation
+Processing</name></function>
+<event id="4"><name>Credit
+memo
+request
+to be
+created</name></event>
+<event id="5"><name>Items
+are cancelled</name></event>
+<xor id="6"/>
+<and id="7"/>
+<event id="8"><name>Sales
+document
+is to
+be created
+for the quality notification</name></event>
+<event id="9"><name>Quotation
+is monitored</name></event>
+<event id="10"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<event id="11"><name>Quotation
+is to
+be created
+from
+contact</name></event>
+<xor id="12"/>
+<xor id="13"/>
+<or id="14"/>
+<event id="15"><name>Delivery
+is to
+be created</name></event>
+<event id="16"><name>Order
+is to
+be Created
+from
+Contact</name></event>
+<event id="17"><name>Order-related
+invoice
+to be
+created</name></event>
+<and id="18"/>
+<event id="19"><name>Quotation
+items
+are rejected</name></event>
+<xor id="20"/>
+<event id="21"><name>Quotation
+is valid</name></event>
+<event id="22"><name>Sales
+and Distribution
+Document
+Must
+Be Created for Service Notification</name></event>
+<event id="23"><name>Pro forma
+invoice
+for order/
+delivery
+to be created</name></event>
+<and id="24"/>
+<event id="25"><name>Service
+contract
+to be
+offered</name></event>
+<event id="26"><name/></event>
+<function id="27"><name>Repair
+Order
+Processing</name></function>
+<arc id="61"><flow source="2" target="4"/></arc>
+<arc id="71"><flow source="2" target="14"/></arc>
+<arc id="72"><flow source="2" target="15"/></arc>
+<arc id="82"><flow source="2" target="25"/></arc>
+<arc id="92"><flow source="3" target="7"/></arc>
+<arc id="172"><flow source="6" target="3"/></arc>
+<arc id="206"><flow source="7" target="9"/></arc>
+<arc id="210"><flow source="7" target="13"/></arc>
+<arc id="237"><flow source="8" target="12"/></arc>
+<arc id="287"><flow source="10" target="6"/></arc>
+<arc id="315"><flow source="11" target="6"/></arc>
+<arc id="364"><flow source="12" target="27"/></arc>
+<arc id="384"><flow source="13" target="19"/></arc>
+<arc id="386"><flow source="13" target="21"/></arc>
+<arc id="410"><flow source="14" target="17"/></arc>
+<arc id="416"><flow source="14" target="23"/></arc>
+<arc id="461"><flow source="16" target="12"/></arc>
+<arc id="505"><flow source="18" target="0"/></arc>
+<arc id="507"><flow source="18" target="2"/></arc>
+<arc id="529"><flow source="18" target="24"/></arc>
+<arc id="566"><flow source="20" target="5"/></arc>
+<arc id="579"><flow source="20" target="18"/></arc>
+<arc id="601"><flow source="21" target="12"/></arc>
+<arc id="629"><flow source="22" target="12"/></arc>
+<arc id="674"><flow source="24" target="1"/></arc>
+<arc id="699"><flow source="24" target="26"/></arc>
+<arc id="777"><flow source="27" target="20"/></arc>
+</epc></epml>

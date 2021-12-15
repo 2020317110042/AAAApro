@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="161" name="1Ex_ej4e">
+<and id="0"/>
+<function id="1"><name>Bill
+of Exchange
+Usage</name></function>
+<function id="2"><name>Manual
+Payment
+by Bill
+of Exchange</name></function>
+<event id="3"><name>Bill
+of exchange
+usage
+complete</name></event>
+<function id="4"><name>Bill
+of Exchange
+Payment
+Request</name></function>
+<function id="5"><name>Failed
+Bill
+of Exchange</name></function>
+<event id="6"><name>Manual
+payment
+by bill
+of exchange
+to be made</name></event>
+<event id="7"><name>Correspon-
+dence
+request
+is created</name></event>
+<event id="8"><name>Check/
+bill
+of exchange
+receivable
+to be posted</name></event>
+<xor id="9"/>
+<event id="10"><name>Failed
+bill
+of exchange
+to be
+processed</name></event>
+<event id="11"><name>Failed
+bill
+of exchange
+is posted</name></event>
+<event id="12"><name>Bill
+of exchange
+payment
+posted</name></event>
+<event id="13"><name>Bill
+charges
+incurred</name></event>
+<event id="14"><name>Bill
+of exchange
+payment
+request
+to be created</name></event>
+<event id="15"><name>Bill
+of exchange
+tax incurred</name></event>
+<event id="16"><name>Due date
+and protest
+period
+exceeded</name></event>
+<xor id="17"/>
+<and id="18"/>
+<function id="19"><name>Check/
+Bill
+of Exchange
+Receivable</name></function>
+<event id="20"><name>Bill
+of exchange
+reversed</name></event>
+<function id="21"><name>Bill
+of Exchange
+Reversal</name></function>
+<and id="22"/>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="27"><flow source="1" target="3"/></arc>
+<arc id="56"><flow source="2" target="9"/></arc>
+<arc id="88"><flow source="3" target="18"/></arc>
+<arc id="110"><flow source="4" target="17"/></arc>
+<arc id="127"><flow source="5" target="11"/></arc>
+<arc id="141"><flow source="6" target="2"/></arc>
+<arc id="204"><flow source="8" target="19"/></arc>
+<arc id="208"><flow source="9" target="0"/></arc>
+<arc id="236"><flow source="10" target="5"/></arc>
+<arc id="299"><flow source="12" target="22"/></arc>
+<arc id="322"><flow source="13" target="22"/></arc>
+<arc id="327"><flow source="14" target="4"/></arc>
+<arc id="368"><flow source="15" target="22"/></arc>
+<arc id="387"><flow source="16" target="18"/></arc>
+<arc id="398"><flow source="17" target="6"/></arc>
+<arc id="400"><flow source="17" target="8"/></arc>
+<arc id="402"><flow source="17" target="10"/></arc>
+<arc id="436"><flow source="18" target="21"/></arc>
+<arc id="447"><flow source="19" target="9"/></arc>
+<arc id="504"><flow source="21" target="20"/></arc>
+<arc id="508"><flow source="22" target="1"/></arc>
+</epc></epml>

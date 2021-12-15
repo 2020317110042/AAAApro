@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="62" name="1Be_2n9n">
+<function id="0"><name>Transmission
+of RFQs</name></function>
+<event id="1"><name>Requests
+for quotation
+are created</name></event>
+<function id="2"><name>Release
+of RFQs</name></function>
+<event id="3"><name>Purchasing
+document
+released</name></event>
+<event id="4"><name>Purchase
+order
+transmitted</name></event>
+<function id="5"><name>Processing
+of Requests
+for Quotations</name></function>
+<xor id="6"/>
+<event id="7"><name>Quotation
+arrived</name></event>
+<event id="8"><name>Purchase
+requisition
+released
+for issue
+of RFQ</name></event>
+<and id="9"/>
+<event id="10"><name>Quotation
+rejected</name></event>
+<function id="11"><name>Vendor
+Quotation
+Processing</name></function>
+<event id="12"><name>Quotation
+chosen</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="16"><flow source="1" target="2"/></arc>
+<arc id="30"><flow source="2" target="3"/></arc>
+<arc id="40"><flow source="3" target="0"/></arc>
+<arc id="62"><flow source="4" target="9"/></arc>
+<arc id="67"><flow source="5" target="1"/></arc>
+<arc id="89"><flow source="6" target="10"/></arc>
+<arc id="91"><flow source="6" target="12"/></arc>
+<arc id="101"><flow source="7" target="9"/></arc>
+<arc id="110"><flow source="8" target="5"/></arc>
+<arc id="129"><flow source="9" target="11"/></arc>
+<arc id="150"><flow source="11" target="6"/></arc>
+</epc></epml>

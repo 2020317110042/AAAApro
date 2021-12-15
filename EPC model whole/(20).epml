@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="21" name="1An_kv7b">
+<event id="0"><name>Scheduling
+of overall
+network
+to be
+carried out</name></event>
+<event id="1"><name>Project
+planning
+to be
+carried
+out</name></event>
+<or id="2"/>
+<event id="3"><name>Period-end
+closing
+and settlement
+to be
+carried out</name></event>
+<function id="4"><name>Project
+Budgeting
+[Investment
+Project]</name></function>
+<event id="5"><name>Project
+planning
+carried
+out</name></event>
+<event id="6"><name>Manual
+WBS scheduling
+carried
+out</name></event>
+<function id="7"><name>Planning
+Project
+Dates
+(Relevant
+to PS)</name></function>
+<event id="8"><name>Scheduling
+of overall
+network
+carried
+out</name></event>
+<function id="9"><name>Overall
+Network
+Scheduling
+(Relevant
+to PS)</name></function>
+<or id="10"/>
+<event id="11"><name>Overhead
+costing
+to be
+carried
+out</name></event>
+<function id="12"><name>Manual
+WBS Date
+Planning</name></function>
+<or id="13"/>
+<or id="14"/>
+<event id="15"><name>Budget
+is assigned</name></event>
+<and id="16"/>
+<function id="17"><name>Overhead
+Costing/
+Cost
+Planning
+(Relevant to PS)</name></function>
+<event id="18"><name>Total
+cost
+determined</name></event>
+<event id="19"><name>Budget
+to be
+released</name></event>
+<or id="20"/>
+<or id="21"/>
+<event id="22"><name>Order
+is processed</name></event>
+<event id="23"><name>Network
+cost
+planning
+to be
+carried out</name></event>
+<event id="24"><name>Release
+and execution
+of measure
+to be
+triggered</name></event>
+<event id="25"><name>Manual
+WBS scheduling
+to be
+carried
+out</name></event>
+<event id="26"><name>Budget
+released</name></event>
+<function id="27"><name>Network
+Cost
+Planning
+(Relevant
+to PS)</name></function>
+<function id="28"><name>Budget
+Release</name></function>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="37"><flow source="1" target="7"/></arc>
+<arc id="59"><flow source="2" target="0"/></arc>
+<arc id="60"><flow source="2" target="1"/></arc>
+<arc id="84"><flow source="2" target="25"/></arc>
+<arc id="127"><flow source="4" target="10"/></arc>
+<arc id="209"><flow source="7" target="5"/></arc>
+<arc id="270"><flow source="9" target="8"/></arc>
+<arc id="306"><flow source="10" target="15"/></arc>
+<arc id="310"><flow source="10" target="19"/></arc>
+<arc id="337"><flow source="11" target="17"/></arc>
+<arc id="355"><flow source="12" target="6"/></arc>
+<arc id="382"><flow source="13" target="4"/></arc>
+<arc id="425"><flow source="14" target="18"/></arc>
+<arc id="467"><flow source="16" target="2"/></arc>
+<arc id="485"><flow source="16" target="20"/></arc>
+<arc id="508"><flow source="17" target="14"/></arc>
+<arc id="536"><flow source="18" target="13"/></arc>
+<arc id="580"><flow source="19" target="28"/></arc>
+<arc id="592"><flow source="20" target="11"/></arc>
+<arc id="604"><flow source="20" target="23"/></arc>
+<arc id="613"><flow source="21" target="3"/></arc>
+<arc id="634"><flow source="21" target="24"/></arc>
+<arc id="636"><flow source="21" target="26"/></arc>
+<arc id="655"><flow source="22" target="16"/></arc>
+<arc id="695"><flow source="23" target="27"/></arc>
+<arc id="738"><flow source="25" target="12"/></arc>
+<arc id="798"><flow source="27" target="14"/></arc>
+<arc id="834"><flow source="28" target="21"/></arc>
+</epc></epml>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="281" name="1Pe_lx1m">
+<and id="0"/>
+<event id="1"><name>Career
+plan
+is transmitted
+to employee</name></event>
+<event id="2"><name>Need
+for career
+planning
+exists</name></event>
+<event id="3"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<event id="4"><name>Additional
+implementation
+actions
+are required</name></event>
+<event id="5"><name>Employee
+career
+plan
+must
+be corrected</name></event>
+<xor id="6"/>
+<function id="7"><name>Individual
+Personnel
+Development
+Planning</name></function>
+<event id="8"><name>Individual
+development
+plan
+must
+be corrected</name></event>
+<function id="9"><name>Monitoring
+of Personnel
+Development
+Planning</name></function>
+<event id="10"><name>Employee
+career
+plan
+must
+be corrected</name></event>
+<event id="11"><name>Individual
+development
+plan
+is adopted</name></event>
+<and id="12"/>
+<event id="13"><name>Individual
+development
+plan
+is transmitted
+to employee</name></event>
+<and id="14"/>
+<or id="15"/>
+<event id="16"><name>Need
+for position
+formation
+exists</name></event>
+<and id="17"/>
+<or id="18"/>
+<event id="19"><name>Need
+for personnel
+development
+system
+exists</name></event>
+<event id="20"><name>Employee
+career
+plan
+is deactivated</name></event>
+<event id="21"><name>Need
+for monitoring
+of career
+planning
+exists</name></event>
+<xor id="22"/>
+<xor id="23"/>
+<event id="24"><name>Individual
+development
+plan
+is deactivated</name></event>
+<event id="25"><name>Employee
+career
+plan
+is adopted</name></event>
+<event id="26"><name>Individual
+development
+plan
+must
+be corrected</name></event>
+<event id="27"><name>Need
+for monitoring
+of individual
+personnel
+development planning exists</name></event>
+<function id="28"><name>Career
+Planning</name></function>
+<function id="29"><name>Design
+of Enterprise-Wide
+Personnel
+Development
+System</name></function>
+<event id="30"><name>Personnel
+development
+system
+must
+be corrected</name></event>
+<xor id="31"/>
+<event id="32"><name>Personnel
+development
+system
+is implemented</name></event>
+<event id="33"><name>Need
+for monitoring
+of staff
+planning
+exists</name></event>
+<and id="34"/>
+<and id="35"/>
+<arc id="29"><flow source="0" target="28"/></arc>
+<arc id="104"><flow source="2" target="31"/></arc>
+<arc id="131"><flow source="3" target="22"/></arc>
+<arc id="168"><flow source="4" target="23"/></arc>
+<arc id="212"><flow source="5" target="31"/></arc>
+<arc id="220"><flow source="6" target="3"/></arc>
+<arc id="265"><flow source="7" target="12"/></arc>
+<arc id="311"><flow source="8" target="22"/></arc>
+<arc id="340"><flow source="9" target="15"/></arc>
+<arc id="444"><flow source="12" target="11"/></arc>
+<arc id="446"><flow source="12" target="13"/></arc>
+<arc id="512"><flow source="14" target="7"/></arc>
+<arc id="545"><flow source="15" target="4"/></arc>
+<arc id="547"><flow source="15" target="6"/></arc>
+<arc id="551"><flow source="15" target="10"/></arc>
+<arc id="557"><flow source="15" target="16"/></arc>
+<arc id="558"><flow source="15" target="17"/></arc>
+<arc id="565"><flow source="15" target="24"/></arc>
+<arc id="567"><flow source="15" target="26"/></arc>
+<arc id="571"><flow source="15" target="30"/></arc>
+<arc id="615"><flow source="17" target="2"/></arc>
+<arc id="633"><flow source="17" target="20"/></arc>
+<arc id="658"><flow source="18" target="9"/></arc>
+<arc id="708"><flow source="19" target="23"/></arc>
+<arc id="775"><flow source="21" target="18"/></arc>
+<arc id="807"><flow source="22" target="14"/></arc>
+<arc id="858"><flow source="23" target="29"/></arc>
+<arc id="991"><flow source="27" target="18"/></arc>
+<arc id="1044"><flow source="28" target="35"/></arc>
+<arc id="1077"><flow source="29" target="32"/></arc>
+<arc id="1104"><flow source="30" target="23"/></arc>
+<arc id="1117"><flow source="31" target="0"/></arc>
+<arc id="1187"><flow source="32" target="34"/></arc>
+<arc id="1225"><flow source="34" target="0"/></arc>
+<arc id="1239"><flow source="34" target="14"/></arc>
+<arc id="1262"><flow source="35" target="1"/></arc>
+<arc id="1267"><flow source="35" target="6"/></arc>
+<arc id="1286"><flow source="35" target="25"/></arc>
+<arc id="1294"><flow source="35" target="33"/></arc>
+</epc></epml>

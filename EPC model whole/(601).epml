@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="602" name="1Ve_n0z8">
+<or id="0"/>
+<xor id="1"/>
+<function id="2"><name>Business
+Event
+Resource
+Planning</name></function>
+<and id="3"/>
+<event id="4"><name>Need
+for business
+event
+resource
+planning exists</name></event>
+<xor id="5"/>
+<event id="6"><name>Business
+event
+resource
+is reserved</name></event>
+<event id="7"><name>Resource
+reservation
+plan
+exists</name></event>
+<function id="8"><name>Business
+Event
+Resource
+Reservation</name></function>
+<event id="9"><name>Business
+event
+resource
+reservation
+is cancelled</name></event>
+<event id="10"><name>Requirement
+for operative
+shift
+planning
+exists</name></event>
+<event id="11"><name>Resource
+reservation
+plan
+must
+be corrected</name></event>
+<event id="12"><name>Item
+of resource
+reservation
+plan
+must be implemented</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="20"><flow source="1" target="6"/></arc>
+<arc id="23"><flow source="1" target="9"/></arc>
+<arc id="34"><flow source="2" target="7"/></arc>
+<arc id="48"><flow source="3" target="8"/></arc>
+<arc id="58"><flow source="4" target="5"/></arc>
+<arc id="68"><flow source="5" target="2"/></arc>
+<arc id="95"><flow source="7" target="3"/></arc>
+<arc id="105"><flow source="8" target="0"/></arc>
+<arc id="149"><flow source="11" target="5"/></arc>
+<arc id="160"><flow source="12" target="3"/></arc>
+</epc></epml>

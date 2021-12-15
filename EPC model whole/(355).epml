@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="356" name="1Pr_d09l">
+<event id="0"><name>Deletion
+without
+archiving
+executed</name></event>
+<event id="1"><name>Archived
+data
+must
+be reviewed</name></event>
+<function id="2"><name>Delete
+with
+Archiving</name></function>
+<function id="3"><name>Delete
+Without
+Archiving</name></function>
+<event id="4"><name>Deletion
+without
+archiving
+executed</name></event>
+<function id="5"><name>Review
+Archived
+Data</name></function>
+<xor id="6"/>
+<event id="7"><name>Archived
+data
+reviewed</name></event>
+<function id="8"><name>Set Deletion
+Flag</name></function>
+<event id="9"><name>Deletion
+with
+archiving
+required</name></event>
+<event id="10"><name>Status
+Complete
+is set</name></event>
+<arc id="17"><flow source="1" target="5"/></arc>
+<arc id="24"><flow source="2" target="1"/></arc>
+<arc id="34"><flow source="3" target="0"/></arc>
+<arc id="48"><flow source="4" target="3"/></arc>
+<arc id="63"><flow source="5" target="7"/></arc>
+<arc id="71"><flow source="6" target="4"/></arc>
+<arc id="76"><flow source="6" target="9"/></arc>
+<arc id="95"><flow source="8" target="6"/></arc>
+<arc id="102"><flow source="9" target="2"/></arc>
+<arc id="119"><flow source="10" target="8"/></arc>
+</epc></epml>

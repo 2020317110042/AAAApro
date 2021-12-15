@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="141" name="1Ex_e6dx">
+<event id="0"><name>Rollup
+is carried
+out in
+the same
+system</name></event>
+<event id="1"><name>Investment
+amortization
+was entered</name></event>
+<event id="2"><name>Group
+inventories
+are entered
+for the
+elimination of IC profit and loss</name></event>
+<event id="3"><name>Rollup
+extract
+file
+is transferred</name></event>
+<event id="4"><name>Investment
+write-up
+was entered</name></event>
+<event id="5"><name>Asset
+transfers
+are entered
+for retiring
+company</name></event>
+<xor id="6"/>
+<event id="7"><name>Step
+acquisition
+entered</name></event>
+<event id="8"><name>Asset
+transfers
+are entered
+for receiving
+company</name></event>
+<event id="9"><name>Changes
+in current
+year
+are entered
+for equity method company</name></event>
+<and id="10"/>
+<event id="11"><name>Changes
+in current
+year
+entered
+for purchase method company</name></event>
+<event id="12"><name>Individual
+financial
+statement
+is entered
+in database</name></event>
+<event id="13"><name>Transfer
+posting
+was created</name></event>
+<or id="14"/>
+<event id="15"><name>File
+is transferred
+as PC
+file</name></event>
+<event id="16"><name>Changes
+for current
+year
+are entered
+for proportionally consolidated co.</name></event>
+<event id="17"><name>Export
+file
+(PC)
+is transferred</name></event>
+<event id="18"><name>Equity
+is entered
+in local
+and group
+currency</name></event>
+<function id="19"><name>Data
+Transfer</name></function>
+<event id="20"><name>Extract
+is transferred
+as UNIX
+file</name></event>
+<event id="21"><name>Increase/
+reduction
+in capitalization
+entered</name></event>
+<event id="22"><name>Extract
+is transferred
+from
+R/2</name></event>
+<event id="23"><name>Extract
+is transferred
+by IDOC</name></event>
+<event id="24"><name>Hidden
+reserves
+entered</name></event>
+<xor id="25"/>
+<event id="26"><name>Extract/
+download
+for R/
+2 is
+created</name></event>
+<event id="27"><name>Intercompany
+sales
+are entered
+for the
+elimination of IC profit and loss</name></event>
+<event id="28"><name>Investments
+are entered
+in local
+and group
+currency</name></event>
+<and id="29"/>
+<arc id="26"><flow source="0" target="25"/></arc>
+<arc id="116"><flow source="3" target="25"/></arc>
+<arc id="192"><flow source="6" target="11"/></arc>
+<arc id="197"><flow source="6" target="16"/></arc>
+<arc id="313"><flow source="10" target="12"/></arc>
+<arc id="315"><flow source="10" target="14"/></arc>
+<arc id="422"><flow source="14" target="1"/></arc>
+<arc id="423"><flow source="14" target="2"/></arc>
+<arc id="425"><flow source="14" target="4"/></arc>
+<arc id="426"><flow source="14" target="5"/></arc>
+<arc id="427"><flow source="14" target="6"/></arc>
+<arc id="428"><flow source="14" target="7"/></arc>
+<arc id="429"><flow source="14" target="8"/></arc>
+<arc id="430"><flow source="14" target="9"/></arc>
+<arc id="434"><flow source="14" target="13"/></arc>
+<arc id="439"><flow source="14" target="18"/></arc>
+<arc id="442"><flow source="14" target="21"/></arc>
+<arc id="445"><flow source="14" target="24"/></arc>
+<arc id="448"><flow source="14" target="27"/></arc>
+<arc id="449"><flow source="14" target="28"/></arc>
+<arc id="480"><flow source="15" target="29"/></arc>
+<arc id="540"><flow source="17" target="29"/></arc>
+<arc id="581"><flow source="19" target="10"/></arc>
+<arc id="626"><flow source="20" target="25"/></arc>
+<arc id="686"><flow source="22" target="25"/></arc>
+<arc id="716"><flow source="23" target="25"/></arc>
+<arc id="770"><flow source="25" target="19"/></arc>
+<arc id="806"><flow source="26" target="25"/></arc>
+<arc id="896"><flow source="29" target="25"/></arc>
+</epc></epml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="34" name="1An_l7kw">
+<function id="0"><name>Program
+Cost
+Planning</name></function>
+<xor id="1"/>
+<event id="2"><name>Supplement
+requests
+exist
+for current
+measures</name></event>
+<and id="3"/>
+<and id="4"/>
+<xor id="5"/>
+<event id="6"><name>Investment
+plan
+is to
+be revised</name></event>
+<event id="7"><name>Program
+structure
+is processed</name></event>
+<event id="8"><name>Overall
+costs
+for project
+are determined</name></event>
+<event id="9"><name>Plan
+is approved
+on last
+approval
+level</name></event>
+<event id="10"><name>Order
+is assigned
+to an
+investment
+program</name></event>
+<event id="11"><name>Overhead
+debited
+to capital
+investment
+order</name></event>
+<event id="12"><name>Sales
+plan
+is processed</name></event>
+<event id="13"><name>Production
+plan
+is processed</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="19"><flow source="1" target="4"/></arc>
+<arc id="30"><flow source="2" target="1"/></arc>
+<arc id="44"><flow source="3" target="1"/></arc>
+<arc id="57"><flow source="4" target="0"/></arc>
+<arc id="77"><flow source="5" target="6"/></arc>
+<arc id="80"><flow source="5" target="9"/></arc>
+<arc id="103"><flow source="7" target="4"/></arc>
+<arc id="114"><flow source="8" target="1"/></arc>
+<arc id="142"><flow source="10" target="1"/></arc>
+<arc id="156"><flow source="11" target="1"/></arc>
+<arc id="172"><flow source="12" target="3"/></arc>
+<arc id="186"><flow source="13" target="3"/></arc>
+</epc></epml>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="554" name="1Ve_7coq">
+<and id="0"/>
+<event id="1"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="2"><name>Sales
+requirements
+are created</name></event>
+<event id="3"><name>Contract
+ist to
+be created</name></event>
+<function id="4"><name>Processing
+Group
+Master
+Contracts</name></function>
+<event id="5"><name>Items
+are cancelled</name></event>
+<event id="6"><name>Group
+Master
+Contract
+is to
+be Created</name></event>
+<event id="7"><name>Delivery
+is to
+be created</name></event>
+<function id="8"><name>Quantity
+Contract
+Processing</name></function>
+<xor id="9"/>
+<event id="10"><name>Scheduling
+agreement
+is created</name></event>
+<event id="11"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<function id="12"><name>Value
+Contract
+Processing</name></function>
+<event id="13"><name>Scheduling
+agreement
+is created</name></event>
+<event id="14"><name>Group
+Master
+Contract
+is Created</name></event>
+<event id="15"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<or id="16"/>
+<event id="17"><name>Contract
+ist to
+be created</name></event>
+<and id="18"/>
+<xor id="19"/>
+<xor id="20"/>
+<event id="21"><name>Contract
+is created</name></event>
+<xor id="22"/>
+<xor id="23"/>
+<event id="24"><name>Quotation
+is valid</name></event>
+<event id="25"><name>Framework
+agreement
+/ contract
+is agreed
+with reference</name></event>
+<event id="26"><name>Sched.agreement
+must
+be created</name></event>
+<and id="27"/>
+<event id="28"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<and id="29"/>
+<event id="30"><name>Scheduling
+agreement
+is created
+with
+ref. to quote</name></event>
+<event id="31"><name>Quotation
+is valid</name></event>
+<event id="32"><name>Quotation
+is valid</name></event>
+<event id="33"><name>Items
+are cancelled</name></event>
+<function id="34"><name>Customer
+Scheduling
+Agreement
+Processing</name></function>
+<xor id="35"/>
+<event id="36"><name>Framework
+agreement
+/ contract
+is agreed
+with reference</name></event>
+<and id="37"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="150"><flow source="3" target="35"/></arc>
+<arc id="167"><flow source="4" target="14"/></arc>
+<arc id="233"><flow source="6" target="4"/></arc>
+<arc id="325"><flow source="8" target="20"/></arc>
+<arc id="343"><flow source="9" target="0"/></arc>
+<arc id="344"><flow source="9" target="1"/></arc>
+<arc id="348"><flow source="9" target="5"/></arc>
+<arc id="371"><flow source="9" target="28"/></arc>
+<arc id="477"><flow source="12" target="20"/></arc>
+<arc id="570"><flow source="14" target="37"/></arc>
+<arc id="628"><flow source="16" target="19"/></arc>
+<arc id="630"><flow source="16" target="21"/></arc>
+<arc id="669"><flow source="17" target="22"/></arc>
+<arc id="707"><flow source="18" target="22"/></arc>
+<arc id="734"><flow source="19" target="11"/></arc>
+<arc id="738"><flow source="19" target="15"/></arc>
+<arc id="777"><flow source="20" target="16"/></arc>
+<arc id="849"><flow source="22" target="12"/></arc>
+<arc id="909"><flow source="23" target="34"/></arc>
+<arc id="931"><flow source="24" target="18"/></arc>
+<arc id="969"><flow source="25" target="18"/></arc>
+<arc id="1012"><flow source="26" target="23"/></arc>
+<arc id="1050"><flow source="27" target="23"/></arc>
+<arc id="1138"><flow source="29" target="35"/></arc>
+<arc id="1168"><flow source="30" target="27"/></arc>
+<arc id="1208"><flow source="31" target="29"/></arc>
+<arc id="1244"><flow source="32" target="27"/></arc>
+<arc id="1302"><flow source="34" target="9"/></arc>
+<arc id="1339"><flow source="35" target="8"/></arc>
+<arc id="1398"><flow source="36" target="29"/></arc>
+<arc id="1429"><flow source="37" target="22"/></arc>
+<arc id="1442"><flow source="37" target="35"/></arc>
+</epc></epml>

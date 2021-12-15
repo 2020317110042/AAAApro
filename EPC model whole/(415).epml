@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="416" name="1Qu_c5we">
+<event id="0"><name>Defect
+requires
+manual
+quality
+notification</name></event>
+<event id="1"><name>Certificate
+recipient
+is to
+be created</name></event>
+<xor id="2"/>
+<and id="3"/>
+<function id="4"><name>Certificate
+Creation</name></function>
+<event id="5"><name>Evaluation
+to be
+performed
+using
+the Logistics Information System</name></event>
+<event id="6"><name>Customer
+requires
+certificate</name></event>
+<xor id="7"/>
+<event id="8"><name>New certificate
+to be
+created</name></event>
+<event id="9"><name>Inspection
+before
+goods
+issue
+is to be carried out</name></event>
+<event id="10"><name>Inspection
+lot is
+to be
+created
+manually</name></event>
+<event id="11"><name>Inspect
+(independent
+of goods
+issue)</name></event>
+<event id="12"><name>External
+sales
+force/
+customer
+complaint is to be created</name></event>
+<event id="13"><name>Usage
+decision
+is documented</name></event>
+<function id="14"><name>Q-Notifications
+for a
+Customer
+Complaint</name></function>
+<xor id="15"/>
+<event id="16"><name>Certificate
+has to
+be created
+for delivery
+item</name></event>
+<event id="17"><name>Certificate
+based
+on standard
+form</name></event>
+<event id="18"><name>Quality
+notification
+is activated
+from
+defects</name></event>
+<event id="19"><name>Inspection
+completion
+is carried
+out</name></event>
+<event id="20"><name>QMIS
+updated</name></event>
+<and id="21"/>
+<event id="22"><name>Quality
+level
+is updated</name></event>
+<event id="23"><name>Certificate
+creation
+for delivery
+item
+is triggered</name></event>
+<event id="24"><name>Internal
+Activity
+Should
+Be Allocated
+Internally</name></event>
+<and id="25"/>
+<or id="26"/>
+<event id="27"><name>Inspection
+results
+are copied
+to general
+characteristics</name></event>
+<xor id="28"/>
+<event id="29"><name>QM order
+is created
+for quality
+notification</name></event>
+<event id="30"><name>Inspection
+lot status
+allows
+a goods
+issue</name></event>
+<and id="31"/>
+<or id="32"/>
+<event id="33"><name>Inspection
+lot completion
+is triggered
+using
+QM-IDI</name></event>
+<or id="34"/>
+<event id="35"><name>Quality
+certificate
+is released
+for use</name></event>
+<event id="36"><name>Quality
+notification
+is completed</name></event>
+<event id="37"><name>Data
+is updated</name></event>
+<event id="38"><name>Evaluation
+carried
+out</name></event>
+<function id="39"><name>Information
+System</name></function>
+<event id="40"><name>Effectiveness
+of a
+task
+is documented
+at a later date</name></event>
+<function id="41"><name>Quality
+Inspection
+for Delivery
+and Return
+Delivery</name></function>
+<event id="42"><name>Evaluation
+from
+QMIS
+indicates
+quality problems</name></event>
+<xor id="43"/>
+<arc id="44"><flow source="0" target="43"/></arc>
+<arc id="60"><flow source="1" target="15"/></arc>
+<arc id="92"><flow source="2" target="3"/></arc>
+<arc id="148"><flow source="3" target="15"/></arc>
+<arc id="205"><flow source="4" target="28"/></arc>
+<arc id="242"><flow source="5" target="21"/></arc>
+<arc id="268"><flow source="6" target="3"/></arc>
+<arc id="350"><flow source="7" target="41"/></arc>
+<arc id="355"><flow source="8" target="2"/></arc>
+<arc id="404"><flow source="9" target="7"/></arc>
+<arc id="448"><flow source="10" target="7"/></arc>
+<arc id="492"><flow source="11" target="7"/></arc>
+<arc id="572"><flow source="12" target="43"/></arc>
+<arc id="649"><flow source="14" target="32"/></arc>
+<arc id="665"><flow source="15" target="4"/></arc>
+<arc id="720"><flow source="16" target="15"/></arc>
+<arc id="751"><flow source="17" target="2"/></arc>
+<arc id="836"><flow source="18" target="43"/></arc>
+<arc id="902"><flow source="20" target="21"/></arc>
+<arc id="964"><flow source="21" target="39"/></arc>
+<arc id="1137"><flow source="25" target="36"/></arc>
+<arc id="1141"><flow source="25" target="40"/></arc>
+<arc id="1151"><flow source="26" target="6"/></arc>
+<arc id="1158"><flow source="26" target="13"/></arc>
+<arc id="1163"><flow source="26" target="18"/></arc>
+<arc id="1164"><flow source="26" target="19"/></arc>
+<arc id="1169"><flow source="26" target="24"/></arc>
+<arc id="1172"><flow source="26" target="27"/></arc>
+<arc id="1175"><flow source="26" target="30"/></arc>
+<arc id="1256"><flow source="28" target="23"/></arc>
+<arc id="1268"><flow source="28" target="35"/></arc>
+<arc id="1385"><flow source="31" target="20"/></arc>
+<arc id="1387"><flow source="31" target="22"/></arc>
+<arc id="1391"><flow source="31" target="26"/></arc>
+<arc id="1402"><flow source="31" target="37"/></arc>
+<arc id="1434"><flow source="32" target="25"/></arc>
+<arc id="1438"><flow source="32" target="29"/></arc>
+<arc id="1460"><flow source="33" target="7"/></arc>
+<arc id="1535"><flow source="34" target="38"/></arc>
+<arc id="1539"><flow source="34" target="42"/></arc>
+<arc id="1751"><flow source="39" target="34"/></arc>
+<arc id="1836"><flow source="41" target="31"/></arc>
+<arc id="1892"><flow source="42" target="43"/></arc>
+<arc id="1907"><flow source="43" target="14"/></arc>
+</epc></epml>

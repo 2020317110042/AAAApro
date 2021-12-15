@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="92" name="1En_co6p">
+<event id="0"><name>Processing
+is completed</name></event>
+<function id="1"><name>Substance
+Report
+Processing</name></function>
+<function id="2"><name>Phrase
+Set Processing</name></function>
+<event id="3"><name>Shipping
+(printing)
+of reports
+is to
+be triggered</name></event>
+<function id="4"><name>Document
+Template
+Processing</name></function>
+<function id="5"><name>Processing
+of Substance
+Report
+Generation
+Variants</name></function>
+<event id="6"><name>Phrases
+are to
+be assigned
+to the
+characteristics of the substance properties</name></event>
+<function id="7"><name>Phrase
+Processing</name></function>
+<and id="8"/>
+<and id="9"/>
+<event id="10"><name>Attributes
+are to
+be formulated
+in text
+form</name></event>
+<function id="11"><name>Substance
+Classification
+Using
+EH+S
+Expert</name></function>
+<and id="12"/>
+<and id="13"/>
+<function id="14"><name>Substance
+Master
+Processing
+for Product
+Safety</name></function>
+<xor id="15"/>
+<function id="16"><name>Report
+Shipping</name></function>
+<event id="17"><name>Product
+Safety
+data
+is to
+be processed</name></event>
+<event id="18"><name>Substance
+report
+is to
+be created</name></event>
+<arc id="29"><flow source="1" target="9"/></arc>
+<arc id="54"><flow source="2" target="15"/></arc>
+<arc id="74"><flow source="3" target="16"/></arc>
+<arc id="86"><flow source="4" target="9"/></arc>
+<arc id="105"><flow source="5" target="9"/></arc>
+<arc id="117"><flow source="6" target="2"/></arc>
+<arc id="140"><flow source="7" target="6"/></arc>
+<arc id="164"><flow source="8" target="11"/></arc>
+<arc id="167"><flow source="8" target="14"/></arc>
+<arc id="187"><flow source="9" target="15"/></arc>
+<arc id="198"><flow source="10" target="7"/></arc>
+<arc id="223"><flow source="11" target="13"/></arc>
+<arc id="230"><flow source="12" target="1"/></arc>
+<arc id="233"><flow source="12" target="4"/></arc>
+<arc id="234"><flow source="12" target="5"/></arc>
+<arc id="266"><flow source="13" target="18"/></arc>
+<arc id="280"><flow source="14" target="13"/></arc>
+<arc id="289"><flow source="15" target="3"/></arc>
+<arc id="305"><flow source="16" target="0"/></arc>
+<arc id="332"><flow source="17" target="8"/></arc>
+<arc id="355"><flow source="18" target="12"/></arc>
+</epc></epml>

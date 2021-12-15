@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="121" name="1Er_iqc9">
+<and id="0"/>
+<function id="1"><name>Settlement
+of Cost
+Object
+Hierarchy</name></function>
+<event id="2"><name>Product
+Costs
+Are to
+Be Settled</name></event>
+<and id="3"/>
+<and id="4"/>
+<and id="5"/>
+<event id="6"><name>Overhead
+rates
+(product
+cost
+collector) allocated</name></event>
+<event id="7"><name>Control
+Measures
+Taken
+Based
+On Variances</name></event>
+<function id="8"><name>Actual
+Cost
+Distribution
+- Product
+Costs</name></function>
+<function id="9"><name>Template
+Allocation
+(Cost
+Object)</name></function>
+<function id="10"><name>Periodic
+Variance
+Calculation</name></function>
+<event id="11"><name>Overhead
+calculation
+(cost
+object)
+allocated</name></event>
+<event id="12"><name>Product
+Cost
+Analysis
+Required
+in Product Cost by Period</name></event>
+<function id="13"><name>Revaluation
+at Actual
+Prices</name></function>
+<function id="14"><name>WIP Calculation
+Based
+on Target
+Costs</name></function>
+<function id="15"><name>Product
+Cost
+Analysis
+in Product
+Cost by Period</name></function>
+<event id="16"><name>Process
+Costs
+Were
+Allocated</name></event>
+<function id="17"><name>Overhead
+Calculation
+(Product
+Cost
+Collector)</name></function>
+<event id="18"><name>Overhead
+Costs
+Are to
+Be Allocated
+Using Overhead Rates</name></event>
+<event id="19"><name>Process
+costs
+(cost
+objects)
+to be allocated</name></event>
+<function id="20"><name>Summarization
+Hierarchy</name></function>
+<event id="21"><name>Costs
+Are to
+Be Analyzed</name></event>
+<or id="22"/>
+<event id="23"><name>Process
+costs
+(product
+cost
+collector) to be allocated</name></event>
+<event id="24"><name>Cost
+Objects
+Are to
+Be Distributed
+to Product Cost Collectors</name></event>
+<event id="25"><name>Determine
+Variances
+Periodically</name></event>
+<function id="26"><name>Data
+Collection
+for Product
+Drilldown</name></function>
+<and id="27"/>
+<event id="28"><name>Data
+Collection
+for Product
+Drilldown
+Completed</name></event>
+<event id="29"><name>Product
+cost
+collector
+settled</name></event>
+<function id="30"><name>Cost
+Object
+Summarization</name></function>
+<function id="31"><name>Settlement
+of Product
+Cost
+Collector</name></function>
+<and id="32"/>
+<event id="33"><name>Cost
+Object
+Hierarchy
+Settled</name></event>
+<function id="34"><name>Overhead
+Calculation
+(Cost
+Object)</name></function>
+<function id="35"><name>Template
+Allocation
+(Product
+Cost
+Collector)</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="22"><flow source="0" target="21"/></arc>
+<arc id="70"><flow source="1" target="33"/></arc>
+<arc id="105"><flow source="2" target="32"/></arc>
+<arc id="123"><flow source="3" target="14"/></arc>
+<arc id="162"><flow source="4" target="17"/></arc>
+<arc id="179"><flow source="4" target="34"/></arc>
+<arc id="193"><flow source="5" target="12"/></arc>
+<arc id="220"><flow source="6" target="3"/></arc>
+<arc id="307"><flow source="8" target="18"/></arc>
+<arc id="347"><flow source="9" target="22"/></arc>
+<arc id="361"><flow source="10" target="0"/></arc>
+<arc id="400"><flow source="11" target="3"/></arc>
+<arc id="448"><flow source="12" target="15"/></arc>
+<arc id="493"><flow source="13" target="24"/></arc>
+<arc id="530"><flow source="14" target="25"/></arc>
+<arc id="548"><flow source="15" target="7"/></arc>
+<arc id="590"><flow source="16" target="13"/></arc>
+<arc id="619"><flow source="17" target="6"/></arc>
+<arc id="653"><flow source="18" target="4"/></arc>
+<arc id="694"><flow source="19" target="9"/></arc>
+<arc id="726"><flow source="20" target="5"/></arc>
+<arc id="783"><flow source="21" target="26"/></arc>
+<arc id="809"><flow source="22" target="16"/></arc>
+<arc id="864"><flow source="23" target="35"/></arc>
+<arc id="873"><flow source="24" target="8"/></arc>
+<arc id="911"><flow source="25" target="10"/></arc>
+<arc id="965"><flow source="26" target="28"/></arc>
+<arc id="993"><flow source="27" target="20"/></arc>
+<arc id="1003"><flow source="27" target="30"/></arc>
+<arc id="1036"><flow source="28" target="27"/></arc>
+<arc id="1086"><flow source="30" target="5"/></arc>
+<arc id="1146"><flow source="31" target="29"/></arc>
+<arc id="1154"><flow source="32" target="1"/></arc>
+<arc id="1184"><flow source="32" target="31"/></arc>
+<arc id="1236"><flow source="34" target="11"/></arc>
+<arc id="1283"><flow source="35" target="22"/></arc>
+</epc></epml>

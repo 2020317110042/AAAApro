@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="520" name="1Ve_5dvr">
+<function id="0"><name>Sales
+Order</name></function>
+<event id="1"><name>Delivery
+is to
+be created</name></event>
+<function id="2"><name>Billing</name></function>
+<function id="3"><name>Transport</name></function>
+<event id="4"><name>Items
+are cancelled</name></event>
+<event id="5"><name>Free-of-charge
+delivery
+is to
+be created</name></event>
+<event id="6"><name>Shipment
+is Complete</name></event>
+<event id="7"><name>Deliveries
+need
+to be
+planned</name></event>
+<event id="8"><name>Material
+is issued</name></event>
+<and id="9"/>
+<and id="10"/>
+<event id="11"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="12"><name>Delivery
+is relevant
+for shipment</name></event>
+<event id="13"><name>Goods
+issue
+is posted</name></event>
+<and id="14"/>
+<event id="15"><name>Order
+is created</name></event>
+<xor id="16"/>
+<event id="17"><name>Sales
+requirements
+are created</name></event>
+<function id="18"><name>Shipping</name></function>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="38"><flow source="1" target="18"/></arc>
+<arc id="50"><flow source="2" target="11"/></arc>
+<arc id="64"><flow source="3" target="6"/></arc>
+<arc id="96"><flow source="5" target="0"/></arc>
+<arc id="143"><flow source="7" target="9"/></arc>
+<arc id="175"><flow source="9" target="3"/></arc>
+<arc id="199"><flow source="10" target="8"/></arc>
+<arc id="203"><flow source="10" target="12"/></arc>
+<arc id="204"><flow source="10" target="13"/></arc>
+<arc id="238"><flow source="12" target="9"/></arc>
+<arc id="250"><flow source="13" target="2"/></arc>
+<arc id="268"><flow source="14" target="1"/></arc>
+<arc id="282"><flow source="14" target="15"/></arc>
+<arc id="284"><flow source="14" target="17"/></arc>
+<arc id="309"><flow source="16" target="4"/></arc>
+<arc id="319"><flow source="16" target="14"/></arc>
+<arc id="353"><flow source="18" target="10"/></arc>
+</epc></epml>

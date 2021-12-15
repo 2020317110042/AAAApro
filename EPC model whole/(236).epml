@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="237" name="1Ku_9l6o">
+<event id="0"><name>Effectiveness
+of a
+task
+is documented
+at a later date</name></event>
+<event id="1"><name>Defect
+requires
+manual
+quality
+notification</name></event>
+<event id="2"><name>Evaluation
+from
+QMIS
+indicates
+quality problems</name></event>
+<event id="3"><name>Sales
+document
+is to
+be created
+for the quality notification</name></event>
+<and id="4"/>
+<or id="5"/>
+<event id="6"><name>Quality
+notification
+is completed</name></event>
+<function id="7"><name>Creation
+and Processing
+of Quality
+Notifications</name></function>
+<xor id="8"/>
+<event id="9"><name>External
+sales
+force/
+customer
+complaint is to be created</name></event>
+<event id="10"><name>QM order
+is created
+for quality
+notification</name></event>
+<arc id="20"><flow source="1" target="8"/></arc>
+<arc id="31"><flow source="2" target="8"/></arc>
+<arc id="45"><flow source="4" target="0"/></arc>
+<arc id="51"><flow source="4" target="6"/></arc>
+<arc id="59"><flow source="5" target="3"/></arc>
+<arc id="60"><flow source="5" target="4"/></arc>
+<arc id="66"><flow source="5" target="10"/></arc>
+<arc id="83"><flow source="7" target="5"/></arc>
+<arc id="96"><flow source="8" target="7"/></arc>
+<arc id="108"><flow source="9" target="8"/></arc>
+</epc></epml>

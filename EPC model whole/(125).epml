@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="126" name="1Er_j6vb">
+<function id="0"><name>Simultaneous
+Costing</name></function>
+<xor id="1"/>
+<event id="2"><name>Cost
+object
+is processed</name></event>
+<event id="3"><name>Product
+Costs
+Are Allocated</name></event>
+<event id="4"><name>Cost
+object
+hierarchy
+is created</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="6"><flow source="1" target="0"/></arc>
+<arc id="12"><flow source="2" target="1"/></arc>
+<arc id="22"><flow source="4" target="1"/></arc>
+</epc></epml>

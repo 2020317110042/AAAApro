@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="593" name="1Ve_mvwz">
+<and id="0"/>
+<event id="1"><name>Rebooking
+order
+is rejected</name></event>
+<function id="2"><name>Notification
+of Business
+Event
+Management</name></function>
+<event id="3"><name>Inquiry
+of business
+event
+attendee
+is entered</name></event>
+<event id="4"><name>Rebooking
+order
+is performed</name></event>
+<event id="5"><name>Offer
+of business
+event
+attendances
+is created</name></event>
+<event id="6"><name>Business
+event
+attendance
+is cancelled
+by organizer</name></event>
+<event id="7"><name>Business
+event
+attendance
+exists</name></event>
+<event id="8"><name>Business
+event
+resource
+is reserved</name></event>
+<event id="9"><name>Registration
+order
+is rejected</name></event>
+<event id="10"><name>Replacement
+order
+is performed</name></event>
+<event id="11"><name>Business
+event
+resource
+reservation
+is cancelled</name></event>
+<event id="12"><name>Notification
+of business
+event
+management
+is transmitted</name></event>
+<event id="13"><name>Offer
+of business
+event
+attendances
+cannot be created</name></event>
+<event id="14"><name>Preparation
+of business
+event
+performance
+is successfully completed</name></event>
+<event id="15"><name>Replacement
+order
+is rejected</name></event>
+<event id="16"><name>Business
+event
+is complete</name></event>
+<event id="17"><name>Business
+event
+attendance
+is cancelled</name></event>
+<event id="18"><name>Notification
+of business
+event
+management
+is desired</name></event>
+<or id="19"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="40"><flow source="1" target="19"/></arc>
+<arc id="53"><flow source="2" target="12"/></arc>
+<arc id="80"><flow source="3" target="19"/></arc>
+<arc id="100"><flow source="4" target="19"/></arc>
+<arc id="120"><flow source="5" target="19"/></arc>
+<arc id="140"><flow source="6" target="19"/></arc>
+<arc id="160"><flow source="7" target="19"/></arc>
+<arc id="180"><flow source="8" target="19"/></arc>
+<arc id="200"><flow source="9" target="19"/></arc>
+<arc id="220"><flow source="10" target="19"/></arc>
+<arc id="240"><flow source="11" target="19"/></arc>
+<arc id="280"><flow source="13" target="19"/></arc>
+<arc id="300"><flow source="14" target="19"/></arc>
+<arc id="320"><flow source="15" target="19"/></arc>
+<arc id="340"><flow source="16" target="19"/></arc>
+<arc id="360"><flow source="17" target="19"/></arc>
+<arc id="361"><flow source="18" target="0"/></arc>
+<arc id="381"><flow source="19" target="0"/></arc>
+</epc></epml>

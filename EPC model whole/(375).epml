@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="376" name="1Pr_dl73">
+<event id="0"><name>Statistical
+key figures
+to be
+planned</name></event>
+<or id="1"/>
+<event id="2"><name>Dates
+must
+be planned
+for WBS
+elements</name></event>
+<event id="3"><name>Revenue
+planning
+using
+billing
+plan required</name></event>
+<event id="4"><name>Cost
+planning
+in WBS
+required</name></event>
+<event id="5"><name>Cash
+flow
+planning
+required</name></event>
+<event id="6"><name>Internal
+activity/
+work
+planning
+required</name></event>
+<event id="7"><name>Service
+planning
+required</name></event>
+<event id="8"><name>Periodic
+allocations
+executed</name></event>
+<event id="9"><name>Cost
+planning
+using
+existing
+price/quantity structure required</name></event>
+<event id="10"><name>Project/
+subproject
+with
+activities
+requires scheduling</name></event>
+<event id="11"><name>Manual
+revenue
+planning
+required</name></event>
+<function id="12"><name>Project
+Structuring</name></function>
+<event id="13"><name>Customer
+project
+required</name></event>
+<event id="14"><name>Cross-project
+scheduling
+required</name></event>
+<xor id="15"/>
+<event id="16"><name>Activities
+carried
+out by
+other
+firms must be planned</name></event>
+<event id="17"><name>Internal
+project
+approved</name></event>
+<event id="18"><name>Material
+assignment
+to activities
+required</name></event>
+<event id="19"><name>Project
+planning
+for customer
+quotation
+processing required</name></event>
+<event id="20"><name>Periodic
+transfer
+required</name></event>
+<arc id="22"><flow source="1" target="0"/></arc>
+<arc id="24"><flow source="1" target="2"/></arc>
+<arc id="25"><flow source="1" target="3"/></arc>
+<arc id="26"><flow source="1" target="4"/></arc>
+<arc id="27"><flow source="1" target="5"/></arc>
+<arc id="28"><flow source="1" target="6"/></arc>
+<arc id="29"><flow source="1" target="7"/></arc>
+<arc id="30"><flow source="1" target="8"/></arc>
+<arc id="31"><flow source="1" target="9"/></arc>
+<arc id="32"><flow source="1" target="10"/></arc>
+<arc id="33"><flow source="1" target="11"/></arc>
+<arc id="36"><flow source="1" target="14"/></arc>
+<arc id="38"><flow source="1" target="16"/></arc>
+<arc id="40"><flow source="1" target="18"/></arc>
+<arc id="42"><flow source="1" target="20"/></arc>
+<arc id="254"><flow source="12" target="1"/></arc>
+<arc id="289"><flow source="13" target="15"/></arc>
+<arc id="328"><flow source="15" target="12"/></arc>
+<arc id="373"><flow source="17" target="15"/></arc>
+<arc id="415"><flow source="19" target="15"/></arc>
+</epc></epml>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="514" name="1Ve_512s">
+<event id="0"><name>Delivery
+is relevant
+for shipment</name></event>
+<function id="1"><name>Goods
+Receipt
+Processing
+for Returns</name></function>
+<xor id="2"/>
+<event id="3"><name>Returns
+already
+dispatched</name></event>
+<xor id="4"/>
+<event id="5"><name>Returns
+to be
+collected</name></event>
+<event id="6"><name>Goods
+Receipt
+Posted</name></event>
+<event id="7"><name>Transfer
+order
+created
+manually</name></event>
+<event id="8"><name>Inward
+material
+movement
+to be
+posted</name></event>
+<function id="9"><name>Delivery
+for Returns</name></function>
+<and id="10"/>
+<and id="11"/>
+<event id="12"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="13"><name>Transfer
+order
+created
+automatically</name></event>
+<arc id="25"><flow source="1" target="10"/></arc>
+<arc id="38"><flow source="2" target="9"/></arc>
+<arc id="45"><flow source="3" target="2"/></arc>
+<arc id="64"><flow source="4" target="7"/></arc>
+<arc id="70"><flow source="4" target="13"/></arc>
+<arc id="73"><flow source="5" target="2"/></arc>
+<arc id="114"><flow source="8" target="1"/></arc>
+<arc id="138"><flow source="9" target="11"/></arc>
+<arc id="145"><flow source="10" target="4"/></arc>
+<arc id="147"><flow source="10" target="6"/></arc>
+<arc id="155"><flow source="11" target="0"/></arc>
+<arc id="163"><flow source="11" target="8"/></arc>
+<arc id="167"><flow source="11" target="12"/></arc>
+</epc></epml>

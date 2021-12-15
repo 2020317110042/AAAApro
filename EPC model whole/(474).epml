@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="475" name="1Un_j73d">
+<event id="0"><name>Long-Term
+Planning
+Evaluated</name></event>
+<event id="1"><name>Plan
+sales
+quantities
+transferred
+to LIS</name></event>
+<or id="2"/>
+<event id="3"><name>Results
+plan
+transferred
+to EC-PCA</name></event>
+<or id="4"/>
+<event id="5"><name>Control
+measures
+taken
+due to
+variances</name></event>
+<function id="6"><name>Profit
+Planning</name></function>
+<and id="7"/>
+<function id="8"><name>Cost
+and Activity
+Planning</name></function>
+<function id="9"><name>Production
+Planning</name></function>
+<event id="10"><name>Sales
+plan
+is available</name></event>
+<event id="11"><name>Planned
+sales
+quantities
+to be
+transferred to SOP</name></event>
+<event id="12"><name>Stock
+revaluated</name></event>
+<event id="13"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="14"><name>Cost
+estimate
+needs
+to be
+revised due to variances</name></event>
+<event id="15"><name>Master
+Production
+Scheduling
+Evaluated</name></event>
+<event id="16"><name>Control
+measures
+set based
+on variances</name></event>
+<xor id="17"/>
+<event id="18"><name>Profit
+center
+planning
+is to
+be prepared (copy plan)</name></event>
+<xor id="19"/>
+<event id="20"><name>New Period
+to Be
+Planned
+(New
+Definition of Plan Version)</name></event>
+<event id="21"><name>Forecast
+parameters
+exist</name></event>
+<and id="22"/>
+<and id="23"/>
+<and id="24"/>
+<event id="25"><name>Standard
+price
+updated
+in material
+master[]</name></event>
+<event id="26"><name>Activity
+requirements
+to be
+transferred
+to Cost Planning</name></event>
+<event id="27"><name>Plan
+Proposal
+for Sales
+Planning
+to be Created</name></event>
+<event id="28"><name>Material
+Requirements
+Planning
+Evaluated</name></event>
+<event id="29"><name>New Period
+to Be
+Planned
+(Copy
+of Actual)</name></event>
+<and id="30"/>
+<xor id="31"/>
+<event id="32"><name>Profit
+center
+planning
+to be
+prepared (new definition)</name></event>
+<event id="33"><name>Fiscal
+year/
+period
+is to
+be costed</name></event>
+<event id="34"><name>Plan
+Data
+for Order
+Exists</name></event>
+<event id="35"><name>Mat.forecast
+is to
+be carried
+out</name></event>
+<event id="36"><name>Profit
+center
+planning
+to be
+prepared (copy actual)</name></event>
+<xor id="37"/>
+<function id="38"><name>Product
+Cost
+Planning</name></function>
+<and id="39"/>
+<event id="40"><name>New Period
+to Be
+Planned
+(Copy
+of Previous Years Plan)</name></event>
+<or id="41"/>
+<event id="42"><name>Cost
+and activity
+planning
+executed</name></event>
+<function id="43"><name>Sales
+Planning</name></function>
+<and id="44"/>
+<xor id="45"/>
+<and id="46"/>
+<or id="47"/>
+<event id="48"><name>Profit
+center
+planning
+to be
+prepared (Excel upload)</name></event>
+<function id="49"><name>Profit
+Center
+Planning</name></function>
+<arc id="107"><flow source="2" target="6"/></arc>
+<arc id="158"><flow source="3" target="7"/></arc>
+<arc id="202"><flow source="4" target="1"/></arc>
+<arc id="211"><flow source="4" target="10"/></arc>
+<arc id="212"><flow source="4" target="11"/></arc>
+<arc id="325"><flow source="6" target="24"/></arc>
+<arc id="400"><flow source="7" target="49"/></arc>
+<arc id="423"><flow source="8" target="22"/></arc>
+<arc id="474"><flow source="9" target="23"/></arc>
+<arc id="503"><flow source="10" target="2"/></arc>
+<arc id="570"><flow source="11" target="19"/></arc>
+<arc id="896"><flow source="17" target="45"/></arc>
+<arc id="938"><flow source="18" target="37"/></arc>
+<arc id="960"><flow source="19" target="9"/></arc>
+<arc id="1018"><flow source="20" target="17"/></arc>
+<arc id="1095"><flow source="21" target="44"/></arc>
+<arc id="1135"><flow source="22" target="34"/></arc>
+<arc id="1143"><flow source="22" target="42"/></arc>
+<arc id="1164"><flow source="23" target="13"/></arc>
+<arc id="1177"><flow source="23" target="26"/></arc>
+<arc id="1192"><flow source="23" target="41"/></arc>
+<arc id="1204"><flow source="24" target="3"/></arc>
+<arc id="1206"><flow source="24" target="5"/></arc>
+<arc id="1253"><flow source="25" target="2"/></arc>
+<arc id="1346"><flow source="26" target="45"/></arc>
+<arc id="1394"><flow source="27" target="43"/></arc>
+<arc id="1468"><flow source="29" target="17"/></arc>
+<arc id="1508"><flow source="30" target="7"/></arc>
+<arc id="1565"><flow source="31" target="14"/></arc>
+<arc id="1597"><flow source="31" target="46"/></arc>
+<arc id="1638"><flow source="32" target="37"/></arc>
+<arc id="1698"><flow source="33" target="47"/></arc>
+<arc id="1731"><flow source="34" target="30"/></arc>
+<arc id="1795"><flow source="35" target="44"/></arc>
+<arc id="1838"><flow source="36" target="37"/></arc>
+<arc id="1858"><flow source="37" target="7"/></arc>
+<arc id="1932"><flow source="38" target="31"/></arc>
+<arc id="1981"><flow source="39" target="30"/></arc>
+<arc id="1998"><flow source="39" target="47"/></arc>
+<arc id="2018"><flow source="40" target="17"/></arc>
+<arc id="2051"><flow source="41" target="0"/></arc>
+<arc id="2066"><flow source="41" target="15"/></arc>
+<arc id="2079"><flow source="41" target="28"/></arc>
+<arc id="2140"><flow source="42" target="39"/></arc>
+<arc id="2155"><flow source="43" target="4"/></arc>
+<arc id="2220"><flow source="44" target="19"/></arc>
+<arc id="2259"><flow source="45" target="8"/></arc>
+<arc id="2313"><flow source="46" target="12"/></arc>
+<arc id="2326"><flow source="46" target="25"/></arc>
+<arc id="2389"><flow source="47" target="38"/></arc>
+<arc id="2438"><flow source="48" target="37"/></arc>
+<arc id="2467"><flow source="49" target="16"/></arc>
+</epc></epml>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="433" name="1Tr_f6lf">
+<event id="0"><name>Planned
+record
+processing
+completed</name></event>
+<function id="1"><name>Status
+Analysis
+Liquidity
+Forecast</name></function>
+<event id="2"><name>Status
+analysis
+carried
+out</name></event>
+<event id="3"><name>Planned
+record
+created</name></event>
+<or id="4"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="8"><flow source="1" target="2"/></arc>
+<arc id="20"><flow source="3" target="4"/></arc>
+<arc id="22"><flow source="4" target="1"/></arc>
+</epc></epml>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="529" name="1Ve_5x4o">
+<xor id="0"/>
+<and id="1"/>
+<and id="2"/>
+<function id="3"><name>Difference
+Processing</name></function>
+<event id="4"><name>TO item
+confirmed
+without
+differences</name></event>
+<event id="5"><name>Transfer
+order
+item
+with
+difference exists</name></event>
+<xor id="6"/>
+<event id="7"><name>Material
+is removed
+from
+stock</name></event>
+<event id="8"><name>Goods
+movement
+is posted</name></event>
+<xor id="9"/>
+<function id="10"><name>Stock
+Removal
+Processing</name></function>
+<function id="11"><name>Confirmation
+of Removal
+f. Storage</name></function>
+<event id="12"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="13"><name>Transfer
+order
+created
+automatically</name></event>
+<event id="14"><name>Stock
+removal
+to be
+carried
+out via WCU</name></event>
+<event id="15"><name>Difference
+must
+be adjusted
+in Inventory
+Management</name></event>
+<xor id="16"/>
+<event id="17"><name>Physical
+inventory
+is to
+be carried
+out</name></event>
+<event id="18"><name>Transfer
+order
+created
+manually</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="20"><flow source="1" target="0"/></arc>
+<arc id="28"><flow source="1" target="8"/></arc>
+<arc id="51"><flow source="2" target="12"/></arc>
+<arc id="55"><flow source="2" target="16"/></arc>
+<arc id="60"><flow source="3" target="2"/></arc>
+<arc id="99"><flow source="5" target="3"/></arc>
+<arc id="122"><flow source="6" target="7"/></arc>
+<arc id="129"><flow source="6" target="14"/></arc>
+<arc id="145"><flow source="7" target="11"/></arc>
+<arc id="182"><flow source="9" target="10"/></arc>
+<arc id="197"><flow source="10" target="6"/></arc>
+<arc id="211"><flow source="11" target="1"/></arc>
+<arc id="257"><flow source="13" target="9"/></arc>
+<arc id="320"><flow source="16" target="15"/></arc>
+<arc id="322"><flow source="16" target="17"/></arc>
+<arc id="352"><flow source="18" target="9"/></arc>
+</epc></epml>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="16" name="1An_kmy0">
+<function id="0"><name>Appropriation
+Request
+Processing</name></function>
+<event id="1"><name>Internal
+order
+is to
+be created</name></event>
+<event id="2"><name>Investment
+plan
+is to
+be revised</name></event>
+<event id="3"><name>Appropri-
+ation
+request
+is to
+be processed</name></event>
+<and id="4"/>
+<xor id="5"/>
+<function id="6"><name>Appropriation
+Request
+Planning</name></function>
+<function id="7"><name>Mass
+Change
+for Appropriation
+Requests</name></function>
+<function id="8"><name>Appropriation
+Request
+Approval</name></function>
+<event id="9"><name>Approp-
+riation
+request
+plan
+exists</name></event>
+<event id="10"><name>Appropri-
+ation
+request
+is created</name></event>
+<event id="11"><name>Appropriation
+request
+to be
+released</name></event>
+<function id="12"><name>Variant
+Processing</name></function>
+<event id="13"><name>Appropriation
+request
+to be
+approved</name></event>
+<xor id="14"/>
+<event id="15"><name>Appropri-
+ation
+request
+is to
+be processed</name></event>
+<event id="16"><name>Variant
+is processed</name></event>
+<function id="17"><name>Creation
+of an
+Alternate
+Group
+of Appropriation Requests</name></function>
+<event id="18"><name>Multiple
+appropriation
+requests
+are to
+be changed</name></event>
+<event id="19"><name/></event>
+<event id="20"><name>Mass
+changes
+were
+made</name></event>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="48"><flow source="2" target="5"/></arc>
+<arc id="81"><flow source="3" target="17"/></arc>
+<arc id="93"><flow source="4" target="8"/></arc>
+<arc id="112"><flow source="5" target="6"/></arc>
+<arc id="136"><flow source="6" target="9"/></arc>
+<arc id="168"><flow source="7" target="20"/></arc>
+<arc id="183"><flow source="8" target="14"/></arc>
+<arc id="194"><flow source="9" target="4"/></arc>
+<arc id="223"><flow source="10" target="12"/></arc>
+<arc id="236"><flow source="11" target="4"/></arc>
+<arc id="269"><flow source="12" target="16"/></arc>
+<arc id="278"><flow source="13" target="4"/></arc>
+<arc id="296"><flow source="14" target="1"/></arc>
+<arc id="298"><flow source="14" target="3"/></arc>
+<arc id="313"><flow source="14" target="18"/></arc>
+<arc id="316"><flow source="15" target="0"/></arc>
+<arc id="342"><flow source="16" target="5"/></arc>
+<arc id="377"><flow source="17" target="19"/></arc>
+<arc id="386"><flow source="18" target="7"/></arc>
+</epc></epml>

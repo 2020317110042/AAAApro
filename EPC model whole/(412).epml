@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="413" name="1Qu_bywg">
+<xor id="0"/>
+<function id="1"><name>Usage
+Decision</name></function>
+<event id="2"><name>Inspection
+lot is
+to be
+created</name></event>
+<event id="3"><name>Inspection
+completion
+is to
+be forced</name></event>
+<event id="4"><name>Inspection
+results
+are copied
+to general
+characteristics</name></event>
+<event id="5"><name>Enter
+defects
+from
+the operation</name></event>
+<event id="6"><name>QMIS
+updated</name></event>
+<event id="7"><name>All characteristics
+are closed</name></event>
+<event id="8"><name>Enter
+defects
+from
+the inspection
+lot</name></event>
+<event id="9"><name>Quality
+notification
+is activated
+from
+defects</name></event>
+<event id="10"><name>Usage
+decision
+is documented</name></event>
+<event id="11"><name>Defect
+is recorded</name></event>
+<event id="12"><name>Results
+for the
+technical
+object
+are to be recorded</name></event>
+<and id="13"/>
+<event id="14"><name>PM order
+comes
+from
+maintenance
+call</name></event>
+<or id="15"/>
+<or id="16"/>
+<event id="17"><name>Inspection
+lot is
+to be
+created
+manually</name></event>
+<event id="18"><name>Inspection
+completion
+is carried
+out</name></event>
+<event id="19"><name>Follow-up
+action
+is triggered</name></event>
+<event id="20"><name>Recorded
+defects
+are closed</name></event>
+<xor id="21"/>
+<xor id="22"/>
+<event id="23"><name>Enter
+characteristic
+defects</name></event>
+<event id="24"><name>Enter
+defects
+from
+the inspection
+lot</name></event>
+<function id="25"><name>Defects
+Recording</name></function>
+<or id="26"/>
+<xor id="27"/>
+<event id="28"><name>Enter
+defects
+from
+the operation</name></event>
+<and id="29"/>
+<xor id="30"/>
+<xor id="31"/>
+<xor id="32"/>
+<event id="33"><name>Enter
+characteristic
+defects</name></event>
+<event id="34"><name>Data
+is updated</name></event>
+<function id="35"><name>Inspection
+Lot Creation</name></function>
+<function id="36"><name>Results
+Recording</name></function>
+<and id="37"/>
+<xor id="38"/>
+<event id="39"><name>Confirmation
+for maintenance
+order
+is to
+be made</name></event>
+<xor id="40"/>
+<or id="41"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="72"><flow source="1" target="29"/></arc>
+<arc id="98"><flow source="2" target="13"/></arc>
+<arc id="167"><flow source="3" target="40"/></arc>
+<arc id="249"><flow source="5" target="38"/></arc>
+<arc id="335"><flow source="7" target="40"/></arc>
+<arc id="375"><flow source="8" target="38"/></arc>
+<arc id="494"><flow source="11" target="31"/></arc>
+<arc id="541"><flow source="12" target="36"/></arc>
+<arc id="569"><flow source="13" target="22"/></arc>
+<arc id="602"><flow source="14" target="13"/></arc>
+<arc id="635"><flow source="15" target="4"/></arc>
+<arc id="641"><flow source="15" target="10"/></arc>
+<arc id="649"><flow source="15" target="18"/></arc>
+<arc id="650"><flow source="15" target="19"/></arc>
+<arc id="685"><flow source="16" target="12"/></arc>
+<arc id="694"><flow source="16" target="21"/></arc>
+<arc id="737"><flow source="17" target="22"/></arc>
+<arc id="906"><flow source="21" target="23"/></arc>
+<arc id="907"><flow source="21" target="24"/></arc>
+<arc id="911"><flow source="21" target="28"/></arc>
+<arc id="960"><flow source="22" target="35"/></arc>
+<arc id="994"><flow source="23" target="27"/></arc>
+<arc id="1036"><flow source="24" target="27"/></arc>
+<arc id="1092"><flow source="25" target="41"/></arc>
+<arc id="1093"><flow source="26" target="0"/></arc>
+<arc id="1123"><flow source="26" target="30"/></arc>
+<arc id="1132"><flow source="26" target="39"/></arc>
+<arc id="1167"><flow source="27" target="32"/></arc>
+<arc id="1204"><flow source="28" target="27"/></arc>
+<arc id="1234"><flow source="29" target="15"/></arc>
+<arc id="1239"><flow source="29" target="20"/></arc>
+<arc id="1253"><flow source="29" target="34"/></arc>
+<arc id="1266"><flow source="30" target="5"/></arc>
+<arc id="1269"><flow source="30" target="8"/></arc>
+<arc id="1294"><flow source="30" target="33"/></arc>
+<arc id="1304"><flow source="31" target="1"/></arc>
+<arc id="1370"><flow source="32" target="25"/></arc>
+<arc id="1425"><flow source="33" target="38"/></arc>
+<arc id="1487"><flow source="35" target="16"/></arc>
+<arc id="1539"><flow source="36" target="26"/></arc>
+<arc id="1561"><flow source="37" target="6"/></arc>
+<arc id="1566"><flow source="37" target="11"/></arc>
+<arc id="1629"><flow source="38" target="32"/></arc>
+<arc id="1712"><flow source="40" target="31"/></arc>
+<arc id="1732"><flow source="41" target="9"/></arc>
+<arc id="1760"><flow source="41" target="37"/></arc>
+</epc></epml>

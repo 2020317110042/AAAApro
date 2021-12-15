@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="465" name="1Tr_gjiw">
+<event id="0"><name>Fixed-term
+deposit
+was chosen</name></event>
+<function id="1"><name>Rollover</name></function>
+<or id="2"/>
+<function id="3"><name>Netting
+Processing</name></function>
+<event id="4"><name>Accrual/
+deferral
+is to
+be performed</name></event>
+<or id="5"/>
+<event id="6"><name>Transaction
+was rolled
+over</name></event>
+<event id="7"><name>Cash
+management
+was updated</name></event>
+<event id="8"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<function id="9"><name>Settlement</name></function>
+<and id="10"/>
+<event id="11"><name>Cash
+management
+was updated</name></event>
+<event id="12"><name>Netting
+proposal
+to be
+edited</name></event>
+<event id="13"><name>Transaction
+is to
+be rolled
+over</name></event>
+<and id="14"/>
+<function id="15"><name>Process
+Fixed-Term
+Deposit</name></function>
+<event id="16"><name>Fixed-term
+deposit
+was edited</name></event>
+<event id="17"><name>Netting
+proposal
+was accepted</name></event>
+<arc id="16"><flow source="0" target="15"/></arc>
+<arc id="29"><flow source="1" target="10"/></arc>
+<arc id="41"><flow source="2" target="4"/></arc>
+<arc id="45"><flow source="2" target="8"/></arc>
+<arc id="49"><flow source="2" target="12"/></arc>
+<arc id="72"><flow source="3" target="17"/></arc>
+<arc id="100"><flow source="5" target="9"/></arc>
+<arc id="114"><flow source="6" target="5"/></arc>
+<arc id="165"><flow source="9" target="2"/></arc>
+<arc id="187"><flow source="10" target="6"/></arc>
+<arc id="188"><flow source="10" target="7"/></arc>
+<arc id="220"><flow source="12" target="3"/></arc>
+<arc id="236"><flow source="13" target="1"/></arc>
+<arc id="264"><flow source="14" target="11"/></arc>
+<arc id="269"><flow source="14" target="16"/></arc>
+<arc id="285"><flow source="15" target="14"/></arc>
+<arc id="294"><flow source="16" target="5"/></arc>
+</epc></epml>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="543" name="1Ve_6u91">
+<xor id="0"/>
+<xor id="1"/>
+<function id="2"><name>Invoice
+Processing
+with
+Reference</name></function>
+<and id="3"/>
+<event id="4"><name>Invoice
+transmitted
+for vendors
+records</name></event>
+<event id="5"><name>Invoice
+posted</name></event>
+<event id="6"><name>Material
+is released</name></event>
+<event id="7"><name>Payment
+must
+be effected</name></event>
+<event id="8"><name>Goods
+receipt
+posted</name></event>
+<function id="9"><name>Invoice
+Release</name></function>
+<and id="10"/>
+<event id="11"><name>Invoice
+received</name></event>
+<event id="12"><name>Purchase
+order
+created</name></event>
+<and id="13"/>
+<xor id="14"/>
+<event id="15"><name>Goods
+receipts
+to be
+settled
+automatically</name></event>
+<event id="16"><name>Service
+is accepted</name></event>
+<event id="17"><name>Invoice
+parked</name></event>
+<function id="18"><name>Invoice
+Overview</name></function>
+<function id="19"><name>Evaluated
+Receipt
+Settlement
+(ERS)</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="18"><flow source="0" target="17"/></arc>
+<arc id="26"><flow source="1" target="5"/></arc>
+<arc id="41"><flow source="2" target="0"/></arc>
+<arc id="70"><flow source="3" target="9"/></arc>
+<arc id="104"><flow source="5" target="3"/></arc>
+<arc id="124"><flow source="6" target="3"/></arc>
+<arc id="175"><flow source="8" target="14"/></arc>
+<arc id="188"><flow source="9" target="7"/></arc>
+<arc id="203"><flow source="10" target="2"/></arc>
+<arc id="231"><flow source="11" target="10"/></arc>
+<arc id="255"><flow source="12" target="14"/></arc>
+<arc id="262"><flow source="13" target="1"/></arc>
+<arc id="265"><flow source="13" target="4"/></arc>
+<arc id="291"><flow source="14" target="10"/></arc>
+<arc id="320"><flow source="15" target="19"/></arc>
+<arc id="335"><flow source="16" target="14"/></arc>
+<arc id="359"><flow source="17" target="18"/></arc>
+<arc id="362"><flow source="18" target="1"/></arc>
+<arc id="394"><flow source="19" target="13"/></arc>
+</epc></epml>

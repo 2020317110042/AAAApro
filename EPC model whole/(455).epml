@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="456" name="1Tr_gdht">
+<event id="0"><name>Netting
+proposal
+was accepted</name></event>
+<or id="1"/>
+<function id="2"><name>Expiration
+of Currency
+Option</name></function>
+<event id="3"><name>Standard
+currency
+option
+was chosen</name></event>
+<event id="4"><name>Termination
+flows
+generate
+settlement
+payments</name></event>
+<xor id="5"/>
+<function id="6"><name>Exercise
+Currency
+Option</name></function>
+<function id="7"><name>Settlement</name></function>
+<function id="8"><name>Terminate
+Currency
+Option</name></function>
+<event id="9"><name>Currency
+option
+has expired</name></event>
+<event id="10"><name>Structure
+characteristics
+were
+edited</name></event>
+<event id="11"><name>Currency
+option
+is not
+to be
+exercised</name></event>
+<event id="12"><name>Currency
+option
+was exercised
+physically</name></event>
+<event id="13"><name>Currency
+option
+is to
+be exercised</name></event>
+<function id="14"><name>Process
+Standard
+Currency
+Options</name></function>
+<event id="15"><name>Currency
+option
+is to
+be terminated</name></event>
+<xor id="16"/>
+<event id="17"><name>Key date
+valuation
+to be
+carried
+out</name></event>
+<event id="18"><name>Currency
+option
+was exercised
+with
+cash settlement</name></event>
+<or id="19"/>
+<event id="20"><name>Currency
+option
+was terminated</name></event>
+<or id="21"/>
+<event id="22"><name>Netting
+proposal
+to be
+edited</name></event>
+<function id="23"><name>Netting
+Processing</name></function>
+<arc id="30"><flow source="1" target="5"/></arc>
+<arc id="35"><flow source="1" target="10"/></arc>
+<arc id="58"><flow source="2" target="9"/></arc>
+<arc id="87"><flow source="3" target="14"/></arc>
+<arc id="132"><flow source="5" target="11"/></arc>
+<arc id="134"><flow source="5" target="13"/></arc>
+<arc id="136"><flow source="5" target="15"/></arc>
+<arc id="161"><flow source="6" target="16"/></arc>
+<arc id="190"><flow source="7" target="21"/></arc>
+<arc id="212"><flow source="8" target="19"/></arc>
+<arc id="248"><flow source="10" target="7"/></arc>
+<arc id="267"><flow source="11" target="2"/></arc>
+<arc id="319"><flow source="13" target="6"/></arc>
+<arc id="338"><flow source="14" target="1"/></arc>
+<arc id="369"><flow source="15" target="8"/></arc>
+<arc id="397"><flow source="16" target="12"/></arc>
+<arc id="403"><flow source="16" target="18"/></arc>
+<arc id="461"><flow source="19" target="4"/></arc>
+<arc id="477"><flow source="19" target="20"/></arc>
+<arc id="522"><flow source="21" target="17"/></arc>
+<arc id="527"><flow source="21" target="22"/></arc>
+<arc id="552"><flow source="22" target="23"/></arc>
+<arc id="553"><flow source="23" target="0"/></arc>
+</epc></epml>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="41" name="1An_lbl5">
+<event id="0"><name>New valuation
+key is
+necessary</name></event>
+<xor id="1"/>
+<xor id="2"/>
+<event id="3"><name>Useful
+life
+should
+be changed</name></event>
+<event id="4"><name>New valuation
+method
+is defined</name></event>
+<function id="5"><name>Depreciation
+Posting</name></function>
+<event id="6"><name>Recalcula-
+tion
+of de-
+preciation
+was carried out</name></event>
+<event id="7"><name>Depreciation
+should
+be posted
+regularly</name></event>
+<event id="8"><name>Create
+ins./
+net worth
+tax depreciation
+area</name></event>
+<event id="9"><name>Costs
+were
+settled
+by cost
+element to asset under construction</name></event>
+<function id="10"><name>Depreciation
+Processing</name></function>
+<event id="11"><name>Costs
+were
+settled
+with
+secondary cost elements to asset under construction</name></event>
+<event id="12"><name>Create
+tax depreciation
+area</name></event>
+<event id="13"><name>Create
+foreign
+currency
+depreciation
+area</name></event>
+<event id="14"><name>[Depreciation
+posting
+run was
+carried
+out]</name></event>
+<or id="15"/>
+<event id="16"><name>Create
+statistical
+depreciation
+area</name></event>
+<event id="17"><name>Create
+group
+depreciation
+area</name></event>
+<and id="18"/>
+<event id="19"><name>G/L accounts
+were
+posted</name></event>
+<and id="20"/>
+<event id="21"><name>Shortened
+fiscal
+year
+is necessary</name></event>
+<event id="22"><name>Cost-accounting
+depreciation/
+interest
+transferred
+to Cost Accounting</name></event>
+<event id="23"><name>Features
+of depreciation
+area
+must
+be changed</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="35"><flow source="1" target="10"/></arc>
+<arc id="54"><flow source="2" target="5"/></arc>
+<arc id="74"><flow source="3" target="1"/></arc>
+<arc id="117"><flow source="4" target="20"/></arc>
+<arc id="139"><flow source="5" target="18"/></arc>
+<arc id="147"><flow source="6" target="2"/></arc>
+<arc id="189"><flow source="7" target="20"/></arc>
+<arc id="208"><flow source="8" target="15"/></arc>
+<arc id="219"><flow source="9" target="2"/></arc>
+<arc id="245"><flow source="10" target="4"/></arc>
+<arc id="267"><flow source="11" target="2"/></arc>
+<arc id="304"><flow source="12" target="15"/></arc>
+<arc id="328"><flow source="13" target="15"/></arc>
+<arc id="362"><flow source="15" target="1"/></arc>
+<arc id="400"><flow source="16" target="15"/></arc>
+<arc id="424"><flow source="17" target="15"/></arc>
+<arc id="447"><flow source="18" target="14"/></arc>
+<arc id="452"><flow source="18" target="19"/></arc>
+<arc id="455"><flow source="18" target="22"/></arc>
+<arc id="483"><flow source="20" target="2"/></arc>
+<arc id="506"><flow source="21" target="1"/></arc>
+<arc id="554"><flow source="23" target="1"/></arc>
+</epc></epml>

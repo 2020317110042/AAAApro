@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="573" name="1Ve_m2sp">
+<xor id="0"/>
+<function id="1"><name>Compensation
+Planning
+Check</name></function>
+<xor id="2"/>
+<function id="3"><name>Implementation
+of Compensation
+Planning</name></function>
+<event id="4"><name>Compensation
+plan
+is approved</name></event>
+<event id="5"><name>Compensation
+Planning
+Specifications
+Approved</name></event>
+<and id="6"/>
+<event id="7"><name>Requirement
+for Compensation
+Planning
+Preparation</name></event>
+<event id="8"><name>Benefits
+offer
+must
+be adapted
+for employee</name></event>
+<event id="9"><name>Requirement
+for Correction
+of Specifications
+of Compensation
+Planning</name></event>
+<or id="10"/>
+<event id="11"><name>Requirement
+for Compensation
+Planning
+Check</name></event>
+<event id="12"><name>Need
+to correct
+compensation
+plan
+exists</name></event>
+<event id="13"><name>Payroll
+accounting
+specifications
+changed</name></event>
+<function id="14"><name>Compensation
+Planning</name></function>
+<event id="15"><name>Employee
+notified
+of compensation
+adjustment</name></event>
+<function id="16"><name>Preparation
+of Compensation
+Planning</name></function>
+<and id="17"/>
+<event id="18"><name>Need
+for compensation
+planning
+exists</name></event>
+<event id="19"><name>Compensation
+plan
+is implemented</name></event>
+<event id="20"><name>No need
+to act
+regarding
+compensation
+planning</name></event>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="32"><flow source="1" target="10"/></arc>
+<arc id="59"><flow source="2" target="16"/></arc>
+<arc id="70"><flow source="3" target="6"/></arc>
+<arc id="88"><flow source="4" target="3"/></arc>
+<arc id="123"><flow source="5" target="17"/></arc>
+<arc id="135"><flow source="6" target="8"/></arc>
+<arc id="140"><flow source="6" target="13"/></arc>
+<arc id="142"><flow source="6" target="15"/></arc>
+<arc id="146"><flow source="6" target="19"/></arc>
+<arc id="150"><flow source="7" target="2"/></arc>
+<arc id="192"><flow source="9" target="2"/></arc>
+<arc id="220"><flow source="10" target="9"/></arc>
+<arc id="223"><flow source="10" target="12"/></arc>
+<arc id="231"><flow source="10" target="20"/></arc>
+<arc id="233"><flow source="11" target="1"/></arc>
+<arc id="253"><flow source="12" target="0"/></arc>
+<arc id="299"><flow source="14" target="4"/></arc>
+<arc id="342"><flow source="16" target="5"/></arc>
+<arc id="358"><flow source="17" target="0"/></arc>
+<arc id="396"><flow source="18" target="17"/></arc>
+</epc></epml>

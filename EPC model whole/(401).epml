@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="402" name="1Pr_qik-">
+<function id="0"><name>Information
+Transfer
+via Office
+Function/
+CAD Interface</name></function>
+<function id="1"><name>Material
+Master
+Processing
+via CAD
+Interface</name></function>
+<event id="2"><name>Set up
+product
+strucuture
+using
+CAD interface</name></event>
+<event id="3"><name>Office
+function
+of CAD
+interface
+can be selected</name></event>
+<function id="4"><name>BOM Processing
+via CAD
+Interface</name></function>
+<function id="5"><name>Change
+Master
+Record
+Processing
+via CAD Interface</name></function>
+<and id="6"/>
+<event id="7"><name>Check
+project
+data</name></event>
+<function id="8"><name>Document
+Processing
+via CAD
+Interface</name></function>
+<and id="9"/>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="17"><flow source="1" target="6"/></arc>
+<arc id="30"><flow source="2" target="9"/></arc>
+<arc id="31"><flow source="3" target="0"/></arc>
+<arc id="47"><flow source="4" target="6"/></arc>
+<arc id="57"><flow source="5" target="6"/></arc>
+<arc id="64"><flow source="6" target="3"/></arc>
+<arc id="87"><flow source="8" target="6"/></arc>
+<arc id="92"><flow source="9" target="1"/></arc>
+<arc id="95"><flow source="9" target="4"/></arc>
+<arc id="96"><flow source="9" target="5"/></arc>
+<arc id="99"><flow source="9" target="8"/></arc>
+</epc></epml>

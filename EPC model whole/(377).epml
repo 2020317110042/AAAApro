@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="378" name="1Pr_dn32">
+<function id="0"><name>Results
+Analysis
+Planning</name></function>
+<event id="1"><name>Planned
+process
+costs
+allocated</name></event>
+<event id="2"><name>Planned
+overhead
+costing
+executed</name></event>
+<function id="3"><name>Planned
+Process
+Cost
+Allocation</name></function>
+<event id="4"><name>Planned
+settlement
+required</name></event>
+<function id="5"><name>Periodic
+Reposting
+of Plan
+Data</name></function>
+<event id="6"><name>Periodic
+transfer
+required</name></event>
+<function id="7"><name>Planned
+Overhead
+Costing</name></function>
+<event id="8"><name>Periodic
+repostign
+carried
+out</name></event>
+<event id="9"><name>Sales
+order
+processing
+required</name></event>
+<event id="10"><name>Quotation
+must
+be created
+on basis
+of plan data</name></event>
+<function id="11"><name>Plan
+Settlement</name></function>
+<event id="12"><name>Planned
+settlement
+carried
+out</name></event>
+<event id="13"><name>Revenue
+planned</name></event>
+<or id="14"/>
+<event id="15"><name>Planned
+interest
+calculation
+carried
+out</name></event>
+<or id="16"/>
+<event id="17"><name>Cost
+planning
+data
+exists
+for planned interest calculation</name></event>
+<function id="18"><name>Planned
+Interest
+Calculation</name></function>
+<event id="19"><name>Periodic
+allocations
+executed</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="28"><flow source="1" target="7"/></arc>
+<arc id="41"><flow source="2" target="0"/></arc>
+<arc id="62"><flow source="3" target="1"/></arc>
+<arc id="92"><flow source="4" target="11"/></arc>
+<arc id="109"><flow source="5" target="8"/></arc>
+<arc id="126"><flow source="6" target="5"/></arc>
+<arc id="143"><flow source="7" target="2"/></arc>
+<arc id="233"><flow source="11" target="12"/></arc>
+<arc id="277"><flow source="13" target="16"/></arc>
+<arc id="290"><flow source="14" target="9"/></arc>
+<arc id="291"><flow source="14" target="10"/></arc>
+<arc id="296"><flow source="14" target="15"/></arc>
+<arc id="339"><flow source="16" target="18"/></arc>
+<arc id="357"><flow source="17" target="16"/></arc>
+<arc id="375"><flow source="18" target="14"/></arc>
+<arc id="384"><flow source="19" target="3"/></arc>
+</epc></epml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="347" name="1Pr_4dw9">
+<event id="0"><name>Material
+is staged</name></event>
+<event id="1"><name>Material
+for repetitive
+manufacturing
+is to
+be provided</name></event>
+<or id="2"/>
+<event id="3"><name>Stock
+transfer
+reservation
+is generated</name></event>
+<or id="4"/>
+<event id="5"><name>Stock
+transfer
+is posted</name></event>
+<event id="6"><name>Master
+production
+schedule
+is processed</name></event>
+<function id="7"><name>Processing
+the Pull
+List</name></function>
+<function id="8"><name>Picking</name></function>
+<or id="9"/>
+<or id="10"/>
+<arc id="16"><flow source="1" target="4"/></arc>
+<arc id="28"><flow source="2" target="5"/></arc>
+<arc id="33"><flow source="2" target="10"/></arc>
+<arc id="42"><flow source="3" target="8"/></arc>
+<arc id="52"><flow source="4" target="7"/></arc>
+<arc id="71"><flow source="6" target="4"/></arc>
+<arc id="87"><flow source="7" target="9"/></arc>
+<arc id="91"><flow source="8" target="2"/></arc>
+<arc id="102"><flow source="9" target="2"/></arc>
+<arc id="103"><flow source="9" target="3"/></arc>
+<arc id="111"><flow source="10" target="0"/></arc>
+<arc id="116"><flow source="10" target="5"/></arc>
+</epc></epml>

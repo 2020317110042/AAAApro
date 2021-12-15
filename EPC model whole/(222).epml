@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="223" name="1Ku_8w9x">
+<xor id="0"/>
+<xor id="1"/>
+<event id="2"><name>Quotation
+items
+are rejected</name></event>
+<or id="3"/>
+<function id="4"><name>Service
+Contract
+Quotation
+Processing</name></function>
+<xor id="5"/>
+<event id="6"><name>Quotation
+is valid</name></event>
+<xor id="7"/>
+<and id="8"/>
+<event id="9"><name>Follow-up
+sales
+activity
+is created</name></event>
+<event id="10"><name>Free-of-charge
+delivery
+is to
+be created</name></event>
+<event id="11"><name>Quotation
+is monitored</name></event>
+<function id="12"><name>Service
+Contract
+Request
+Processing</name></function>
+<event id="13"><name>Cust.
+mail.
+campaign
+to be
+carried out</name></event>
+<event id="14"><name>Sales
+activity
+is to
+be processed</name></event>
+<function id="15"><name>Customer
+Contact
+Processing</name></function>
+<function id="16"><name>Mailing
+Campaign
+Processing</name></function>
+<and id="17"/>
+<event id="18"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<event id="19"><name>Inquiry
+items
+are rejected</name></event>
+<event id="20"><name>Inquiry
+is monitored</name></event>
+<xor id="21"/>
+<event id="22"><name>Customer
+inquires
+about
+products</name></event>
+<event id="23"><name>Quotation
+is to
+be created
+from
+contact</name></event>
+<event id="24"><name>Inquiry
+to be
+created
+from
+contact</name></event>
+<event id="25"><name>Service
+contract
+to be
+created
+from contact</name></event>
+<xor id="26"/>
+<or id="27"/>
+<event id="28"><name>Expenses
+incurred</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="48"><flow source="1" target="18"/></arc>
+<arc id="49"><flow source="1" target="19"/></arc>
+<arc id="97"><flow source="3" target="9"/></arc>
+<arc id="98"><flow source="3" target="10"/></arc>
+<arc id="125"><flow source="4" target="8"/></arc>
+<arc id="148"><flow source="5" target="2"/></arc>
+<arc id="152"><flow source="5" target="6"/></arc>
+<arc id="219"><flow source="7" target="15"/></arc>
+<arc id="238"><flow source="8" target="5"/></arc>
+<arc id="244"><flow source="8" target="11"/></arc>
+<arc id="269"><flow source="9" target="7"/></arc>
+<arc id="366"><flow source="12" target="17"/></arc>
+<arc id="394"><flow source="13" target="16"/></arc>
+<arc id="414"><flow source="14" target="7"/></arc>
+<arc id="463"><flow source="15" target="27"/></arc>
+<arc id="468"><flow source="16" target="3"/></arc>
+<arc id="495"><flow source="17" target="1"/></arc>
+<arc id="514"><flow source="17" target="20"/></arc>
+<arc id="523"><flow source="18" target="0"/></arc>
+<arc id="622"><flow source="21" target="12"/></arc>
+<arc id="660"><flow source="22" target="21"/></arc>
+<arc id="668"><flow source="23" target="0"/></arc>
+<arc id="718"><flow source="24" target="21"/></arc>
+<arc id="778"><flow source="26" target="23"/></arc>
+<arc id="779"><flow source="26" target="24"/></arc>
+<arc id="780"><flow source="26" target="25"/></arc>
+<arc id="810"><flow source="27" target="26"/></arc>
+<arc id="812"><flow source="27" target="28"/></arc>
+</epc></epml>

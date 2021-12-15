@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="327" name="1Pr_1sct">
+<event id="0"><name>Customer
+Requirements
+Occurred</name></event>
+<function id="1"><name>Master
+Production
+Scheduling</name></function>
+<or id="2"/>
+<event id="3"><name>Planned
+Order
+Created
+Automatically</name></event>
+<function id="4"><name>Material
+Requirements
+Planning</name></function>
+<and id="5"/>
+<and id="6"/>
+<or id="7"/>
+<event id="8"><name>Dependent
+Requirement
+Created</name></event>
+<event id="9"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="10"><name>Separate
+planning
+run to
+be carried
+out for master schedule items</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="14"><flow source="1" target="2"/></arc>
+<arc id="31"><flow source="2" target="8"/></arc>
+<arc id="32"><flow source="2" target="9"/></arc>
+<arc id="48"><flow source="4" target="3"/></arc>
+<arc id="62"><flow source="5" target="6"/></arc>
+<arc id="63"><flow source="5" target="7"/></arc>
+<arc id="68"><flow source="6" target="1"/></arc>
+<arc id="82"><flow source="7" target="4"/></arc>
+<arc id="96"><flow source="8" target="7"/></arc>
+<arc id="117"><flow source="10" target="6"/></arc>
+</epc></epml>

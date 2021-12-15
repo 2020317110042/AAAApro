@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="353" name="1Pr_cwo2">
+<event id="0"><name>Internal
+project
+approved</name></event>
+<function id="1"><name>Project
+Approval</name></function>
+<event id="2"><name>Project
+proposal
+exists</name></event>
+<event id="3"><name>Documents
+required
+for approval
+exist</name></event>
+<function id="4"><name>Prepare
+Business
+Case
+for Project</name></function>
+<arc id="6"><flow source="1" target="0"/></arc>
+<arc id="15"><flow source="2" target="4"/></arc>
+<arc id="17"><flow source="3" target="1"/></arc>
+<arc id="24"><flow source="4" target="3"/></arc>
+</epc></epml>

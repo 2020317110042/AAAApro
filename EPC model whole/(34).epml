@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="35" name="1An_l7u8">
+<event id="0"><name>Index
+series
+must
+be updated</name></event>
+<event id="1"><name>Retirement
+was posted
+and checked</name></event>
+<event id="2"><name>New master
+record
+is necessary</name></event>
+<event id="3"><name>Index
+series
+was updated</name></event>
+<event id="4"><name>Fixed
+asset
+should
+be insured</name></event>
+<function id="5"><name>Closing
+Operations</name></function>
+<event id="6"><name>Fixed
+asset
+was bought
+w/o purchase
+order</name></event>
+<xor id="7"/>
+<event id="8"><name>Asset
+master
+record
+does
+not exist</name></event>
+<function id="9"><name>Receipts</name></function>
+<event id="10"><name>Insurance
+contract
+was closed</name></event>
+<event id="11"><name>Periodic
+lease
+payment
+is necessary</name></event>
+<event id="12"><name>Leasing
+agrmnt
+conditions
+were
+changed</name></event>
+<event id="13"><name>Fixed
+asset
+was given</name></event>
+<event id="14"><name>Group
+asset
+to be
+created</name></event>
+<function id="15"><name>Depreciation</name></function>
+<and id="16"/>
+<xor id="17"/>
+<event id="18"><name>Fixed
+asset
+was found</name></event>
+<and id="19"/>
+<or id="20"/>
+<event id="21"><name>G/L accounts
+were
+posted</name></event>
+<event id="22"><name>Acquisitions
+to be
+entered</name></event>
+<event id="23"><name>Leased
+asset
+should
+be bought</name></event>
+<event id="24"><name>Unit-of-production
+depreciation
+is to
+be posted</name></event>
+<event id="25"><name>Planned
+accrued
+depreciation
+and interest
+were transferred to CO</name></event>
+<event id="26"><name>Organizational
+allocations
+must
+be changed</name></event>
+<xor id="27"/>
+<xor id="28"/>
+<event id="29"><name>Retirements
+to be
+entered</name></event>
+<function id="30"><name>Asset
+Maintenance</name></function>
+<function id="31"><name>Business
+Transactions</name></function>
+<event id="32"><name>[Depreciation
+posting
+run was
+carried
+out]</name></event>
+<event id="33"><name>Cost-accounting
+depreciation/
+interest
+transferred
+to Cost Accounting</name></event>
+<event id="34"><name>Transactions
+completed</name></event>
+<function id="35"><name>Specific
+Valuations</name></function>
+<function id="36"><name>Retirements</name></function>
+<event id="37"><name>Acquisition
+posted
+to Asset
+Accounting</name></event>
+<event id="38"><name>Posting
+is possible
+to assets
+in new
+fiscal year</name></event>
+<xor id="39"/>
+<event id="40"><name>G/L accounts
+were
+posted</name></event>
+<event id="41"><name>Periodic
+reports
+are created</name></event>
+<event id="42"><name>Depreciation
+should
+be posted
+regularly</name></event>
+<event id="43"><name>Leased
+asset
+was bought</name></event>
+<xor id="44"/>
+<arc id="45"><flow source="0" target="44"/></arc>
+<arc id="66"><flow source="1" target="20"/></arc>
+<arc id="98"><flow source="2" target="7"/></arc>
+<arc id="225"><flow source="4" target="44"/></arc>
+<arc id="245"><flow source="5" target="19"/></arc>
+<arc id="278"><flow source="6" target="7"/></arc>
+<arc id="346"><flow source="7" target="30"/></arc>
+<arc id="368"><flow source="8" target="7"/></arc>
+<arc id="443"><flow source="9" target="37"/></arc>
+<arc id="524"><flow source="11" target="28"/></arc>
+<arc id="569"><flow source="12" target="28"/></arc>
+<arc id="593"><flow source="13" target="7"/></arc>
+<arc id="638"><flow source="14" target="7"/></arc>
+<arc id="692"><flow source="15" target="16"/></arc>
+<arc id="753"><flow source="16" target="32"/></arc>
+<arc id="754"><flow source="16" target="33"/></arc>
+<arc id="761"><flow source="16" target="40"/></arc>
+<arc id="766"><flow source="17" target="0"/></arc>
+<arc id="770"><flow source="17" target="4"/></arc>
+<arc id="777"><flow source="17" target="11"/></arc>
+<arc id="778"><flow source="17" target="12"/></arc>
+<arc id="788"><flow source="17" target="22"/></arc>
+<arc id="789"><flow source="17" target="23"/></arc>
+<arc id="790"><flow source="17" target="24"/></arc>
+<arc id="792"><flow source="17" target="26"/></arc>
+<arc id="795"><flow source="17" target="29"/></arc>
+<arc id="808"><flow source="17" target="42"/></arc>
+<arc id="818"><flow source="18" target="7"/></arc>
+<arc id="877"><flow source="19" target="21"/></arc>
+<arc id="881"><flow source="19" target="25"/></arc>
+<arc id="894"><flow source="19" target="38"/></arc>
+<arc id="897"><flow source="19" target="41"/></arc>
+<arc id="906"><flow source="20" target="5"/></arc>
+<arc id="1000"><flow source="22" target="9"/></arc>
+<arc id="1064"><flow source="23" target="28"/></arc>
+<arc id="1108"><flow source="24" target="27"/></arc>
+<arc id="1199"><flow source="26" target="28"/></arc>
+<arc id="1231"><flow source="27" target="15"/></arc>
+<arc id="1292"><flow source="28" target="31"/></arc>
+<arc id="1342"><flow source="29" target="36"/></arc>
+<arc id="1368"><flow source="30" target="17"/></arc>
+<arc id="1430"><flow source="31" target="34"/></arc>
+<arc id="1461"><flow source="32" target="20"/></arc>
+<arc id="1506"><flow source="33" target="20"/></arc>
+<arc id="1551"><flow source="34" target="20"/></arc>
+<arc id="1615"><flow source="35" target="39"/></arc>
+<arc id="1622"><flow source="36" target="1"/></arc>
+<arc id="1686"><flow source="37" target="20"/></arc>
+<arc id="1759"><flow source="39" target="3"/></arc>
+<arc id="1766"><flow source="39" target="10"/></arc>
+<arc id="1821"><flow source="40" target="20"/></arc>
+<arc id="1918"><flow source="42" target="27"/></arc>
+<arc id="1943"><flow source="43" target="7"/></arc>
+<arc id="2016"><flow source="44" target="35"/></arc>
+</epc></epml>

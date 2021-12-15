@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="89" name="1En_cmrh">
+<event id="0"><name>Processing
+is completed</name></event>
+<xor id="1"/>
+<event id="2"><name>Result
+is displayed</name></event>
+<event id="3"><name>Drilldown
+reporting
+is to
+be carried
+out</name></event>
+<function id="4"><name>Material
+Master</name></function>
+<function id="5"><name>Information
+System</name></function>
+<event id="6"><name>EH+S
+master
+data
+is to
+be created</name></event>
+<event id="7"><name>Product
+Safety
+data
+is to
+be processed</name></event>
+<function id="8"><name>Product
+Safety</name></function>
+<arc id="13"><flow source="1" target="3"/></arc>
+<arc id="17"><flow source="1" target="7"/></arc>
+<arc id="33"><flow source="3" target="5"/></arc>
+<arc id="38"><flow source="4" target="1"/></arc>
+<arc id="48"><flow source="5" target="2"/></arc>
+<arc id="59"><flow source="6" target="4"/></arc>
+<arc id="72"><flow source="7" target="8"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+</epc></epml>

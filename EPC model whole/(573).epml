@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="574" name="1Ve_m31t">
+<event id="0"><name>Requirement
+for Correction
+of Specifications
+of Compensation
+Planning</name></event>
+<xor id="1"/>
+<event id="2"><name>Compensation
+Planning
+Specifications
+Approved</name></event>
+<event id="3"><name>Requirement
+for Compensation
+Planning
+Preparation</name></event>
+<function id="4"><name>Creation
+of Specifications
+for Compensation
+Planning</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="10"><flow source="1" target="4"/></arc>
+<arc id="17"><flow source="3" target="1"/></arc>
+<arc id="23"><flow source="4" target="2"/></arc>
+</epc></epml>

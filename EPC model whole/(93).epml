@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="94" name="1En_cpi3">
+<event id="0"><name>Injury/
+illness
+log entries
+are to
+be entered in the injury/illness log</name></event>
+<event id="1"><name>Occupational
+health
+data
+is to
+be entered</name></event>
+<event id="2"><name>Entering
+data
+is completed</name></event>
+<function id="3"><name>Data
+Transfer
+Injury/
+Illness
+Log to Accident</name></function>
+<function id="4"><name>Injury/
+Illness
+Log Entry
+Processing</name></function>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="10"><flow source="1" target="4"/></arc>
+<arc id="18"><flow source="3" target="2"/></arc>
+<arc id="21"><flow source="4" target="0"/></arc>
+</epc></epml>

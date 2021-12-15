@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="349" name="1Pr_aag-">
+<event id="0"><name>Send
+product
+data
+manually</name></event>
+<function id="1"><name>Manual
+Sending
+of PDM
+Objects</name></function>
+<function id="2"><name>Document
+Distribution</name></function>
+<event id="3"><name>Distribute
+documents</name></event>
+<function id="4"><name>Automatic
+Sending
+of PDM
+Objects</name></function>
+<xor id="5"/>
+<event id="6"><name>Check
+product
+data</name></event>
+<event id="7"><name>Send
+product
+data
+automatically</name></event>
+<event id="8"><name>Product
+data
+distribution
+is complete</name></event>
+<function id="9"><name>Cross-System
+Product
+Structure
+Navigation</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="16"><flow source="1" target="5"/></arc>
+<arc id="26"><flow source="2" target="5"/></arc>
+<arc id="33"><flow source="3" target="2"/></arc>
+<arc id="46"><flow source="4" target="5"/></arc>
+<arc id="57"><flow source="5" target="6"/></arc>
+<arc id="70"><flow source="6" target="9"/></arc>
+<arc id="75"><flow source="7" target="4"/></arc>
+<arc id="99"><flow source="9" target="8"/></arc>
+</epc></epml>

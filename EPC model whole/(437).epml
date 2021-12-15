@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="438" name="1Tr_f9sw">
+<event id="0"><name>Planned
+value
+date
+to be
+compared with actual value date</name></event>
+<event id="1"><name>Bank
+document
+posted</name></event>
+<event id="2"><name>Bank
+data
+was processed</name></event>
+<function id="3"><name>Compare
+Payment
+Advices</name></function>
+<event id="4"><name>Cash
+Management
+advice
+notes
+exist</name></event>
+<event id="5"><name>Value
+dates
+were
+compared</name></event>
+<function id="6"><name>Compare
+Value
+Dates</name></function>
+<or id="7"/>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="16"><flow source="1" target="7"/></arc>
+<arc id="27"><flow source="3" target="2"/></arc>
+<arc id="40"><flow source="4" target="7"/></arc>
+<arc id="54"><flow source="6" target="5"/></arc>
+<arc id="60"><flow source="7" target="3"/></arc>
+</epc></epml>

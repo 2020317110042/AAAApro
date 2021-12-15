@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="527" name="1Ve_5tcy">
+<event id="0"><name>Billing
+document
+to be
+cancelled</name></event>
+<event id="1"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="2"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<and id="3"/>
+<event id="4"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="5"><name>Internal
+settlement
+takes
+place</name></event>
+<event id="6"><name>Pro forma
+invoice
+for order/
+delivery
+to be created</name></event>
+<function id="7"><name>Processing
+Billing
+Documents</name></function>
+<event id="8"><name>Pro forma
+invoice
+is created</name></event>
+<event id="9"><name>Billing
+document/
+items
+are cancelled</name></event>
+<event id="10"><name>Delivering
+company
+code
+bills
+to ordering company code</name></event>
+<and id="11"/>
+<function id="12"><name>Billing
+Document
+Cancellation</name></function>
+<event id="13"><name>Ordering
+company
+code
+bills
+to customers</name></event>
+<function id="14"><name>Intercompany
+Billing</name></function>
+<event id="15"><name>Goods
+issue
+is posted</name></event>
+<function id="16"><name>Pro Forma
+Invoice
+Processing</name></function>
+<and id="17"/>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="36"><flow source="1" target="17"/></arc>
+<arc id="57"><flow source="3" target="2"/></arc>
+<arc id="60"><flow source="3" target="5"/></arc>
+<arc id="84"><flow source="4" target="11"/></arc>
+<arc id="125"><flow source="6" target="16"/></arc>
+<arc id="131"><flow source="7" target="4"/></arc>
+<arc id="192"><flow source="10" target="11"/></arc>
+<arc id="213"><flow source="11" target="14"/></arc>
+<arc id="226"><flow source="12" target="9"/></arc>
+<arc id="252"><flow source="13" target="17"/></arc>
+<arc id="256"><flow source="14" target="3"/></arc>
+<arc id="288"><flow source="15" target="17"/></arc>
+<arc id="297"><flow source="16" target="8"/></arc>
+<arc id="314"><flow source="17" target="7"/></arc>
+</epc></epml>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="335" name="1Pr_3wae">
+<function id="0"><name>Replenishment
+External
+Procurement
+with
+Standard Purchase Order/Source List</name></function>
+<and id="1"/>
+<xor id="2"/>
+<xor id="3"/>
+<event id="4"><name>Material
+issued
+from
+Kanban
+container</name></event>
+<event id="5"><name>Status
+of the
+kanban
+container
+set to 'full'</name></event>
+<event id="6"><name>Material
+received
+by demand
+source</name></event>
+<event id="7"><name>Goods
+Receipt
+Posted</name></event>
+<event id="8"><name>Production
+order
+is created</name></event>
+<function id="9"><name>Replenishment
+In-House
+Production
+with
+Production Order</name></function>
+<function id="10"><name>Trigger
+Replenishment
+Through
+Kanban
+Signal</name></function>
+<event id="11"><name>Run schedule
+quantity
+is created</name></event>
+<event id="12"><name>Delivery
+schedule/
+release
+transferred</name></event>
+<event id="13"><name>Replenishment
+(with
+manual
+kanban)
+triggered</name></event>
+<xor id="14"/>
+<event id="15"><name>Purchase
+order
+transmitted</name></event>
+<xor id="16"/>
+<event id="17"><name>Stock
+transfer
+is posted</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="24"><flow source="1" target="5"/></arc>
+<arc id="25"><flow source="1" target="6"/></arc>
+<arc id="26"><flow source="1" target="7"/></arc>
+<arc id="37"><flow source="2" target="0"/></arc>
+<arc id="56"><flow source="3" target="1"/></arc>
+<arc id="83"><flow source="4" target="10"/></arc>
+<arc id="159"><flow source="8" target="14"/></arc>
+<arc id="166"><flow source="9" target="3"/></arc>
+<arc id="197"><flow source="10" target="16"/></arc>
+<arc id="213"><flow source="11" target="14"/></arc>
+<arc id="219"><flow source="12" target="2"/></arc>
+<arc id="249"><flow source="13" target="14"/></arc>
+<arc id="262"><flow source="14" target="9"/></arc>
+<arc id="273"><flow source="15" target="2"/></arc>
+<arc id="297"><flow source="16" target="8"/></arc>
+<arc id="300"><flow source="16" target="11"/></arc>
+<arc id="301"><flow source="16" target="12"/></arc>
+<arc id="302"><flow source="16" target="13"/></arc>
+<arc id="304"><flow source="16" target="15"/></arc>
+<arc id="306"><flow source="16" target="17"/></arc>
+</epc></epml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="603" name="1Wa_nuwn">
+<event id="0"><name>Materials
+are selected
+for purchase</name></event>
+<event id="1"><name>Payment
+method
+is non-cash
+payment</name></event>
+<function id="2"><name>Non-cash
+payment
+(store)</name></function>
+<event id="3"><name>Accounts
+are posted</name></event>
+<event id="4"><name>A return
+is to
+be entered</name></event>
+<event id="5"><name>Documents
+are printed</name></event>
+<event id="6"><name>Data
+is transferred
+to Information
+System</name></event>
+<xor id="7"/>
+<event id="8"><name>Financial
+transactions
+(store)</name></event>
+<event id="9"><name>POS sales
+audit</name></event>
+<event id="10"><name>A sale
+is to
+be entered</name></event>
+<function id="11"><name>Master
+data
+processing
+(store)</name></function>
+<or id="12"/>
+<function id="13"><name>Sale/
+return
+(store)</name></function>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="17"><flow source="1" target="2"/></arc>
+<arc id="34"><flow source="2" target="5"/></arc>
+<arc id="64"><flow source="4" target="7"/></arc>
+<arc id="94"><flow source="6" target="9"/></arc>
+<arc id="112"><flow source="7" target="13"/></arc>
+<arc id="116"><flow source="8" target="3"/></arc>
+<arc id="148"><flow source="10" target="7"/></arc>
+<arc id="170"><flow source="12" target="1"/></arc>
+<arc id="175"><flow source="12" target="6"/></arc>
+<arc id="195"><flow source="13" target="12"/></arc>
+</epc></epml>

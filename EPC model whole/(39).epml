@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="40" name="1An_laym">
+<event id="0"><name>Leased
+asset
+should
+be bought</name></event>
+<event id="1"><name>Periodic
+lease
+payment
+is necessary</name></event>
+<xor id="2"/>
+<event id="3"><name>Transactions
+completed</name></event>
+<function id="4"><name>Lease
+Payment</name></function>
+<event id="5"><name>Organizational
+allocations
+must
+be changed</name></event>
+<function id="6"><name>Transfer
+Leased
+Asset</name></function>
+<event id="7"><name>Leasing
+agrmnt
+conditions
+were
+changed</name></event>
+<function id="8"><name>Change
+in a
+Leasing
+Agreement</name></function>
+<xor id="9"/>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="15"><flow source="1" target="4"/></arc>
+<arc id="24"><flow source="2" target="3"/></arc>
+<arc id="43"><flow source="4" target="2"/></arc>
+<arc id="60"><flow source="5" target="9"/></arc>
+<arc id="63"><flow source="6" target="2"/></arc>
+<arc id="79"><flow source="7" target="8"/></arc>
+<arc id="83"><flow source="8" target="2"/></arc>
+<arc id="97"><flow source="9" target="6"/></arc>
+</epc></epml>

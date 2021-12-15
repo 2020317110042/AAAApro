@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="348" name="1Pr_7og-">
+<event id="0"><name>Carry
+out project
+development
+in the
+project</name></event>
+<event id="1"><name>Quotation
+is valid</name></event>
+<function id="2"><name>Sales
+Order
+Processing</name></function>
+<event id="3"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<event id="4"><name>Carry
+out product
+development</name></event>
+<event id="5"><name>Customer
+order
+exists</name></event>
+<function id="6"><name>Customer
+inquiry
+processing</name></function>
+<function id="7"><name>Customer
+Quotation
+Processing</name></function>
+<xor id="8"/>
+<arc id="12"><flow source="1" target="2"/></arc>
+<arc id="27"><flow source="2" target="8"/></arc>
+<arc id="35"><flow source="3" target="7"/></arc>
+<arc id="52"><flow source="5" target="6"/></arc>
+<arc id="58"><flow source="6" target="3"/></arc>
+<arc id="65"><flow source="7" target="1"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+<arc id="77"><flow source="8" target="4"/></arc>
+</epc></epml>

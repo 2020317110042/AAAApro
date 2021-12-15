@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="418" name="1Qu_c7do">
+<function id="0"><name>Creation
+and Processing
+of Quality
+Notifications</name></function>
+<event id="1"><name>Quality
+notification
+is completed</name></event>
+<and id="2"/>
+<event id="3"><name>Defect
+requires
+manual
+quality
+notification</name></event>
+<event id="4"><name>Notification
+is created
+on the
+Intranet</name></event>
+<or id="5"/>
+<function id="6"><name>Notification
+Creation
+on Intranet</name></function>
+<event id="7"><name>Notification
+is to
+be archived</name></event>
+<event id="8"><name>Effectiveness
+of a
+task
+is documented
+at a later date</name></event>
+<event id="9"><name>Worklist
+is created</name></event>
+<event id="10"><name>Notification
+Should
+Be Entered
+in Intranet</name></event>
+<event id="11"><name>Worklist
+is to
+be created</name></event>
+<event id="12"><name>QM order
+is created
+for quality
+notification</name></event>
+<event id="13"><name>Notification
+is archived</name></event>
+<function id="14"><name>Notification
+Archiving</name></function>
+<event id="15"><name>External
+sales
+force/
+customer
+complaint is to be created</name></event>
+<function id="16"><name>Worklist
+Generation
+for Notifications</name></function>
+<xor id="17"/>
+<event id="18"><name>Evaluation
+from
+QMIS
+indicates
+quality problems</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="40"><flow source="2" target="1"/></arc>
+<arc id="47"><flow source="2" target="8"/></arc>
+<arc id="75"><flow source="3" target="17"/></arc>
+<arc id="98"><flow source="5" target="2"/></arc>
+<arc id="108"><flow source="5" target="12"/></arc>
+<arc id="119"><flow source="6" target="4"/></arc>
+<arc id="148"><flow source="7" target="14"/></arc>
+<arc id="197"><flow source="10" target="6"/></arc>
+<arc id="226"><flow source="11" target="16"/></arc>
+<arc id="280"><flow source="14" target="13"/></arc>
+<arc id="303"><flow source="15" target="17"/></arc>
+<arc id="314"><flow source="16" target="9"/></arc>
+<arc id="324"><flow source="17" target="0"/></arc>
+<arc id="360"><flow source="18" target="17"/></arc>
+</epc></epml>

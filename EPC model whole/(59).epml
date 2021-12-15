@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="60" name="1Be_2kiu">
+<event id="0"><name>Transfer
+order
+item
+with
+difference exists</name></event>
+<event id="1"><name>Material
+is removed
+from
+stock</name></event>
+<event id="2"><name>Task-dependent
+follow-up
+actions
+are triggered</name></event>
+<event id="3"><name>Transfer
+order
+item
+is confirmed</name></event>
+<function id="4"><name>Difference
+Processing</name></function>
+<event id="5"><name>TO item
+confirmed
+without
+differences</name></event>
+<function id="6"><name>Confirmation</name></function>
+<function id="7"><name>Stock
+Removal
+Processing</name></function>
+<xor id="8"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="16"><flow source="1" target="6"/></arc>
+<arc id="26"><flow source="2" target="7"/></arc>
+<arc id="40"><flow source="4" target="3"/></arc>
+<arc id="63"><flow source="6" target="8"/></arc>
+<arc id="65"><flow source="7" target="1"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+<arc id="78"><flow source="8" target="5"/></arc>
+</epc></epml>

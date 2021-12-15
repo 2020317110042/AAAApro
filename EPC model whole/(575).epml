@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="576" name="1Ve_m3da">
+<event id="0"><name>Payroll
+accounting
+specifications
+changed</name></event>
+<event id="1"><name>Compensation
+plan
+is implemented</name></event>
+<and id="2"/>
+<event id="3"><name>Compensation
+plan
+is approved</name></event>
+<function id="4"><name>Message
+to Employee
+about
+Compensation
+Adjustment</name></function>
+<event id="5"><name>Need
+for notification
+of compensation
+adjustment
+exists</name></event>
+<event id="6"><name>Benefits
+offer
+must
+be adapted
+for employee</name></event>
+<event id="7"><name>Employee
+notified
+of compensation
+adjustment</name></event>
+<function id="8"><name>Adjustment
+of Payroll
+Specifications</name></function>
+<arc id="19"><flow source="2" target="0"/></arc>
+<arc id="20"><flow source="2" target="1"/></arc>
+<arc id="24"><flow source="2" target="5"/></arc>
+<arc id="25"><flow source="2" target="6"/></arc>
+<arc id="36"><flow source="3" target="8"/></arc>
+<arc id="44"><flow source="4" target="7"/></arc>
+<arc id="50"><flow source="5" target="4"/></arc>
+<arc id="75"><flow source="8" target="2"/></arc>
+</epc></epml>

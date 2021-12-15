@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="289" name="1Pe_m1rw">
+<event id="0"><name>Planning
+and organization
+for personnel
+appraisal
+is complete</name></event>
+<function id="1"><name>Approval
+of Personnel
+Appraisal</name></function>
+<event id="2"><name>Updated
+profile
+of appraisee
+exists</name></event>
+<function id="3"><name>Performance
+of Personnel
+Appraisal</name></function>
+<event id="4"><name>Valid
+personnel
+appraisal
+exists</name></event>
+<and id="5"/>
+<event id="6"><name>Personnel
+appraisal
+exists
+for approval</name></event>
+<event id="7"><name>Personnel
+appraisal
+results
+are transmitted
+to those concerned</name></event>
+<and id="8"/>
+<event id="9"><name>Those
+involved
+must
+be notified
+of personnel appraisal results</name></event>
+<event id="10"><name>Need
+for personnel
+appraisal
+exists</name></event>
+<xor id="11"/>
+<event id="12"><name>Personnel
+appraisal
+must
+be corrected</name></event>
+<function id="13"><name>Notification
+of Personnel
+Appraisal
+Results
+to Those Involved</name></function>
+<event id="14"><name>Personnel
+appraisal
+must
+be performed</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="27"><flow source="1" target="11"/></arc>
+<arc id="52"><flow source="3" target="6"/></arc>
+<arc id="79"><flow source="5" target="3"/></arc>
+<arc id="92"><flow source="6" target="1"/></arc>
+<arc id="123"><flow source="8" target="2"/></arc>
+<arc id="125"><flow source="8" target="4"/></arc>
+<arc id="130"><flow source="8" target="9"/></arc>
+<arc id="149"><flow source="9" target="13"/></arc>
+<arc id="174"><flow source="11" target="8"/></arc>
+<arc id="176"><flow source="11" target="10"/></arc>
+<arc id="178"><flow source="11" target="12"/></arc>
+<arc id="203"><flow source="13" target="7"/></arc>
+<arc id="216"><flow source="14" target="5"/></arc>
+</epc></epml>

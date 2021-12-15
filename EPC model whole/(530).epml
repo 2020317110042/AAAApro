@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="531" name="1Ve_6294">
+<event id="0"><name>Deliveries
+need
+to be
+planned</name></event>
+<event id="1"><name>Terms
+of credit
+have
+changed</name></event>
+<function id="2"><name>Warehouse
+Management</name></function>
+<event id="3"><name>Consignment
+fill-up
+order
+is requested</name></event>
+<xor id="4"/>
+<xor id="5"/>
+<and id="6"/>
+<event id="7"><name>Consignment
+issue
+notification
+received</name></event>
+<event id="8"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<xor id="9"/>
+<event id="10"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="11"><name>Order
+is created</name></event>
+<event id="12"><name>Shipment
+costs
+per item
+are calculated</name></event>
+<event id="13"><name>Material
+is issued</name></event>
+<and id="14"/>
+<xor id="15"/>
+<event id="16"><name>Sales
+requirements
+are created</name></event>
+<xor id="17"/>
+<xor id="18"/>
+<event id="19"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="20"><name>Unit
+costing
+for material
+in sales
+document to be created</name></event>
+<event id="21"><name>Sales
+document
+preliminary
+costed
+via unit costing</name></event>
+<function id="22"><name>Risk/
+Credit
+Management</name></function>
+<xor id="23"/>
+<event id="24"><name>Transfer
+order
+created
+manually</name></event>
+<function id="25"><name>Billing</name></function>
+<and id="26"/>
+<event id="27"><name>Transfer
+order
+created
+automatically</name></event>
+<function id="28"><name>Shipping</name></function>
+<event id="29"><name>Items
+are cancelled</name></event>
+<event id="30"><name>Change
+to terms
+of credit
+refused</name></event>
+<event id="31"><name>Goods
+issue
+is posted</name></event>
+<and id="32"/>
+<event id="33"><name>Delivery
+is to
+be created</name></event>
+<event id="34"><name>Missing
+parts
+situation
+could
+not be eliminated</name></event>
+<function id="35"><name>Sales
+Order</name></function>
+<event id="36"><name>Consignment
+pickup
+is requested</name></event>
+<function id="37"><name>Costing</name></function>
+<xor id="38"/>
+<function id="39"><name>Transport</name></function>
+<event id="40"><name>Sales
+order
+preliminary
+costing
+via product costing</name></event>
+<event id="41"><name>Backorder
+processing
+is to
+be carried
+out for material</name></event>
+<event id="42"><name>Goods
+Receipt
+Posted</name></event>
+<event id="43"><name>Missing
+parts
+situation
+is eliminated</name></event>
+<function id="44"><name>Backorder
+Processing</name></function>
+<event id="45"><name>Delivery
+is relevant
+for shipment</name></event>
+<event id="46"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="47"><name>Product
+costng
+to material
+in sales
+document to be created</name></event>
+<event id="48"><name>Goods
+movement
+is posted</name></event>
+<xor id="49"/>
+<xor id="50"/>
+<event id="51"><name>Missing
+parts
+information
+is generated</name></event>
+<arc id="50"><flow source="0" target="49"/></arc>
+<arc id="111"><flow source="2" target="6"/></arc>
+<arc id="162"><flow source="3" target="5"/></arc>
+<arc id="230"><flow source="4" target="21"/></arc>
+<arc id="249"><flow source="4" target="40"/></arc>
+<arc id="296"><flow source="5" target="35"/></arc>
+<arc id="323"><flow source="6" target="10"/></arc>
+<arc id="361"><flow source="6" target="48"/></arc>
+<arc id="370"><flow source="7" target="5"/></arc>
+<arc id="439"><flow source="8" target="22"/></arc>
+<arc id="471"><flow source="9" target="2"/></arc>
+<arc id="601"><flow source="11" target="28"/></arc>
+<arc id="744"><flow source="14" target="15"/></arc>
+<arc id="774"><flow source="14" target="45"/></arc>
+<arc id="779"><flow source="14" target="50"/></arc>
+<arc id="812"><flow source="15" target="31"/></arc>
+<arc id="823"><flow source="15" target="42"/></arc>
+<arc id="922"><flow source="17" target="37"/></arc>
+<arc id="971"><flow source="18" target="34"/></arc>
+<arc id="980"><flow source="18" target="43"/></arc>
+<arc id="1058"><flow source="20" target="17"/></arc>
+<arc id="1168"><flow source="22" target="23"/></arc>
+<arc id="1198"><flow source="23" target="1"/></arc>
+<arc id="1227"><flow source="23" target="30"/></arc>
+<arc id="1258"><flow source="24" target="9"/></arc>
+<arc id="1320"><flow source="25" target="19"/></arc>
+<arc id="1364"><flow source="26" target="11"/></arc>
+<arc id="1369"><flow source="26" target="16"/></arc>
+<arc id="1386"><flow source="26" target="33"/></arc>
+<arc id="1414"><flow source="27" target="9"/></arc>
+<arc id="1471"><flow source="28" target="14"/></arc>
+<arc id="1638"><flow source="31" target="25"/></arc>
+<arc id="1709"><flow source="32" target="44"/></arc>
+<arc id="1859"><flow source="35" target="38"/></arc>
+<arc id="1878"><flow source="36" target="5"/></arc>
+<arc id="1929"><flow source="37" target="4"/></arc>
+<arc id="1985"><flow source="38" target="8"/></arc>
+<arc id="1997"><flow source="38" target="20"/></arc>
+<arc id="2003"><flow source="38" target="26"/></arc>
+<arc id="2006"><flow source="38" target="29"/></arc>
+<arc id="2023"><flow source="38" target="46"/></arc>
+<arc id="2024"><flow source="38" target="47"/></arc>
+<arc id="2041"><flow source="39" target="12"/></arc>
+<arc id="2165"><flow source="41" target="32"/></arc>
+<arc id="2307"><flow source="44" target="18"/></arc>
+<arc id="2390"><flow source="45" target="49"/></arc>
+<arc id="2462"><flow source="47" target="17"/></arc>
+<arc id="2588"><flow source="49" target="39"/></arc>
+<arc id="2614"><flow source="50" target="13"/></arc>
+<arc id="2625"><flow source="50" target="24"/></arc>
+<arc id="2628"><flow source="50" target="27"/></arc>
+<arc id="2685"><flow source="51" target="32"/></arc>
+</epc></epml>

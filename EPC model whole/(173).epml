@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="174" name="1Ex_eu1x">
+<xor id="0"/>
+<and id="1"/>
+<function id="2"><name>General
+Ledger
+Planning</name></function>
+<event id="3"><name>Accrual/
+deferral
+posting
+made</name></event>
+<event id="4"><name>Evaluations
+run on
+general
+ledger</name></event>
+<event id="5"><name>Financial
+statement
+is created</name></event>
+<or id="6"/>
+<event id="7"><name>Direct
+G/L account
+posting
+to be
+made</name></event>
+<event id="8"><name>Line
+items
+to be
+cleared</name></event>
+<event id="9"><name>Valuation
+of open
+items
+in foreign
+currency is to be carried out</name></event>
+<event id="10"><name>G/L accounts
+due for
+analysis</name></event>
+<event id="11"><name>Item
+balance
+is zero</name></event>
+<event id="12"><name>Automatic
+clearing
+completed</name></event>
+<event id="13"><name>P+L statement
+account
+is created</name></event>
+<function id="14"><name>Closing
+Operations</name></function>
+<and id="15"/>
+<xor id="16"/>
+<event id="17"><name>Manual
+clearing
+is complete</name></event>
+<event id="18"><name>G/L account
+postings
+made
+for period</name></event>
+<event id="19"><name>Planning
+carried
+out</name></event>
+<or id="20"/>
+<function id="21"><name>Account
+Balance
+Interest
+Calculation
+(G/L)</name></function>
+<function id="22"><name>General
+Ledger
+Account
+Analysis</name></function>
+<and id="23"/>
+<event id="24"><name>Manual
+foreign
+currency
+valuation
+to be carried out</name></event>
+<event id="25"><name>Line
+items
+to be
+cleared</name></event>
+<event id="26"><name>Foreign
+currency
+valuation
+for balances
+to be carried out</name></event>
+<event id="27"><name>Interest
+to be
+calculated
+on account
+balances</name></event>
+<event id="28"><name>Periodic
+reports
+are created</name></event>
+<and id="29"/>
+<or id="30"/>
+<event id="31"><name>G/L account
+planning
+is to
+be carried
+out</name></event>
+<function id="32"><name>Account
+Clearing
+[GL]</name></function>
+<or id="33"/>
+<event id="34"><name>Posting
+to be
+made
+in General
+Ledger</name></event>
+<event id="35"><name>Balance
+sheet
+account
+is created</name></event>
+<event id="36"><name>Interest
+calculation
+is completed</name></event>
+<function id="37"><name>Postings
+in G/
+L</name></function>
+<xor id="38"/>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="60"><flow source="1" target="20"/></arc>
+<arc id="98"><flow source="2" target="19"/></arc>
+<arc id="119"><flow source="3" target="1"/></arc>
+<arc id="272"><flow source="6" target="37"/></arc>
+<arc id="274"><flow source="7" target="0"/></arc>
+<arc id="345"><flow source="8" target="32"/></arc>
+<arc id="382"><flow source="9" target="30"/></arc>
+<arc id="413"><flow source="10" target="22"/></arc>
+<arc id="546"><flow source="13" target="38"/></arc>
+<arc id="570"><flow source="14" target="23"/></arc>
+<arc id="589"><flow source="15" target="3"/></arc>
+<arc id="604"><flow source="15" target="18"/></arc>
+<arc id="642"><flow source="16" target="17"/></arc>
+<arc id="650"><flow source="16" target="25"/></arc>
+<arc id="654"><flow source="16" target="29"/></arc>
+<arc id="704"><flow source="18" target="1"/></arc>
+<arc id="748"><flow source="19" target="6"/></arc>
+<arc id="790"><flow source="20" target="9"/></arc>
+<arc id="805"><flow source="20" target="24"/></arc>
+<arc id="807"><flow source="20" target="26"/></arc>
+<arc id="856"><flow source="21" target="36"/></arc>
+<arc id="863"><flow source="22" target="4"/></arc>
+<arc id="903"><flow source="23" target="5"/></arc>
+<arc id="926"><flow source="23" target="28"/></arc>
+<arc id="967"><flow source="24" target="30"/></arc>
+<arc id="1045"><flow source="26" target="30"/></arc>
+<arc id="1075"><flow source="27" target="21"/></arc>
+<arc id="1143"><flow source="29" target="11"/></arc>
+<arc id="1144"><flow source="29" target="12"/></arc>
+<arc id="1185"><flow source="30" target="14"/></arc>
+<arc id="1243"><flow source="31" target="33"/></arc>
+<arc id="1265"><flow source="32" target="16"/></arc>
+<arc id="1290"><flow source="33" target="2"/></arc>
+<arc id="1327"><flow source="34" target="0"/></arc>
+<arc id="1404"><flow source="35" target="38"/></arc>
+<arc id="1459"><flow source="37" target="15"/></arc>
+<arc id="1516"><flow source="38" target="33"/></arc>
+</epc></epml>

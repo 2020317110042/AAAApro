@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="186" name="1Im_lmu3">
+<function id="0"><name>Posting
+of One-Time
+Debit-Side
+Receivables</name></function>
+<event id="1"><name>Items
+are still
+open
+and should
+be cleared using a suitable process</name></event>
+<function id="2"><name>Incoming
+Payments
+- Manual</name></function>
+<function id="3"><name>Vacancy
+Debit
+Position</name></function>
+<function id="4"><name>Account
+Maintenance</name></function>
+<event id="5"><name>Sales
+reports
+were
+created</name></event>
+<event id="6"><name>Clear
+items
+using
+automatic
+payment program</name></event>
+<event id="7"><name>Open
+customer
+items
+were
+generated</name></event>
+<event id="8"><name>Clear
+items
+using
+bank
+procedure (specific to Germany)</name></event>
+<event id="9"><name>Carry
+out incoming
+payment
+via account
+statement transfer</name></event>
+<and id="10"/>
+<event id="11"><name>Maintain
+OI via
+receiv.,
+instalmnts,
+irrecov. debt or down pymnt</name></event>
+<and id="12"/>
+<event id="13"><name>Assign
+payment
+documents
+to open
+items</name></event>
+<function id="14"><name>Rental
+Accounting
+Debit
+Position</name></function>
+<event id="15"><name>Carry
+out debit
+position</name></event>
+<or id="16"/>
+<event id="17"><name>Sales-based
+LO exists</name></event>
+<function id="18"><name>Sales
+Settlement
+Processing</name></function>
+<function id="19"><name>Sales
+Report
+Entry</name></function>
+<event id="20"><name>Imputed
+vacancy
+costs
+were
+posted</name></event>
+<event id="21"><name>Items
+were
+cleared</name></event>
+<or id="22"/>
+<event id="23"><name>Post
+one-time
+receiv-
+able
+to lease-out</name></event>
+<and id="24"/>
+<or id="25"/>
+<arc id="23"><flow source="0" target="22"/></arc>
+<arc id="78"><flow source="2" target="25"/></arc>
+<arc id="99"><flow source="3" target="20"/></arc>
+<arc id="130"><flow source="4" target="25"/></arc>
+<arc id="149"><flow source="5" target="18"/></arc>
+<arc id="267"><flow source="10" target="6"/></arc>
+<arc id="269"><flow source="10" target="8"/></arc>
+<arc id="270"><flow source="10" target="9"/></arc>
+<arc id="272"><flow source="10" target="11"/></arc>
+<arc id="274"><flow source="10" target="13"/></arc>
+<arc id="291"><flow source="11" target="4"/></arc>
+<arc id="316"><flow source="12" target="3"/></arc>
+<arc id="327"><flow source="12" target="14"/></arc>
+<arc id="341"><flow source="13" target="2"/></arc>
+<arc id="387"><flow source="14" target="22"/></arc>
+<arc id="403"><flow source="15" target="12"/></arc>
+<arc id="418"><flow source="16" target="1"/></arc>
+<arc id="438"><flow source="16" target="21"/></arc>
+<arc id="462"><flow source="17" target="19"/></arc>
+<arc id="491"><flow source="18" target="22"/></arc>
+<arc id="500"><flow source="19" target="5"/></arc>
+<arc id="597"><flow source="22" target="24"/></arc>
+<arc id="599"><flow source="23" target="0"/></arc>
+<arc id="632"><flow source="24" target="7"/></arc>
+<arc id="635"><flow source="24" target="10"/></arc>
+<arc id="667"><flow source="25" target="16"/></arc>
+</epc></epml>

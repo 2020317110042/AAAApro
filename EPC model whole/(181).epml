@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="182" name="1Im_lcn5">
+<xor id="0"/>
+<event id="1"><name>Maintenance
+task
+or similar
+was determined
+and follow-up action initiated</name></event>
+<and id="2"/>
+<event id="3"><name>Rental
+end has
+been
+reached</name></event>
+<function id="4"><name>Lease-Out
+Activation</name></function>
+<event id="5"><name>A new
+rental
+end was
+determined</name></event>
+<event id="6"><name>Release
+rental
+collateral</name></event>
+<xor id="7"/>
+<function id="8"><name>Offer
+Processing</name></function>
+<or id="9"/>
+<event id="10"><name>Lease-out
+should
+be processed</name></event>
+<event id="11"><name>Assignment
+made</name></event>
+<event id="12"><name>Application-
+/rental
+request
+should
+be processed</name></event>
+<event id="13"><name>Offer
+should
+be processed</name></event>
+<function id="14"><name>Lease-Out
+Processing</name></function>
+<and id="15"/>
+<event id="16"><name>Carry
+out debit
+position</name></event>
+<event id="17"><name>Application-
+/rental
+request
+was created</name></event>
+<event id="18"><name>RU assignment
+- make
+rental
+request</name></event>
+<function id="19"><name>Rental
+Unit
+- Application
+Assignment</name></function>
+<function id="20"><name>Application/
+Rental
+Request
+Processing</name></function>
+<and id="21"/>
+<and id="22"/>
+<or id="23"/>
+<event id="24"><name>Offer
+is transferred
+to the
+lease-out</name></event>
+<event id="25"><name>Landlord
+serves
+notice</name></event>
+<function id="26"><name>Notice
+Processing</name></function>
+<xor id="27"/>
+<function id="28"><name>Lease-Out
+Renewal</name></function>
+<and id="29"/>
+<event id="30"><name>If required,
+tenant-rented
+object
+to be
+rented</name></event>
+<event id="31"><name>RA should
+participate
+in debit
+position</name></event>
+<event id="32"><name>Rental
+Deposit
+Release</name></event>
+<function id="33"><name>Rental
+Unit
+Inspection</name></function>
+<and id="34"/>
+<event id="35"><name>Inspect
+rental
+unit</name></event>
+<event id="36"><name>Renew
+lease-outs</name></event>
+<event id="37"><name>Notice
+was served
+by the
+tenant</name></event>
+<and id="38"/>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="99"><flow source="2" target="20"/></arc>
+<arc id="139"><flow source="3" target="21"/></arc>
+<arc id="180"><flow source="4" target="23"/></arc>
+<arc id="267"><flow source="6" target="32"/></arc>
+<arc id="274"><flow source="7" target="0"/></arc>
+<arc id="276"><flow source="7" target="2"/></arc>
+<arc id="337"><flow source="8" target="24"/></arc>
+<arc id="360"><flow source="9" target="8"/></arc>
+<arc id="413"><flow source="10" target="22"/></arc>
+<arc id="439"><flow source="11" target="9"/></arc>
+<arc id="471"><flow source="12" target="2"/></arc>
+<arc id="517"><flow source="13" target="9"/></arc>
+<arc id="578"><flow source="14" target="31"/></arc>
+<arc id="605"><flow source="15" target="19"/></arc>
+<arc id="679"><flow source="17" target="15"/></arc>
+<arc id="718"><flow source="18" target="15"/></arc>
+<arc id="753"><flow source="19" target="11"/></arc>
+<arc id="798"><flow source="20" target="17"/></arc>
+<arc id="849"><flow source="21" target="29"/></arc>
+<arc id="854"><flow source="21" target="34"/></arc>
+<arc id="866"><flow source="22" target="7"/></arc>
+<arc id="901"><flow source="23" target="3"/></arc>
+<arc id="914"><flow source="23" target="16"/></arc>
+<arc id="937"><flow source="24" target="0"/></arc>
+<arc id="1003"><flow source="25" target="27"/></arc>
+<arc id="1050"><flow source="26" target="35"/></arc>
+<arc id="1088"><flow source="27" target="34"/></arc>
+<arc id="1098"><flow source="28" target="5"/></arc>
+<arc id="1160"><flow source="29" target="28"/></arc>
+<arc id="1193"><flow source="30" target="22"/></arc>
+<arc id="1214"><flow source="31" target="4"/></arc>
+<arc id="1326"><flow source="33" target="38"/></arc>
+<arc id="1353"><flow source="34" target="26"/></arc>
+<arc id="1399"><flow source="35" target="33"/></arc>
+<arc id="1434"><flow source="36" target="29"/></arc>
+<arc id="1471"><flow source="37" target="27"/></arc>
+<arc id="1484"><flow source="38" target="1"/></arc>
+<arc id="1489"><flow source="38" target="6"/></arc>
+</epc></epml>

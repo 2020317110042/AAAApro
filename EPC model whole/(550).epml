@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="551" name="1Ve_77z0">
+<and id="0"/>
+<and id="1"/>
+<event id="2"><name>Goods
+receipt/
+issue
+slip
+is printed</name></event>
+<function id="3"><name>Delivery
+Processing</name></function>
+<and id="4"/>
+<event id="5"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<event id="6"><name>Delivery
+is created</name></event>
+<event id="7"><name>Material
+is issued</name></event>
+<event id="8"><name>Picking
+needs
+to be
+carried
+out</name></event>
+<event id="9"><name>Material
+has been
+picked</name></event>
+<event id="10"><name>Shipping
+unit
+is to
+be created</name></event>
+<function id="11"><name>Goods
+Issue
+Processing</name></function>
+<event id="12"><name>Order
+generated
+and delivery
+opened</name></event>
+<function id="13"><name>Picking</name></function>
+<function id="14"><name>Packing
+Processing</name></function>
+<event id="15"><name>Shipping
+unit
+is created</name></event>
+<event id="16"><name>Goods
+issue
+is posted</name></event>
+<and id="17"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="25"><flow source="1" target="6"/></arc>
+<arc id="27"><flow source="1" target="8"/></arc>
+<arc id="56"><flow source="3" target="1"/></arc>
+<arc id="82"><flow source="4" target="9"/></arc>
+<arc id="83"><flow source="4" target="10"/></arc>
+<arc id="102"><flow source="5" target="11"/></arc>
+<arc id="158"><flow source="8" target="13"/></arc>
+<arc id="195"><flow source="10" target="14"/></arc>
+<arc id="199"><flow source="11" target="0"/></arc>
+<arc id="220"><flow source="12" target="3"/></arc>
+<arc id="239"><flow source="13" target="4"/></arc>
+<arc id="270"><flow source="14" target="17"/></arc>
+<arc id="312"><flow source="17" target="5"/></arc>
+<arc id="322"><flow source="17" target="15"/></arc>
+</epc></epml>

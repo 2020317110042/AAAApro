@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="585" name="1Ve_m5rc">
+<function id="0"><name>Notification
+of Sale
+of Long-Term
+Incentives</name></function>
+<and id="1"/>
+<event id="2"><name>Check
+for Sales
+Order
+for Long-Term
+Incentives</name></event>
+<function id="3"><name>Notification
+of Approval
+of Sales
+Order</name></function>
+<function id="4"><name>Notification
+of Rejection
+of Sales
+Order</name></function>
+<event id="5"><name>Employee
+long-term
+incentive
+is granted</name></event>
+<function id="6"><name>Sale
+of Long-Term
+Incentives</name></function>
+<event id="7"><name>Sale
+of long-term
+incentives
+performed</name></event>
+<event id="8"><name>Sales
+order
+is rejected</name></event>
+<event id="9"><name>Employee
+notified
+of approval
+of sales
+order</name></event>
+<function id="10"><name>Entry
+of Sales
+Order
+for Long-Term
+Incentives</name></function>
+<event id="11"><name>Employee
+notified
+of rejection
+of sales
+order</name></event>
+<event id="12"><name>Employee
+notified
+of sale
+of long-term
+incentives</name></event>
+<xor id="13"/>
+<event id="14"><name>Sales
+order
+exists
+for approval</name></event>
+<event id="15"><name>Sales
+order
+is approved</name></event>
+<and id="16"/>
+<event id="17"><name>Employee
+requires
+sale
+of long-term
+incentives</name></event>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="22"><flow source="1" target="3"/></arc>
+<arc id="25"><flow source="1" target="6"/></arc>
+<arc id="50"><flow source="2" target="13"/></arc>
+<arc id="64"><flow source="3" target="9"/></arc>
+<arc id="84"><flow source="4" target="11"/></arc>
+<arc id="107"><flow source="5" target="16"/></arc>
+<arc id="116"><flow source="6" target="7"/></arc>
+<arc id="127"><flow source="7" target="0"/></arc>
+<arc id="149"><flow source="8" target="4"/></arc>
+<arc id="195"><flow source="10" target="14"/></arc>
+<arc id="243"><flow source="13" target="8"/></arc>
+<arc id="250"><flow source="13" target="15"/></arc>
+<arc id="272"><flow source="15" target="1"/></arc>
+<arc id="299"><flow source="16" target="10"/></arc>
+<arc id="323"><flow source="17" target="16"/></arc>
+</epc></epml>

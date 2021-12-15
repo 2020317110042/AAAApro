@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="509" name="1Ve_4q66">
+<event id="0"><name>Inspection
+completion
+is carried
+out</name></event>
+<xor id="1"/>
+<function id="2"><name>Billing</name></function>
+<event id="3"><name>Complaint
+received
+(without
+goods
+return)</name></event>
+<function id="4"><name>Warehouse
+Management</name></function>
+<event id="5"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<event id="6"><name>Transfer
+order
+created
+automatically</name></event>
+<event id="7"><name>Complaints
+with
+goods
+returns
+is received</name></event>
+<event id="8"><name>Subsequent
+debit
+reason
+occurred</name></event>
+<event id="9"><name>Invoice
+correction
+needs
+to be
+created</name></event>
+<function id="10"><name>Complaints</name></function>
+<function id="11"><name>Shipping</name></function>
+<xor id="12"/>
+<and id="13"/>
+<and id="14"/>
+<event id="15"><name>Returns
+already
+dispatched</name></event>
+<event id="16"><name>Delivery
+is relevant
+for shipment</name></event>
+<function id="17"><name>Shipment</name></function>
+<and id="18"/>
+<xor id="19"/>
+<event id="20"><name>Goods
+movement
+is posted</name></event>
+<event id="21"><name>Goods
+Receipt
+Posted</name></event>
+<event id="22"><name>Credit/
+debit
+memo
+is granted</name></event>
+<event id="23"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="24"><name>Deliveries
+need
+to be
+planned</name></event>
+<event id="25"><name>Transfer
+order
+created
+manually</name></event>
+<xor id="26"/>
+<xor id="27"/>
+<event id="28"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="29"><name>Returns
+to be
+collected</name></event>
+<and id="30"/>
+<event id="31"><name>Shipment
+costs
+per item
+are calculated</name></event>
+<event id="32"><name>Credit
+memo
+is rejected</name></event>
+<xor id="33"/>
+<event id="34"><name>Customer
+wants
+subsequent
+delivery
+free-of-charge</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="46"><flow source="1" target="10"/></arc>
+<arc id="94"><flow source="2" target="23"/></arc>
+<arc id="107"><flow source="3" target="1"/></arc>
+<arc id="159"><flow source="4" target="18"/></arc>
+<arc id="177"><flow source="5" target="1"/></arc>
+<arc id="237"><flow source="6" target="26"/></arc>
+<arc id="282"><flow source="8" target="1"/></arc>
+<arc id="317"><flow source="9" target="1"/></arc>
+<arc id="365"><flow source="10" target="14"/></arc>
+<arc id="399"><flow source="11" target="13"/></arc>
+<arc id="436"><flow source="12" target="15"/></arc>
+<arc id="450"><flow source="12" target="29"/></arc>
+<arc id="472"><flow source="13" target="16"/></arc>
+<arc id="475"><flow source="13" target="19"/></arc>
+<arc id="477"><flow source="13" target="21"/></arc>
+<arc id="503"><flow source="14" target="12"/></arc>
+<arc id="524"><flow source="14" target="33"/></arc>
+<arc id="553"><flow source="15" target="27"/></arc>
+<arc id="591"><flow source="16" target="30"/></arc>
+<arc id="627"><flow source="17" target="31"/></arc>
+<arc id="651"><flow source="18" target="20"/></arc>
+<arc id="659"><flow source="18" target="28"/></arc>
+<arc id="672"><flow source="19" target="6"/></arc>
+<arc id="691"><flow source="19" target="25"/></arc>
+<arc id="773"><flow source="22" target="2"/></arc>
+<arc id="871"><flow source="24" target="30"/></arc>
+<arc id="902"><flow source="25" target="26"/></arc>
+<arc id="915"><flow source="26" target="4"/></arc>
+<arc id="957"><flow source="27" target="11"/></arc>
+<arc id="1043"><flow source="29" target="27"/></arc>
+<arc id="1068"><flow source="30" target="17"/></arc>
+<arc id="1178"><flow source="33" target="22"/></arc>
+<arc id="1188"><flow source="33" target="32"/></arc>
+<arc id="1190"><flow source="33" target="34"/></arc>
+</epc></epml>

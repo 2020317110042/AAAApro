@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="516" name="1Ve_531s">
+<event id="0"><name>Delivery
+is to
+be created</name></event>
+<event id="1"><name>Reason
+for charge
+for returnable
+packaging</name></event>
+<and id="2"/>
+<function id="3"><name>Returnable
+Packaging
+Pickup</name></function>
+<and id="4"/>
+<event id="5"><name>Order
+is created</name></event>
+<event id="6"><name>Returnable
+packaging
+is to
+be picked
+up</name></event>
+<function id="7"><name>Returnable
+Packaging/
+ Empties
+Issue</name></function>
+<event id="8"><name>Delivery
+is to
+be created</name></event>
+<event id="9"><name>Order
+is created</name></event>
+<arc id="18"><flow source="1" target="7"/></arc>
+<arc id="21"><flow source="2" target="0"/></arc>
+<arc id="26"><flow source="2" target="5"/></arc>
+<arc id="33"><flow source="3" target="2"/></arc>
+<arc id="49"><flow source="4" target="8"/></arc>
+<arc id="50"><flow source="4" target="9"/></arc>
+<arc id="64"><flow source="6" target="3"/></arc>
+<arc id="75"><flow source="7" target="4"/></arc>
+</epc></epml>

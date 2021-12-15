@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="118" name="1Er_icx1">
+<event id="0"><name>Material
+is settled</name></event>
+<event id="1"><name>Control
+measures
+taken
+based
+on variances</name></event>
+<function id="2"><name>Allocation
+of Follow-Up
+Costs
+to Semifinished
+and Finished Products</name></function>
+<event id="3"><name>Follow-up
+costs
+allocated</name></event>
+<function id="4"><name>Product
+Cost
+Analysis
+in Actual
+Costing</name></function>
+<event id="5"><name>Production
+order
+settled
+to warehouse</name></event>
+<or id="6"/>
+<event id="7"><name>Price
+updated
+in actual
+costing</name></event>
+<event id="8"><name>Cost
+Object
+Hierarchy
+Settled</name></event>
+<event id="9"><name>Product
+cost
+collector
+settled</name></event>
+<function id="10"><name>Material
+Price
+Determination</name></function>
+<function id="11"><name>Price
+Update
+in Actual
+Costing</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="28"><flow source="2" target="3"/></arc>
+<arc id="48"><flow source="3" target="11"/></arc>
+<arc id="50"><flow source="4" target="1"/></arc>
+<arc id="67"><flow source="5" target="6"/></arc>
+<arc id="83"><flow source="6" target="10"/></arc>
+<arc id="89"><flow source="7" target="4"/></arc>
+<arc id="103"><flow source="8" target="6"/></arc>
+<arc id="115"><flow source="9" target="6"/></arc>
+<arc id="121"><flow source="10" target="0"/></arc>
+<arc id="140"><flow source="11" target="7"/></arc>
+</epc></epml>

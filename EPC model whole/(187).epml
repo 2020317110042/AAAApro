@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="188" name="1In_ahnr">
+<event id="0"><name>Notification
+papers
+are to
+be printed</name></event>
+<event id="1"><name>Print
+log is
+created</name></event>
+<xor id="2"/>
+<and id="3"/>
+<function id="4"><name>Notification
+Archiving</name></function>
+<event id="5"><name>Shop
+papers
+are to
+be printed
+from notification</name></event>
+<or id="6"/>
+<or id="7"/>
+<event id="8"><name>Maintenance
+tasks
+are to
+be processed</name></event>
+<event id="9"><name>Measures
+to avoid
+additional
+malfunctions
+to be taken</name></event>
+<event id="10"><name>Shop
+papers
+are to
+be printed
+from order</name></event>
+<and id="11"/>
+<and id="12"/>
+<event id="13"><name>Order
+type
+supports
+automatic
+generation of a notification</name></event>
+<event id="14"><name>Maintenance
+notification
+is assigned
+to the
+existing maintenance order</name></event>
+<event id="15"><name>Notification
+and order
+assigned
+to one
+another</name></event>
+<event id="16"><name>Technical
+findings
+are entered</name></event>
+<event id="17"><name>Maintenance
+notification
+is to
+be generated
+from maintenance order</name></event>
+<function id="18"><name>Entry
+of Technical
+Findings</name></function>
+<xor id="19"/>
+<xor id="20"/>
+<event id="21"><name>Maintenance
+order
+to be
+created
+directly from maintenance notification</name></event>
+<event id="22"><name>External
+org measures
+to be
+taken</name></event>
+<function id="23"><name>Notification
+Creation/
+Processing</name></function>
+<function id="24"><name>Task
+Definition</name></function>
+<function id="25"><name>Worklist
+Generation
+for Notifications</name></function>
+<event id="26"><name>Maintenance
+order
+is created
+automatically
+for maintenance notification</name></event>
+<function id="27"><name>Notification
+Printing</name></function>
+<event id="28"><name>Archiving
+carried
+out</name></event>
+<event id="29"><name>Internal
+org.
+measures
+to be
+taken</name></event>
+<and id="30"/>
+<event id="31"><name>Maintenance
+notification
+is in
+process</name></event>
+<event id="32"><name>Maintenance
+notification
+is completed
+with
+reference time</name></event>
+<event id="33"><name>Worklist
+is to
+be created</name></event>
+<and id="34"/>
+<xor id="35"/>
+<event id="36"><name>Maintenance
+requirement
+has arisen</name></event>
+<event id="37"><name>Notification
+is to
+be processed
+by planner
+group</name></event>
+<event id="38"><name>Notification
+is to
+be archived</name></event>
+<event id="39"><name>Worklist
+is created</name></event>
+<event id="40"><name>Maintenance
+tasks
+are determined</name></event>
+<and id="41"/>
+<event id="42"><name>Notification
+is printed</name></event>
+<event id="43"><name>Task
+is completed</name></event>
+<event id="44"><name>Maintenance
+tasks
+are to
+be processed</name></event>
+<event id="45"><name>Technical
+findings
+are to
+be entered</name></event>
+<event id="46"><name>Measurement
+doc.
+should
+be created
+for notif.</name></event>
+<arc id="36"><flow source="0" target="35"/></arc>
+<arc id="104"><flow source="2" target="9"/></arc>
+<arc id="117"><flow source="2" target="22"/></arc>
+<arc id="124"><flow source="2" target="29"/></arc>
+<arc id="143"><flow source="3" target="1"/></arc>
+<arc id="184"><flow source="3" target="42"/></arc>
+<arc id="217"><flow source="4" target="28"/></arc>
+<arc id="297"><flow source="6" target="14"/></arc>
+<arc id="299"><flow source="6" target="16"/></arc>
+<arc id="330"><flow source="7" target="0"/></arc>
+<arc id="332"><flow source="7" target="2"/></arc>
+<arc id="335"><flow source="7" target="5"/></arc>
+<arc id="351"><flow source="7" target="21"/></arc>
+<arc id="360"><flow source="7" target="30"/></arc>
+<arc id="364"><flow source="7" target="34"/></arc>
+<arc id="373"><flow source="7" target="43"/></arc>
+<arc id="375"><flow source="7" target="45"/></arc>
+<arc id="376"><flow source="7" target="46"/></arc>
+<arc id="444"><flow source="9" target="20"/></arc>
+<arc id="483"><flow source="10" target="12"/></arc>
+<arc id="537"><flow source="11" target="19"/></arc>
+<arc id="600"><flow source="12" target="35"/></arc>
+<arc id="623"><flow source="13" target="11"/></arc>
+<arc id="718"><flow source="15" target="12"/></arc>
+<arc id="811"><flow source="17" target="11"/></arc>
+<arc id="853"><flow source="18" target="6"/></arc>
+<arc id="917"><flow source="19" target="23"/></arc>
+<arc id="965"><flow source="20" target="24"/></arc>
+<arc id="1055"><flow source="22" target="20"/></arc>
+<arc id="1089"><flow source="23" target="7"/></arc>
+<arc id="1170"><flow source="24" target="41"/></arc>
+<arc id="1215"><flow source="25" target="39"/></arc>
+<arc id="1273"><flow source="27" target="3"/></arc>
+<arc id="1384"><flow source="29" target="20"/></arc>
+<arc id="1437"><flow source="30" target="26"/></arc>
+<arc id="1442"><flow source="30" target="31"/></arc>
+<arc id="1577"><flow source="33" target="25"/></arc>
+<arc id="1631"><flow source="34" target="32"/></arc>
+<arc id="1637"><flow source="34" target="38"/></arc>
+<arc id="1673"><flow source="35" target="27"/></arc>
+<arc id="1712"><flow source="36" target="19"/></arc>
+<arc id="1759"><flow source="37" target="19"/></arc>
+<arc id="1791"><flow source="38" target="4"/></arc>
+<arc id="1968"><flow source="41" target="40"/></arc>
+<arc id="1972"><flow source="41" target="44"/></arc>
+<arc id="2088"><flow source="44" target="19"/></arc>
+<arc id="2134"><flow source="45" target="18"/></arc>
+</epc></epml>

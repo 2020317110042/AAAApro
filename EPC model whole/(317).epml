@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="318" name="1Pr_1mso">
+<event id="0"><name>Planned
+Independent
+Requirements
+to be
+Created</name></event>
+<event id="1"><name>Results
+transferred
+to Demand
+Management</name></event>
+<function id="2"><name>Demand
+Management</name></function>
+<event id="3"><name>Demand
+Program
+Created</name></event>
+<or id="4"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="10"><flow source="1" target="4"/></arc>
+<arc id="14"><flow source="2" target="3"/></arc>
+<arc id="23"><flow source="4" target="2"/></arc>
+</epc></epml>

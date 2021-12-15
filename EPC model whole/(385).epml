@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="386" name="1Pr_dufm">
+<or id="0"/>
+<event id="1"><name>Cost
+planning
+using
+existing
+price/quantity structure required</name></event>
+<event id="2"><name>Costs
+planned</name></event>
+<event id="3"><name>Easy
+Cost
+Planning
+required</name></event>
+<function id="4"><name>Easy
+Cost
+Planning</name></function>
+<function id="5"><name>Cost
+Planning
+in Work
+Breakdown
+Structure</name></function>
+<event id="6"><name>Cost
+planning
+in WBS
+required</name></event>
+<function id="7"><name>Cost
+Planning
+in Networks</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="16"><flow source="1" target="7"/></arc>
+<arc id="29"><flow source="3" target="4"/></arc>
+<arc id="33"><flow source="4" target="0"/></arc>
+<arc id="41"><flow source="5" target="0"/></arc>
+<arc id="54"><flow source="6" target="5"/></arc>
+<arc id="57"><flow source="7" target="0"/></arc>
+</epc></epml>

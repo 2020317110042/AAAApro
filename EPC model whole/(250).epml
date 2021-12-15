@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="251" name="1Ku_a6af">
+<or id="0"/>
+<event id="1"><name>Service
+Requirement
+Arose</name></event>
+<xor id="2"/>
+<event id="3"><name>Customer
+inquires
+about
+products</name></event>
+<event id="4"><name>Change
+to terms
+of credit
+refused</name></event>
+<event id="5"><name>Generate
+sales
+order-related
+billing
+document</name></event>
+<xor id="6"/>
+<event id="7"><name>Print
+log is
+created</name></event>
+<and id="8"/>
+<xor id="9"/>
+<event id="10"><name>Document
+blocked
+due to
+insufficent
+hedge</name></event>
+<and id="11"/>
+<event id="12"><name>Goods
+issue
+blocked
+for export</name></event>
+<xor id="13"/>
+<event id="14"><name>Inquiry
+items
+are rejected</name></event>
+<function id="15"><name>Delivery
+and Transportation</name></function>
+<xor id="16"/>
+<event id="17"><name>Goods
+issue
+is posted</name></event>
+<or id="18"/>
+<event id="19"><name>Legal
+control
+data
+is processed</name></event>
+<xor id="20"/>
+<xor id="21"/>
+<event id="22"><name>Order
+is to
+be Created
+from
+Contact</name></event>
+<function id="23"><name>Service
+Notification</name></function>
+<event id="24"><name>Cust.
+mail.
+campaign
+to be
+carried out</name></event>
+<event id="25"><name>Archiving
+carried
+out</name></event>
+<event id="26"><name>Difference
+has been
+posted
+to interface</name></event>
+<event id="27"><name>Sales
+activity
+is to
+be processed</name></event>
+<event id="28"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<function id="29"><name>Spare
+Parts
+Order</name></function>
+<and id="30"/>
+<event id="31"><name>Material
+is removed
+from
+stock</name></event>
+<xor id="32"/>
+<event id="33"><name>Quotation
+items
+are rejected</name></event>
+<function id="34"><name>Billing</name></function>
+<and id="35"/>
+<function id="36"><name>Presales</name></function>
+<event id="37"><name>Delivery
+is to
+be created</name></event>
+<and id="38"/>
+<event id="39"><name>Notification
+is printed</name></event>
+<event id="40"><name>Contract
+is created</name></event>
+<function id="41"><name>Warehouse
+Management</name></function>
+<and id="42"/>
+<event id="43"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="44"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<event id="45"><name>Credit
+limit
+is not
+sufficient</name></event>
+<xor id="46"/>
+<event id="47"><name>Inventory
+management
+posting
+already
+carried out</name></event>
+<event id="48"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="49"><name>Declarations
+transmitted</name></event>
+<event id="50"><name>Sales
+and Distribution
+Document
+Must
+Be Created for Service Notification</name></event>
+<event id="51"><name>Goods
+movement
+is posted</name></event>
+<event id="52"><name>Difference
+is settled
+on srce
+bin location</name></event>
+<function id="53"><name>Risk/
+Credit
+Management</name></function>
+<event id="54"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="55"><name>Quotation
+is to
+be created
+from
+contact</name></event>
+<event id="56"><name>Terms
+of credit
+have
+changed</name></event>
+<xor id="57"/>
+<event id="58"><name>Quotation
+is monitored</name></event>
+<xor id="59"/>
+<xor id="60"/>
+<and id="61"/>
+<event id="62"><name>Billing
+document
+is monitored</name></event>
+<xor id="63"/>
+<event id="64"><name>Order
+generated
+and delivery
+opened</name></event>
+<xor id="65"/>
+<xor id="66"/>
+<event id="67"><name>Required
+Data
+must
+be Processed</name></event>
+<arc id="26"><flow source="0" target="25"/></arc>
+<arc id="43"><flow source="0" target="42"/></arc>
+<arc id="51"><flow source="0" target="50"/></arc>
+<arc id="87"><flow source="1" target="18"/></arc>
+<arc id="141"><flow source="2" target="4"/></arc>
+<arc id="193"><flow source="2" target="56"/></arc>
+<arc id="264"><flow source="3" target="59"/></arc>
+<arc id="421"><flow source="6" target="12"/></arc>
+<arc id="426"><flow source="6" target="17"/></arc>
+<arc id="454"><flow source="6" target="45"/></arc>
+<arc id="573"><flow source="8" target="28"/></arc>
+<arc id="594"><flow source="8" target="49"/></arc>
+<arc id="607"><flow source="8" target="62"/></arc>
+<arc id="646"><flow source="9" target="33"/></arc>
+<arc id="678"><flow source="9" target="65"/></arc>
+<arc id="701"><flow source="10" target="20"/></arc>
+<arc id="784"><flow source="11" target="35"/></arc>
+<arc id="812"><flow source="11" target="63"/></arc>
+<arc id="895"><flow source="13" target="10"/></arc>
+<arc id="1078"><flow source="15" target="57"/></arc>
+<arc id="1118"><flow source="16" target="29"/></arc>
+<arc id="1248"><flow source="18" target="23"/></arc>
+<arc id="1414"><flow source="20" target="53"/></arc>
+<arc id="1444"><flow source="21" target="15"/></arc>
+<arc id="1565"><flow source="23" target="0"/></arc>
+<arc id="1692"><flow source="24" target="59"/></arc>
+<arc id="1896"><flow source="27" target="59"/></arc>
+<arc id="2034"><flow source="29" target="61"/></arc>
+<arc id="2046"><flow source="30" target="5"/></arc>
+<arc id="2087"><flow source="30" target="46"/></arc>
+<arc id="2150"><flow source="31" target="41"/></arc>
+<arc id="2211"><flow source="32" target="34"/></arc>
+<arc id="2321"><flow source="34" target="8"/></arc>
+<arc id="2435"><flow source="35" target="54"/></arc>
+<arc id="2447"><flow source="35" target="66"/></arc>
+<arc id="2509"><flow source="36" target="60"/></arc>
+<arc id="2538"><flow source="37" target="21"/></arc>
+<arc id="2591"><flow source="38" target="6"/></arc>
+<arc id="2616"><flow source="38" target="31"/></arc>
+<arc id="2739"><flow source="40" target="18"/></arc>
+<arc id="2800"><flow source="41" target="11"/></arc>
+<arc id="2864"><flow source="42" target="7"/></arc>
+<arc id="2896"><flow source="42" target="39"/></arc>
+<arc id="3009"><flow source="44" target="16"/></arc>
+<arc id="3081"><flow source="45" target="20"/></arc>
+<arc id="3166"><flow source="46" target="37"/></arc>
+<arc id="3193"><flow source="46" target="64"/></arc>
+<arc id="3297"><flow source="48" target="32"/></arc>
+<arc id="3417"><flow source="50" target="16"/></arc>
+<arc id="3501"><flow source="51" target="32"/></arc>
+<arc id="3607"><flow source="53" target="2"/></arc>
+<arc id="3757"><flow source="55" target="16"/></arc>
+<arc id="3890"><flow source="57" target="13"/></arc>
+<arc id="3896"><flow source="57" target="19"/></arc>
+<arc id="3915"><flow source="57" target="38"/></arc>
+<arc id="3925"><flow source="57" target="48"/></arc>
+<arc id="4049"><flow source="59" target="36"/></arc>
+<arc id="4095"><flow source="60" target="14"/></arc>
+<arc id="4103"><flow source="60" target="22"/></arc>
+<arc id="4125"><flow source="60" target="44"/></arc>
+<arc id="4136"><flow source="60" target="55"/></arc>
+<arc id="4158"><flow source="61" target="9"/></arc>
+<arc id="4207"><flow source="61" target="58"/></arc>
+<arc id="4332"><flow source="63" target="47"/></arc>
+<arc id="4336"><flow source="63" target="51"/></arc>
+<arc id="4374"><flow source="64" target="21"/></arc>
+<arc id="4434"><flow source="65" target="13"/></arc>
+<arc id="4451"><flow source="65" target="30"/></arc>
+<arc id="4464"><flow source="65" target="43"/></arc>
+<arc id="4515"><flow source="66" target="26"/></arc>
+<arc id="4541"><flow source="66" target="52"/></arc>
+<arc id="4575"><flow source="67" target="18"/></arc>
+</epc></epml>

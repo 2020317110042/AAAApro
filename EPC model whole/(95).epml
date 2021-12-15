@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="96" name="1En_cq52">
+<event id="0"><name>Accident
+data
+is to
+be entered</name></event>
+<event id="1"><name>Work
+area
+is to
+be defined</name></event>
+<xor id="2"/>
+<event id="3"><name>Entering
+data
+is completed</name></event>
+<event id="4"><name>Create
+standard
+operating
+procedure</name></event>
+<event id="5"><name>Agents
+in the
+enterprise
+are to
+be entered</name></event>
+<function id="6"><name>Work
+Area</name></function>
+<function id="7"><name>Agent</name></function>
+<function id="8"><name>Accident</name></function>
+<function id="9"><name>Standard
+Operating
+Procedure</name></function>
+<xor id="10"/>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="18"><flow source="1" target="6"/></arc>
+<arc id="23"><flow source="2" target="0"/></arc>
+<arc id="28"><flow source="2" target="5"/></arc>
+<arc id="54"><flow source="4" target="9"/></arc>
+<arc id="63"><flow source="5" target="7"/></arc>
+<arc id="69"><flow source="6" target="2"/></arc>
+<arc id="88"><flow source="7" target="10"/></arc>
+<arc id="99"><flow source="8" target="10"/></arc>
+<arc id="103"><flow source="9" target="3"/></arc>
+<arc id="115"><flow source="10" target="4"/></arc>
+</epc></epml>

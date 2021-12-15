@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="432" name="1Tr_f6bx">
+<event id="0"><name>Bank/
+customer
+payment
+advice
+for payment inflow/outflow</name></event>
+<or id="1"/>
+<event id="2"><name>Planned
+record
+created</name></event>
+<event id="3"><name>Planned
+records
+to be
+archived</name></event>
+<function id="4"><name>Process
+Planned
+Items</name></function>
+<function id="5"><name>Create
+Planned
+Items</name></function>
+<event id="6"><name>Planned
+items
+to be
+changed</name></event>
+<event id="7"><name>Planned
+record
+processing
+completed</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="13"><flow source="1" target="4"/></arc>
+<arc id="26"><flow source="3" target="1"/></arc>
+<arc id="40"><flow source="4" target="7"/></arc>
+<arc id="43"><flow source="5" target="2"/></arc>
+<arc id="50"><flow source="6" target="1"/></arc>
+</epc></epml>

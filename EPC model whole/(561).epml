@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="562" name="1Ve_7suf">
+<function id="0"><name>Customer
+Quotation
+Processing</name></function>
+<event id="1"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="2"><name>Production
+order
+created
+directly
+from sales order</name></event>
+<event id="3"><name>Items
+are cancelled</name></event>
+<event id="4"><name>Product
+costng
+to material
+in sales
+document to be created</name></event>
+<event id="5"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<event id="6"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="7"><name>Unit
+costing
+for material
+in sales
+document to be created</name></event>
+<event id="8"><name>Quotation
+reason
+occurred</name></event>
+<event id="9"><name>Order
+BOM to
+be processed</name></event>
+<xor id="10"/>
+<event id="11"><name>Multi-level
+configuration
+to be
+performed</name></event>
+<event id="12"><name>Order
+BOM is
+processed</name></event>
+<event id="13"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<and id="14"/>
+<and id="15"/>
+<event id="16"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<event id="17"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<event id="18"><name>Quotation
+is valid</name></event>
+<event id="19"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<xor id="20"/>
+<or id="21"/>
+<event id="22"><name>Quotation
+is created</name></event>
+<event id="23"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<and id="24"/>
+<event id="25"><name>Order
+is created</name></event>
+<event id="26"><name>Quotation
+items
+are rejected</name></event>
+<function id="27"><name>Sales
+Order
+Processing</name></function>
+<xor id="28"/>
+<xor id="29"/>
+<event id="30"><name>Customer
+release
+order
+received</name></event>
+<event id="31"><name>Standard
+order
+is received</name></event>
+<function id="32"><name>Order
+BOM Processing</name></function>
+<event id="33"><name>Delivery
+is to
+be created</name></event>
+<event id="34"><name>Sales
+requirements
+are created</name></event>
+<event id="35"><name>Proc.
+order
+is directly
+created
+from sales order</name></event>
+<event id="36"><name>Scheduling
+agreement
+release
+is issued</name></event>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="307"><flow source="8" target="10"/></arc>
+<arc id="349"><flow source="9" target="15"/></arc>
+<arc id="371"><flow source="10" target="0"/></arc>
+<arc id="423"><flow source="11" target="15"/></arc>
+<arc id="537"><flow source="14" target="18"/></arc>
+<arc id="539"><flow source="14" target="20"/></arc>
+<arc id="541"><flow source="14" target="22"/></arc>
+<arc id="588"><flow source="15" target="32"/></arc>
+<arc id="603"><flow source="16" target="10"/></arc>
+<arc id="640"><flow source="17" target="10"/></arc>
+<arc id="754"><flow source="20" target="13"/></arc>
+<arc id="760"><flow source="20" target="19"/></arc>
+<arc id="767"><flow source="20" target="26"/></arc>
+<arc id="780"><flow source="21" target="2"/></arc>
+<arc id="782"><flow source="21" target="4"/></arc>
+<arc id="783"><flow source="21" target="5"/></arc>
+<arc id="785"><flow source="21" target="7"/></arc>
+<arc id="802"><flow source="21" target="24"/></arc>
+<arc id="813"><flow source="21" target="35"/></arc>
+<arc id="844"><flow source="22" target="29"/></arc>
+<arc id="881"><flow source="23" target="29"/></arc>
+<arc id="914"><flow source="24" target="25"/></arc>
+<arc id="922"><flow source="24" target="33"/></arc>
+<arc id="923"><flow source="24" target="34"/></arc>
+<arc id="1028"><flow source="27" target="28"/></arc>
+<arc id="1038"><flow source="28" target="1"/></arc>
+<arc id="1040"><flow source="28" target="3"/></arc>
+<arc id="1043"><flow source="28" target="6"/></arc>
+<arc id="1058"><flow source="28" target="21"/></arc>
+<arc id="1101"><flow source="29" target="27"/></arc>
+<arc id="1140"><flow source="30" target="29"/></arc>
+<arc id="1177"><flow source="31" target="29"/></arc>
+<arc id="1197"><flow source="32" target="12"/></arc>
+<arc id="1274"><flow source="34" target="15"/></arc>
+<arc id="1362"><flow source="36" target="29"/></arc>
+</epc></epml>

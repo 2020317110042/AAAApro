@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="321" name="1Pr_1nhz">
+<event id="0"><name>Stock
+transport
+requisition
+is generated</name></event>
+<function id="1"><name>Deployment
+for Plant</name></function>
+<and id="2"/>
+<event id="3"><name/></event>
+<function id="4"><name>Deployment
+for Material</name></function>
+<and id="5"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="12"><flow source="1" target="5"/></arc>
+<arc id="14"><flow source="2" target="1"/></arc>
+<arc id="17"><flow source="2" target="4"/></arc>
+<arc id="30"><flow source="4" target="5"/></arc>
+<arc id="34"><flow source="5" target="3"/></arc>
+</epc></epml>

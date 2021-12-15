@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="83" name="1Be_3e7i">
+<event id="0"><name>Over/
+under-consumption
+of components
+reported</name></event>
+<event id="1"><name>GR posted</name></event>
+<function id="2"><name>Goods
+Receipt
+Processing
+with
+Reference</name></function>
+<and id="3"/>
+<event id="4"><name>Inbound
+delivery
+for PO
+created</name></event>
+<function id="5"><name>Subsequent
+Adjustment
+of Components</name></function>
+<event id="6"><name>GR items
+for components
+corrected</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="11"><flow source="1" target="3"/></arc>
+<arc id="16"><flow source="2" target="1"/></arc>
+<arc id="27"><flow source="3" target="5"/></arc>
+<arc id="31"><flow source="4" target="2"/></arc>
+<arc id="42"><flow source="5" target="6"/></arc>
+</epc></epml>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="371" name="1Pr_dgrn">
+<function id="0"><name>Time
+Sheet
+Report</name></function>
+<function id="1"><name>Transfer
+to PS
+of Time
+Recorded</name></function>
+<event id="2"><name>Working
+hours
+data
+was analyzed</name></event>
+<function id="3"><name>Confirmation
+from
+PDC and
+External
+Systems</name></function>
+<function id="4"><name>Activity
+Confirmation</name></function>
+<event id="5"><name>Activity
+allocation
+to be
+carried
+out</name></event>
+<function id="6"><name>Time
+Sheet
+Creation</name></function>
+<event id="7"><name>Working
+hours
+data
+is approved</name></event>
+<event id="8"><name>Confirmation
+from
+external
+systems
+entered</name></event>
+<event id="9"><name>Internal
+Activity
+Was Allocated</name></event>
+<event id="10"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<and id="11"/>
+<function id="12"><name>Activity
+allocation</name></function>
+<event id="13"><name>Follow-on
+documents
+of target
+application
+are generated</name></event>
+<event id="14"><name>Working
+hours
+data
+is to
+be analyzed</name></event>
+<event id="15"><name>Activity
+confirmations
+entered</name></event>
+<event id="16"><name>Working
+hours
+data
+is to
+be approved</name></event>
+<event id="17"><name>Confirmation
+from
+external
+systems
+required</name></event>
+<event id="18"><name>Activity
+confirmation
+required</name></event>
+<function id="19"><name>Time
+Sheet
+Approval</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="34"><flow source="1" target="13"/></arc>
+<arc id="69"><flow source="3" target="8"/></arc>
+<arc id="96"><flow source="4" target="15"/></arc>
+<arc id="113"><flow source="5" target="12"/></arc>
+<arc id="137"><flow source="6" target="16"/></arc>
+<arc id="142"><flow source="7" target="1"/></arc>
+<arc id="207"><flow source="10" target="6"/></arc>
+<arc id="221"><flow source="11" target="0"/></arc>
+<arc id="250"><flow source="12" target="9"/></arc>
+<arc id="272"><flow source="13" target="11"/></arc>
+<arc id="292"><flow source="14" target="11"/></arc>
+<arc id="340"><flow source="16" target="19"/></arc>
+<arc id="344"><flow source="17" target="3"/></arc>
+<arc id="365"><flow source="18" target="4"/></arc>
+<arc id="388"><flow source="19" target="7"/></arc>
+</epc></epml>

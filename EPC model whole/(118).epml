@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="119" name="1Er_ieku">
+<event id="0"><name>Revaluation
+completed</name></event>
+<event id="1"><name>Production
+order
+settled
+to sales
+order</name></event>
+<function id="2"><name>Overhead
+Calculation
+(Sales
+Order)</name></function>
+<function id="3"><name>Revaluation
+at Actual
+Prices</name></function>
+<event id="4"><name>Overhead
+rates
+(sales
+order)
+were allocated</name></event>
+<and id="5"/>
+<function id="6"><name>Template
+Allocation
+(Sales
+Order)</name></function>
+<event id="7"><name>Product
+cost
+analysis
+required
+for sales order Controlling</name></event>
+<event id="8"><name>Order
+costs
+to be
+settled</name></event>
+<function id="9"><name>Sales
+Order
+Settlement</name></function>
+<function id="10"><name>Product
+Cost
+Analysis
+in Product
+Cost by Sales Order</name></function>
+<event id="11"><name>Inventories/
+accruals
+posted</name></event>
+<event id="12"><name>Sales
+and Costs
+Settled</name></event>
+<function id="13"><name>Results
+Analysis
+for Sales
+Orders</name></function>
+<event id="14"><name>Process
+costs
+(sales
+order)
+to be allocated</name></event>
+<function id="15"><name>Overhead
+Calculation
+(Manufacturing
+Order)</name></function>
+<event id="16"><name>Process
+costs
+were
+allocated</name></event>
+<event id="17"><name>Overhead
+rates
+(production
+order)
+allocated</name></event>
+<function id="18"><name>Settlement
+of Manufacturing
+Order
+to Sales
+Order (Unval. Inventory Only)</name></function>
+<arc id="16"><flow source="0" target="15"/></arc>
+<arc id="22"><flow source="1" target="2"/></arc>
+<arc id="43"><flow source="2" target="4"/></arc>
+<arc id="58"><flow source="3" target="0"/></arc>
+<arc id="90"><flow source="4" target="13"/></arc>
+<arc id="107"><flow source="5" target="11"/></arc>
+<arc id="108"><flow source="5" target="12"/></arc>
+<arc id="131"><flow source="6" target="16"/></arc>
+<arc id="144"><flow source="7" target="10"/></arc>
+<arc id="162"><flow source="8" target="9"/></arc>
+<arc id="177"><flow source="9" target="5"/></arc>
+<arc id="199"><flow source="10" target="8"/></arc>
+<arc id="255"><flow source="13" target="7"/></arc>
+<arc id="273"><flow source="14" target="6"/></arc>
+<arc id="303"><flow source="15" target="17"/></arc>
+<arc id="308"><flow source="16" target="3"/></arc>
+<arc id="342"><flow source="17" target="18"/></arc>
+<arc id="344"><flow source="18" target="1"/></arc>
+</epc></epml>

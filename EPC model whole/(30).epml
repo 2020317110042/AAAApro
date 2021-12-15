@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="2" name="1An_kc5k">
+<and id="0"/>
+<event id="1"><name>Physical
+inventory
+of fixed
+assets
+must be executed using external software</name></event>
+<event id="2"><name>Individual
+asset
+should
+be simulated</name></event>
+<event id="3"><name>Physical
+inventory
+date
+in the
+assets master data updated via BAPI</name></event>
+<xor id="4"/>
+<function id="5"><name>Integrated
+Planning
+in CO</name></function>
+<event id="6"><name>Transactions
+completed</name></event>
+<xor id="7"/>
+<and id="8"/>
+<event id="9"><name>Acquisition
+posted
+to Asset
+Accounting</name></event>
+<event id="10"><name>Posting
+is possible
+to assets
+in new
+fiscal year</name></event>
+<event id="11"><name>Simulation
+is to
+be car-
+ried
+out for portion of fixed assets (future FY)</name></event>
+<event id="12"><name>G/L accounts
+were
+posted</name></event>
+<event id="13"><name>[Depreciation
+posting
+run was
+carried
+out]</name></event>
+<event id="14"><name>New fiscal
+year
+started</name></event>
+<event id="15"><name>Simulation
+was carried
+out</name></event>
+<event id="16"><name>Periodic
+reports
+are created</name></event>
+<function id="17"><name>Depreciation
+Simulation
+/ Forecast</name></function>
+<function id="18"><name>Inventory
+with
+Automatic
+Return
+(Fixed Assets)</name></function>
+<function id="19"><name>Preparations
+for Year-End
+Closing
+in Asset
+Management</name></function>
+<xor id="20"/>
+<event id="21"><name>Periodic
+reporting
+is required</name></event>
+<event id="22"><name>Depreciation
+does
+not correspond
+to planned
+P&amp;L statement</name></event>
+<xor id="23"/>
+<event id="24"><name>Cumulative
+past
+depreciation
+should
+be simulated</name></event>
+<event id="25"><name>Retirement
+was posted
+and checked</name></event>
+<event id="26"><name>Cost-accounting
+depreciation/
+interest
+transferred
+to Cost Accounting</name></event>
+<function id="27"><name>Depreciation
+posting</name></function>
+<function id="28"><name>Periodic
+Reports</name></function>
+<event id="29"><name>Several
+asset
+master
+records
+should be changed</name></event>
+<event id="30"><name>Planned
+deprec-
+iation
+should
+be transferred to controlling</name></event>
+<event id="31"><name>Index
+series
+updated</name></event>
+<event id="32"><name>Depreciation
+corresponds
+to planned
+P&amp;L statement</name></event>
+<function id="33"><name>Fiscal
+Year
+Change</name></function>
+<event id="34"><name>Mass
+changes
+were
+made</name></event>
+<and id="35"/>
+<function id="36"><name>Recalculation
+of Depreciation</name></function>
+<function id="37"><name>Mass
+Change</name></function>
+<event id="38"><name>Results
+of physical
+inventory
+are checked</name></event>
+<and id="39"/>
+<and id="40"/>
+<event id="41"><name>Fiscal
+year
+is to
+be closed</name></event>
+<or id="42"/>
+<event id="43"><name>Planned
+accrued
+depreciation
+and interest
+were transferred to CO</name></event>
+<function id="44"><name>Physical
+Asset
+Inventory</name></function>
+<and id="45"/>
+<event id="46"><name>Recalcula-
+tion
+of de-
+preciation
+was carried out</name></event>
+<or id="47"/>
+<xor id="48"/>
+<function id="49"><name>Carry
+Out Year-End
+Closing
+in Asset
+Management</name></function>
+<event id="50"><name>Depreciation
+should
+be posted
+regularly</name></event>
+<event id="51"><name>Physical
+inventory
+is to
+be carried
+out</name></event>
+<and id="52"/>
+<event id="53"><name>Year-end
+closing
+program
+was carried
+out</name></event>
+<xor id="54"/>
+<arc id="40"><flow source="0" target="39"/></arc>
+<arc id="74"><flow source="1" target="18"/></arc>
+<arc id="134"><flow source="2" target="23"/></arc>
+<arc id="186"><flow source="3" target="20"/></arc>
+<arc id="221"><flow source="4" target="0"/></arc>
+<arc id="319"><flow source="5" target="43"/></arc>
+<arc id="378"><flow source="6" target="47"/></arc>
+<arc id="386"><flow source="7" target="0"/></arc>
+<arc id="478"><flow source="8" target="37"/></arc>
+<arc id="543"><flow source="9" target="47"/></arc>
+<arc id="629"><flow source="11" target="23"/></arc>
+<arc id="758"><flow source="13" target="42"/></arc>
+<arc id="823"><flow source="14" target="52"/></arc>
+<arc id="834"><flow source="15" target="8"/></arc>
+<arc id="976"><flow source="17" target="40"/></arc>
+<arc id="994"><flow source="18" target="3"/></arc>
+<arc id="1100"><flow source="19" target="54"/></arc>
+<arc id="1146"><flow source="20" target="45"/></arc>
+<arc id="1198"><flow source="21" target="42"/></arc>
+<arc id="1234"><flow source="22" target="23"/></arc>
+<arc id="1283"><flow source="23" target="17"/></arc>
+<arc id="1344"><flow source="24" target="23"/></arc>
+<arc id="1423"><flow source="25" target="47"/></arc>
+<arc id="1521"><flow source="27" target="35"/></arc>
+<arc id="1557"><flow source="28" target="16"/></arc>
+<arc id="1604"><flow source="29" target="8"/></arc>
+<arc id="1656"><flow source="30" target="5"/></arc>
+<arc id="1713"><flow source="31" target="7"/></arc>
+<arc id="1768"><flow source="32" target="7"/></arc>
+<arc id="1826"><flow source="33" target="10"/></arc>
+<arc id="1907"><flow source="34" target="36"/></arc>
+<arc id="1938"><flow source="35" target="12"/></arc>
+<arc id="1939"><flow source="35" target="13"/></arc>
+<arc id="1974"><flow source="35" target="48"/></arc>
+<arc id="2027"><flow source="36" target="46"/></arc>
+<arc id="2070"><flow source="37" target="34"/></arc>
+<arc id="2111"><flow source="38" target="20"/></arc>
+<arc id="2173"><flow source="39" target="27"/></arc>
+<arc id="2195"><flow source="39" target="49"/></arc>
+<arc id="2216"><flow source="40" target="15"/></arc>
+<arc id="2230"><flow source="40" target="29"/></arc>
+<arc id="2301"><flow source="41" target="45"/></arc>
+<arc id="2339"><flow source="42" target="28"/></arc>
+<arc id="2459"><flow source="44" target="38"/></arc>
+<arc id="2495"><flow source="45" target="19"/></arc>
+<arc id="2535"><flow source="46" target="4"/></arc>
+<arc id="2631"><flow source="47" target="45"/></arc>
+<arc id="2667"><flow source="48" target="26"/></arc>
+<arc id="2671"><flow source="48" target="30"/></arc>
+<arc id="2749"><flow source="49" target="53"/></arc>
+<arc id="2755"><flow source="50" target="4"/></arc>
+<arc id="2850"><flow source="51" target="44"/></arc>
+<arc id="2894"><flow source="52" target="33"/></arc>
+<arc id="2968"><flow source="53" target="52"/></arc>
+<arc id="2973"><flow source="54" target="2"/></arc>
+<arc id="2982"><flow source="54" target="11"/></arc>
+<arc id="2993"><flow source="54" target="22"/></arc>
+<arc id="2995"><flow source="54" target="24"/></arc>
+<arc id="3003"><flow source="54" target="32"/></arc>
+</epc></epml>

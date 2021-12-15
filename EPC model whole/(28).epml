@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="29" name="1An_l62m">
+<event id="0"><name>Investment
+profile
+with
+line
+item settlement is specified</name></event>
+<event id="1"><name>Internal
+order
+is to
+be created</name></event>
+<and id="2"/>
+<event id="3"><name>Order
+hierarchies/
+groups
+to be
+created</name></event>
+<event id="4"><name>Settlement
+rule
+exists</name></event>
+<event id="5"><name>Order
+is processed</name></event>
+<function id="6"><name>Processing
+of Internal
+Orders
+[Investment
+Order]</name></function>
+<arc id="14"><flow source="1" target="6"/></arc>
+<arc id="15"><flow source="2" target="0"/></arc>
+<arc id="18"><flow source="2" target="3"/></arc>
+<arc id="19"><flow source="2" target="4"/></arc>
+<arc id="20"><flow source="2" target="5"/></arc>
+<arc id="45"><flow source="6" target="2"/></arc>
+</epc></epml>

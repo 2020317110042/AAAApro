@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ns5="http://www.processconfiguration.com" xmlns:signavio="http://www.signavio.com" targetNamespace="http://www.signavio.com/bpmn20" expressionLanguage="http://www.w3.org/1999/XPath" typeLanguage="http://www.w3.org/2001/XMLSchema" id="sid-e92edc84-0bbb-49f1-bbbd-e6213d5170dc" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="">
+    <process isExecutable="false" id="sid-5c584d5a-0eda-4555-94d5-ba418af098f5">
+        <extensionElements>
+            <ns5:configurationMapping href=""/>
+        </extensionElements>
+        <startEvent name="start" id="sid-BE9A222B-3028-4BCB-9F15-CC957C377716">
+            <extensionElements>
+                <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            </extensionElements>
+            <outgoing>sid-C09AD73A-5661-4E0B-9E08-247C80E740EE</outgoing>
+        </startEvent>
+        <task isForCompensation="false" startQuantity="1" completionQuantity="1" name="SetFaultedOrderStatus" id="sid-16DFACE3-DE95-4CFC-B82D-6600ED1926EF">
+            <extensionElements>
+                <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
+            </extensionElements>
+            <incoming>sid-C09AD73A-5661-4E0B-9E08-247C80E740EE</incoming>
+            <outgoing>sid-297C67D1-ECAA-4140-84D5-BD9BE09A2AF5</outgoing>
+        </task>
+        <endEvent name="end" id="sid-47AB6F3A-051E-4866-92ED-ECA1D59AFFC9">
+            <extensionElements>
+                <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
+            </extensionElements>
+            <incoming>sid-297C67D1-ECAA-4140-84D5-BD9BE09A2AF5</incoming>
+        </endEvent>
+        <sequenceFlow sourceRef="sid-BE9A222B-3028-4BCB-9F15-CC957C377716" targetRef="sid-16DFACE3-DE95-4CFC-B82D-6600ED1926EF" name="" id="sid-C09AD73A-5661-4E0B-9E08-247C80E740EE"/>
+        <sequenceFlow sourceRef="sid-16DFACE3-DE95-4CFC-B82D-6600ED1926EF" targetRef="sid-47AB6F3A-051E-4866-92ED-ECA1D59AFFC9" name="" id="sid-297C67D1-ECAA-4140-84D5-BD9BE09A2AF5"/>
+    </process>
+    <bpmndi:BPMNDiagram id="sid-f922ff5e-d99c-4020-8c57-d8771410a0ea">
+        <bpmndi:BPMNPlane bpmnElement="sid-5c584d5a-0eda-4555-94d5-ba418af098f5" id="sid-f6b61ddf-2af1-48d1-88dd-0211d70fd169">
+            <bpmndi:BPMNShape bpmnElement="sid-BE9A222B-3028-4BCB-9F15-CC957C377716" id="sid-BE9A222B-3028-4BCB-9F15-CC957C377716_gui">
+                <omgdc:Bounds x="390.0" y="210.0" width="30.0" height="30.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="sid-16DFACE3-DE95-4CFC-B82D-6600ED1926EF" id="sid-16DFACE3-DE95-4CFC-B82D-6600ED1926EF_gui">
+                <omgdc:Bounds x="475.0" y="185.0" width="100.0" height="80.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="sid-47AB6F3A-051E-4866-92ED-ECA1D59AFFC9" id="sid-47AB6F3A-051E-4866-92ED-ECA1D59AFFC9_gui">
+                <omgdc:Bounds x="785.0" y="211.0" width="28.0" height="28.0"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNEdge bpmnElement="sid-297C67D1-ECAA-4140-84D5-BD9BE09A2AF5" id="sid-297C67D1-ECAA-4140-84D5-BD9BE09A2AF5_gui">
+                <omgdi:waypoint x="575.0" y="222.0"/>
+                <omgdi:waypoint x="638.1471057232425" y="217.06301641765018"/>
+                <omgdi:waypoint x="785.0" y="225.0"/>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="sid-C09AD73A-5661-4E0B-9E08-247C80E740EE" id="sid-C09AD73A-5661-4E0B-9E08-247C80E740EE_gui">
+                <omgdi:waypoint x="420.0" y="221.0"/>
+                <omgdi:waypoint x="442.2493939700919" y="213.96619241352204"/>
+                <omgdi:waypoint x="475.0" y="218.0"/>
+            </bpmndi:BPMNEdge>
+        </bpmndi:BPMNPlane>
+    </bpmndi:BPMNDiagram>
+</definitions>

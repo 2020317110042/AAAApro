@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="308" name="1Pe_mib4">
+<function id="0"><name>Calculation
+of Employment
+Tax</name></function>
+<and id="1"/>
+<event id="2"><name>Settlement
+amounts
+for further
+benefits
+exist</name></event>
+<event id="3"><name>Characterized
+emplyment
+tax amounts
+exist</name></event>
+<event id="4"><name>Characterized
+remuneration
+elements
+exist</name></event>
+<event id="5"><name>Calculation
+of employment
+tax required</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="7"><flow source="1" target="0"/></arc>
+<arc id="14"><flow source="2" target="1"/></arc>
+<arc id="26"><flow source="4" target="1"/></arc>
+<arc id="32"><flow source="5" target="1"/></arc>
+</epc></epml>

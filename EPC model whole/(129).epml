@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="130" name="1Ex_dyea">
+<xor id="0"/>
+<and id="1"/>
+<function id="2"><name>Payment
+Transfer</name></function>
+<xor id="3"/>
+<function id="4"><name>Forecast
+of Revenue</name></function>
+<event id="5"><name>Current
+budget
+values
+maintained</name></event>
+<function id="6"><name>Funds
+Commitment</name></function>
+<function id="7"><name>Funds
+Blocking</name></function>
+<event id="8"><name>Funds
+precommitment
+to be
+carried
+out</name></event>
+<event id="9"><name>Payment
+transfer
+completed</name></event>
+<event id="10"><name>Purchase
+requisition/
+order
+to be
+created</name></event>
+<event id="11"><name>Funds
+commitment
+rejected/
+funds
+reservation exceeded</name></event>
+<event id="12"><name>Funds
+reservation
+to be
+carried
+out</name></event>
+<function id="13"><name>Funds
+Reservation</name></function>
+<or id="14"/>
+<and id="15"/>
+<function id="16"><name>Payment
+Selection</name></function>
+<event id="17"><name>Invoice
+entered</name></event>
+<event id="18"><name>Funds
+commitment
+rejected/
+funds
+precommitment exceeded</name></event>
+<event id="19"><name>Payment
+to be
+transferred</name></event>
+<event id="20"><name>Funds
+precommitment
+rejected/
+funds
+reservation exceeded</name></event>
+<function id="21"><name>Funds
+Precommitment</name></function>
+<xor id="22"/>
+<event id="23"><name>Invoice
+entered</name></event>
+<event id="24"><name>Budget
+release
+available</name></event>
+<event id="25"><name>Funds
+blocking
+to be
+carried
+out/changed</name></event>
+<event id="26"><name>Funds
+reservation
+rejected/
+budget
+exceeded</name></event>
+<and id="27"/>
+<event id="28"><name>Funds
+commitment
+carried
+out</name></event>
+<event id="29"><name>Forecast
+of revenue
+to be
+entered</name></event>
+<event id="30"><name>Forecast
+of revenue
+entered</name></event>
+<event id="31"><name>Funds
+precommitment
+rejected/
+budget
+exceeded</name></event>
+<event id="32"><name>Funds
+blocking
+carried
+out/changed</name></event>
+<event id="33"><name>Set invoice
+to paid</name></event>
+<event id="34"><name>Expenditure
+budget
+increased</name></event>
+<event id="35"><name>Funds
+precommitment
+carried
+out</name></event>
+<function id="36"><name>Budget
+Increase</name></function>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="19"><flow source="0" target="18"/></arc>
+<arc id="29"><flow source="0" target="28"/></arc>
+<arc id="53"><flow source="1" target="15"/></arc>
+<arc id="84"><flow source="2" target="9"/></arc>
+<arc id="132"><flow source="3" target="20"/></arc>
+<arc id="143"><flow source="3" target="31"/></arc>
+<arc id="147"><flow source="3" target="35"/></arc>
+<arc id="179"><flow source="4" target="30"/></arc>
+<arc id="187"><flow source="5" target="1"/></arc>
+<arc id="223"><flow source="6" target="0"/></arc>
+<arc id="292"><flow source="7" target="32"/></arc>
+<arc id="318"><flow source="8" target="21"/></arc>
+<arc id="458"><flow source="12" target="13"/></arc>
+<arc id="504"><flow source="13" target="22"/></arc>
+<arc id="555"><flow source="14" target="36"/></arc>
+<arc id="568"><flow source="15" target="12"/></arc>
+<arc id="575"><flow source="15" target="19"/></arc>
+<arc id="581"><flow source="15" target="25"/></arc>
+<arc id="585"><flow source="15" target="29"/></arc>
+<arc id="626"><flow source="16" target="33"/></arc>
+<arc id="644"><flow source="17" target="14"/></arc>
+<arc id="706"><flow source="19" target="2"/></arc>
+<arc id="781"><flow source="21" target="3"/></arc>
+<arc id="823"><flow source="22" target="8"/></arc>
+<arc id="825"><flow source="22" target="10"/></arc>
+<arc id="841"><flow source="22" target="26"/></arc>
+<arc id="879"><flow source="23" target="27"/></arc>
+<arc id="890"><flow source="24" target="1"/></arc>
+<arc id="933"><flow source="25" target="7"/></arc>
+<arc id="1016"><flow source="27" target="16"/></arc>
+<arc id="1064"><flow source="28" target="27"/></arc>
+<arc id="1078"><flow source="29" target="4"/></arc>
+<arc id="1125"><flow source="30" target="14"/></arc>
+<arc id="1302"><flow source="35" target="6"/></arc>
+<arc id="1367"><flow source="36" target="34"/></arc>
+</epc></epml>

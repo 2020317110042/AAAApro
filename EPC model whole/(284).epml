@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="285" name="1Pe_lzyg">
+<xor id="0"/>
+<event id="1"><name>Employee
+career
+plan
+must
+be corrected</name></event>
+<event id="2"><name>Employee
+must
+be notified
+of career
+plan</name></event>
+<event id="3"><name>Career
+plan
+is transmitted
+to employee</name></event>
+<event id="4"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<function id="5"><name>Preparation
+of Career
+Planning</name></function>
+<event id="6"><name>Personnel
+development
+system
+is implemented</name></event>
+<and id="7"/>
+<and id="8"/>
+<event id="9"><name>Employee
+career
+plan
+is adopted</name></event>
+<xor id="10"/>
+<function id="11"><name>Employee
+Notification
+of Career
+Plan</name></function>
+<function id="12"><name>Career
+Planning</name></function>
+<event id="13"><name>Preparation
+of career
+planning
+is complete</name></event>
+<event id="14"><name>Need
+for monitoring
+of staff
+planning
+exists</name></event>
+<event id="15"><name>Need
+for career
+planning
+exists</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="17"><flow source="1" target="0"/></arc>
+<arc id="44"><flow source="2" target="11"/></arc>
+<arc id="94"><flow source="5" target="13"/></arc>
+<arc id="104"><flow source="6" target="7"/></arc>
+<arc id="118"><flow source="7" target="5"/></arc>
+<arc id="131"><flow source="8" target="2"/></arc>
+<arc id="133"><flow source="8" target="4"/></arc>
+<arc id="138"><flow source="8" target="9"/></arc>
+<arc id="143"><flow source="8" target="14"/></arc>
+<arc id="169"><flow source="10" target="8"/></arc>
+<arc id="176"><flow source="10" target="15"/></arc>
+<arc id="180"><flow source="11" target="3"/></arc>
+<arc id="203"><flow source="12" target="10"/></arc>
+<arc id="221"><flow source="13" target="12"/></arc>
+<arc id="241"><flow source="15" target="0"/></arc>
+</epc></epml>

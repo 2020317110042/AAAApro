@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="579" name="1Ve_m47b">
+<event id="0"><name>Need
+to prepare
+budget
+planning
+exists</name></event>
+<function id="1"><name>Creation
+of Specifications
+for Budget
+Planning</name></function>
+<xor id="2"/>
+<event id="3"><name>Specifications
+for budget
+planning
+are adopted</name></event>
+<event id="4"><name>Need
+to correct
+specifications
+for budget
+planning</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="9"><flow source="1" target="3"/></arc>
+<arc id="12"><flow source="2" target="1"/></arc>
+<arc id="23"><flow source="4" target="2"/></arc>
+</epc></epml>

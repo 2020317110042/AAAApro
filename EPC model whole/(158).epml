@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="159" name="1Ex_eifk">
+<event id="0"><name>Master
+data
+updated</name></event>
+<xor id="1"/>
+<event id="2"><name>Account
+has dunning
+block</name></event>
+<and id="3"/>
+<and id="4"/>
+<event id="5"><name>Reminder
+is created</name></event>
+<event id="6"><name>Items
+to be
+dunned</name></event>
+<function id="7"><name>Automatic
+Dunning</name></function>
+<and id="8"/>
+<event id="9"><name>Dunning
+stage
+reached</name></event>
+<xor id="10"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="14"><flow source="1" target="2"/></arc>
+<arc id="35"><flow source="3" target="1"/></arc>
+<arc id="52"><flow source="4" target="7"/></arc>
+<arc id="59"><flow source="5" target="3"/></arc>
+<arc id="71"><flow source="6" target="4"/></arc>
+<arc id="88"><flow source="7" target="10"/></arc>
+<arc id="89"><flow source="8" target="0"/></arc>
+<arc id="94"><flow source="8" target="5"/></arc>
+<arc id="104"><flow source="9" target="4"/></arc>
+<arc id="112"><flow source="10" target="1"/></arc>
+<arc id="119"><flow source="10" target="8"/></arc>
+</epc></epml>

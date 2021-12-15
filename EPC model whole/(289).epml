@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="290" name="1Pe_m2ho">
+<event id="0"><name>Personnel
+appraisal
+must
+be corrected</name></event>
+<event id="1"><name>Need
+for personnel
+appraisal
+exists</name></event>
+<xor id="2"/>
+<function id="3"><name>Planning
+and Organization
+of Personnel
+Appraisal</name></function>
+<event id="4"><name>Planning
+and organization
+for personnel
+appraisal
+is complete</name></event>
+<event id="5"><name>Personnel
+appraisal
+system
+is implemented</name></event>
+<and id="6"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="10"><flow source="1" target="2"/></arc>
+<arc id="21"><flow source="2" target="6"/></arc>
+<arc id="26"><flow source="3" target="4"/></arc>
+<arc id="42"><flow source="5" target="6"/></arc>
+<arc id="46"><flow source="6" target="3"/></arc>
+</epc></epml>

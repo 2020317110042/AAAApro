@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="323" name="1Pr_1o9q">
+<event id="0"><name>Results
+transferred
+to Demand
+Management</name></event>
+<event id="1"><name>Forecast
+is necessary</name></event>
+<function id="2"><name>Transfer
+of Results
+to Demand
+Management</name></function>
+<xor id="3"/>
+<event id="4"><name>DRP run
+to be
+executed
+for plant
+/ distribution center</name></event>
+<event id="5"><name>DRP run
+is to
+be executed
+for material</name></event>
+<event id="6"><name>SOP data
+to be
+transferred
+to Demand
+Management</name></event>
+<function id="7"><name>Flexible
+Planning</name></function>
+<function id="8"><name>Demand
+Management</name></function>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="17"><flow source="1" target="7"/></arc>
+<arc id="19"><flow source="2" target="0"/></arc>
+<arc id="32"><flow source="3" target="4"/></arc>
+<arc id="33"><flow source="3" target="5"/></arc>
+<arc id="57"><flow source="6" target="2"/></arc>
+<arc id="70"><flow source="7" target="6"/></arc>
+<arc id="76"><flow source="8" target="3"/></arc>
+</epc></epml>

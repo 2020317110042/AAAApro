@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="180" name="1Ex_ey8p">
+<function id="0"><name>General
+Ledger
+Line
+item
+Analysis</name></function>
+<event id="1"><name>Balance
+analysis
+carried
+out</name></event>
+<event id="2"><name>G/L line
+item
+analysis
+carried
+out</name></event>
+<function id="3"><name>Balance
+Analysis</name></function>
+<xor id="4"/>
+<event id="5"><name>Evaluations
+run on
+general
+ledger</name></event>
+<event id="6"><name>G/L accounts
+due for
+analysis</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="23"><flow source="3" target="1"/></arc>
+<arc id="29"><flow source="4" target="0"/></arc>
+<arc id="32"><flow source="4" target="3"/></arc>
+<arc id="47"><flow source="6" target="4"/></arc>
+</epc></epml>

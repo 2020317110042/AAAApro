@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="496" name="1Un_k9yk">
+<event id="0"><name>Basic
+Settings
+to be
+made</name></event>
+<function id="1"><name>Quantity
+Units</name></function>
+<event id="2"><name>File
+Names
+Established</name></event>
+<event id="3"><name>Foreign
+Currencies
+Are Specified</name></event>
+<and id="4"/>
+<function id="5"><name>File
+names</name></function>
+<function id="6"><name>Number
+ranges</name></function>
+<event id="7"><name>Number
+Ranges
+Defined</name></event>
+<event id="8"><name>Units
+of Measure
+Specified</name></event>
+<function id="9"><name>Foreign
+currencies</name></function>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="19"><flow source="1" target="8"/></arc>
+<arc id="42"><flow source="4" target="1"/></arc>
+<arc id="46"><flow source="4" target="5"/></arc>
+<arc id="47"><flow source="4" target="6"/></arc>
+<arc id="50"><flow source="4" target="9"/></arc>
+<arc id="53"><flow source="5" target="2"/></arc>
+<arc id="68"><flow source="6" target="7"/></arc>
+<arc id="94"><flow source="9" target="3"/></arc>
+</epc></epml>

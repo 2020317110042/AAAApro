@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="578" name="1Ve_m40o">
+<function id="0"><name>Budget
+Planning</name></function>
+<xor id="1"/>
+<event id="2"><name>Need
+to prepare
+budget
+planning
+exists</name></event>
+<function id="3"><name>Preparation
+of Budget
+Planning</name></function>
+<event id="4"><name>Need
+to correct
+specifications
+for budget
+planning</name></event>
+<event id="5"><name>Specifications
+for budget
+planning
+are adopted</name></event>
+<and id="6"/>
+<event id="7"><name>Need
+for budget
+planning
+exists</name></event>
+<event id="8"><name>Budget
+plan
+is approved</name></event>
+<function id="9"><name>Monitoring
+of Budget
+Planning</name></function>
+<or id="10"/>
+<event id="11"><name>Need
+to correct
+budget
+plan
+exists</name></event>
+<event id="12"><name>Need
+for monitoring
+of budget
+planning</name></event>
+<event id="13"><name>No need
+to act
+for budget
+planning</name></event>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="18"><flow source="1" target="3"/></arc>
+<arc id="30"><flow source="2" target="1"/></arc>
+<arc id="48"><flow source="3" target="5"/></arc>
+<arc id="58"><flow source="4" target="1"/></arc>
+<arc id="77"><flow source="5" target="6"/></arc>
+<arc id="85"><flow source="6" target="0"/></arc>
+<arc id="105"><flow source="7" target="6"/></arc>
+<arc id="137"><flow source="9" target="10"/></arc>
+<arc id="145"><flow source="10" target="4"/></arc>
+<arc id="152"><flow source="10" target="11"/></arc>
+<arc id="154"><flow source="10" target="13"/></arc>
+<arc id="161"><flow source="11" target="6"/></arc>
+<arc id="178"><flow source="12" target="9"/></arc>
+</epc></epml>

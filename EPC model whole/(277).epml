@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="278" name="1Pe_lvyh">
+<function id="0"><name>Processing
+Receipt
+of Application</name></function>
+<and id="1"/>
+<event id="2"><name>Confirmation
+of receipt
+is transmitted
+to applicant</name></event>
+<event id="3"><name>Enterprise
+requires
+applicant
+to receive
+confirmation of receipt</name></event>
+<event id="4"><name>Applicant
+has been
+entered</name></event>
+<function id="5"><name>Confirmation
+of Receipt
+of Application</name></function>
+<event id="6"><name>Enterprise
+receives
+application</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="13"><flow source="1" target="5"/></arc>
+<arc id="23"><flow source="3" target="1"/></arc>
+<arc id="30"><flow source="4" target="1"/></arc>
+<arc id="38"><flow source="5" target="2"/></arc>
+<arc id="43"><flow source="6" target="0"/></arc>
+</epc></epml>

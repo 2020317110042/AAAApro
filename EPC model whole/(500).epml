@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="501" name="1Ve_4hbk">
+<event id="0"><name>Statistical
+goods
+numbers
+are processed</name></event>
+<event id="1"><name>Import
+code
+numbers
+are processed</name></event>
+<event id="2"><name>Foreign
+trade
+data
+are complete</name></event>
+<event id="3"><name>Foreign
+trade
+data
+to be
+processed</name></event>
+<function id="4"><name>Commodity
+Code
+Processing</name></function>
+<event id="5"><name>Statistical
+goods
+numbers
+are to
+be processed</name></event>
+<event id="6"><name>Import
+code
+numbers
+are to
+be processed</name></event>
+<function id="7"><name>Import
+Code
+Numbers
+Processing</name></function>
+<function id="8"><name>Foreign
+Trade
+Basic
+Data
+Processing</name></function>
+<arc id="36"><flow source="3" target="8"/></arc>
+<arc id="37"><flow source="4" target="0"/></arc>
+<arc id="50"><flow source="5" target="4"/></arc>
+<arc id="62"><flow source="6" target="7"/></arc>
+<arc id="65"><flow source="7" target="1"/></arc>
+<arc id="75"><flow source="8" target="2"/></arc>
+</epc></epml>

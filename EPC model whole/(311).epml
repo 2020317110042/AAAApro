@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="312" name="1Pr_19op">
+<event id="0"><name>Product
+structure
+for variants
+to be
+set up</name></event>
+<function id="1"><name>Design
+BOM -
+Material
+Master
+Processing</name></function>
+<function id="2"><name>Design
+BOM -
+Material
+BOM Processing</name></function>
+<xor id="3"/>
+<event id="4"><name>Set up
+product
+structure
+without
+variants</name></event>
+<and id="5"/>
+<and id="6"/>
+<event id="7"><name>Create
+product
+draft</name></event>
+<event id="8"><name>Product
+is to
+be defined</name></event>
+<function id="9"><name>Product
+Design</name></function>
+<event id="10"><name>Set up
+product
+strucuture
+using
+CAD interface</name></event>
+<arc id="17"><flow source="1" target="5"/></arc>
+<arc id="28"><flow source="2" target="5"/></arc>
+<arc id="34"><flow source="3" target="0"/></arc>
+<arc id="38"><flow source="3" target="4"/></arc>
+<arc id="44"><flow source="3" target="10"/></arc>
+<arc id="59"><flow source="5" target="3"/></arc>
+<arc id="68"><flow source="6" target="1"/></arc>
+<arc id="69"><flow source="6" target="2"/></arc>
+<arc id="87"><flow source="7" target="9"/></arc>
+<arc id="95"><flow source="8" target="6"/></arc>
+<arc id="108"><flow source="9" target="8"/></arc>
+</epc></epml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="399" name="1Pr_m00-">
+<event id="0"><name>Carry
+out product
+development</name></event>
+<and id="1"/>
+<event id="2"><name>Specification
+is to
+be described
+in detail</name></event>
+<function id="3"><name>Product
+Specification</name></function>
+<and id="4"/>
+<event id="5"><name>Create
+product
+draft</name></event>
+<function id="6"><name>Technical
+detail
+specification</name></function>
+<function id="7"><name>Specification
+of functions</name></function>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="15"><flow source="1" target="6"/></arc>
+<arc id="16"><flow source="1" target="7"/></arc>
+<arc id="18"><flow source="2" target="1"/></arc>
+<arc id="27"><flow source="3" target="2"/></arc>
+<arc id="38"><flow source="4" target="5"/></arc>
+<arc id="53"><flow source="6" target="4"/></arc>
+<arc id="61"><flow source="7" target="4"/></arc>
+</epc></epml>

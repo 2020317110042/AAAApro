@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="184" name="1Im_lhqh">
+<or id="0"/>
+<and id="1"/>
+<function id="2"><name>Ordering
+of SCS-relevant
+material</name></function>
+<function id="3"><name>D-Tape
+Import</name></function>
+<event id="4"><name>Correspondence
+on SCS
+was carried
+out</name></event>
+<event id="5"><name>Enter
+purchase
+order
+in non-SAP
+system</name></event>
+<event id="6"><name>Stt.
+company
+should
+be informed
+of cost data</name></event>
+<function id="7"><name>Cost
+Collector
+Generator</name></function>
+<function id="8"><name>External
+Settlement
+Result
+Posting</name></function>
+<event id="9"><name>Copy
+consumer
+number
+of settlement
+company to lease-out</name></event>
+<event id="10"><name>Post
+external
+heating
+expenses
+settlement</name></event>
+<event id="11"><name>Meas.
+documents
+were
+entered</name></event>
+<function id="12"><name>ML-Tape
+Creation</name></function>
+<event id="13"><name>Create
+purchase
+order
+in MM</name></event>
+<event id="14"><name/></event>
+<event id="15"><name>Adjustment
+of advance
+payments/
+flat
+rates should be carried out</name></event>
+<and id="16"/>
+<event id="17"><name>Consumpt.depen-
+dent
+apport-
+ioning
+acc. to meter readings</name></event>
+<event id="18"><name>Meter
+reading
+list
+exists</name></event>
+<event id="19"><name>Vendor
+invoices-
+/recurring
+docu-
+ments were posted on stt. unit</name></event>
+<or id="20"/>
+<function id="21"><name>A-Tape
+Import</name></function>
+<event id="22"><name>Vendor
+invoices-
+/recurring
+docu-
+ments were posted on stt. unit</name></event>
+<or id="23"/>
+<and id="24"/>
+<event id="25"><name>Settlement
+company
+provide
+D-tape</name></event>
+<event id="26"><name>Heating
+expense
+settlement
+to be
+made via an external settlement company</name></event>
+<function id="27"><name>Measurement
+Document
+Creation</name></function>
+<and id="28"/>
+<and id="29"/>
+<function id="30"><name>Carrying
+Out Service
+Charge
+Settlement</name></function>
+<and id="31"/>
+<event id="32"><name>Post
+external
+settlement
+result</name></event>
+<event id="33"><name>Release
+settlement
+units
+for posting</name></event>
+<and id="34"/>
+<event id="35"><name>Send
+M/L tape</name></event>
+<event id="36"><name>Data
+medium
+exchange
+was carried
+out</name></event>
+<and id="37"/>
+<and id="38"/>
+<or id="39"/>
+<arc id="38"><flow source="0" target="37"/></arc>
+<arc id="71"><flow source="1" target="30"/></arc>
+<arc id="100"><flow source="2" target="19"/></arc>
+<arc id="157"><flow source="3" target="36"/></arc>
+<arc id="221"><flow source="5" target="20"/></arc>
+<arc id="279"><flow source="6" target="38"/></arc>
+<arc id="304"><flow source="7" target="23"/></arc>
+<arc id="321"><flow source="8" target="0"/></arc>
+<arc id="385"><flow source="9" target="24"/></arc>
+<arc id="429"><flow source="10" target="28"/></arc>
+<arc id="442"><flow source="11" target="1"/></arc>
+<arc id="516"><flow source="12" target="35"/></arc>
+<arc id="541"><flow source="13" target="20"/></arc>
+<arc id="573"><flow source="14" target="12"/></arc>
+<arc id="668"><flow source="16" target="27"/></arc>
+<arc id="697"><flow source="17" target="16"/></arc>
+<arc id="737"><flow source="18" target="16"/></arc>
+<arc id="800"><flow source="19" target="39"/></arc>
+<arc id="803"><flow source="20" target="2"/></arc>
+<arc id="855"><flow source="21" target="14"/></arc>
+<arc id="919"><flow source="22" target="38"/></arc>
+<arc id="926"><flow source="23" target="5"/></arc>
+<arc id="934"><flow source="23" target="13"/></arc>
+<arc id="982"><flow source="24" target="21"/></arc>
+<arc id="1030"><flow source="25" target="29"/></arc>
+<arc id="1065"><flow source="26" target="24"/></arc>
+<arc id="1092"><flow source="27" target="11"/></arc>
+<arc id="1128"><flow source="28" target="7"/></arc>
+<arc id="1164"><flow source="29" target="3"/></arc>
+<arc id="1201"><flow source="30" target="0"/></arc>
+<arc id="1270"><flow source="31" target="29"/></arc>
+<arc id="1315"><flow source="32" target="34"/></arc>
+<arc id="1349"><flow source="33" target="28"/></arc>
+<arc id="1369"><flow source="34" target="8"/></arc>
+<arc id="1432"><flow source="35" target="31"/></arc>
+<arc id="1475"><flow source="36" target="34"/></arc>
+<arc id="1485"><flow source="37" target="4"/></arc>
+<arc id="1496"><flow source="37" target="15"/></arc>
+<arc id="1552"><flow source="38" target="31"/></arc>
+<arc id="1562"><flow source="39" target="1"/></arc>
+<arc id="1592"><flow source="39" target="31"/></arc>
+</epc></epml>

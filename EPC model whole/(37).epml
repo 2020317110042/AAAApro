@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="38" name="1An_lac3">
+<event id="0"><name>Retirements
+to be
+entered</name></event>
+<event id="1"><name>Loss
+of a
+leased
+system
+has occurred</name></event>
+<xor id="2"/>
+<event id="3"><name>Leased
+system
+must
+be scrapped</name></event>
+<event id="4"><name>Leasing
+agreement
+runs
+out</name></event>
+<event id="5"><name>Retirement
+was posted
+and checked</name></event>
+<function id="6"><name>Retirement
+of Leased
+Asset</name></function>
+<or id="7"/>
+<event id="8"><name>Premature
+termination
+of lease
+agreement
+necessary</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="12"><flow source="1" target="2"/></arc>
+<arc id="26"><flow source="2" target="7"/></arc>
+<arc id="30"><flow source="3" target="2"/></arc>
+<arc id="39"><flow source="4" target="2"/></arc>
+<arc id="60"><flow source="6" target="5"/></arc>
+<arc id="70"><flow source="7" target="6"/></arc>
+<arc id="75"><flow source="8" target="2"/></arc>
+</epc></epml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="103" name="1En_csa4">
+<event id="0"><name>Automatic
+retrieval
+of dangerous
+goods
+data is to be carried out</name></event>
+<event id="1"><name>Dangerous
+goods
+master
+is to
+be processed</name></event>
+<event id="2"><name>Dangerous
+goods
+master
+is to
+be distributed</name></event>
+<event id="3"><name>Processing
+is completed</name></event>
+<function id="4"><name>Filling
+Dangerous
+Goods
+Master
+from Substance Database</name></function>
+<function id="5"><name>Subsequent
+Processing
+of Dangerous
+Goods
+Master</name></function>
+<function id="6"><name>Dangerous
+Goods
+Master
+Distribution</name></function>
+<xor id="7"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="14"><flow source="1" target="5"/></arc>
+<arc id="23"><flow source="2" target="6"/></arc>
+<arc id="40"><flow source="4" target="7"/></arc>
+<arc id="43"><flow source="5" target="2"/></arc>
+<arc id="56"><flow source="6" target="7"/></arc>
+<arc id="60"><flow source="7" target="3"/></arc>
+</epc></epml>

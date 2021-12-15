@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="239" name="1Ku_9nk6">
+<or id="0"/>
+<xor id="1"/>
+<or id="2"/>
+<xor id="3"/>
+<event id="4"><name>Maintenance
+Costs
+Determined</name></event>
+<xor id="5"/>
+<event id="6"><name>Maintenance
+plan
+calls
+are processed</name></event>
+<event id="7"><name>Service
+entry
+sheet
+to be
+created for each maintenance item</name></event>
+<and id="8"/>
+<function id="9"><name>Maintenance
+Call
+Processing</name></function>
+<event id="10"><name>Maintenance
+call
+waits</name></event>
+<event id="11"><name>Service
+order
+should
+be created
+per maint. item</name></event>
+<xor id="12"/>
+<event id="13"><name>Maintenance
+plan
+is to
+be scheduled
+manually</name></event>
+<and id="14"/>
+<and id="15"/>
+<event id="16"><name>Maintenance
+calls
+are updated</name></event>
+<event id="17"><name>Call
+horizon
+is not
+reached</name></event>
+<function id="18"><name>Object
+Costing</name></function>
+<or id="19"/>
+<event id="20"><name>Maintenance
+plan
+to be
+scheduled
+according to maintenance strategy</name></event>
+<event id="21"><name>Dates
++ due
+maintenance
+packages
+are determined</name></event>
+<function id="22"><name>Maintenance
+Plan
+Costing</name></function>
+<event id="23"><name>Schedule
+counter
+reading
+mtce
+plan</name></event>
+<event id="24"><name>Call
+horizon
+is reached</name></event>
+<or id="25"/>
+<event id="26"><name>Objects
+in Maintenance
+Plans
+Should
+Be Calculated</name></event>
+<event id="27"><name>Maintenance
+plan
+released
+triggered</name></event>
+<function id="28"><name>Maintenance
+Plan
+Scheduling</name></function>
+<event id="29"><name>Maintenance
+plan
+is to
+be scheduled
+automatically</name></event>
+<and id="30"/>
+<event id="31"><name>Cost
+Estimates
+Should
+Be Made
+for Maintenance Plans</name></event>
+<xor id="32"/>
+<event id="33"><name>Maintenance
+plan
+is created</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="42"><flow source="1" target="7"/></arc>
+<arc id="46"><flow source="1" target="11"/></arc>
+<arc id="73"><flow source="2" target="4"/></arc>
+<arc id="109"><flow source="3" target="6"/></arc>
+<arc id="113"><flow source="3" target="10"/></arc>
+<arc id="180"><flow source="5" target="9"/></arc>
+<arc id="278"><flow source="8" target="5"/></arc>
+<arc id="307"><flow source="9" target="0"/></arc>
+<arc id="417"><flow source="12" target="8"/></arc>
+<arc id="424"><flow source="12" target="15"/></arc>
+<arc id="475"><flow source="13" target="32"/></arc>
+<arc id="493"><flow source="14" target="16"/></arc>
+<arc id="498"><flow source="14" target="21"/></arc>
+<arc id="516"><flow source="15" target="5"/></arc>
+<arc id="557"><flow source="16" target="12"/></arc>
+<arc id="587"><flow source="17" target="8"/></arc>
+<arc id="615"><flow source="18" target="2"/></arc>
+<arc id="661"><flow source="19" target="14"/></arc>
+<arc id="672"><flow source="19" target="25"/></arc>
+<arc id="713"><flow source="20" target="32"/></arc>
+<arc id="751"><flow source="22" target="2"/></arc>
+<arc id="815"><flow source="23" target="32"/></arc>
+<arc id="832"><flow source="24" target="15"/></arc>
+<arc id="877"><flow source="25" target="26"/></arc>
+<arc id="882"><flow source="25" target="31"/></arc>
+<arc id="903"><flow source="26" target="18"/></arc>
+<arc id="951"><flow source="27" target="32"/></arc>
+<arc id="972"><flow source="28" target="19"/></arc>
+<arc id="1019"><flow source="29" target="32"/></arc>
+<arc id="1049"><flow source="30" target="28"/></arc>
+<arc id="1077"><flow source="31" target="22"/></arc>
+<arc id="1119"><flow source="32" target="30"/></arc>
+<arc id="1153"><flow source="33" target="30"/></arc>
+</epc></epml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="56" name="1Be_2ft2">
+<and id="0"/>
+<event id="1"><name>Quality
+notification
+entered</name></event>
+<function id="2"><name>Shipping</name></function>
+<function id="3"><name>Invoice
+Verification</name></function>
+<and id="4"/>
+<event id="5"><name>Material
+is removed
+from
+stock</name></event>
+<event id="6"><name>Manual
+clearing
+is complete</name></event>
+<event id="7"><name>Task-dependent
+follow-up
+actions
+are triggered</name></event>
+<event id="8"><name>Material
+is issued</name></event>
+<function id="9"><name>Warehouse</name></function>
+<event id="10"><name>Defect
+requires
+manual
+quality
+notification</name></event>
+<function id="11"><name>Quality
+Notification</name></function>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="33"><flow source="2" target="8"/></arc>
+<arc id="43"><flow source="3" target="6"/></arc>
+<arc id="50"><flow source="4" target="1"/></arc>
+<arc id="56"><flow source="4" target="7"/></arc>
+<arc id="63"><flow source="5" target="2"/></arc>
+<arc id="85"><flow source="7" target="0"/></arc>
+<arc id="114"><flow source="9" target="5"/></arc>
+<arc id="132"><flow source="10" target="11"/></arc>
+<arc id="137"><flow source="11" target="4"/></arc>
+</epc></epml>

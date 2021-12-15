@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="148" name="1Ex_ea41">
+<event id="0"><name>Tax-law-based/
+commercial-law-based
+valuation
+price
+in material is determined</name></event>
+<or id="1"/>
+<and id="2"/>
+<event id="3"><name>Tax-law-based/
+commercial-law-based
+valuation
+price
+in material is determined</name></event>
+<event id="4"><name>List
+of lowest
+value-price
+variances
+was created</name></event>
+<function id="5"><name>Lowest
+Value:
+Determination
+of Mvt
+Rate</name></function>
+<function id="6"><name>Lowest
+value:
+Products</name></function>
+<event id="7"><name>Lowest
+value
+has been
+determined</name></event>
+<and id="8"/>
+<function id="9"><name>Lowest
+Value:
+Range
+of Coverage
+Determination</name></function>
+<event id="10"><name>Market
+price
+analysis
+carried
+out</name></event>
+<function id="11"><name>Lowest
+Value:
+Market
+Price
+Analysis</name></function>
+<event id="12"><name>Material
+valuation
+price
+updated</name></event>
+<event id="13"><name>Tax-law-based/
+commercial-law-based
+valuation
+price
+in material is determined</name></event>
+<and id="14"/>
+<event id="15"><name>Market
+price
+analysis
+must
+be carried out</name></event>
+<and id="16"/>
+<function id="17"><name>Lowest
+Value:
+Price
+Variances</name></function>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="22"><flow source="1" target="3"/></arc>
+<arc id="31"><flow source="1" target="12"/></arc>
+<arc id="42"><flow source="2" target="5"/></arc>
+<arc id="46"><flow source="2" target="9"/></arc>
+<arc id="107"><flow source="5" target="16"/></arc>
+<arc id="110"><flow source="6" target="1"/></arc>
+<arc id="144"><flow source="7" target="17"/></arc>
+<arc id="155"><flow source="8" target="10"/></arc>
+<arc id="158"><flow source="8" target="13"/></arc>
+<arc id="179"><flow source="9" target="16"/></arc>
+<arc id="183"><flow source="10" target="2"/></arc>
+<arc id="207"><flow source="11" target="8"/></arc>
+<arc id="253"><flow source="14" target="0"/></arc>
+<arc id="260"><flow source="14" target="7"/></arc>
+<arc id="282"><flow source="15" target="11"/></arc>
+<arc id="303"><flow source="16" target="14"/></arc>
+<arc id="311"><flow source="17" target="4"/></arc>
+</epc></epml>

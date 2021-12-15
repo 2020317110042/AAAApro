@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="374" name="1Pr_dk0k">
+<event id="0"><name>Budget
+released</name></event>
+<event id="1"><name>Budget
+is updated</name></event>
+<event id="2"><name>Budget
+to be
+released</name></event>
+<event id="3"><name>Budget
+is to
+be updated</name></event>
+<function id="4"><name>Budget
+Update</name></function>
+<function id="5"><name>Budget
+Release</name></function>
+<or id="6"/>
+<arc id="20"><flow source="2" target="5"/></arc>
+<arc id="26"><flow source="3" target="4"/></arc>
+<arc id="30"><flow source="4" target="1"/></arc>
+<arc id="42"><flow source="5" target="6"/></arc>
+<arc id="43"><flow source="6" target="0"/></arc>
+<arc id="46"><flow source="6" target="3"/></arc>
+</epc></epml>

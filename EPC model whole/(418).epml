@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="419" name="1Qu_c8yd">
+<and id="0"/>
+<function id="1"><name>Creation
+of a
+Quality
+Certificate</name></function>
+<event id="2"><name>Certificate
+based
+on standard
+form</name></event>
+<event id="3"><name>Quality
+certificate
+is released
+for use</name></event>
+<or id="4"/>
+<event id="5"><name>Certificate
+has to
+be created
+for delivery
+item</name></event>
+<event id="6"><name>Certificate
+request
+exists</name></event>
+<event id="7"><name>Certificate
+should
+be printed
+on request</name></event>
+<or id="8"/>
+<and id="9"/>
+<xor id="10"/>
+<event id="11"><name>Certificate
+recipient
+is to
+be created</name></event>
+<and id="12"/>
+<xor id="13"/>
+<or id="14"/>
+<or id="15"/>
+<event id="16"><name>New certificate
+to be
+created</name></event>
+<event id="17"><name>Certificate
+profile
+assignment
+exists</name></event>
+<event id="18"><name>Customer
+requires
+certificate</name></event>
+<function id="19"><name>Edit
+Recipient
+of Quality
+Certificate</name></function>
+<event id="20"><name>Certificate
+creation
+for delivery
+item
+is triggered</name></event>
+<and id="21"/>
+<function id="22"><name>Certificate
+Profile
+and Profile
+Assignment</name></function>
+<or id="23"/>
+<event id="24"><name>Certificate
+archived</name></event>
+<event id="25"><name>Customer
+requires
+certificate</name></event>
+<event id="26"><name>Further
+copy
+of certificate
+required</name></event>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="51"><flow source="1" target="23"/></arc>
+<arc id="70"><flow source="2" target="15"/></arc>
+<arc id="130"><flow source="4" target="21"/></arc>
+<arc id="157"><flow source="5" target="21"/></arc>
+<arc id="167"><flow source="6" target="4"/></arc>
+<arc id="194"><flow source="7" target="4"/></arc>
+<arc id="236"><flow source="8" target="19"/></arc>
+<arc id="252"><flow source="9" target="8"/></arc>
+<arc id="293"><flow source="10" target="22"/></arc>
+<arc id="307"><flow source="11" target="9"/></arc>
+<arc id="339"><flow source="12" target="14"/></arc>
+<arc id="340"><flow source="12" target="15"/></arc>
+<arc id="353"><flow source="13" target="1"/></arc>
+<arc id="389"><flow source="14" target="10"/></arc>
+<arc id="416"><flow source="15" target="10"/></arc>
+<arc id="447"><flow source="16" target="14"/></arc>
+<arc id="460"><flow source="17" target="0"/></arc>
+<arc id="499"><flow source="18" target="12"/></arc>
+<arc id="517"><flow source="19" target="3"/></arc>
+<arc id="581"><flow source="21" target="13"/></arc>
+<arc id="612"><flow source="22" target="17"/></arc>
+<arc id="642"><flow source="23" target="20"/></arc>
+<arc id="646"><flow source="23" target="24"/></arc>
+<arc id="684"><flow source="25" target="8"/></arc>
+<arc id="707"><flow source="26" target="4"/></arc>
+</epc></epml>

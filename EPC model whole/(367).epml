@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="368" name="1Pr_dcqc">
+<event id="0"><name>Service
+is accepted</name></event>
+<or id="1"/>
+<event id="2"><name>Material
+withdrawal
+posting
+required</name></event>
+<function id="3"><name>Goods
+Issue
+Processing</name></function>
+<event id="4"><name>Material
+is issued</name></event>
+<event id="5"><name>Purchase
+requisition
+must
+be created</name></event>
+<function id="6"><name>Delivery
+from
+Project</name></function>
+<event id="7"><name>Purchase
+order
+is to
+be created</name></event>
+<function id="8"><name>Goods
+Receipt
+Processing
+with
+Reference</name></function>
+<event id="9"><name>Purchase
+order
+created</name></event>
+<and id="10"/>
+<function id="11"><name>Service
+Entry</name></function>
+<event id="12"><name>Delivery
+from
+project
+is to
+be created</name></event>
+<event id="13"><name>Material
+has arrived</name></event>
+<and id="14"/>
+<function id="15"><name>Purchase
+order
+processing</name></function>
+<event id="16"><name>Goods
+receipt
+posted</name></event>
+<event id="17"><name>Activity
+to be
+entered</name></event>
+<function id="18"><name>Processing
+Purchase
+Requisitions
+for Projects</name></function>
+<arc id="30"><flow source="1" target="10"/></arc>
+<arc id="34"><flow source="1" target="14"/></arc>
+<arc id="42"><flow source="2" target="3"/></arc>
+<arc id="62"><flow source="3" target="4"/></arc>
+<arc id="114"><flow source="5" target="18"/></arc>
+<arc id="117"><flow source="6" target="2"/></arc>
+<arc id="149"><flow source="7" target="15"/></arc>
+<arc id="169"><flow source="8" target="16"/></arc>
+<arc id="173"><flow source="9" target="1"/></arc>
+<arc id="202"><flow source="10" target="11"/></arc>
+<arc id="210"><flow source="11" target="0"/></arc>
+<arc id="235"><flow source="12" target="6"/></arc>
+<arc id="262"><flow source="13" target="14"/></arc>
+<arc id="275"><flow source="14" target="8"/></arc>
+<arc id="295"><flow source="15" target="9"/></arc>
+<arc id="334"><flow source="17" target="10"/></arc>
+<arc id="350"><flow source="18" target="7"/></arc>
+</epc></epml>

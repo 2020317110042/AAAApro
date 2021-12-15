@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="93" name="1En_cpez">
+<event id="0"><name>Entering
+data
+is completed</name></event>
+<event id="1"><name>Occupational
+health
+data
+is to
+be entered</name></event>
+<function id="2"><name>Injury/
+Illness
+Log</name></function>
+<and id="3"/>
+<function id="4"><name>Protocol</name></function>
+<and id="5"/>
+<arc id="12"><flow source="1" target="5"/></arc>
+<arc id="16"><flow source="2" target="3"/></arc>
+<arc id="19"><flow source="3" target="0"/></arc>
+<arc id="28"><flow source="4" target="3"/></arc>
+<arc id="33"><flow source="5" target="2"/></arc>
+<arc id="35"><flow source="5" target="4"/></arc>
+</epc></epml>

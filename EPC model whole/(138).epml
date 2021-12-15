@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="139" name="1Ex_e61x">
+<or id="0"/>
+<and id="1"/>
+<event id="2"><name>Standardizing
+entries
+were
+made</name></event>
+<event id="3"><name>Exchange
+rates
+/ translation
+methods
+are maintained centrally</name></event>
+<function id="4"><name>Central
+Currency
+Translation</name></function>
+<event id="5"><name>Proportional
+cons-
+olidation
+is used
+for the company</name></event>
+<event id="6"><name>Intercompany
+balances
+are to
+be reconciled
+in advance</name></event>
+<event id="7"><name>Individual
+financial
+statement
+is entered
+in database</name></event>
+<event id="8"><name>Currency
+translation
+carried
+out</name></event>
+<event id="9"><name>Data
+entered
+for items
+is broken
+down by trading partner</name></event>
+<and id="10"/>
+<event id="11"><name>FS item
+sets
+were
+specified</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="13"><flow source="1" target="0"/></arc>
+<arc id="25"><flow source="2" target="0"/></arc>
+<arc id="38"><flow source="3" target="1"/></arc>
+<arc id="59"><flow source="4" target="10"/></arc>
+<arc id="61"><flow source="5" target="0"/></arc>
+<arc id="86"><flow source="7" target="1"/></arc>
+<arc id="127"><flow source="10" target="6"/></arc>
+<arc id="129"><flow source="10" target="8"/></arc>
+<arc id="130"><flow source="10" target="9"/></arc>
+<arc id="132"><flow source="10" target="11"/></arc>
+</epc></epml>

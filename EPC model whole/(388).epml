@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="389" name="1Pr_eru-">
+<event id="0"><name>Check
+product
+data</name></event>
+<function id="1"><name>Reporting
+for Change
+Pointers</name></function>
+<event id="2"><name>Send
+product
+data
+automatically</name></event>
+<arc id="4"><flow source="1" target="0"/></arc>
+<arc id="8"><flow source="2" target="1"/></arc>
+</epc></epml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="293" name="1Pe_mcfu">
+<event id="0"><name>Activity
+allocation
+specifications
+are available</name></event>
+<function id="1"><name>Transfer
+of activity
+allocation
+specifications</name></function>
+<event id="2"><name>Transfer
+of activity
+allocation
+specifications
+is desired</name></event>
+<event id="3"><name>Personnel
+cost
+assignment
+specification
+is available</name></event>
+<function id="4"><name>Deriving
+of personnel
+cost
+assignment
+specifications</name></function>
+<and id="5"/>
+<event id="6"><name>Activity
+allocation
+specifications
+transmitted</name></event>
+<and id="7"/>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="15"><flow source="1" target="6"/></arc>
+<arc id="24"><flow source="2" target="7"/></arc>
+<arc id="36"><flow source="4" target="3"/></arc>
+<arc id="45"><flow source="5" target="4"/></arc>
+<arc id="48"><flow source="5" target="7"/></arc>
+<arc id="58"><flow source="7" target="1"/></arc>
+</epc></epml>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="142" name="1Ex_e6n6">
+<xor id="0"/>
+<function id="1"><name>Divestiture
+of a
+Company</name></function>
+<event id="2"><name>Investment
+divesti-
+ture
+to be
+entered for parent of original company</name></event>
+<xor id="3"/>
+<function id="4"><name>Acquisition
+of a
+Company</name></function>
+<event id="5"><name>Divestiture
+was entered</name></event>
+<event id="6"><name>Companies
+plan
+to merge</name></event>
+<and id="7"/>
+<event id="8"><name>No journal
+entries
+exist
+for the
+old item number</name></event>
+<event id="9"><name>Main
+consolidation
+process
+to be
+started</name></event>
+<event id="10"><name>Existing
+item
+number
+is to
+be changed</name></event>
+<or id="11"/>
+<event id="12"><name>Existing
+item
+is to
+be split</name></event>
+<xor id="13"/>
+<event id="14"><name>Existing
+items
+should
+be summarized</name></event>
+<event id="15"><name>New item
+number
+should
+be created</name></event>
+<and id="16"/>
+<xor id="17"/>
+<and id="18"/>
+<and id="19"/>
+<event id="20"><name>Fiscal
+year-end
+is reached</name></event>
+<event id="21"><name>Company
+is partially
+split
+into
+new company/ies</name></event>
+<function id="22"><name>Company
+Split</name></function>
+<and id="23"/>
+<event id="24"><name>Company
+is sold
+to parent
+company
+of a different subgroup</name></event>
+<event id="25"><name>New company/
+ies is/
+are created</name></event>
+<function id="26"><name>FS Chart
+of Accounts
+Change</name></function>
+<event id="27"><name>Company
+is split
+completely
+into
+new companies</name></event>
+<event id="28"><name>Company
+is acquired</name></event>
+<function id="29"><name>Company
+Merger</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="34"><flow source="1" target="3"/></arc>
+<arc id="61"><flow source="2" target="0"/></arc>
+<arc id="100"><flow source="3" target="9"/></arc>
+<arc id="124"><flow source="4" target="3"/></arc>
+<arc id="151"><flow source="5" target="0"/></arc>
+<arc id="210"><flow source="6" target="29"/></arc>
+<arc id="228"><flow source="7" target="17"/></arc>
+<arc id="248"><flow source="8" target="7"/></arc>
+<arc id="308"><flow source="10" target="7"/></arc>
+<arc id="348"><flow source="11" target="17"/></arc>
+<arc id="372"><flow source="12" target="11"/></arc>
+<arc id="413"><flow source="13" target="22"/></arc>
+<arc id="440"><flow source="14" target="19"/></arc>
+<arc id="462"><flow source="15" target="11"/></arc>
+<arc id="499"><flow source="16" target="18"/></arc>
+<arc id="504"><flow source="16" target="23"/></arc>
+<arc id="537"><flow source="17" target="26"/></arc>
+<arc id="554"><flow source="18" target="13"/></arc>
+<arc id="588"><flow source="19" target="17"/></arc>
+<arc id="620"><flow source="20" target="19"/></arc>
+<arc id="649"><flow source="21" target="18"/></arc>
+<arc id="664"><flow source="22" target="3"/></arc>
+<arc id="704"><flow source="23" target="13"/></arc>
+<arc id="721"><flow source="24" target="0"/></arc>
+<arc id="767"><flow source="25" target="16"/></arc>
+<arc id="784"><flow source="26" target="3"/></arc>
+<arc id="834"><flow source="27" target="23"/></arc>
+<arc id="845"><flow source="28" target="4"/></arc>
+<arc id="874"><flow source="29" target="3"/></arc>
+</epc></epml>

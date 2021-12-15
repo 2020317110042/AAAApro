@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="384" name="1Pr_ds05">
+<event id="0"><name>Capacity
+leveling
+is performed</name></event>
+<function id="1"><name>Planning
+Work
+in Internal
+Activities
+and Activity Elements</name></function>
+<or id="2"/>
+<event id="3"><name>Internal
+activity/
+work
+planning
+required</name></event>
+<function id="4"><name>Shift
+Planning</name></function>
+<function id="5"><name>Capacity
+Leveling</name></function>
+<event id="6"><name>Workforce
+planning
+required</name></event>
+<event id="7"><name>Workforce
+Planning
+Carried
+Out</name></event>
+<event id="8"><name>Capacity
+evaluation
+required</name></event>
+<event id="9"><name>Capacity
+leveling
+to be
+executed</name></event>
+<function id="10"><name>Capacity
+Evaluation</name></function>
+<arc id="20"><flow source="1" target="8"/></arc>
+<arc id="29"><flow source="2" target="6"/></arc>
+<arc id="32"><flow source="2" target="9"/></arc>
+<arc id="35"><flow source="3" target="1"/></arc>
+<arc id="52"><flow source="4" target="7"/></arc>
+<arc id="56"><flow source="5" target="0"/></arc>
+<arc id="71"><flow source="6" target="4"/></arc>
+<arc id="99"><flow source="8" target="10"/></arc>
+<arc id="105"><flow source="9" target="5"/></arc>
+<arc id="113"><flow source="10" target="2"/></arc>
+</epc></epml>

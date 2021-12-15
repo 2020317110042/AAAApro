@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="519" name="1Ve_5a31">
+<and id="0"/>
+<and id="1"/>
+<event id="2"><name>Delivery
+is created</name></event>
+<event id="3"><name>Delivery
+is not
+relevant
+for billing</name></event>
+<event id="4"><name>Delivery
+is to
+be created</name></event>
+<event id="5"><name>Inward
+material
+movement
+to be
+posted</name></event>
+<function id="6"><name>Goods
+Receipt
+Processing
+for Returnables
+and Empties</name></function>
+<function id="7"><name>Delivery
+for Returnable
+Packaging
+Pickup</name></function>
+<function id="8"><name>Delivery
+for Returnable
+Packaging
+Issue</name></function>
+<event id="9"><name>Delivery
+is relevant
+for shipment</name></event>
+<event id="10"><name>Delivery
+is to
+be created</name></event>
+<event id="11"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="12"><name>Goods
+Receipt
+Posted</name></event>
+<event id="13"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<event id="14"><name>Goods
+issue
+is posted</name></event>
+<function id="15"><name>Goods
+Issue
+from
+Returnable
+Packaging Stock</name></function>
+<event id="16"><name>Delivery
+is created</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="21"><flow source="1" target="3"/></arc>
+<arc id="23"><flow source="1" target="5"/></arc>
+<arc id="27"><flow source="1" target="9"/></arc>
+<arc id="34"><flow source="1" target="16"/></arc>
+<arc id="76"><flow source="4" target="7"/></arc>
+<arc id="92"><flow source="5" target="6"/></arc>
+<arc id="115"><flow source="6" target="12"/></arc>
+<arc id="121"><flow source="7" target="1"/></arc>
+<arc id="137"><flow source="8" target="0"/></arc>
+<arc id="179"><flow source="10" target="8"/></arc>
+<arc id="237"><flow source="13" target="15"/></arc>
+<arc id="270"><flow source="15" target="14"/></arc>
+</epc></epml>

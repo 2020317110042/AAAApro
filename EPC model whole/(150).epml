@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="151" name="1Ex_ebbl">
+<xor id="0"/>
+<function id="1"><name>Rollup</name></function>
+<event id="2"><name>Rollup
+was carried
+out</name></event>
+<event id="3"><name>Data
+transferred
+from
+external
+systems</name></event>
+<event id="4"><name>Document
+was transferred
+to FI-Special
+Ledger</name></event>
+<and id="5"/>
+<function id="6"><name>Assessment</name></function>
+<event id="7"><name>Planned
+assessment
+to be
+performed</name></event>
+<event id="8"><name>Assessment
+was carried
+out</name></event>
+<event id="9"><name>Act.
+distri-
+bution
+is to
+be carried out</name></event>
+<and id="10"/>
+<event id="11"><name>Pl. distri-
+bution
+is to
+be carried
+out</name></event>
+<event id="12"><name>Distribution
+was carried
+out</name></event>
+<event id="13"><name>Translation
+is to
+be carried
+out for
+company code</name></event>
+<function id="14"><name>Distribution</name></function>
+<and id="15"/>
+<event id="16"><name>Translation
+is to
+be carried
+out for
+company</name></event>
+<event id="17"><name>Translation
+was carried
+out</name></event>
+<and id="18"/>
+<function id="19"><name>Balance
+Carried
+Forward
+[SL -
+Special Ledger]</name></function>
+<and id="20"/>
+<event id="21"><name>Balances
+are to
+be carried
+forward</name></event>
+<event id="22"><name>Data
+is to
+be summarized</name></event>
+<function id="23"><name>Currency
+Translation</name></function>
+<event id="24"><name>Balances
+were
+carried
+forward</name></event>
+<event id="25"><name>Actual
+assessment
+is to
+be made</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="16"><flow source="0" target="15"/></arc>
+<arc id="19"><flow source="0" target="18"/></arc>
+<arc id="21"><flow source="0" target="20"/></arc>
+<arc id="29"><flow source="1" target="2"/></arc>
+<arc id="79"><flow source="3" target="0"/></arc>
+<arc id="105"><flow source="4" target="0"/></arc>
+<arc id="137"><flow source="5" target="6"/></arc>
+<arc id="165"><flow source="6" target="8"/></arc>
+<arc id="188"><flow source="7" target="5"/></arc>
+<arc id="245"><flow source="9" target="10"/></arc>
+<arc id="275"><flow source="10" target="14"/></arc>
+<arc id="297"><flow source="11" target="10"/></arc>
+<arc id="349"><flow source="13" target="10"/></arc>
+<arc id="377"><flow source="14" target="12"/></arc>
+<arc id="414"><flow source="15" target="23"/></arc>
+<arc id="432"><flow source="16" target="15"/></arc>
+<arc id="470"><flow source="18" target="1"/></arc>
+<arc id="519"><flow source="19" target="24"/></arc>
+<arc id="540"><flow source="20" target="19"/></arc>
+<arc id="567"><flow source="21" target="20"/></arc>
+<arc id="591"><flow source="22" target="18"/></arc>
+<arc id="616"><flow source="23" target="17"/></arc>
+<arc id="656"><flow source="25" target="5"/></arc>
+</epc></epml>

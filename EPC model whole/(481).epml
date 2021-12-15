@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="482" name="1Un_juwn">
+<function id="0"><name>Data
+transfer</name></function>
+<event id="1"><name>Number
+Ranges
+Defined</name></event>
+<event id="2"><name>Task
+Functions
+for Information
+System
+Set Up</name></event>
+<event id="3"><name>Foreign
+Currencies
+Are Specified</name></event>
+<function id="4"><name>Information
+System
+(EC-EIS)</name></function>
+<event id="5"><name>Data
+Transfer
+Specified</name></event>
+<event id="6"><name>Units
+of Measure
+Specified</name></event>
+<function id="7"><name>Basic
+settings</name></function>
+<and id="8"/>
+<event id="9"><name>File
+Names
+Established</name></event>
+<event id="10"><name>Data
+Modeling
+Required</name></event>
+<function id="11"><name>Task
+Functions
+on Information
+System</name></function>
+<function id="12"><name>Task
+Functions
+on Tools</name></function>
+<function id="13"><name>Data
+modeling</name></function>
+<event id="14"><name>Information
+System</name></event>
+<event id="15"><name>Tools
+Set Up</name></event>
+<event id="16"><name>Task
+Functions
+for Tools
+Set Up</name></event>
+<and id="17"/>
+<xor id="18"/>
+<event id="19"><name>Basic
+Settings
+to be
+made</name></event>
+<function id="20"><name>Tools</name></function>
+<function id="21"><name>Data
+basis</name></function>
+<event id="22"><name>Data
+Basis
+Determined</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="32"><flow source="1" target="8"/></arc>
+<arc id="78"><flow source="3" target="8"/></arc>
+<arc id="107"><flow source="4" target="14"/></arc>
+<arc id="134"><flow source="5" target="18"/></arc>
+<arc id="147"><flow source="6" target="8"/></arc>
+<arc id="179"><flow source="7" target="17"/></arc>
+<arc id="206"><flow source="8" target="21"/></arc>
+<arc id="216"><flow source="9" target="8"/></arc>
+<arc id="244"><flow source="10" target="13"/></arc>
+<arc id="256"><flow source="11" target="2"/></arc>
+<arc id="293"><flow source="12" target="16"/></arc>
+<arc id="319"><flow source="13" target="19"/></arc>
+<arc id="393"><flow source="17" target="1"/></arc>
+<arc id="395"><flow source="17" target="3"/></arc>
+<arc id="398"><flow source="17" target="6"/></arc>
+<arc id="401"><flow source="17" target="9"/></arc>
+<arc id="419"><flow source="18" target="4"/></arc>
+<arc id="426"><flow source="18" target="11"/></arc>
+<arc id="427"><flow source="18" target="12"/></arc>
+<arc id="435"><flow source="18" target="20"/></arc>
+<arc id="445"><flow source="19" target="7"/></arc>
+<arc id="476"><flow source="20" target="15"/></arc>
+<arc id="506"><flow source="21" target="22"/></arc>
+<arc id="507"><flow source="22" target="0"/></arc>
+</epc></epml>

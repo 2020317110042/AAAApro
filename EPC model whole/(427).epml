@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="428" name="1Tr_ez9m">
+<event id="0"><name>Stock
+transaction
+was processed</name></event>
+<event id="1"><name>Netting
+proposal
+was accepted</name></event>
+<event id="2"><name>Stock
+transaction
+was selected</name></event>
+<function id="3"><name>Settlement</name></function>
+<and id="4"/>
+<or id="5"/>
+<event id="6"><name>Valuation
+to be
+performed</name></event>
+<function id="7"><name>Netting
+Processing</name></function>
+<function id="8"><name>Process
+Stock
+Transactions</name></function>
+<event id="9"><name>Cash
+management
+was updated</name></event>
+<event id="10"><name>Netting
+proposal
+to be
+edited</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="31"><flow source="2" target="8"/></arc>
+<arc id="39"><flow source="3" target="5"/></arc>
+<arc id="45"><flow source="4" target="0"/></arc>
+<arc id="54"><flow source="4" target="9"/></arc>
+<arc id="62"><flow source="5" target="6"/></arc>
+<arc id="66"><flow source="5" target="10"/></arc>
+<arc id="79"><flow source="7" target="1"/></arc>
+<arc id="93"><flow source="8" target="4"/></arc>
+<arc id="118"><flow source="10" target="7"/></arc>
+</epc></epml>

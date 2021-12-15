@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="322" name="1Pr_1nor">
+<event id="0"><name>DRP run
+to be
+executed
+for plant
+/ distribution center</name></event>
+<event id="1"><name>DRP run
+is to
+be executed
+for material</name></event>
+<function id="2"><name>DRP Run
+for Materials</name></function>
+<xor id="3"/>
+<event id="4"><name>Stock
+transport
+requisition
+is generated</name></event>
+<function id="5"><name>DRP Run
+for Plant</name></function>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="9"><flow source="1" target="2"/></arc>
+<arc id="16"><flow source="2" target="3"/></arc>
+<arc id="23"><flow source="3" target="4"/></arc>
+<arc id="34"><flow source="5" target="3"/></arc>
+</epc></epml>

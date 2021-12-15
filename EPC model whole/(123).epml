@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="124" name="1Er_j49j">
+<and id="0"/>
+<event id="1"><name>Customer
+Agreements
+Are to
+Be Transferred</name></event>
+<xor id="2"/>
+<function id="3"><name>Transfer
+of Customer
+Agreements
+to Profitability
+Analysis</name></function>
+<function id="4"><name>Transfer
+and Valuation
+of Billing
+Documents
+(Intercompany Processing)</name></function>
+<event id="5"><name>Incoming
+Sales
+Orders
+Are to
+Be Valuated and Transferred</name></event>
+<event id="6"><name>Revenues/
+Costs
+Allocated
+to Profitability
+Analysis</name></event>
+<function id="7"><name>Transfer
+and Valuation
+of Billing
+Documents
+(Complaints Processing)</name></function>
+<event id="8"><name>Special
+Direct
+Costs
+and Revenues
+Are to Be Assigned Directly</name></event>
+<event id="9"><name>Billing
+Documents
+(Direct
+Sales)
+Are to Be Transferred and Valuated</name></event>
+<function id="10"><name>Transfer
+and Valuation
+of Billing
+Documents
+(Third-Party Transaction)</name></function>
+<function id="11"><name>Automatic
+Additional
+Transfer
+into
+Profitability Analysis</name></function>
+<event id="12"><name/></event>
+<and id="13"/>
+<event id="14"><name>Costs
+Posted
+from
+Feeder
+Systems (MM, FI)</name></event>
+<event id="15"><name>Automatic
+Additional
+Account
+Assignment
+Required</name></event>
+<event id="16"><name/></event>
+<xor id="17"/>
+<or id="18"/>
+<function id="19"><name>Transfer
+and Valuation
+of Incoming
+Sales
+Orders</name></function>
+<function id="20"><name>Direct
+Posting
+of Costs
+and Revenues
+From FI</name></function>
+<event id="21"><name>Billing
+Documents
+(Complaints
+Processing)
+Are to be Transferred and Valuated</name></event>
+<function id="22"><name>Transfer
+and Valuation
+of Billing
+Documents
+(Direct Sale)</name></function>
+<and id="23"/>
+<arc id="21"><flow source="0" target="20"/></arc>
+<arc id="28"><flow source="1" target="3"/></arc>
+<arc id="66"><flow source="2" target="17"/></arc>
+<arc id="91"><flow source="3" target="18"/></arc>
+<arc id="115"><flow source="4" target="18"/></arc>
+<arc id="140"><flow source="5" target="19"/></arc>
+<arc id="187"><flow source="7" target="18"/></arc>
+<arc id="193"><flow source="8" target="0"/></arc>
+<arc id="239"><flow source="9" target="22"/></arc>
+<arc id="259"><flow source="10" target="18"/></arc>
+<arc id="267"><flow source="11" target="2"/></arc>
+<arc id="299"><flow source="12" target="10"/></arc>
+<arc id="313"><flow source="13" target="0"/></arc>
+<arc id="336"><flow source="13" target="23"/></arc>
+<arc id="350"><flow source="14" target="13"/></arc>
+<arc id="384"><flow source="15" target="23"/></arc>
+<arc id="389"><flow source="16" target="4"/></arc>
+<arc id="415"><flow source="17" target="6"/></arc>
+<arc id="450"><flow source="18" target="17"/></arc>
+<arc id="475"><flow source="19" target="18"/></arc>
+<arc id="483"><flow source="20" target="2"/></arc>
+<arc id="512"><flow source="21" target="7"/></arc>
+<arc id="547"><flow source="22" target="18"/></arc>
+<arc id="564"><flow source="23" target="11"/></arc>
+</epc></epml>

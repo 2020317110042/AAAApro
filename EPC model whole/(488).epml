@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="489" name="1Un_k30q">
+<function id="0"><name>Currency
+Translation</name></function>
+<function id="1"><name>Preparation
+of consolidation
+group
+changes
+(Data monitor)</name></function>
+<event id="2"><name>Integrated
+Reported
+Financial
+Data
+Is to Be Transferred</name></event>
+<or id="3"/>
+<xor id="4"/>
+<or id="5"/>
+<function id="6"><name>Non-integrated
+Financial
+Data
+Transfer
+by Online Entry</name></function>
+<event id="7"><name>Data
+Monitor
+Processes
+Completed</name></event>
+<function id="8"><name>Rollup
+Consolidation
+Groups</name></function>
+<xor id="9"/>
+<event id="10"><name>Nonintegrated
+Reported
+Financial
+Data
+Is to Be Transferred</name></event>
+<event id="11"><name>Validations
+Completed</name></event>
+<function id="12"><name>Tasks
+for Data
+Transfer</name></function>
+<function id="13"><name>Integrated
+Financial
+Data
+Transfer
+by Rollup</name></function>
+<function id="14"><name>Central
+Standardizing
+Entries
+by Reclassification
+in Individual Statement</name></function>
+<xor id="15"/>
+<function id="16"><name>Balance
+Carried
+Forward
+(Consolidation)</name></function>
+<function id="17"><name>Integrated
+Financial
+Data
+Transfer
+by Realtime Update</name></function>
+<event id="18"><name>Carrying
+Forward
+of Balances
+Carried
+Out</name></event>
+<event id="19"><name>Nonintegrated
+Financial
+Reporting
+Data
+Transferred</name></event>
+<function id="20"><name>Local
+Standardizing
+Entry
+by Offline
+Entry</name></function>
+<and id="21"/>
+<and id="22"/>
+<or id="23"/>
+<event id="24"><name>Apportionment
+Completed</name></event>
+<function id="25"><name>Additional
+Financial
+Data
+Transfer
+by Flexible Upload</name></function>
+<function id="26"><name>Central
+Standardizing
+Entries:
+Manual</name></function>
+<function id="27"><name>Additional
+Financial
+Data
+Transfer
+by Online Entry</name></function>
+<function id="28"><name>Apportionment
+(Consolidation)</name></function>
+<function id="29"><name>Integrated
+Financial
+Data
+Transfer
+by Periodic Extract</name></function>
+<event id="30"><name>Additional
+Financial
+Data
+Transferred</name></event>
+<event id="31"><name>Integrated
+Reported
+Financial
+Data</name></event>
+<event id="32"><name>Translations
+Established</name></event>
+<function id="33"><name>Validations</name></function>
+<function id="34"><name>Non-integrated
+Financial
+Data
+Transfer
+by Offline Entry</name></function>
+<and id="35"/>
+<xor id="36"/>
+<event id="37"><name>Decentral
+Standardizing
+Entries
+Executed</name></event>
+<event id="38"><name>Tasks
+for Data
+Transfer
+Established</name></event>
+<event id="39"><name>Central
+Standardizing
+Entries
+Executed</name></event>
+<function id="40"><name>Non-integrated
+Financial
+Data
+Transfer
+by Flexible Upload</name></function>
+<and id="41"/>
+<or id="42"/>
+<event id="43"><name>Rollup
+Consolidation
+Groups
+Carried
+Out</name></event>
+<function id="44"><name>Local
+Standardizing
+Entry
+by Flexible
+Upload</name></function>
+<or id="45"/>
+<arc id="33"><flow source="0" target="32"/></arc>
+<arc id="54"><flow source="1" target="7"/></arc>
+<arc id="97"><flow source="2" target="4"/></arc>
+<arc id="180"><flow source="3" target="41"/></arc>
+<arc id="198"><flow source="4" target="13"/></arc>
+<arc id="202"><flow source="4" target="17"/></arc>
+<arc id="214"><flow source="4" target="29"/></arc>
+<arc id="251"><flow source="5" target="20"/></arc>
+<arc id="275"><flow source="5" target="44"/></arc>
+<arc id="286"><flow source="6" target="9"/></arc>
+<arc id="412"><flow source="8" target="43"/></arc>
+<arc id="434"><flow source="9" target="19"/></arc>
+<arc id="497"><flow source="10" target="36"/></arc>
+<arc id="523"><flow source="11" target="16"/></arc>
+<arc id="591"><flow source="12" target="38"/></arc>
+<arc id="614"><flow source="13" target="15"/></arc>
+<arc id="668"><flow source="14" target="23"/></arc>
+<arc id="722"><flow source="15" target="31"/></arc>
+<arc id="755"><flow source="16" target="18"/></arc>
+<arc id="798"><flow source="17" target="15"/></arc>
+<arc id="837"><flow source="18" target="8"/></arc>
+<arc id="878"><flow source="19" target="3"/></arc>
+<arc id="963"><flow source="20" target="42"/></arc>
+<arc id="972"><flow source="21" target="5"/></arc>
+<arc id="1012"><flow source="21" target="45"/></arc>
+<arc id="1013"><flow source="22" target="0"/></arc>
+<arc id="1098"><flow source="23" target="39"/></arc>
+<arc id="1138"><flow source="24" target="33"/></arc>
+<arc id="1186"><flow source="25" target="35"/></arc>
+<arc id="1220"><flow source="26" target="23"/></arc>
+<arc id="1278"><flow source="27" target="35"/></arc>
+<arc id="1313"><flow source="28" target="24"/></arc>
+<arc id="1350"><flow source="29" target="15"/></arc>
+<arc id="1393"><flow source="30" target="12"/></arc>
+<arc id="1430"><flow source="31" target="3"/></arc>
+<arc id="1501"><flow source="32" target="28"/></arc>
+<arc id="1530"><flow source="33" target="11"/></arc>
+<arc id="1574"><flow source="34" target="9"/></arc>
+<arc id="1641"><flow source="35" target="30"/></arc>
+<arc id="1663"><flow source="36" target="6"/></arc>
+<arc id="1691"><flow source="36" target="34"/></arc>
+<arc id="1697"><flow source="36" target="40"/></arc>
+<arc id="1725"><flow source="37" target="22"/></arc>
+<arc id="1770"><flow source="38" target="21"/></arc>
+<arc id="1817"><flow source="39" target="22"/></arc>
+<arc id="1850"><flow source="40" target="9"/></arc>
+<arc id="1912"><flow source="41" target="25"/></arc>
+<arc id="1914"><flow source="41" target="27"/></arc>
+<arc id="1970"><flow source="42" target="37"/></arc>
+<arc id="1980"><flow source="43" target="1"/></arc>
+<arc id="2067"><flow source="44" target="42"/></arc>
+<arc id="2085"><flow source="45" target="14"/></arc>
+<arc id="2097"><flow source="45" target="26"/></arc>
+</epc></epml>

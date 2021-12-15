@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="269" name="1Pe_lrsy">
+<event id="0"><name>Employee
+is active</name></event>
+<event id="1"><name>Time
+for restart
+reached</name></event>
+<and id="2"/>
+<event id="3"><name>Employee
+staffs
+position</name></event>
+<event id="4"><name>Payroll
+accounting
+specifications
+changed</name></event>
+<and id="5"/>
+<event id="6"><name>Applicant
+must
+be hired</name></event>
+<event id="7"><name>Benefits
+offer
+must
+be adapted
+for employee</name></event>
+<function id="8"><name>Employee
+hiring</name></function>
+<arc id="15"><flow source="1" target="5"/></arc>
+<arc id="19"><flow source="2" target="0"/></arc>
+<arc id="22"><flow source="2" target="3"/></arc>
+<arc id="23"><flow source="2" target="4"/></arc>
+<arc id="26"><flow source="2" target="7"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="60"><flow source="6" target="5"/></arc>
+<arc id="75"><flow source="8" target="2"/></arc>
+</epc></epml>

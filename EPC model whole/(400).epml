@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="401" name="1Pr_nwb-">
+<event id="0"><name>Close
+project</name></event>
+<event id="1"><name>Settle
+project</name></event>
+<function id="2"><name>Final
+Results
+Analysis</name></function>
+<and id="3"/>
+<event id="4"><name>Change
+project
+status</name></event>
+<event id="5"><name>Guarantee
+product
+service</name></event>
+<function id="6"><name>Final
+Settlement</name></function>
+<function id="7"><name>Project
+Closing
+Documentation</name></function>
+<function id="8"><name>Final
+Invoice
+Processing</name></function>
+<function id="9"><name>Set Project
+Closed
+Status</name></function>
+<and id="10"/>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="22"><flow source="1" target="10"/></arc>
+<arc id="26"><flow source="2" target="3"/></arc>
+<arc id="38"><flow source="3" target="4"/></arc>
+<arc id="54"><flow source="4" target="9"/></arc>
+<arc id="70"><flow source="6" target="3"/></arc>
+<arc id="79"><flow source="7" target="1"/></arc>
+<arc id="92"><flow source="8" target="3"/></arc>
+<arc id="105"><flow source="9" target="5"/></arc>
+<arc id="113"><flow source="10" target="2"/></arc>
+<arc id="117"><flow source="10" target="6"/></arc>
+<arc id="119"><flow source="10" target="8"/></arc>
+</epc></epml>

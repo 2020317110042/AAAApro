@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="67" name="1Be_2sc7">
+<event id="0"><name>TO item
+confirmed
+without
+differences</name></event>
+<event id="1"><name>Purchase
+requisition
+released
+for purchase
+order</name></event>
+<event id="2"><name>Goods
+received</name></event>
+<event id="3"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="4"><name>Requisition
+released
+for scheduling
+agreement
+schedule/SA release</name></event>
+<function id="5"><name>Goods
+Receipt</name></function>
+<xor id="6"/>
+<xor id="7"/>
+<and id="8"/>
+<and id="9"/>
+<function id="10"><name>Invoice
+Verification</name></function>
+<event id="11"><name>Inbound
+delivery
+entered</name></event>
+<event id="12"><name>Payment
+must
+be effected</name></event>
+<event id="13"><name>Material
+is released</name></event>
+<function id="14"><name>Warehouse/
+Stores</name></function>
+<function id="15"><name>Purchasing</name></function>
+<function id="16"><name>Purchase
+Requisition</name></function>
+<and id="17"/>
+<and id="18"/>
+<xor id="19"/>
+<event id="20"><name>Requirement
+for material
+has arisen</name></event>
+<event id="21"><name>Goods
+receipt
+posted</name></event>
+<event id="22"><name>Purchase
+order
+created</name></event>
+<event id="23"><name>Invoice
+received</name></event>
+<xor id="24"/>
+<arc id="45"><flow source="1" target="19"/></arc>
+<arc id="59"><flow source="2" target="8"/></arc>
+<arc id="120"><flow source="4" target="19"/></arc>
+<arc id="147"><flow source="5" target="21"/></arc>
+<arc id="151"><flow source="6" target="0"/></arc>
+<arc id="154"><flow source="6" target="3"/></arc>
+<arc id="185"><flow source="7" target="9"/></arc>
+<arc id="206"><flow source="8" target="5"/></arc>
+<arc id="236"><flow source="9" target="10"/></arc>
+<arc id="263"><flow source="10" target="12"/></arc>
+<arc id="284"><flow source="11" target="8"/></arc>
+<arc id="335"><flow source="13" target="9"/></arc>
+<arc id="357"><flow source="14" target="6"/></arc>
+<arc id="394"><flow source="15" target="18"/></arc>
+<arc id="425"><flow source="16" target="24"/></arc>
+<arc id="433"><flow source="17" target="7"/></arc>
+<arc id="440"><flow source="17" target="14"/></arc>
+<arc id="462"><flow source="18" target="11"/></arc>
+<arc id="473"><flow source="18" target="22"/></arc>
+<arc id="491"><flow source="19" target="15"/></arc>
+<arc id="517"><flow source="20" target="16"/></arc>
+<arc id="543"><flow source="21" target="17"/></arc>
+<arc id="558"><flow source="22" target="7"/></arc>
+<arc id="585"><flow source="23" target="9"/></arc>
+<arc id="602"><flow source="24" target="1"/></arc>
+<arc id="605"><flow source="24" target="4"/></arc>
+</epc></epml>

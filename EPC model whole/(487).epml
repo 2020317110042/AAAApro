@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="488" name="1Un_k1qh">
+<function id="0"><name>Manual
+Consolidation
+Entries</name></function>
+<event id="1"><name>Consolidation
+Group
+Changes
+Requested</name></event>
+<function id="2"><name>Validation
+of Consolidated
+Data</name></function>
+<event id="3"><name>Preparation
+for Consolidation
+Group
+Changes
+Prepared</name></event>
+<function id="4"><name>Preparation
+of Consolidation
+Group
+Changes</name></function>
+<event id="5"><name>Interunit
+Elimination
+Carried
+Out</name></event>
+<event id="6"><name>Manual
+Consolidation
+Entries
+Completed</name></event>
+<function id="7"><name>Consolidation
+of investments</name></function>
+<function id="8"><name>Reclassifications</name></function>
+<function id="9"><name>Elimination
+of IU
+Profit/
+Loss:
+Transferred Assets</name></function>
+<or id="10"/>
+<function id="11"><name>Interunit
+Elimination
+by Elimination
+of IC
+Revenue and Expense</name></function>
+<event id="12"><name>Consolidation
+Monitor
+Processes
+Completed</name></event>
+<event id="13"><name>Reclassifications
+Completed</name></event>
+<function id="14"><name>Interunit
+Elimination
+by Elimination
+of Investment
+Income</name></function>
+<function id="15"><name>Interunit
+Elimination
+by Elimination
+of IU
+Payables and Receivables</name></function>
+<event id="16"><name>Consolidated
+Data
+Validated</name></event>
+<event id="17"><name>Elimination
+of Interunit
+Profit/
+Loss
+in Inventory Carried Out</name></event>
+<event id="18"><name>Consolidation
+of Investments
+Carried
+Out</name></event>
+<function id="19"><name>Rollup
+in Consolidation
+Monitor</name></function>
+<or id="20"/>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="26"><flow source="1" target="4"/></arc>
+<arc id="59"><flow source="2" target="16"/></arc>
+<arc id="64"><flow source="3" target="0"/></arc>
+<arc id="88"><flow source="4" target="3"/></arc>
+<arc id="115"><flow source="5" target="9"/></arc>
+<arc id="147"><flow source="6" target="20"/></arc>
+<arc id="166"><flow source="7" target="18"/></arc>
+<arc id="182"><flow source="8" target="13"/></arc>
+<arc id="207"><flow source="9" target="17"/></arc>
+<arc id="216"><flow source="10" target="5"/></arc>
+<arc id="242"><flow source="11" target="10"/></arc>
+<arc id="281"><flow source="13" target="7"/></arc>
+<arc id="305"><flow source="14" target="10"/></arc>
+<arc id="326"><flow source="15" target="10"/></arc>
+<arc id="356"><flow source="16" target="19"/></arc>
+<arc id="366"><flow source="17" target="8"/></arc>
+<arc id="381"><flow source="18" target="2"/></arc>
+<arc id="412"><flow source="19" target="12"/></arc>
+<arc id="432"><flow source="20" target="11"/></arc>
+<arc id="435"><flow source="20" target="14"/></arc>
+<arc id="436"><flow source="20" target="15"/></arc>
+</epc></epml>

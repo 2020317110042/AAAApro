@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="43" name="1Ar_m7re">
+<or id="0"/>
+<event id="1"><name>Need
+for catalog
+of benefits
+plans
+exists</name></event>
+<or id="2"/>
+<event id="3"><name>Need
+for correction
+of benefits
+program</name></event>
+<event id="4"><name>Adaptation
+of benefits
+participation
+is transmitted
+to employee</name></event>
+<event id="5"><name>Employee
+benefits
+accounts
+are updated</name></event>
+<event id="6"><name>Need
+for benefits
+program
+exists</name></event>
+<and id="7"/>
+<and id="8"/>
+<event id="9"><name>Benefits
+information
+transmitted
+to service
+provider</name></event>
+<event id="10"><name>Payroll
+information
+for benefits
+service
+provider exists</name></event>
+<event id="11"><name>Time
+for payroll
+processing
+for benefits
+has occurred</name></event>
+<event id="12"><name>Period
+for recurring
+enrollment
+has started</name></event>
+<function id="13"><name>Design
+of Enterprise
+Benefits
+System</name></function>
+<event id="14"><name>Employee
+participation
+in benefits
+plan
+is available for enrollment</name></event>
+<function id="15"><name>Payroll
+Processing
+for Benefits
+Plans</name></function>
+<event id="16"><name>Employee
+participation
+in benefits
+is active</name></event>
+<event id="17"><name>Employee
+participation
+in benefits
+plan
+is available for changing</name></event>
+<function id="18"><name>Administration
+of Benefits
+Plan
+Participation</name></function>
+<or id="19"/>
+<event id="20"><name>Employee
+participation
+in benefits
+plan
+is available for termination</name></event>
+<function id="21"><name>Benefits
+Selection</name></function>
+<or id="22"/>
+<or id="23"/>
+<and id="24"/>
+<or id="25"/>
+<event id="26"><name>Benefits
+amounts
+are transmitted
+to service
+provider</name></event>
+<event id="27"><name>Benefits
+program
+is implemented</name></event>
+<event id="28"><name>Need
+for monitoring
+of benefits
+system</name></event>
+<event id="29"><name>Employee
+participation
+in benefits
+is complete</name></event>
+<event id="30"><name>Need
+for correction
+of benefits
+plans</name></event>
+<xor id="31"/>
+<event id="32"><name>Benefits
+offer
+must
+be adapted
+for employee</name></event>
+<function id="33"><name>Monitoring
+of Enterprise
+Benefits
+System</name></function>
+<and id="34"/>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="61"><flow source="1" target="25"/></arc>
+<arc id="87"><flow source="2" target="16"/></arc>
+<arc id="100"><flow source="2" target="29"/></arc>
+<arc id="131"><flow source="3" target="25"/></arc>
+<arc id="236"><flow source="6" target="25"/></arc>
+<arc id="261"><flow source="7" target="15"/></arc>
+<arc id="283"><flow source="8" target="2"/></arc>
+<arc id="285"><flow source="8" target="4"/></arc>
+<arc id="290"><flow source="8" target="9"/></arc>
+<arc id="370"><flow source="10" target="19"/></arc>
+<arc id="393"><flow source="11" target="7"/></arc>
+<arc id="452"><flow source="12" target="31"/></arc>
+<arc id="483"><flow source="13" target="27"/></arc>
+<arc id="510"><flow source="14" target="19"/></arc>
+<arc id="560"><flow source="15" target="34"/></arc>
+<arc id="561"><flow source="16" target="0"/></arc>
+<arc id="615"><flow source="17" target="19"/></arc>
+<arc id="639"><flow source="18" target="8"/></arc>
+<arc id="684"><flow source="19" target="18"/></arc>
+<arc id="720"><flow source="20" target="19"/></arc>
+<arc id="759"><flow source="21" target="23"/></arc>
+<arc id="774"><flow source="22" target="3"/></arc>
+<arc id="801"><flow source="22" target="30"/></arc>
+<arc id="820"><flow source="23" target="14"/></arc>
+<arc id="823"><flow source="23" target="17"/></arc>
+<arc id="826"><flow source="23" target="20"/></arc>
+<arc id="862"><flow source="24" target="21"/></arc>
+<arc id="889"><flow source="25" target="13"/></arc>
+<arc id="970"><flow source="27" target="24"/></arc>
+<arc id="1014"><flow source="28" target="33"/></arc>
+<arc id="1016"><flow source="29" target="0"/></arc>
+<arc id="1076"><flow source="30" target="25"/></arc>
+<arc id="1110"><flow source="31" target="24"/></arc>
+<arc id="1152"><flow source="32" target="31"/></arc>
+<arc id="1178"><flow source="33" target="22"/></arc>
+<arc id="1196"><flow source="34" target="5"/></arc>
+<arc id="1201"><flow source="34" target="10"/></arc>
+<arc id="1217"><flow source="34" target="26"/></arc>
+</epc></epml>

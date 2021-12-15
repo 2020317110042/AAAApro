@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="486" name="1Un_jz68">
+<event id="0"><name>Integrated
+Reported
+Financial
+Data
+Is to Be Transferred</name></event>
+<event id="1"><name>Different
+Consolidation
+Types
+Are to
+Be Used</name></event>
+<and id="2"/>
+<event id="3"><name>Different
+Data
+Categories
+Are to
+Be Consolidated</name></event>
+<and id="4"/>
+<and id="5"/>
+<or id="6"/>
+<function id="7"><name>Processes
+of the
+Data
+Monitor</name></function>
+<event id="8"><name>Data
+Monitor
+Is Defined</name></event>
+<event id="9"><name>Consolidation
+Monitor
+Is Defined</name></event>
+<event id="10"><name>Consolidation-Type-Specific
+Preparation
+Required</name></event>
+<event id="11"><name>Cross-Consolidation-Type
+Preparation
+Required</name></event>
+<function id="12"><name>Preparatory
+Work:
+General</name></function>
+<function id="13"><name>Preparatory
+Work:
+Integration</name></function>
+<and id="14"/>
+<event id="15"><name>Consolidation
+Group
+Changes
+Requested</name></event>
+<and id="16"/>
+<event id="17"><name>Preparation
+of Consolidation
+System
+Is Completed</name></event>
+<event id="18"><name>Nonintegrated
+Reported
+Financial
+Data
+Is to Be Transferred</name></event>
+<event id="19"><name>Data
+Monitor
+Processes
+Completed</name></event>
+<xor id="20"/>
+<event id="21"><name>Consolidation
+Monitor
+Processes
+Completed</name></event>
+<function id="22"><name>Processes
+of the
+Consolidation
+Monitor</name></function>
+<arc id="21"><flow source="0" target="20"/></arc>
+<arc id="30"><flow source="1" target="6"/></arc>
+<arc id="61"><flow source="2" target="14"/></arc>
+<arc id="63"><flow source="2" target="16"/></arc>
+<arc id="76"><flow source="3" target="6"/></arc>
+<arc id="101"><flow source="4" target="8"/></arc>
+<arc id="102"><flow source="4" target="9"/></arc>
+<arc id="103"><flow source="4" target="10"/></arc>
+<arc id="104"><flow source="4" target="11"/></arc>
+<arc id="129"><flow source="5" target="13"/></arc>
+<arc id="151"><flow source="6" target="12"/></arc>
+<arc id="181"><flow source="7" target="19"/></arc>
+<arc id="190"><flow source="8" target="5"/></arc>
+<arc id="213"><flow source="9" target="5"/></arc>
+<arc id="236"><flow source="10" target="5"/></arc>
+<arc id="259"><flow source="11" target="5"/></arc>
+<arc id="281"><flow source="12" target="4"/></arc>
+<arc id="317"><flow source="13" target="17"/></arc>
+<arc id="330"><flow source="14" target="7"/></arc>
+<arc id="362"><flow source="15" target="16"/></arc>
+<arc id="391"><flow source="16" target="22"/></arc>
+<arc id="394"><flow source="17" target="2"/></arc>
+<arc id="435"><flow source="18" target="20"/></arc>
+<arc id="475"><flow source="20" target="14"/></arc>
+<arc id="528"><flow source="22" target="21"/></arc>
+</epc></epml>

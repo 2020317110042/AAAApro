@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="14" name="1An_km48">
+<event id="0"><name>Assgnmt.
+of asset
+to inv.
+project/
+order was carried out</name></event>
+<function id="1"><name>Creation
+of Master
+Record
+for Tangible
+Assets</name></function>
+<and id="2"/>
+<xor id="3"/>
+<event id="4"><name>Blanket
+order
+created</name></event>
+<event id="5"><name>Vendor
+down
+payment
+is to
+be cleared</name></event>
+<and id="6"/>
+<event id="7"><name>Equipment
+is to
+be edited</name></event>
+<event id="8"><name>Procurement
+and capitalization
+carried
+out</name></event>
+<and id="9"/>
+<event id="10"><name>Acquisition
+posted
+to Asset
+Accounting</name></event>
+<function id="11"><name>Processing
+of Asset
+Acquisition</name></function>
+<event id="12"><name>Asset
+master
+record
+does
+not exist</name></event>
+<event id="13"><name>Fixed
+asset
+created</name></event>
+<arc id="17"><flow source="1" target="2"/></arc>
+<arc id="29"><flow source="2" target="0"/></arc>
+<arc id="42"><flow source="2" target="13"/></arc>
+<arc id="48"><flow source="3" target="5"/></arc>
+<arc id="63"><flow source="4" target="6"/></arc>
+<arc id="86"><flow source="6" target="1"/></arc>
+<arc id="130"><flow source="9" target="3"/></arc>
+<arc id="134"><flow source="9" target="7"/></arc>
+<arc id="135"><flow source="9" target="8"/></arc>
+<arc id="137"><flow source="9" target="10"/></arc>
+<arc id="164"><flow source="11" target="9"/></arc>
+<arc id="175"><flow source="12" target="6"/></arc>
+<arc id="194"><flow source="13" target="11"/></arc>
+</epc></epml>

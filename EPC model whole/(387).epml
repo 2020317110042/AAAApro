@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="388" name="1Pr_eg0-">
+<event id="0"><name>Product
+data
+distribution
+is complete</name></event>
+<function id="1"><name>Graphical
+Product
+Structure
+Processing</name></function>
+<event id="2"><name>Check
+product
+data</name></event>
+<arc id="4"><flow source="1" target="0"/></arc>
+<arc id="8"><flow source="2" target="1"/></arc>
+</epc></epml>

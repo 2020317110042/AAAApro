@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="17" name="1An_knwl">
+<function id="0"><name>Overhead
+Calculation</name></function>
+<function id="1"><name>Account
+Assignment
+for Settlement
+[Investment
+Project]</name></function>
+<event id="2"><name>Indirect
+costs
+have
+not been
+incurred</name></event>
+<event id="3"><name>Settlement
+receiver
+is to
+be determined</name></event>
+<xor id="4"/>
+<xor id="5"/>
+<and id="6"/>
+<function id="7"><name>Investment
+Settlement
+[Investment
+Project]</name></function>
+<event id="8"><name>Distrb.
+rules
+for partial
+settlement
+are entered</name></event>
+<event id="9"><name>Overhead
+Costs
+Are to
+Be Allocated
+Using Overhead Rates</name></event>
+<event id="10"><name>Overhead
+debited
+to capital
+investment
+order</name></event>
+<event id="11"><name>Order
+is closed
+technically</name></event>
+<or id="12"/>
+<xor id="13"/>
+<event id="14"><name>Distrb.
+rules
+for full
+settlement
+are entered</name></event>
+<event id="15"><name>Costs
+were
+settled
+as non-operating
+expense</name></event>
+<and id="16"/>
+<xor id="17"/>
+<event id="18"><name>Measure
+settled
+partially</name></event>
+<event id="19"><name>Determine
+blanket
+distribution
+rule
+for periodic settlement</name></event>
+<function id="20"><name>Interest
+Calculation
+[Capital
+Investment
+Measure]</name></function>
+<or id="21"/>
+<event id="22"><name>Costs
+were
+settled
+by cost
+element to asset under construction</name></event>
+<and id="23"/>
+<event id="24"><name>Valuation
+of balances
+affecting
+financial
+statement to be carried out</name></event>
+<event id="25"><name>Measure
+is settled
+completely</name></event>
+<event id="26"><name>Distrbution
+rules
+for periodic
+settlement
+are entered</name></event>
+<xor id="27"/>
+<event id="28"><name>Costs
+were
+settled
+with
+secondary cost elements to asset under construction</name></event>
+<event id="29"><name>Interest
+Is Calculated</name></event>
+<event id="30"><name>Interest
+to be
+posted
+to project</name></event>
+<function id="31"><name>Periodic
+Settlement
+[Investment
+Project]</name></function>
+<or id="32"/>
+<event id="33"><name>Actual
+costs
+were
+incurred</name></event>
+<xor id="34"/>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="53"><flow source="1" target="17"/></arc>
+<arc id="105"><flow source="2" target="34"/></arc>
+<arc id="107"><flow source="3" target="1"/></arc>
+<arc id="162"><flow source="4" target="21"/></arc>
+<arc id="191"><flow source="5" target="15"/></arc>
+<arc id="198"><flow source="5" target="22"/></arc>
+<arc id="204"><flow source="5" target="28"/></arc>
+<arc id="223"><flow source="6" target="12"/></arc>
+<arc id="259"><flow source="7" target="13"/></arc>
+<arc id="293"><flow source="8" target="12"/></arc>
+<arc id="316"><flow source="9" target="0"/></arc>
+<arc id="385"><flow source="10" target="34"/></arc>
+<arc id="392"><flow source="11" target="6"/></arc>
+<arc id="437"><flow source="12" target="16"/></arc>
+<arc id="474"><flow source="13" target="18"/></arc>
+<arc id="481"><flow source="13" target="25"/></arc>
+<arc id="497"><flow source="14" target="6"/></arc>
+<arc id="568"><flow source="16" target="7"/></arc>
+<arc id="604"><flow source="17" target="8"/></arc>
+<arc id="610"><flow source="17" target="14"/></arc>
+<arc id="615"><flow source="17" target="19"/></arc>
+<arc id="622"><flow source="17" target="26"/></arc>
+<arc id="670"><flow source="19" target="4"/></arc>
+<arc id="730"><flow source="20" target="29"/></arc>
+<arc id="767"><flow source="21" target="31"/></arc>
+<arc id="798"><flow source="22" target="27"/></arc>
+<arc id="822"><flow source="23" target="16"/></arc>
+<arc id="830"><flow source="23" target="24"/></arc>
+<arc id="836"><flow source="23" target="30"/></arc>
+<arc id="915"><flow source="26" target="4"/></arc>
+<arc id="969"><flow source="27" target="23"/></arc>
+<arc id="1008"><flow source="28" target="27"/></arc>
+<arc id="1071"><flow source="30" target="20"/></arc>
+<arc id="1091"><flow source="31" target="5"/></arc>
+<arc id="1142"><flow source="32" target="21"/></arc>
+<arc id="1188"><flow source="33" target="32"/></arc>
+<arc id="1223"><flow source="34" target="32"/></arc>
+</epc></epml>

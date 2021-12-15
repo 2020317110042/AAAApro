@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="128" name="1Ex_dxa3">
+<and id="0"/>
+<function id="1"><name>Determining
+Budget
+Carryforward</name></function>
+<event id="2"><name>Commitments
+documents
+selected</name></event>
+<event id="3"><name>Carryforward
+rules
+were
+defined</name></event>
+<xor id="4"/>
+<event id="5"><name>Commitments
+carryforward
+undone</name></event>
+<and id="6"/>
+<and id="7"/>
+<event id="8"><name>Budget
+carryforward
+determined</name></event>
+<event id="9"><name>Budget
+carryforward
+prepared</name></event>
+<event id="10"><name>Budget
+for commitments
+carried
+forward</name></event>
+<event id="11"><name>Residual
+budget
+transferred</name></event>
+<function id="12"><name>Preparing
+Budget
+Carryforward</name></function>
+<function id="13"><name>Reset
+Commitments
+Carried
+Forward</name></function>
+<function id="14"><name>Fund
+Balance
+Carryforward</name></function>
+<event id="15"><name>Expenditure
+budget
+increased</name></event>
+<function id="16"><name>Preparing
+Fiscal
+Year
+Change
+Operations</name></function>
+<and id="17"/>
+<event id="18"><name>Year
+end closing
+operations
+prepared</name></event>
+<or id="19"/>
+<event id="20"><name>Commitments
+budget
+must
+be carried
+forward</name></event>
+<function id="21"><name>Commitments
+Documents
+Carryforward</name></function>
+<function id="22"><name>Open
+Commitment
+Document
+Selection</name></function>
+<event id="23"><name>Evaluations
+to be
+carried
+out</name></event>
+<event id="24"><name>Residual
+budgets
+must
+be carried
+forward</name></event>
+<event id="25"><name>Open
+commitments
+must
+be carried
+forward</name></event>
+<function id="26"><name>Define
+Transfer
+Rules</name></function>
+<event id="27"><name>Balances
+carried
+forward</name></event>
+<event id="28"><name>Payment
+transfer
+completed</name></event>
+<event id="29"><name>Funds
+reservation
+entered</name></event>
+<event id="30"><name>Budget
+release
+available</name></event>
+<or id="31"/>
+<event id="32"><name>Budget
+return
+available</name></event>
+<function id="33"><name>Budget
+Carryforward</name></function>
+<event id="34"><name>Actual
+balances
+must
+be carried
+forward from fund</name></event>
+<and id="35"/>
+<xor id="36"/>
+<arc id="37"><flow source="0" target="36"/></arc>
+<arc id="46"><flow source="1" target="8"/></arc>
+<arc id="96"><flow source="2" target="21"/></arc>
+<arc id="148"><flow source="3" target="36"/></arc>
+<arc id="149"><flow source="4" target="0"/></arc>
+<arc id="190"><flow source="5" target="4"/></arc>
+<arc id="227"><flow source="6" target="4"/></arc>
+<arc id="236"><flow source="6" target="13"/></arc>
+<arc id="286"><flow source="7" target="26"/></arc>
+<arc id="330"><flow source="8" target="33"/></arc>
+<arc id="335"><flow source="9" target="1"/></arc>
+<arc id="377"><flow source="10" target="6"/></arc>
+<arc id="454"><flow source="12" target="9"/></arc>
+<arc id="487"><flow source="13" target="5"/></arc>
+<arc id="546"><flow source="14" target="27"/></arc>
+<arc id="587"><flow source="15" target="31"/></arc>
+<arc id="611"><flow source="16" target="18"/></arc>
+<arc id="652"><flow source="17" target="22"/></arc>
+<arc id="702"><flow source="18" target="35"/></arc>
+<arc id="715"><flow source="19" target="11"/></arc>
+<arc id="727"><flow source="19" target="23"/></arc>
+<arc id="741"><flow source="20" target="0"/></arc>
+<arc id="788"><flow source="21" target="10"/></arc>
+<arc id="817"><flow source="22" target="2"/></arc>
+<arc id="896"><flow source="24" target="7"/></arc>
+<arc id="943"><flow source="25" target="17"/></arc>
+<arc id="966"><flow source="26" target="3"/></arc>
+<arc id="1068"><flow source="28" target="31"/></arc>
+<arc id="1105"><flow source="29" target="31"/></arc>
+<arc id="1142"><flow source="30" target="31"/></arc>
+<arc id="1164"><flow source="31" target="16"/></arc>
+<arc id="1216"><flow source="32" target="31"/></arc>
+<arc id="1241"><flow source="33" target="19"/></arc>
+<arc id="1273"><flow source="34" target="14"/></arc>
+<arc id="1303"><flow source="35" target="7"/></arc>
+<arc id="1313"><flow source="35" target="17"/></arc>
+<arc id="1330"><flow source="35" target="34"/></arc>
+<arc id="1345"><flow source="36" target="12"/></arc>
+</epc></epml>

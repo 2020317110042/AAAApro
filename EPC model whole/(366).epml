@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="367" name="1Pr_dcid">
+<event id="0"><name>Planned
+orders
+are converted
+to process
+orders</name></event>
+<xor id="1"/>
+<event id="2"><name>Planned
+Order
+Created
+Automatically</name></event>
+<function id="3"><name>Conversion
+of planned
+order</name></function>
+<event id="4"><name>Conversion
+date
+is reached</name></event>
+<event id="5"><name>Planned
+orders
+converted
+into
+production orders</name></event>
+<and id="6"/>
+<arc id="8"><flow source="1" target="0"/></arc>
+<arc id="13"><flow source="1" target="5"/></arc>
+<arc id="21"><flow source="2" target="6"/></arc>
+<arc id="23"><flow source="3" target="1"/></arc>
+<arc id="35"><flow source="4" target="6"/></arc>
+<arc id="46"><flow source="6" target="3"/></arc>
+</epc></epml>

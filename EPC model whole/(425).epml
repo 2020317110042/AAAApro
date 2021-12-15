@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="426" name="1Re_n1pd">
+<function id="0"><name>Approval
+of travel
+request</name></function>
+<event id="1"><name>Payment
+amount
+transmitted
+to bank/
+payee</name></event>
+<event id="2"><name>Trip
+is requested</name></event>
+<event id="3"><name>Trip
+costs
+cancelation
+statement
+is transmitted</name></event>
+<and id="4"/>
+<event id="5"><name>Trip
+costs
+must
+be included
+in cost accounting</name></event>
+<xor id="6"/>
+<event id="7"><name>Payment
+must
+be effected</name></event>
+<and id="8"/>
+<event id="9"><name>Unrequested
+trip
+has taken
+place</name></event>
+<event id="10"><name>Planned
+trip
+is rejected</name></event>
+<event id="11"><name>Accounting
+date
+is reached</name></event>
+<function id="12"><name>Entry
+of a
+travel
+request</name></function>
+<function id="13"><name>Approval
+of trip
+facts</name></function>
+<xor id="14"/>
+<event id="15"><name>Trip
+facts
+and receipts
+have
+been released for checking</name></event>
+<event id="16"><name>Need
+to correct
+planned
+trip
+is transmitted</name></event>
+<event id="17"><name>Approval
+of trip
+facts
+is transmitted</name></event>
+<and id="18"/>
+<and id="19"/>
+<event id="20"><name>Planned
+trip
+is approved</name></event>
+<event id="21"><name>Trip
+facts
+are released
+for accounting</name></event>
+<and id="22"/>
+<or id="23"/>
+<event id="24"><name>Amounts
+liable
+to employment
+tax transmitted
+to payroll</name></event>
+<xor id="25"/>
+<xor id="26"/>
+<event id="27"><name>Approved
+trip
+has taken
+place</name></event>
+<event id="28"><name>Amounts
+relevant
+to accounting
+transmitted
+to payroll accounting</name></event>
+<function id="29"><name>Cancellation</name></function>
+<and id="30"/>
+<event id="31"><name>Trip
+costs
+statement
+is transmitted</name></event>
+<function id="32"><name>Travel
+Expenses</name></function>
+<function id="33"><name>Advance
+payment</name></function>
+<event id="34"><name>Planned
+trip
+must
+be canceled</name></event>
+<event id="35"><name>Need
+for trip
+has arisen</name></event>
+<event id="36"><name>Trip
+expenses
+reimbursement
+is rejected</name></event>
+<event id="37"><name>Trip
+advance
+is transmitted/
+paid</name></event>
+<function id="38"><name>Entry
+of trip
+facts</name></function>
+<and id="39"/>
+<xor id="40"/>
+<event id="41"><name>Payments
+must
+be released</name></event>
+<event id="42"><name>Trip
+is canceled</name></event>
+<event id="43"><name>Trip
+expenses
+reimbursement
+must
+be canceled</name></event>
+<and id="44"/>
+<and id="45"/>
+<xor id="46"/>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="78"><flow source="1" target="30"/></arc>
+<arc id="95"><flow source="2" target="0"/></arc>
+<arc id="211"><flow source="4" target="22"/></arc>
+<arc id="222"><flow source="4" target="33"/></arc>
+<arc id="319"><flow source="6" target="36"/></arc>
+<arc id="322"><flow source="6" target="39"/></arc>
+<arc id="380"><flow source="8" target="3"/></arc>
+<arc id="419"><flow source="8" target="42"/></arc>
+<arc id="450"><flow source="9" target="26"/></arc>
+<arc id="562"><flow source="11" target="44"/></arc>
+<arc id="567"><flow source="12" target="2"/></arc>
+<arc id="618"><flow source="13" target="6"/></arc>
+<arc id="669"><flow source="14" target="10"/></arc>
+<arc id="675"><flow source="14" target="16"/></arc>
+<arc id="679"><flow source="14" target="20"/></arc>
+<arc id="719"><flow source="15" target="13"/></arc>
+<arc id="848"><flow source="18" target="1"/></arc>
+<arc id="871"><flow source="18" target="24"/></arc>
+<arc id="872"><flow source="18" target="25"/></arc>
+<arc id="878"><flow source="18" target="31"/></arc>
+<arc id="917"><flow source="19" target="23"/></arc>
+<arc id="945"><flow source="20" target="4"/></arc>
+<arc id="1032"><flow source="21" target="44"/></arc>
+<arc id="1061"><flow source="22" target="26"/></arc>
+<arc id="1111"><flow source="23" target="29"/></arc>
+<arc id="1204"><flow source="25" target="28"/></arc>
+<arc id="1221"><flow source="25" target="45"/></arc>
+<arc id="1261"><flow source="26" target="38"/></arc>
+<arc id="1292"><flow source="27" target="22"/></arc>
+<arc id="1372"><flow source="29" target="8"/></arc>
+<arc id="1434"><flow source="30" target="23"/></arc>
+<arc id="1523"><flow source="32" target="18"/></arc>
+<arc id="1589"><flow source="33" target="37"/></arc>
+<arc id="1645"><flow source="34" target="46"/></arc>
+<arc id="1658"><flow source="35" target="12"/></arc>
+<arc id="1739"><flow source="36" target="46"/></arc>
+<arc id="1759"><flow source="37" target="19"/></arc>
+<arc id="1802"><flow source="38" target="15"/></arc>
+<arc id="1851"><flow source="39" target="17"/></arc>
+<arc id="1855"><flow source="39" target="21"/></arc>
+<arc id="1888"><flow source="40" target="7"/></arc>
+<arc id="1922"><flow source="40" target="41"/></arc>
+<arc id="2052"><flow source="43" target="30"/></arc>
+<arc id="2101"><flow source="44" target="32"/></arc>
+<arc id="2121"><flow source="45" target="5"/></arc>
+<arc id="2156"><flow source="45" target="40"/></arc>
+<arc id="2182"><flow source="46" target="19"/></arc>
+</epc></epml>

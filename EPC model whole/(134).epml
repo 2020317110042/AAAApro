@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="135" name="1Ex_e58p">
+<xor id="0"/>
+<or id="1"/>
+<event id="2"><name>Transfer
+has occurred
+in the
+area
+of financial assets</name></event>
+<event id="3"><name>Asset
+from
+in-house
+prod-
+uction was transferred</name></event>
+<function id="4"><name>Elimination
+of IC
+Profit/
+Loss
+in Fixed Assets</name></function>
+<and id="5"/>
+<event id="6"><name>Asset
+transfer
+has occurred</name></event>
+<event id="7"><name>Currency
+translation
+carried
+out</name></event>
+<and id="8"/>
+<event id="9"><name>Asset
+transfers
+are entered
+for receiving
+company</name></event>
+<event id="10"><name>Asset
+transfers
+are entered
+for retiring
+company</name></event>
+<event id="11"><name>Intercompany
+profit/
+loss
+in trans-
+ferred assets is eliminated</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="17"><flow source="1" target="4"/></arc>
+<arc id="38"><flow source="3" target="1"/></arc>
+<arc id="49"><flow source="4" target="0"/></arc>
+<arc id="62"><flow source="5" target="1"/></arc>
+<arc id="78"><flow source="6" target="5"/></arc>
+<arc id="90"><flow source="7" target="5"/></arc>
+<arc id="98"><flow source="8" target="1"/></arc>
+<arc id="117"><flow source="9" target="8"/></arc>
+<arc id="129"><flow source="10" target="8"/></arc>
+</epc></epml>

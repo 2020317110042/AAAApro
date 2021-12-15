@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="4" name="1An_kex6">
+<function id="0"><name>Processing
+of Asset
+Acquisition</name></function>
+<event id="1"><name>Operating
+lease
+procedure
+should
+be used</name></event>
+<event id="2"><name>Acquisition
+within
+group
+to be
+posted</name></event>
+<function id="3"><name>Retirement</name></function>
+<event id="4"><name>Valuation
+leased
+asset
+is determined</name></event>
+<event id="5"><name>New master
+record
+is necessary</name></event>
+<event id="6"><name>Acquisition
+within
+group
+posted</name></event>
+<event id="7"><name>Fixed
+asset
+was bought
+w/o purchase
+order</name></event>
+<event id="8"><name>Leased
+asset
+was bought</name></event>
+<event id="9"><name>Fixed
+asset
+was given</name></event>
+<and id="10"/>
+<event id="11"><name>Asset
+transfer
+within
+a client
+exists</name></event>
+<event id="12"><name>Acquisition
+is posted
+in target
+company
+code</name></event>
+<event id="13"><name>Retirement
+is posted
+in source
+company
+code</name></event>
+<function id="14"><name>Creation
+of Master
+Record
+for Tangible
+Assets</name></function>
+<xor id="15"/>
+<event id="16"><name>Retirement
+within
+group
+to be
+posted</name></event>
+<event id="17"><name>Asset
+master
+record
+does
+not exist</name></event>
+<event id="18"><name>Fixed
+asset
+was found</name></event>
+<event id="19"><name>Retirement
+from
+group
+posted</name></event>
+<function id="20"><name>Transfer
+Within
+a Client</name></function>
+<xor id="21"/>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="38"><flow source="1" target="15"/></arc>
+<arc id="45"><flow source="2" target="0"/></arc>
+<arc id="86"><flow source="3" target="19"/></arc>
+<arc id="104"><flow source="4" target="15"/></arc>
+<arc id="126"><flow source="5" target="15"/></arc>
+<arc id="170"><flow source="7" target="15"/></arc>
+<arc id="192"><flow source="8" target="15"/></arc>
+<arc id="214"><flow source="9" target="15"/></arc>
+<arc id="233"><flow source="10" target="12"/></arc>
+<arc id="234"><flow source="10" target="13"/></arc>
+<arc id="263"><flow source="11" target="20"/></arc>
+<arc id="330"><flow source="14" target="21"/></arc>
+<arc id="345"><flow source="15" target="14"/></arc>
+<arc id="356"><flow source="16" target="3"/></arc>
+<arc id="390"><flow source="17" target="15"/></arc>
+<arc id="412"><flow source="18" target="15"/></arc>
+<arc id="451"><flow source="20" target="10"/></arc>
+<arc id="465"><flow source="21" target="2"/></arc>
+<arc id="474"><flow source="21" target="11"/></arc>
+<arc id="479"><flow source="21" target="16"/></arc>
+</epc></epml>

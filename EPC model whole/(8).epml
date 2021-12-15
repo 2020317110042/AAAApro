@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="9" name="1An_kiki">
+<and id="0"/>
+<event id="1"><name>Acquisition
+posted
+to Asset
+Accounting</name></event>
+<event id="2"><name>Fixed
+asset
+created</name></event>
+<or id="3"/>
+<function id="4"><name>Direct
+Acquisition
+of Internal
+Activity</name></function>
+<function id="5"><name>Down
+Payment
+on Asset
+under
+Construction</name></function>
+<xor id="6"/>
+<event id="7"><name>Acquisitions
+to be
+entered</name></event>
+<event id="8"><name>Down
+payment
+on asset
+under
+construction is to be capitalized</name></event>
+<event id="9"><name>Service
+order
+is settled
+to asset</name></event>
+<event id="10"><name>Order
+settled
+on plant</name></event>
+<and id="11"/>
+<and id="12"/>
+<event id="13"><name>Internal
+activity
+posted
+directly
+to capitalized asset</name></event>
+<and id="14"/>
+<xor id="15"/>
+<event id="16"><name>Subsequent
+acquisition
+to be
+posted
+to existing asset</name></event>
+<function id="17"><name>Subsequent
+Acquisition</name></function>
+<and id="18"/>
+<event id="19"><name>Post
+capi-
+talization
+is carried
+out</name></event>
+<event id="20"><name>Payments
+must
+be released</name></event>
+<event id="21"><name>Payment
+must
+be effected</name></event>
+<xor id="22"/>
+<event id="23"><name>Vendor
+down
+payment
+is to
+be cleared</name></event>
+<function id="24"><name>Processing
+of Asset
+Acquisition</name></function>
+<event id="25"><name>Revaluation
+is necessary
+due to
+post-capi-
+talization</name></event>
+<event id="26"><name>Asset
+transaction
+with
+input
+tax was carried out</name></event>
+<event id="27"><name>New value
+method
+is not
+necessary</name></event>
+<event id="28"><name>Equipment
+is to
+be edited</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="59"><flow source="2" target="0"/></arc>
+<arc id="112"><flow source="3" target="24"/></arc>
+<arc id="131"><flow source="4" target="14"/></arc>
+<arc id="160"><flow source="5" target="14"/></arc>
+<arc id="178"><flow source="6" target="3"/></arc>
+<arc id="204"><flow source="7" target="0"/></arc>
+<arc id="238"><flow source="8" target="5"/></arc>
+<arc id="268"><flow source="9" target="6"/></arc>
+<arc id="297"><flow source="10" target="6"/></arc>
+<arc id="339"><flow source="11" target="19"/></arc>
+<arc id="342"><flow source="11" target="22"/></arc>
+<arc id="360"><flow source="12" target="11"/></arc>
+<arc id="364"><flow source="12" target="15"/></arc>
+<arc id="367"><flow source="12" target="18"/></arc>
+<arc id="382"><flow source="13" target="4"/></arc>
+<arc id="419"><flow source="14" target="12"/></arc>
+<arc id="456"><flow source="15" target="20"/></arc>
+<arc id="457"><flow source="15" target="21"/></arc>
+<arc id="459"><flow source="15" target="23"/></arc>
+<arc id="482"><flow source="16" target="17"/></arc>
+<arc id="508"><flow source="17" target="14"/></arc>
+<arc id="524"><flow source="18" target="1"/></arc>
+<arc id="549"><flow source="18" target="26"/></arc>
+<arc id="551"><flow source="18" target="28"/></arc>
+<arc id="664"><flow source="22" target="25"/></arc>
+<arc id="666"><flow source="22" target="27"/></arc>
+<arc id="711"><flow source="24" target="14"/></arc>
+</epc></epml>

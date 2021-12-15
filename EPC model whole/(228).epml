@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="229" name="1Ku_96oz">
+<function id="0"><name>Business
+Order
+Completion</name></function>
+<function id="1"><name>Order
+Settlement</name></function>
+<event id="2"><name>Settlement
+rule
+exists</name></event>
+<and id="3"/>
+<function id="4"><name>Order
+Archiving</name></function>
+<function id="5"><name>Technical
+Order
+Completion</name></function>
+<event id="6"><name>Open
+material
+reservations
+are deleted</name></event>
+<event id="7"><name>Maintenance
+order
+is completed
+with
+time reference</name></event>
+<event id="8"><name>Order
+is to
+be archived</name></event>
+<event id="9"><name>Settlement
+rule
+is specified</name></event>
+<event id="10"><name>Archiving
+carried
+out</name></event>
+<event id="11"><name>Capacity
+requirement
+records
+are deleted</name></event>
+<event id="12"><name>Open
+purchase
+requisitions
+for non-stock
+material are deleted</name></event>
+<event id="13"><name>Order
+is settled</name></event>
+<and id="14"/>
+<event id="15"><name>Open
+purchase
+requisitions
+for external
+operation are deleted</name></event>
+<event id="16"><name>Maintenance
+order
+is to
+be closed</name></event>
+<and id="17"/>
+<event id="18"><name>Maintenance
+order
+is confirmed
+completely</name></event>
+<event id="19"><name>Order
+Should
+Be Technically
+Completed</name></event>
+<and id="20"/>
+<event id="21"><name>Order
+Should
+Be Settled</name></event>
+<event id="22"><name>Order
+is closed
+technically</name></event>
+<event id="23"><name>Actual
+costs
+are updated
+to maintenance
+order</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="38"><flow source="1" target="13"/></arc>
+<arc id="69"><flow source="2" target="20"/></arc>
+<arc id="79"><flow source="3" target="6"/></arc>
+<arc id="80"><flow source="3" target="7"/></arc>
+<arc id="81"><flow source="3" target="8"/></arc>
+<arc id="84"><flow source="3" target="11"/></arc>
+<arc id="85"><flow source="3" target="12"/></arc>
+<arc id="88"><flow source="3" target="15"/></arc>
+<arc id="107"><flow source="4" target="10"/></arc>
+<arc id="143"><flow source="5" target="22"/></arc>
+<arc id="197"><flow source="8" target="4"/></arc>
+<arc id="231"><flow source="9" target="14"/></arc>
+<arc id="327"><flow source="13" target="14"/></arc>
+<arc id="337"><flow source="14" target="0"/></arc>
+<arc id="399"><flow source="16" target="14"/></arc>
+<arc id="414"><flow source="17" target="5"/></arc>
+<arc id="450"><flow source="18" target="17"/></arc>
+<arc id="474"><flow source="19" target="17"/></arc>
+<arc id="482"><flow source="20" target="1"/></arc>
+<arc id="525"><flow source="21" target="20"/></arc>
+<arc id="549"><flow source="22" target="20"/></arc>
+<arc id="573"><flow source="23" target="20"/></arc>
+</epc></epml>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="207" name="1In_b3z3">
+<function id="0"><name>Individual
+Time
+Confirmation</name></function>
+<event id="1"><name>Capacity
+load
+is updated</name></event>
+<xor id="2"/>
+<xor id="3"/>
+<xor id="4"/>
+<event id="5"><name>Operations
+and Order
+Must
+Be Confirmed</name></event>
+<xor id="6"/>
+<event id="7"><name>Services
+are to
+be entered</name></event>
+<event id="8"><name>Measurement
+doc.
+should
+be created
+for order</name></event>
+<function id="9"><name>Time
+Sheet
+Processing</name></function>
+<event id="10"><name>Measurement
+document
+to be
+created
+without notification or order description</name></event>
+<event id="11"><name>Service
+is accepted</name></event>
+<or id="12"/>
+<or id="13"/>
+<event id="14"><name>Time
+sheet
+is to
+be revised</name></event>
+<function id="15"><name>Measurement
+Document
+Archiving</name></function>
+<and id="16"/>
+<and id="17"/>
+<function id="18"><name>Measurement
+Document
+Processing</name></function>
+<function id="19"><name>Time
+Sheet
+Permit</name></function>
+<event id="20"><name>Measurement
+readings
+are transferred
+to dep.meas.pts</name></event>
+<xor id="21"/>
+<function id="22"><name>Forwarding
+of Time
+Sheet
+Data
+to PM</name></function>
+<xor id="23"/>
+<event id="24"><name>Measurement
+doc.
+should
+be created
+for notif.</name></event>
+<event id="25"><name>Individual
+operations
+are confirmed</name></event>
+<event id="26"><name>Working
+hours
+data
+is to
+be approved</name></event>
+<event id="27"><name>Backflush
+is to
+be posted</name></event>
+<event id="28"><name>Archiving
+carried
+out</name></event>
+<event id="29"><name>Open
+material
+reservations
+are deleted</name></event>
+<and id="30"/>
+<or id="31"/>
+<and id="32"/>
+<event id="33"><name>Working
+hours
+data
+is to
+be analyzed</name></event>
+<and id="34"/>
+<event id="35"><name>Working
+hours
+data
+can be
+transferred directly to target application</name></event>
+<function id="36"><name>Time
+Sheet
+Report</name></function>
+<xor id="37"/>
+<xor id="38"/>
+<function id="39"><name>Overall
+Completion
+Confirmation</name></function>
+<and id="40"/>
+<event id="41"><name>Measurement
+document
+is to
+be archived</name></event>
+<function id="42"><name>Collective
+Time
+Confirmation</name></function>
+<event id="43"><name>Follow-on
+documents
+of target
+application
+are generated</name></event>
+<event id="44"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<xor id="45"/>
+<function id="46"><name>Service
+Entry
+Sheet</name></function>
+<event id="47"><name>Actual
+costs
+are updated
+to maintenance
+order</name></event>
+<event id="48"><name>Working
+hours
+data
+is approved</name></event>
+<event id="49"><name>Working
+hours
+data
+was analyzed</name></event>
+<event id="50"><name>Maintenance
+order
+is confirmed
+completely</name></event>
+<event id="51"><name>Material
+withdrawal
+is not
+required</name></event>
+<event id="52"><name>Service
+entry
+sheet
+is transmitted</name></event>
+<event id="53"><name>Maintenance
+order
+is partially
+confirmed</name></event>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="109"><flow source="2" target="0"/></arc>
+<arc id="148"><flow source="2" target="39"/></arc>
+<arc id="151"><flow source="2" target="42"/></arc>
+<arc id="185"><flow source="3" target="22"/></arc>
+<arc id="231"><flow source="4" target="14"/></arc>
+<arc id="265"><flow source="4" target="48"/></arc>
+<arc id="302"><flow source="5" target="31"/></arc>
+<arc id="365"><flow source="6" target="40"/></arc>
+<arc id="411"><flow source="7" target="32"/></arc>
+<arc id="478"><flow source="8" target="45"/></arc>
+<arc id="510"><flow source="9" target="23"/></arc>
+<arc id="586"><flow source="10" target="45"/></arc>
+<arc id="657"><flow source="12" target="8"/></arc>
+<arc id="686"><flow source="12" target="37"/></arc>
+<arc id="723"><flow source="13" target="20"/></arc>
+<arc id="744"><flow source="13" target="41"/></arc>
+<arc id="778"><flow source="14" target="21"/></arc>
+<arc id="839"><flow source="15" target="28"/></arc>
+<arc id="901"><flow source="16" target="36"/></arc>
+<arc id="962"><flow source="17" target="43"/></arc>
+<arc id="966"><flow source="17" target="47"/></arc>
+<arc id="986"><flow source="18" target="13"/></arc>
+<arc id="1031"><flow source="19" target="4"/></arc>
+<arc id="1144"><flow source="21" target="9"/></arc>
+<arc id="1206"><flow source="22" target="17"/></arc>
+<arc id="1269"><flow source="23" target="26"/></arc>
+<arc id="1278"><flow source="23" target="35"/></arc>
+<arc id="1342"><flow source="24" target="45"/></arc>
+<arc id="1424"><flow source="26" target="19"/></arc>
+<arc id="1632"><flow source="30" target="11"/></arc>
+<arc id="1673"><flow source="30" target="52"/></arc>
+<arc id="1677"><flow source="31" target="2"/></arc>
+<arc id="1707"><flow source="31" target="32"/></arc>
+<arc id="1709"><flow source="31" target="34"/></arc>
+<arc id="1775"><flow source="32" target="46"/></arc>
+<arc id="1799"><flow source="33" target="16"/></arc>
+<arc id="1858"><flow source="34" target="21"/></arc>
+<arc id="1894"><flow source="35" target="3"/></arc>
+<arc id="1994"><flow source="36" target="49"/></arc>
+<arc id="2026"><flow source="37" target="27"/></arc>
+<arc id="2050"><flow source="37" target="51"/></arc>
+<arc id="2078"><flow source="38" target="25"/></arc>
+<arc id="2103"><flow source="38" target="50"/></arc>
+<arc id="2106"><flow source="38" target="53"/></arc>
+<arc id="2113"><flow source="39" target="6"/></arc>
+<arc id="2162"><flow source="40" target="1"/></arc>
+<arc id="2173"><flow source="40" target="12"/></arc>
+<arc id="2190"><flow source="40" target="29"/></arc>
+<arc id="2199"><flow source="40" target="38"/></arc>
+<arc id="2230"><flow source="41" target="15"/></arc>
+<arc id="2275"><flow source="42" target="6"/></arc>
+<arc id="2339"><flow source="43" target="16"/></arc>
+<arc id="2411"><flow source="44" target="34"/></arc>
+<arc id="2449"><flow source="45" target="18"/></arc>
+<arc id="2515"><flow source="46" target="30"/></arc>
+<arc id="2596"><flow source="48" target="3"/></arc>
+</epc></epml>

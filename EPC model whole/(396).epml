@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="397" name="1Pr_kj--">
+<event id="0"><name>Product
+idea
+exists</name></event>
+<event id="1"><name>Carry
+out product
+development</name></event>
+<event id="2"><name>Carry
+out project
+development
+in the
+project</name></event>
+<and id="3"/>
+<and id="4"/>
+<function id="5"><name>Reference
+Project
+Search</name></function>
+<function id="6"><name>Analysis
+of Competition</name></function>
+<function id="7"><name>Product
+Idea
+Description</name></function>
+<event id="8"><name>Product
+idea
+is described
+in detail</name></event>
+<xor id="9"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="36"><flow source="3" target="5"/></arc>
+<arc id="37"><flow source="3" target="6"/></arc>
+<arc id="49"><flow source="4" target="8"/></arc>
+<arc id="55"><flow source="5" target="4"/></arc>
+<arc id="65"><flow source="6" target="4"/></arc>
+<arc id="80"><flow source="7" target="9"/></arc>
+<arc id="88"><flow source="8" target="7"/></arc>
+<arc id="92"><flow source="9" target="1"/></arc>
+<arc id="93"><flow source="9" target="2"/></arc>
+</epc></epml>

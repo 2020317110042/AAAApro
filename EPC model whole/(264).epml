@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="265" name="1Or_lp64">
+<event id="0"><name>Personnel
+staff
+plan
+must
+be corrected</name></event>
+<xor id="1"/>
+<event id="2"><name>Personnel
+change
+plan
+must
+be corrected</name></event>
+<or id="3"/>
+<function id="4"><name>Monitoring
+of Personnel
+Change
+Planning</name></function>
+<event id="5"><name>Provisions
+of staff/
+change
+planning
+must be corrected</name></event>
+<event id="6"><name>Further
+implementation
+actions
+must
+be performed</name></event>
+<or id="7"/>
+<xor id="8"/>
+<event id="9"><name>Need
+for monitoring
+of staff
+planning
+exists</name></event>
+<function id="10"><name>Monitoring
+of Personnel
+Staff
+Planning</name></function>
+<event id="11"><name>Need
+for monitoring
+of change
+planning
+exists</name></event>
+<arc id="13"><flow source="1" target="0"/></arc>
+<arc id="20"><flow source="1" target="7"/></arc>
+<arc id="42"><flow source="3" target="5"/></arc>
+<arc id="43"><flow source="3" target="6"/></arc>
+<arc id="57"><flow source="4" target="8"/></arc>
+<arc id="88"><flow source="7" target="3"/></arc>
+<arc id="99"><flow source="8" target="2"/></arc>
+<arc id="104"><flow source="8" target="7"/></arc>
+<arc id="119"><flow source="9" target="10"/></arc>
+<arc id="122"><flow source="10" target="1"/></arc>
+<arc id="137"><flow source="11" target="4"/></arc>
+</epc></epml>

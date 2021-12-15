@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="272" name="1Pe_lsz3">
+<function id="0"><name>Work
+Contract
+Negotiation</name></function>
+<event id="1"><name>Applicant
+is rejected
+for vacancy</name></event>
+<xor id="2"/>
+<and id="3"/>
+<function id="4"><name>Applicant
+Pool
+Administration</name></function>
+<event id="5"><name>Confirmation
+of receipt
+is transmitted
+to applicant</name></event>
+<or id="6"/>
+<xor id="7"/>
+<and id="8"/>
+<and id="9"/>
+<event id="10"><name>Recruitment
+request
+is in
+process</name></event>
+<event id="11"><name>Applicant
+pool
+must
+be updated</name></event>
+<event id="12"><name>Time
+for order
+monitoring
+is reached</name></event>
+<event id="13"><name>Applicant
+must
+be hired</name></event>
+<event id="14"><name>Need
+for personnel
+advertising
+exists</name></event>
+<event id="15"><name>Retraction
+confirmation
+and application
+documents
+transmitted to applicant</name></event>
+<and id="16"/>
+<and id="17"/>
+<function id="18"><name>Recruitment
+Request
+Monitoring</name></function>
+<event id="19"><name>Vacancy
+and assigned
+applicants
+exist</name></event>
+<event id="20"><name>Applicant
+has been
+entered</name></event>
+<event id="21"><name>Job advertisement
+is determined</name></event>
+<event id="22"><name>Need
+for services
+has arisen</name></event>
+<event id="23"><name>Rejection
+and application
+documents
+transmitted
+to applicant</name></event>
+<event id="24"><name>On hold
+notification
+is transmitted
+to applicant</name></event>
+<and id="25"/>
+<function id="26"><name>Application
+Retraction
+Processing</name></function>
+<function id="27"><name>Issuance
+of Recruitment
+Request</name></function>
+<xor id="28"/>
+<event id="29"><name>Enterprise
+receives
+retraction
+of application</name></event>
+<function id="30"><name>Personnel
+Advertising</name></function>
+<event id="31"><name>Enterprise
+receives
+application</name></event>
+<and id="32"/>
+<or id="33"/>
+<event id="34"><name>Recruitment
+request
+is complete</name></event>
+<event id="35"><name>Time
+for job
+advertisement
+reached</name></event>
+<event id="36"><name>Applicant
+is put
+on hold
+for vacancy</name></event>
+<event id="37"><name>Applicant
+is conclusively
+rejected</name></event>
+<function id="38"><name>Processing
+Receipt
+of Application</name></function>
+<event id="39"><name>Applicant
+must
+be offered
+contract
+for vacancy</name></event>
+<and id="40"/>
+<and id="41"/>
+<and id="42"/>
+<function id="43"><name>Personnel
+Selection</name></function>
+<and id="44"/>
+<xor id="45"/>
+<event id="46"><name>Applicant
+is on
+hold</name></event>
+<event id="47"><name>Need
+for recruitment
+exists</name></event>
+<xor id="48"/>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="56"><flow source="1" target="6"/></arc>
+<arc id="113"><flow source="2" target="14"/></arc>
+<arc id="133"><flow source="2" target="34"/></arc>
+<arc id="144"><flow source="2" target="45"/></arc>
+<arc id="173"><flow source="3" target="25"/></arc>
+<arc id="181"><flow source="3" target="33"/></arc>
+<arc id="245"><flow source="4" target="48"/></arc>
+<arc id="328"><flow source="6" target="33"/></arc>
+<arc id="357"><flow source="7" target="13"/></arc>
+<arc id="377"><flow source="7" target="33"/></arc>
+<arc id="433"><flow source="8" target="40"/></arc>
+<arc id="437"><flow source="8" target="44"/></arc>
+<arc id="465"><flow source="9" target="23"/></arc>
+<arc id="479"><flow source="9" target="37"/></arc>
+<arc id="499"><flow source="10" target="8"/></arc>
+<arc id="582"><flow source="11" target="42"/></arc>
+<arc id="629"><flow source="12" target="40"/></arc>
+<arc id="703"><flow source="14" target="16"/></arc>
+<arc id="815"><flow source="16" target="30"/></arc>
+<arc id="855"><flow source="17" target="21"/></arc>
+<arc id="856"><flow source="17" target="22"/></arc>
+<arc id="885"><flow source="18" target="2"/></arc>
+<arc id="975"><flow source="19" target="43"/></arc>
+<arc id="984"><flow source="20" target="3"/></arc>
+<arc id="1252"><flow source="25" target="26"/></arc>
+<arc id="1290"><flow source="26" target="15"/></arc>
+<arc id="1369"><flow source="27" target="45"/></arc>
+<arc id="1374"><flow source="28" target="1"/></arc>
+<arc id="1409"><flow source="28" target="36"/></arc>
+<arc id="1412"><flow source="28" target="39"/></arc>
+<arc id="1447"><flow source="29" target="25"/></arc>
+<arc id="1488"><flow source="30" target="17"/></arc>
+<arc id="1558"><flow source="31" target="38"/></arc>
+<arc id="1593"><flow source="32" target="24"/></arc>
+<arc id="1615"><flow source="32" target="46"/></arc>
+<arc id="1660"><flow source="33" target="42"/></arc>
+<arc id="1732"><flow source="35" target="16"/></arc>
+<arc id="1771"><flow source="36" target="6"/></arc>
+<arc id="1904"><flow source="38" target="41"/></arc>
+<arc id="1912"><flow source="39" target="0"/></arc>
+<arc id="1979"><flow source="40" target="18"/></arc>
+<arc id="2015"><flow source="41" target="5"/></arc>
+<arc id="2030"><flow source="41" target="20"/></arc>
+<arc id="2103"><flow source="42" target="44"/></arc>
+<arc id="2136"><flow source="43" target="28"/></arc>
+<arc id="2161"><flow source="44" target="4"/></arc>
+<arc id="2216"><flow source="45" target="10"/></arc>
+<arc id="2331"><flow source="47" target="27"/></arc>
+<arc id="2362"><flow source="48" target="9"/></arc>
+<arc id="2372"><flow source="48" target="19"/></arc>
+<arc id="2385"><flow source="48" target="32"/></arc>
+</epc></epml>

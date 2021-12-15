@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="304" name="1Pe_mhtm">
+<function id="0"><name>Calculation
+of Time-Dependent
+Remuneration</name></function>
+<event id="1"><name>Benefit-dependent
+remuneration
+is to
+be calculated</name></event>
+<event id="2"><name>Characterized
+remuneration
+elements
+exist</name></event>
+<xor id="3"/>
+<event id="4"><name>Time-dependent
+remuneration
+is to
+be calculated</name></event>
+<event id="5"><name>Agreed
+remuneration
+is to
+be calculated</name></event>
+<function id="6"><name>Calculation
+of Agreed
+Remuneration</name></function>
+<xor id="7"/>
+<event id="8"><name>Calculation
+of Remuneration
+Required</name></event>
+<function id="9"><name>Calculation
+of Benefit-Dependent
+Remuneration</name></function>
+<function id="10"><name>Determination
+of Relevant
+Methods
+for Remuneration
+Calculation</name></function>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="21"><flow source="1" target="9"/></arc>
+<arc id="36"><flow source="3" target="2"/></arc>
+<arc id="45"><flow source="4" target="0"/></arc>
+<arc id="62"><flow source="5" target="6"/></arc>
+<arc id="70"><flow source="6" target="3"/></arc>
+<arc id="79"><flow source="7" target="1"/></arc>
+<arc id="82"><flow source="7" target="4"/></arc>
+<arc id="83"><flow source="7" target="5"/></arc>
+<arc id="99"><flow source="8" target="10"/></arc>
+<arc id="103"><flow source="9" target="3"/></arc>
+<arc id="118"><flow source="10" target="7"/></arc>
+</epc></epml>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="87" name="1Be_8ri3">
+<xor id="0"/>
+<event id="1"><name>Inv.
+sampling
+procedure
+to be
+performed</name></event>
+<xor id="2"/>
+<event id="3"><name>Re-count
+necessary</name></event>
+<event id="4"><name>Material
+stocks
+are OK</name></event>
+<and id="5"/>
+<and id="6"/>
+<function id="7"><name>Physical
+Inventory
+Analysis</name></function>
+<event id="8"><name>Inspection
+sample
+is created</name></event>
+<event id="9"><name>Physical
+inventory
+is completed</name></event>
+<event id="10"><name>Phys.
+inv.
+differences
+are to
+be posted</name></event>
+<function id="11"><name>Printout
+of Physical
+Inventory
+Document</name></function>
+<function id="12"><name>Post
+Inventory
+Differences</name></function>
+<xor id="13"/>
+<function id="14"><name>Recount</name></function>
+<event id="15"><name>Phys.
+inventory
+using
+cycle
+counting method is to be performed</name></event>
+<function id="16"><name>Sample
+Processing</name></function>
+<function id="17"><name>Inventory
+Count</name></function>
+<event id="18"><name>Physical
+inventory
+document
+is printed</name></event>
+<event id="19"><name>Physical
+inventory
+scope
+is determined</name></event>
+<event id="20"><name>Recount
+is initiated</name></event>
+<event id="21"><name>Physical
+inventory
+is to
+be carried
+out</name></event>
+<event id="22"><name>Periodic
+inventory
+to be
+performed</name></event>
+<event id="23"><name>Physical
+inventory
+count
+is entered</name></event>
+<xor id="24"/>
+<event id="25"><name>Continuous
+inventory
+for stck
+material
+is to be performed</name></event>
+<event id="26"><name>Materials
+are flagged</name></event>
+<function id="27"><name>Sample
+Definition</name></function>
+<function id="28"><name>Determination
+of Scope
+for Periodic
+and Continuous
+Inventory</name></function>
+<function id="29"><name>Specification
+of Cycle
+Counting
+Phys.
+Inv.</name></function>
+<xor id="30"/>
+<function id="31"><name>Cycle
+Counting
+Phys.
+Inv.
+Preparation</name></function>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="60"><flow source="1" target="27"/></arc>
+<arc id="68"><flow source="2" target="3"/></arc>
+<arc id="70"><flow source="2" target="5"/></arc>
+<arc id="75"><flow source="2" target="10"/></arc>
+<arc id="111"><flow source="3" target="14"/></arc>
+<arc id="161"><flow source="5" target="0"/></arc>
+<arc id="165"><flow source="5" target="4"/></arc>
+<arc id="223"><flow source="6" target="30"/></arc>
+<arc id="227"><flow source="7" target="2"/></arc>
+<arc id="273"><flow source="8" target="16"/></arc>
+<arc id="333"><flow source="10" target="12"/></arc>
+<arc id="371"><flow source="11" target="18"/></arc>
+<arc id="385"><flow source="12" target="0"/></arc>
+<arc id="436"><flow source="13" target="19"/></arc>
+<arc id="469"><flow source="14" target="20"/></arc>
+<arc id="510"><flow source="15" target="29"/></arc>
+<arc id="526"><flow source="16" target="13"/></arc>
+<arc id="568"><flow source="17" target="23"/></arc>
+<arc id="583"><flow source="18" target="6"/></arc>
+<arc id="620"><flow source="19" target="11"/></arc>
+<arc id="671"><flow source="20" target="30"/></arc>
+<arc id="679"><flow source="21" target="6"/></arc>
+<arc id="729"><flow source="22" target="24"/></arc>
+<arc id="744"><flow source="23" target="7"/></arc>
+<arc id="797"><flow source="24" target="28"/></arc>
+<arc id="825"><flow source="25" target="24"/></arc>
+<arc id="864"><flow source="26" target="31"/></arc>
+<arc id="873"><flow source="27" target="8"/></arc>
+<arc id="910"><flow source="28" target="13"/></arc>
+<arc id="955"><flow source="29" target="26"/></arc>
+<arc id="978"><flow source="30" target="17"/></arc>
+<arc id="1006"><flow source="31" target="13"/></arc>
+</epc></epml>

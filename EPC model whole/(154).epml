@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="155" name="1Ex_egln">
+<event id="0"><name>Bill
+of exchange
+payment
+posted</name></event>
+<event id="1"><name>Down
+payment
+agreed
+with
+customer</name></event>
+<event id="2"><name>Payment
+received</name></event>
+<event id="3"><name>Invoice
+to be
+entered
+for one-time
+customer</name></event>
+<or id="4"/>
+<event id="5"><name>Internal
+transfer
+posting
+with
+clearing carried out</name></event>
+<function id="6"><name>Interest
+Calculation
+[A/R]</name></function>
+<event id="7"><name>Balance
+analysis
+to be
+carried
+out</name></event>
+<function id="8"><name>Customer
+Down
+Payments</name></function>
+<event id="9"><name>Line
+item
+analysis
+to be
+carried out</name></event>
+<event id="10"><name>Correspondence
+processed</name></event>
+<event id="11"><name>Manual
+clearing
+is complete</name></event>
+<function id="12"><name>Account
+Analysis
+[A/R]</name></function>
+<event id="13"><name>Invoice
+to be
+entered
+for customer</name></event>
+<function id="14"><name>Bill
+of Exchange
+Receivable</name></function>
+<event id="15"><name>Automatic
+clearing
+completed</name></event>
+<function id="16"><name>Account
+Clearing
+[AR]</name></function>
+<event id="17"><name>Correspondence
+to be
+sent</name></event>
+<xor id="18"/>
+<xor id="19"/>
+<event id="20"><name>Partial
+payment
+should
+be made</name></event>
+<event id="21"><name>Line
+items
+to be
+cleared</name></event>
+<event id="22"><name>Customer
+invoice
+is to
+be parked</name></event>
+<event id="23"><name>Payment
+must
+be effected</name></event>
+<event id="24"><name>Bill
+of exchange
+payment
+request
+to be created</name></event>
+<event id="25"><name>Items
+to be
+dunned</name></event>
+<function id="26"><name>Correspondence
+with
+Customers</name></function>
+<event id="27"><name>Internal
+transfer
+posting
+posted</name></event>
+<event id="28"><name>Down
+payment
+is to
+be cleared
+manually</name></event>
+<event id="29"><name>Customer
+credit
+memo
+is to
+be entered</name></event>
+<xor id="30"/>
+<function id="31"><name>Dunning
+Notice</name></function>
+<event id="32"><name>Payment
+medium
+created</name></event>
+<and id="33"/>
+<event id="34"><name>Reminder
+is created</name></event>
+<xor id="35"/>
+<event id="36"><name>Credit
+management
+analysis
+to be
+carried out</name></event>
+<function id="37"><name>Invoices
+and Credit
+Memos</name></function>
+<xor id="38"/>
+<event id="39"><name>Evaluations
+exist</name></event>
+<and id="40"/>
+<event id="41"><name>Customer
+credit
+memo
+is to
+be parked</name></event>
+<event id="42"><name>Clearing
+is posted</name></event>
+<and id="43"/>
+<event id="44"><name>Interest
+on arrears
+to be
+calculated</name></event>
+<event id="45"><name>Line
+items
+to be
+cleared</name></event>
+<event id="46"><name>Credit
+memo
+for one-time
+account
+customer is to be entered</name></event>
+<event id="47"><name>Interest
+to be
+calculated
+on account
+balances</name></event>
+<event id="48"><name>Item
+balance
+is zero</name></event>
+<event id="49"><name>Interest
+calculation
+is completed</name></event>
+<event id="50"><name>Customer
+invoice
+is posted</name></event>
+<function id="51"><name>Customer
+Payments</name></function>
+<arc id="93"><flow source="1" target="40"/></arc>
+<arc id="124"><flow source="2" target="19"/></arc>
+<arc id="192"><flow source="3" target="35"/></arc>
+<arc id="215"><flow source="4" target="6"/></arc>
+<arc id="362"><flow source="6" target="49"/></arc>
+<arc id="383"><flow source="7" target="18"/></arc>
+<arc id="459"><flow source="8" target="42"/></arc>
+<arc id="487"><flow source="9" target="18"/></arc>
+<arc id="664"><flow source="12" target="39"/></arc>
+<arc id="712"><flow source="13" target="35"/></arc>
+<arc id="729"><flow source="14" target="0"/></arc>
+<arc id="871"><flow source="16" target="38"/></arc>
+<arc id="911"><flow source="17" target="26"/></arc>
+<arc id="949"><flow source="18" target="12"/></arc>
+<arc id="1022"><flow source="19" target="33"/></arc>
+<arc id="1060"><flow source="20" target="19"/></arc>
+<arc id="1109"><flow source="21" target="16"/></arc>
+<arc id="1180"><flow source="22" target="35"/></arc>
+<arc id="1216"><flow source="23" target="19"/></arc>
+<arc id="1263"><flow source="24" target="14"/></arc>
+<arc id="1332"><flow source="25" target="31"/></arc>
+<arc id="1363"><flow source="26" target="10"/></arc>
+<arc id="1497"><flow source="28" target="40"/></arc>
+<arc id="1544"><flow source="29" target="35"/></arc>
+<arc id="1563"><flow source="30" target="2"/></arc>
+<arc id="1566"><flow source="30" target="5"/></arc>
+<arc id="1585"><flow source="30" target="24"/></arc>
+<arc id="1586"><flow source="30" target="25"/></arc>
+<arc id="1588"><flow source="30" target="27"/></arc>
+<arc id="1589"><flow source="30" target="28"/></arc>
+<arc id="1611"><flow source="30" target="50"/></arc>
+<arc id="1647"><flow source="31" target="34"/></arc>
+<arc id="1768"><flow source="33" target="51"/></arc>
+<arc id="1858"><flow source="35" target="37"/></arc>
+<arc id="1891"><flow source="36" target="18"/></arc>
+<arc id="1955"><flow source="37" target="30"/></arc>
+<arc id="1988"><flow source="38" target="11"/></arc>
+<arc id="2020"><flow source="38" target="43"/></arc>
+<arc id="2022"><flow source="38" target="45"/></arc>
+<arc id="2089"><flow source="40" target="8"/></arc>
+<arc id="2168"><flow source="41" target="35"/></arc>
+<arc id="2252"><flow source="43" target="15"/></arc>
+<arc id="2285"><flow source="43" target="48"/></arc>
+<arc id="2293"><flow source="44" target="4"/></arc>
+<arc id="2428"><flow source="46" target="35"/></arc>
+<arc id="2449"><flow source="47" target="4"/></arc>
+<arc id="2634"><flow source="50" target="33"/></arc>
+<arc id="2685"><flow source="51" target="32"/></arc>
+</epc></epml>

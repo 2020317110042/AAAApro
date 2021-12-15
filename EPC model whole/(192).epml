@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="193" name="1In_aoee">
+<event id="0"><name>Item
+for hierarchy
+level
+is entered</name></event>
+<event id="1"><name>Equipment
+is processed</name></event>
+<xor id="2"/>
+<event id="3"><name>Equipment
+is assigned
+to superior
+equipment</name></event>
+<function id="4"><name>Installation,
+Dismantling
+and Modification
+of Equipment</name></function>
+<and id="5"/>
+<and id="6"/>
+<event id="7"><name>Equipment
+is installed,
+dismantled
+or modified</name></event>
+<event id="8"><name>Equipment
+must
+be installed,
+dismantled
+or modified</name></event>
+<event id="9"><name>Installation
+or dismantling
+time
+is specified</name></event>
+<event id="10"><name>Functional
+location
+is processed</name></event>
+<and id="11"/>
+<arc id="24"><flow source="1" target="11"/></arc>
+<arc id="28"><flow source="2" target="3"/></arc>
+<arc id="32"><flow source="2" target="7"/></arc>
+<arc id="55"><flow source="4" target="6"/></arc>
+<arc id="65"><flow source="5" target="4"/></arc>
+<arc id="73"><flow source="6" target="0"/></arc>
+<arc id="75"><flow source="6" target="2"/></arc>
+<arc id="82"><flow source="6" target="9"/></arc>
+<arc id="102"><flow source="8" target="5"/></arc>
+<arc id="132"><flow source="10" target="11"/></arc>
+<arc id="138"><flow source="11" target="5"/></arc>
+</epc></epml>

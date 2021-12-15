@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="263" name="1Or_lojl">
+<and id="0"/>
+<and id="1"/>
+<and id="2"/>
+<event id="3"><name>Need
+for personnel
+staff
+planning
+exists</name></event>
+<event id="4"><name>Further
+implementation
+actions
+must
+be performed</name></event>
+<event id="5"><name>Need
+for monitoring
+of change
+planning
+exists</name></event>
+<event id="6"><name>Provisions
+of staff/
+change
+planning
+must be corrected</name></event>
+<event id="7"><name>Provisions
+of personnel
+staff
+planning
+are implemented</name></event>
+<event id="8"><name>Need
+for monitoring
+of staff
+planning
+exists</name></event>
+<event id="9"><name>Department
+and assigned
+employee
+exist</name></event>
+<xor id="10"/>
+<event id="11"><name>Personnel
+staff
+plan
+must
+be corrected</name></event>
+<function id="12"><name>Personnel
+Change
+Planning</name></function>
+<event id="13"><name>Position
+exists</name></event>
+<event id="14"><name>Need
+for monitoring
+of career
+planning
+exists</name></event>
+<function id="15"><name>Monitoring
+of Personnel
+Staff
+and Change
+Planning</name></function>
+<event id="16"><name>Personnel
+staff
+plan
+exists</name></event>
+<and id="17"/>
+<event id="18"><name>Need
+for personnel
+change
+planning
+exists</name></event>
+<event id="19"><name>Need
+for recruitment
+exists</name></event>
+<event id="20"><name>Need
+for individual
+personnel
+development
+planning exists</name></event>
+<xor id="21"/>
+<or id="22"/>
+<event id="23"><name>Need
+for downsizing
+exists</name></event>
+<xor id="24"/>
+<event id="25"><name>Personnel
+change
+plan
+must
+be corrected</name></event>
+<xor id="26"/>
+<event id="27"><name>Need
+for employee
+notification
+of task
+area exists</name></event>
+<xor id="28"/>
+<event id="29"><name>Need
+for position
+formation
+exists</name></event>
+<event id="30"><name>Need
+for personnel
+assignment
+exists</name></event>
+<or id="31"/>
+<event id="32"><name>Provisions
+of personnel
+change
+planning
+are implemented</name></event>
+<event id="33"><name>Need
+for provisions
+for staff/
+change
+planning exists</name></event>
+<function id="34"><name>Personnel
+Staff
+Planning</name></function>
+<function id="35"><name>Design
+and Implementation
+of Provisions
+for Staff
+and Change Planning</name></function>
+<xor id="36"/>
+<arc id="35"><flow source="0" target="34"/></arc>
+<arc id="50"><flow source="1" target="12"/></arc>
+<arc id="82"><flow source="2" target="7"/></arc>
+<arc id="107"><flow source="2" target="32"/></arc>
+<arc id="122"><flow source="3" target="10"/></arc>
+<arc id="177"><flow source="4" target="28"/></arc>
+<arc id="217"><flow source="5" target="31"/></arc>
+<arc id="251"><flow source="6" target="28"/></arc>
+<arc id="260"><flow source="7" target="0"/></arc>
+<arc id="328"><flow source="8" target="31"/></arc>
+<arc id="334"><flow source="9" target="0"/></arc>
+<arc id="371"><flow source="10" target="0"/></arc>
+<arc id="418"><flow source="11" target="10"/></arc>
+<arc id="469"><flow source="12" target="24"/></arc>
+<arc id="482"><flow source="13" target="0"/></arc>
+<arc id="592"><flow source="15" target="36"/></arc>
+<arc id="644"><flow source="17" target="14"/></arc>
+<arc id="646"><flow source="17" target="16"/></arc>
+<arc id="648"><flow source="17" target="18"/></arc>
+<arc id="650"><flow source="17" target="20"/></arc>
+<arc id="657"><flow source="17" target="27"/></arc>
+<arc id="693"><flow source="18" target="26"/></arc>
+<arc id="781"><flow source="21" target="3"/></arc>
+<arc id="789"><flow source="21" target="11"/></arc>
+<arc id="795"><flow source="21" target="17"/></arc>
+<arc id="834"><flow source="22" target="19"/></arc>
+<arc id="838"><flow source="22" target="23"/></arc>
+<arc id="844"><flow source="22" target="29"/></arc>
+<arc id="845"><flow source="22" target="30"/></arc>
+<arc id="907"><flow source="24" target="18"/></arc>
+<arc id="911"><flow source="24" target="22"/></arc>
+<arc id="914"><flow source="24" target="25"/></arc>
+<arc id="952"><flow source="25" target="26"/></arc>
+<arc id="964"><flow source="26" target="1"/></arc>
+<arc id="1072"><flow source="28" target="35"/></arc>
+<arc id="1163"><flow source="31" target="15"/></arc>
+<arc id="1186"><flow source="32" target="1"/></arc>
+<arc id="1250"><flow source="33" target="28"/></arc>
+<arc id="1280"><flow source="34" target="21"/></arc>
+<arc id="1298"><flow source="35" target="2"/></arc>
+<arc id="1337"><flow source="36" target="4"/></arc>
+<arc id="1339"><flow source="36" target="6"/></arc>
+<arc id="1344"><flow source="36" target="11"/></arc>
+<arc id="1358"><flow source="36" target="25"/></arc>
+</epc></epml>

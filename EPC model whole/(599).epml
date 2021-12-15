@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="600" name="1Ve_n0ge">
+<function id="0"><name>Business
+Event
+Performance</name></function>
+<and id="1"/>
+<event id="2"><name>Business
+event
+exists</name></event>
+<event id="3"><name>Preparation
+of business
+event
+performance
+is desired</name></event>
+<function id="4"><name>Preparation
+of Business
+Event
+Performance</name></function>
+<event id="5"><name>Business
+event
+is cancelled</name></event>
+<event id="6"><name>Business
+event
+attendance
+must
+be cancelled</name></event>
+<and id="7"/>
+<event id="8"><name>Need
+for business
+event
+resource
+planning exists</name></event>
+<or id="9"/>
+<event id="10"><name>Preparation
+of business
+event
+performance
+is successfully completed</name></event>
+<event id="11"><name>Business
+event
+is performed</name></event>
+<xor id="12"/>
+<event id="13"><name>Time
+for performance
+of business
+event
+is reached</name></event>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="19"><flow source="1" target="4"/></arc>
+<arc id="30"><flow source="2" target="1"/></arc>
+<arc id="44"><flow source="3" target="1"/></arc>
+<arc id="66"><flow source="4" target="9"/></arc>
+<arc id="99"><flow source="7" target="0"/></arc>
+<arc id="133"><flow source="9" target="6"/></arc>
+<arc id="135"><flow source="9" target="8"/></arc>
+<arc id="139"><flow source="9" target="12"/></arc>
+<arc id="148"><flow source="10" target="7"/></arc>
+<arc id="174"><flow source="12" target="5"/></arc>
+<arc id="179"><flow source="12" target="10"/></arc>
+<arc id="190"><flow source="13" target="7"/></arc>
+</epc></epml>

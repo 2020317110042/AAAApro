@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="314" name="1Pr_1c2v">
+<event id="0"><name>Execute
+flexible
+planning</name></event>
+<function id="1"><name>Transfer
+of Results
+to Demand
+Management</name></function>
+<function id="2"><name>Standard
+SOP</name></function>
+<event id="3"><name>Sales
+and production
+quantities
+to be
+planned long to medium term</name></event>
+<event id="4"><name>Sales
+plan
+is processed</name></event>
+<or id="5"/>
+<event id="6"><name>Production
+plan
+is processed</name></event>
+<function id="7"><name>Flexible
+Planning</name></function>
+<event id="8"><name>Results
+transferred
+to Demand
+Management</name></event>
+<xor id="9"/>
+<or id="10"/>
+<event id="11"><name>SOP data
+to be
+transferred
+to Demand
+Management</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="21"><flow source="1" target="8"/></arc>
+<arc id="35"><flow source="2" target="10"/></arc>
+<arc id="39"><flow source="3" target="2"/></arc>
+<arc id="54"><flow source="4" target="5"/></arc>
+<arc id="70"><flow source="5" target="9"/></arc>
+<arc id="78"><flow source="6" target="5"/></arc>
+<arc id="96"><flow source="7" target="11"/></arc>
+<arc id="110"><flow source="9" target="1"/></arc>
+<arc id="125"><flow source="10" target="4"/></arc>
+<arc id="127"><flow source="10" target="6"/></arc>
+<arc id="142"><flow source="11" target="9"/></arc>
+</epc></epml>

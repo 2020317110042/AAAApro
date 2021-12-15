@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="116" name="1Er_i6yw">
+<function id="0"><name>Project
+Settlement</name></function>
+<function id="1"><name>Analysis
+of Results
+and Contribution
+Margins</name></function>
+<function id="2"><name>Settlement
+of Internal
+Orders
+(Actual
+Data)</name></function>
+<event id="3"><name>Orders
+to Be
+Settled
+to Profitability
+Analysis</name></event>
+<function id="4"><name>Settlement
+of Production
+Variances</name></function>
+<function id="5"><name>Actual
+Top-Down
+Distribution</name></function>
+<event id="6"><name>Production
+Variances
+Are to
+Be Settled</name></event>
+<function id="7"><name>Settlement
+of Sales
+Orders</name></function>
+<function id="8"><name>Actual
+Allocation
+of Cost
+Center
+Costs to Profitability Analysis</name></function>
+<event id="9"><name>Allocation
+of Cost
+Center
+Costs
+Required</name></event>
+<event id="10"><name>Overhead
+Costs
+Are to
+Be Settled
+to Profitability Analysis</name></event>
+<event id="11"><name>Special
+direct
+costs
+were
+distributed to a lower level</name></event>
+<and id="12"/>
+<xor id="13"/>
+<event id="14"><name>Organizational
+operating
+profit
+(actual)
+exists</name></event>
+<event id="15"><name>Top-down
+distribution
+required</name></event>
+<event id="16"><name>Control
+measures
+taken
+due to
+variances</name></event>
+<event id="17"><name>Costs/
+revenues
+were
+allocated
+to profitability analysis</name></event>
+<and id="18"/>
+<event id="19"><name>Allocation
+of Process
+Costs
+Required</name></event>
+<function id="20"><name>Actual
+Allocation
+of Process
+Costs
+to Profitability Analysis</name></function>
+<event id="21"><name>Project
+costs/
+revenues
+to be
+settled to profitability analysis</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="35"><flow source="1" target="12"/></arc>
+<arc id="58"><flow source="2" target="13"/></arc>
+<arc id="74"><flow source="3" target="7"/></arc>
+<arc id="102"><flow source="4" target="13"/></arc>
+<arc id="122"><flow source="5" target="11"/></arc>
+<arc id="137"><flow source="6" target="4"/></arc>
+<arc id="168"><flow source="7" target="13"/></arc>
+<arc id="190"><flow source="8" target="13"/></arc>
+<arc id="207"><flow source="9" target="8"/></arc>
+<arc id="223"><flow source="10" target="2"/></arc>
+<arc id="244"><flow source="11" target="1"/></arc>
+<arc id="279"><flow source="12" target="14"/></arc>
+<arc id="281"><flow source="12" target="16"/></arc>
+<arc id="304"><flow source="13" target="17"/></arc>
+<arc id="349"><flow source="15" target="18"/></arc>
+<arc id="393"><flow source="17" target="18"/></arc>
+<arc id="402"><flow source="18" target="5"/></arc>
+<arc id="439"><flow source="19" target="20"/></arc>
+<arc id="454"><flow source="20" target="13"/></arc>
+<arc id="463"><flow source="21" target="0"/></arc>
+</epc></epml>

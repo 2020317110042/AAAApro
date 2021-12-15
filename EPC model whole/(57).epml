@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="58" name="1Be_2gm6">
+<event id="0"><name>Material
+is removed
+from
+stock</name></event>
+<event id="1"><name>Shipping
+unit
+is to
+be created</name></event>
+<function id="2"><name>Goods
+Issue
+Processing</name></function>
+<xor id="3"/>
+<event id="4"><name>Material
+is issued</name></event>
+<function id="5"><name>Picking</name></function>
+<function id="6"><name>Packing
+Processing</name></function>
+<xor id="7"/>
+<event id="8"><name>Material
+has been
+picked</name></event>
+<event id="9"><name>Shipping
+unit
+is created</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="17"><flow source="1" target="6"/></arc>
+<arc id="25"><flow source="2" target="4"/></arc>
+<arc id="32"><flow source="3" target="1"/></arc>
+<arc id="39"><flow source="3" target="8"/></arc>
+<arc id="54"><flow source="5" target="3"/></arc>
+<arc id="70"><flow source="6" target="9"/></arc>
+<arc id="73"><flow source="7" target="2"/></arc>
+<arc id="88"><flow source="8" target="7"/></arc>
+<arc id="98"><flow source="9" target="7"/></arc>
+</epc></epml>

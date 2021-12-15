@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="204" name="1In_b1vj">
+<event id="0"><name>Maintenance
+order
+is created
+automatically
+for maintenance notification</name></event>
+<event id="1"><name>Measurement
+doc.
+should
+be created
+for notif.</name></event>
+<event id="2"><name>Maintenance
+notification
+is in
+process</name></event>
+<function id="3"><name>Notification
+Printing</name></function>
+<event id="4"><name>Shop
+papers
+are to
+be printed
+from notification</name></event>
+<function id="5"><name>Notification
+Creation/
+Processing</name></function>
+<event id="6"><name>Maintenance
+tasks
+are to
+be processed</name></event>
+<xor id="7"/>
+<and id="8"/>
+<event id="9"><name>Notification
+is printed</name></event>
+<event id="10"><name>Notification
+papers
+are to
+be printed</name></event>
+<event id="11"><name>Notification
+is to
+be processed
+by planner
+group</name></event>
+<event id="12"><name>Maintenance
+requirement
+has arisen</name></event>
+<event id="13"><name>Shop
+papers
+are to
+be printed
+from order</name></event>
+<xor id="14"/>
+<or id="15"/>
+<event id="16"><name>Maintenance
+notification
+is to
+be generated
+from maintenance order</name></event>
+<event id="17"><name>Print
+log is
+created</name></event>
+<and id="18"/>
+<and id="19"/>
+<event id="20"><name>Notification
+and order
+assigned
+to one
+another</name></event>
+<event id="21"><name>Order
+type
+supports
+automatic
+generation of a notification</name></event>
+<event id="22"><name>Task
+is completed</name></event>
+<and id="23"/>
+<event id="24"><name>Maintenance
+order
+to be
+created
+directly from maintenance notification</name></event>
+<arc id="84"><flow source="3" target="8"/></arc>
+<arc id="141"><flow source="5" target="15"/></arc>
+<arc id="158"><flow source="6" target="7"/></arc>
+<arc id="181"><flow source="7" target="5"/></arc>
+<arc id="210"><flow source="8" target="9"/></arc>
+<arc id="218"><flow source="8" target="17"/></arc>
+<arc id="265"><flow source="10" target="14"/></arc>
+<arc id="283"><flow source="11" target="7"/></arc>
+<arc id="308"><flow source="12" target="7"/></arc>
+<arc id="345"><flow source="13" target="19"/></arc>
+<arc id="354"><flow source="14" target="3"/></arc>
+<arc id="377"><flow source="15" target="1"/></arc>
+<arc id="380"><flow source="15" target="4"/></arc>
+<arc id="386"><flow source="15" target="10"/></arc>
+<arc id="398"><flow source="15" target="22"/></arc>
+<arc id="399"><flow source="15" target="23"/></arc>
+<arc id="400"><flow source="15" target="24"/></arc>
+<arc id="419"><flow source="16" target="18"/></arc>
+<arc id="458"><flow source="18" target="7"/></arc>
+<arc id="490"><flow source="19" target="14"/></arc>
+<arc id="520"><flow source="20" target="19"/></arc>
+<arc id="544"><flow source="21" target="18"/></arc>
+<arc id="576"><flow source="23" target="0"/></arc>
+<arc id="578"><flow source="23" target="2"/></arc>
+</epc></epml>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="410" name="1Qu_btq3">
+<xor id="0"/>
+<xor id="1"/>
+<event id="2"><name>Enter
+characteristic
+defects</name></event>
+<event id="3"><name>Automatic
+label
+printing
+is triggered</name></event>
+<and id="4"/>
+<event id="5"><name>Sample
+is released</name></event>
+<event id="6"><name>Usage
+decision
+is documented</name></event>
+<event id="7"><name>Vendor
+is released</name></event>
+<event id="8"><name>Inspection
+completion
+is to
+be forced</name></event>
+<event id="9"><name>Inspection
+completion
+is carried
+out</name></event>
+<xor id="10"/>
+<event id="11"><name>Results
+for operation
+must
+be recorded</name></event>
+<event id="12"><name>Material
+is released</name></event>
+<event id="13"><name>Data
+is updated</name></event>
+<xor id="14"/>
+<event id="15"><name>Inspection
+lot status
+allows
+a goods
+issue</name></event>
+<event id="16"><name>Vendor
+must
+be locked
+as regards
+this material</name></event>
+<and id="17"/>
+<xor id="18"/>
+<event id="19"><name>Defect
+is recorded</name></event>
+<function id="20"><name>Inspection
+Lot Creation</name></function>
+<event id="21"><name>QMIS
+updated</name></event>
+<event id="22"><name>Enter
+defects
+from
+the inspection
+lot</name></event>
+<event id="23"><name>Enter
+characteristic
+defects</name></event>
+<or id="24"/>
+<event id="25"><name>Enter
+defects
+from
+the inspection
+lot</name></event>
+<event id="26"><name>Results
+for the
+sample
+are to
+be recorded</name></event>
+<and id="27"/>
+<event id="28"><name>Physical-sample
+drawing
+is to
+be created
+with reference</name></event>
+<event id="29"><name>Inspection
+lot is
+to be
+created
+automatically</name></event>
+<function id="30"><name>Results
+Recording</name></function>
+<event id="31"><name>Enter
+defects
+from
+the operation</name></event>
+<or id="32"/>
+<function id="33"><name>Usage
+Decision</name></function>
+<xor id="34"/>
+<xor id="35"/>
+<event id="36"><name>Material
+is to
+be returned</name></event>
+<or id="37"/>
+<or id="38"/>
+<and id="39"/>
+<event id="40"><name>Goods
+Receipt
+Posted</name></event>
+<function id="41"><name>Sample
+Calculation
+and Sample
+Management</name></function>
+<xor id="42"/>
+<xor id="43"/>
+<event id="44"><name>Results
+for the
+physical
+sample
+are to be recorded</name></event>
+<event id="45"><name>Vendor
+must
+be locked/
+released</name></event>
+<xor id="46"/>
+<xor id="47"/>
+<event id="48"><name>All characteristics
+are closed</name></event>
+<and id="49"/>
+<function id="50"><name>Defects
+Recording</name></function>
+<event id="51"><name>Inspection
+results
+are copied
+to general
+characteristics</name></event>
+<event id="52"><name>Inspection
+lot is
+to be
+created
+manually</name></event>
+<or id="53"/>
+<xor id="54"/>
+<event id="55"><name>Inspection
+lot completion
+for skip
+is to
+be made</name></event>
+<event id="56"><name>Quality
+notification
+is activated
+from
+defects</name></event>
+<event id="57"><name>Enter
+defects
+from
+the operation</name></event>
+<xor id="58"/>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="27"><flow source="0" target="26"/></arc>
+<arc id="80"><flow source="1" target="20"/></arc>
+<arc id="154"><flow source="2" target="35"/></arc>
+<arc id="242"><flow source="4" target="5"/></arc>
+<arc id="269"><flow source="4" target="32"/></arc>
+<arc id="323"><flow source="5" target="27"/></arc>
+<arc id="463"><flow source="7" target="49"/></arc>
+<arc id="531"><flow source="8" target="58"/></arc>
+<arc id="614"><flow source="10" target="23"/></arc>
+<arc id="616"><flow source="10" target="25"/></arc>
+<arc id="648"><flow source="10" target="57"/></arc>
+<arc id="692"><flow source="11" target="42"/></arc>
+<arc id="843"><flow source="14" target="16"/></arc>
+<arc id="872"><flow source="14" target="45"/></arc>
+<arc id="1023"><flow source="17" target="19"/></arc>
+<arc id="1025"><flow source="17" target="21"/></arc>
+<arc id="1071"><flow source="18" target="8"/></arc>
+<arc id="1111"><flow source="18" target="48"/></arc>
+<arc id="1156"><flow source="19" target="34"/></arc>
+<arc id="1218"><flow source="20" target="37"/></arc>
+<arc id="1334"><flow source="22" target="35"/></arc>
+<arc id="1404"><flow source="23" target="46"/></arc>
+<arc id="1434"><flow source="24" target="17"/></arc>
+<arc id="1473"><flow source="24" target="56"/></arc>
+<arc id="1522"><flow source="25" target="46"/></arc>
+<arc id="1577"><flow source="26" target="42"/></arc>
+<arc id="1636"><flow source="27" target="42"/></arc>
+<arc id="1694"><flow source="28" target="41"/></arc>
+<arc id="1761"><flow source="29" target="49"/></arc>
+<arc id="1824"><flow source="30" target="53"/></arc>
+<arc id="1865"><flow source="31" target="35"/></arc>
+<arc id="1892"><flow source="32" target="3"/></arc>
+<arc id="1933"><flow source="32" target="44"/></arc>
+<arc id="1987"><flow source="33" target="39"/></arc>
+<arc id="2040"><flow source="34" target="33"/></arc>
+<arc id="2113"><flow source="35" target="47"/></arc>
+<arc id="2184"><flow source="37" target="0"/></arc>
+<arc id="2194"><flow source="37" target="10"/></arc>
+<arc id="2212"><flow source="37" target="28"/></arc>
+<arc id="2239"><flow source="37" target="55"/></arc>
+<arc id="2249"><flow source="38" target="6"/></arc>
+<arc id="2252"><flow source="38" target="9"/></arc>
+<arc id="2257"><flow source="38" target="14"/></arc>
+<arc id="2258"><flow source="38" target="15"/></arc>
+<arc id="2294"><flow source="38" target="51"/></arc>
+<arc id="2297"><flow source="38" target="54"/></arc>
+<arc id="2315"><flow source="39" target="13"/></arc>
+<arc id="2340"><flow source="39" target="38"/></arc>
+<arc id="2410"><flow source="40" target="49"/></arc>
+<arc id="2424"><flow source="41" target="4"/></arc>
+<arc id="2509"><flow source="42" target="30"/></arc>
+<arc id="2540"><flow source="43" target="2"/></arc>
+<arc id="2560"><flow source="43" target="22"/></arc>
+<arc id="2569"><flow source="43" target="31"/></arc>
+<arc id="2624"><flow source="44" target="27"/></arc>
+<arc id="2762"><flow source="46" target="47"/></arc>
+<arc id="2824"><flow source="47" target="50"/></arc>
+<arc id="2891"><flow source="48" target="58"/></arc>
+<arc id="2893"><flow source="49" target="1"/></arc>
+<arc id="2975"><flow source="50" target="24"/></arc>
+<arc id="3070"><flow source="52" target="1"/></arc>
+<arc id="3146"><flow source="53" target="18"/></arc>
+<arc id="3171"><flow source="53" target="43"/></arc>
+<arc id="3199"><flow source="54" target="12"/></arc>
+<arc id="3223"><flow source="54" target="36"/></arc>
+<arc id="3280"><flow source="55" target="34"/></arc>
+<arc id="3410"><flow source="57" target="46"/></arc>
+<arc id="3457"><flow source="58" target="34"/></arc>
+</epc></epml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="505" name="1Ve_4mai">
+<event id="0"><name>Legal
+control
+data
+is processed</name></event>
+<event id="1"><name>Customer
+master
+record
+is created</name></event>
+<function id="2"><name>Monitoring
+of Legal
+Control
+Regulations</name></function>
+<event id="3"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="4"><name>Material
+master
+has been
+processed</name></event>
+<event id="5"><name>Export
+license
+master
+to be
+processed</name></event>
+<and id="6"/>
+<event id="7"><name>Export
+license
+master
+is processed</name></event>
+<function id="8"><name>Basic
+Data
+Processing
+for Legal
+Controls</name></function>
+<arc id="16"><flow source="1" target="6"/></arc>
+<arc id="19"><flow source="2" target="0"/></arc>
+<arc id="30"><flow source="3" target="2"/></arc>
+<arc id="43"><flow source="4" target="6"/></arc>
+<arc id="52"><flow source="5" target="6"/></arc>
+<arc id="63"><flow source="6" target="8"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

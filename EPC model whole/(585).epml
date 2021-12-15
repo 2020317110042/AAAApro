@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="586" name="1Ve_m63t">
+<event id="0"><name>Employee
+notified
+of retraction</name></event>
+<function id="1"><name>Employee
+Notification
+of Retraction</name></function>
+<and id="2"/>
+<event id="3"><name>Employee
+long-term
+incentive
+is granted</name></event>
+<event id="4"><name>Need
+for retraction
+of long-term
+incentives
+exists</name></event>
+<event id="5"><name>Long-term
+incentives
+are retracted</name></event>
+<function id="6"><name>Retraction
+of Long-Term
+Incentives</name></function>
+<arc id="8"><flow source="1" target="0"/></arc>
+<arc id="21"><flow source="2" target="6"/></arc>
+<arc id="24"><flow source="3" target="2"/></arc>
+<arc id="31"><flow source="4" target="2"/></arc>
+<arc id="37"><flow source="5" target="1"/></arc>
+<arc id="48"><flow source="6" target="5"/></arc>
+</epc></epml>

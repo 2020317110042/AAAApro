@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="533" name="1Ve_68lb">
+<event id="0"><name>Pro forma
+invoice
+is created</name></event>
+<event id="1"><name>Billing
+document
+to be
+cancelled</name></event>
+<function id="2"><name>Pro Forma
+Invoice
+Processing</name></function>
+<function id="3"><name>Billing
+Document
+Cancellation</name></function>
+<function id="4"><name>Processing
+Billing
+Documents</name></function>
+<and id="5"/>
+<event id="6"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="7"><name>Goods
+issue
+is posted</name></event>
+<event id="8"><name>Billing
+document/
+items
+are cancelled</name></event>
+<event id="9"><name>Pro forma
+invoice
+for order/
+delivery
+to be created</name></event>
+<event id="10"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<arc id="15"><flow source="1" target="3"/></arc>
+<arc id="23"><flow source="2" target="0"/></arc>
+<arc id="42"><flow source="3" target="8"/></arc>
+<arc id="55"><flow source="4" target="10"/></arc>
+<arc id="60"><flow source="5" target="4"/></arc>
+<arc id="72"><flow source="6" target="5"/></arc>
+<arc id="83"><flow source="7" target="5"/></arc>
+<arc id="102"><flow source="9" target="2"/></arc>
+</epc></epml>

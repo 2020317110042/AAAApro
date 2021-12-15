@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="412" name="1Qu_byan">
+<event id="0"><name>Maintenance
+plan
+released
+triggered</name></event>
+<xor id="1"/>
+<xor id="2"/>
+<or id="3"/>
+<and id="4"/>
+<event id="5"><name>Maintenance
+plan
+is to
+be scheduled
+manually</name></event>
+<event id="6"><name>Inspection
+lot is
+to be
+created
+automatically</name></event>
+<event id="7"><name>Maintenance
+call
+waits</name></event>
+<xor id="8"/>
+<function id="9"><name>Maintenance
+Call
+Processing</name></function>
+<event id="10"><name>Maintenance
+plan
+calls
+are processed</name></event>
+<event id="11"><name>Service
+order
+should
+be created
+per maint. item</name></event>
+<event id="12"><name>Maintenance
+plan
+is created</name></event>
+<event id="13"><name>Maintenance
+order
+to be
+created
+per maintenance item</name></event>
+<event id="14"><name>Call
+horizon
+is not
+reached</name></event>
+<and id="15"/>
+<event id="16"><name>Maintenance
+plan
+to be
+scheduled
+according to maintenance strategy</name></event>
+<event id="17"><name>Dates
++ due
+maintenance
+packages
+are determined</name></event>
+<and id="18"/>
+<xor id="19"/>
+<event id="20"><name>Call
+horizon
+is reached</name></event>
+<function id="21"><name>Maintenance
+Plan
+Scheduling</name></function>
+<and id="22"/>
+<event id="23"><name>Schedule
+counter
+reading
+mtce
+plan</name></event>
+<event id="24"><name>Maintenance
+calls
+are updated</name></event>
+<xor id="25"/>
+<event id="26"><name>Maintenance
+plan
+is to
+be scheduled
+automatically</name></event>
+<arc id="26"><flow source="0" target="25"/></arc>
+<arc id="35"><flow source="1" target="7"/></arc>
+<arc id="38"><flow source="1" target="10"/></arc>
+<arc id="64"><flow source="2" target="9"/></arc>
+<arc id="83"><flow source="3" target="1"/></arc>
+<arc id="88"><flow source="3" target="6"/></arc>
+<arc id="90"><flow source="3" target="8"/></arc>
+<arc id="111"><flow source="4" target="2"/></arc>
+<arc id="161"><flow source="5" target="25"/></arc>
+<arc id="228"><flow source="8" target="11"/></arc>
+<arc id="230"><flow source="8" target="13"/></arc>
+<arc id="247"><flow source="9" target="3"/></arc>
+<arc id="347"><flow source="12" target="22"/></arc>
+<arc id="394"><flow source="14" target="15"/></arc>
+<arc id="408"><flow source="15" target="2"/></arc>
+<arc id="458"><flow source="16" target="25"/></arc>
+<arc id="504"><flow source="18" target="17"/></arc>
+<arc id="511"><flow source="18" target="24"/></arc>
+<arc id="518"><flow source="19" target="4"/></arc>
+<arc id="529"><flow source="19" target="15"/></arc>
+<arc id="545"><flow source="20" target="4"/></arc>
+<arc id="586"><flow source="21" target="18"/></arc>
+<arc id="616"><flow source="22" target="21"/></arc>
+<arc id="647"><flow source="23" target="25"/></arc>
+<arc id="668"><flow source="24" target="19"/></arc>
+<arc id="698"><flow source="25" target="22"/></arc>
+<arc id="728"><flow source="26" target="25"/></arc>
+</epc></epml>

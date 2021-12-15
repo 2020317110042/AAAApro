@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="81" name="1Be_3a62">
+<function id="0"><name>Invoice
+Release</name></function>
+<event id="1"><name>Purchase
+order
+created</name></event>
+<function id="2"><name>Invoice
+Overview</name></function>
+<event id="3"><name>Goods
+receipt
+posted</name></event>
+<function id="4"><name>Invoice
+Processing
+with
+Reference</name></function>
+<and id="5"/>
+<xor id="6"/>
+<event id="7"><name>Material
+is released</name></event>
+<event id="8"><name>Payment
+must
+be effected</name></event>
+<xor id="9"/>
+<event id="10"><name>Invoice
+received</name></event>
+<and id="11"/>
+<event id="12"><name>Invoice
+parked</name></event>
+<xor id="13"/>
+<event id="14"><name>Invoice
+posted</name></event>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="29"><flow source="1" target="13"/></arc>
+<arc id="37"><flow source="2" target="6"/></arc>
+<arc id="59"><flow source="3" target="13"/></arc>
+<arc id="70"><flow source="4" target="9"/></arc>
+<arc id="76"><flow source="5" target="0"/></arc>
+<arc id="105"><flow source="6" target="14"/></arc>
+<arc id="111"><flow source="7" target="5"/></arc>
+<arc id="142"><flow source="9" target="6"/></arc>
+<arc id="148"><flow source="9" target="12"/></arc>
+<arc id="162"><flow source="10" target="11"/></arc>
+<arc id="170"><flow source="11" target="4"/></arc>
+<arc id="183"><flow source="12" target="2"/></arc>
+<arc id="207"><flow source="13" target="11"/></arc>
+<arc id="216"><flow source="14" target="5"/></arc>
+</epc></epml>

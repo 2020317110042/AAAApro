@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="270" name="1Pe_lshs">
+<event id="0"><name>Employee
+is retired</name></event>
+<event id="1"><name>Position
+is vacant</name></event>
+<event id="2"><name>Employee
+is active</name></event>
+<and id="3"/>
+<event id="4"><name>Employee
+is in
+an inactive
+work
+relationship</name></event>
+<event id="5"><name>Reason
+for employee
+leaving
+has arisen</name></event>
+<event id="6"><name>Payroll
+accounting
+specifications
+changed</name></event>
+<function id="7"><name>Employee
+leaving</name></function>
+<and id="8"/>
+<event id="9"><name>Employee
+has left</name></event>
+<xor id="10"/>
+<arc id="31"><flow source="2" target="8"/></arc>
+<arc id="35"><flow source="3" target="1"/></arc>
+<arc id="40"><flow source="3" target="6"/></arc>
+<arc id="44"><flow source="3" target="10"/></arc>
+<arc id="64"><flow source="5" target="8"/></arc>
+<arc id="81"><flow source="7" target="3"/></arc>
+<arc id="96"><flow source="8" target="7"/></arc>
+<arc id="111"><flow source="10" target="0"/></arc>
+<arc id="115"><flow source="10" target="4"/></arc>
+<arc id="120"><flow source="10" target="9"/></arc>
+</epc></epml>

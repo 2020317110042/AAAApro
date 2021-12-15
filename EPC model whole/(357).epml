@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="358" name="1Pr_d1ur">
+<event id="0"><name>Periodic
+actual
+reposting
+required</name></event>
+<event id="1"><name>Actual
+process
+cost
+allocation
+required</name></event>
+<or id="2"/>
+<or id="3"/>
+<event id="4"><name>Activity
+confirmations
+entered</name></event>
+<event id="5"><name>Delivery
+from
+project
+is to
+be created</name></event>
+<function id="6"><name>Sales
+Order
+Processing</name></function>
+<event id="7"><name>Purchase
+requisition
+must
+be created</name></event>
+<function id="8"><name>Reporting
+Project
+Results</name></function>
+<event id="9"><name>Payment
+must
+be effected</name></event>
+<event id="10"><name>Budget
+released</name></event>
+<or id="11"/>
+<event id="12"><name>Activity
+allocation
+to be
+carried
+out</name></event>
+<event id="13"><name>Order-related
+invoice
+to be
+created</name></event>
+<or id="14"/>
+<event id="15"><name>Dates
+updated</name></event>
+<function id="16"><name>Rescheduling
+and Actual
+Date
+Entry</name></function>
+<event id="17"><name>Dates
+to be
+updated</name></event>
+<function id="18"><name>Time
+Recording</name></function>
+<function id="19"><name>Collaboration</name></function>
+<event id="20"><name>Project
+monitoring
+carried
+out</name></event>
+<event id="21"><name>Budget
+to be
+released</name></event>
+<function id="22"><name>Project
+Release</name></function>
+<or id="23"/>
+<function id="24"><name>Period-End
+Closing</name></function>
+<function id="25"><name>Production
+Processing</name></function>
+<event id="26"><name>Actual
+dates
+entered</name></event>
+<event id="27"><name>Statistical
+key figure
+was entered
+for reference
+object</name></event>
+<or id="28"/>
+<event id="29"><name>Planned
+orders
+are converted
+to process
+orders</name></event>
+<event id="30"><name>Clearing
+is posted</name></event>
+<xor id="31"/>
+<and id="32"/>
+<event id="33"><name>Project
+evaluation
+carried
+out</name></event>
+<or id="34"/>
+<function id="35"><name>Project
+Monitoring
+and Controlling</name></function>
+<function id="36"><name>Customer
+Down
+Payments</name></function>
+<function id="37"><name>Statistical
+Key Figures</name></function>
+<event id="38"><name>Down
+payment
+agreed
+with
+customer</name></event>
+<or id="39"/>
+<event id="40"><name>Service
+is accepted</name></event>
+<event id="41"><name>Actual
+Periodic
+Transfer
+Carried
+Out</name></event>
+<or id="42"/>
+<or id="43"/>
+<event id="44"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="45"><name>Resource-related
+billing
+document
+required</name></event>
+<event id="46"><name>Partial
+payment
+should
+be made</name></event>
+<event id="47"><name>Sales
+order
+processing
+required</name></event>
+<event id="48"><name>Goods
+receipt
+posted</name></event>
+<event id="49"><name>Planned
+Order
+Created
+Automatically</name></event>
+<function id="50"><name>Vendor
+Down
+Payments</name></function>
+<event id="51"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<function id="52"><name>Billing</name></function>
+<event id="53"><name>Collaborative
+object
+processing
+is complete</name></event>
+<event id="54"><name>Order
+is created</name></event>
+<event id="55"><name>Project
+evaluation
+required</name></event>
+<function id="56"><name>Budgeting</name></function>
+<event id="57"><name>Confirmation
+from
+external
+systems
+entered</name></event>
+<event id="58"><name>Material
+is issued</name></event>
+<event id="59"><name>Actual
+settlement
+carried
+out</name></event>
+<event id="60"><name>Planned
+orders
+converted
+into
+production orders</name></event>
+<event id="61"><name>Working
+hours
+data
+was analyzed</name></event>
+<event id="62"><name>Confirmation
+from
+external
+systems
+required</name></event>
+<event id="63"><name>Activity
+confirmation
+required</name></event>
+<event id="64"><name>Internal
+Activity
+Was Allocated</name></event>
+<xor id="65"/>
+<or id="66"/>
+<event id="67"><name>Statistical
+figures
+are to
+be entered</name></event>
+<event id="68"><name>Actual
+dates
+to be
+entered</name></event>
+<function id="69"><name>Materials
+Procurement
+and Service
+Processing</name></function>
+<or id="70"/>
+<event id="71"><name>Collaborative
+object
+processing
+required</name></event>
+<or id="72"/>
+<event id="73"><name>Budget
+is updated</name></event>
+<event id="74"><name>Conversion
+date
+is reached</name></event>
+<event id="75"><name>Down
+payment
+is agreed
+with
+vendor</name></event>
+<event id="76"><name>Project
+must
+be monitored</name></event>
+<event id="77"><name>Project
+is to
+be released</name></event>
+<arc id="40"><flow source="0" target="39"/></arc>
+<arc id="118"><flow source="1" target="39"/></arc>
+<arc id="226"><flow source="2" target="69"/></arc>
+<arc id="239"><flow source="3" target="4"/></arc>
+<arc id="292"><flow source="3" target="57"/></arc>
+<arc id="296"><flow source="3" target="61"/></arc>
+<arc id="299"><flow source="3" target="64"/></arc>
+<arc id="393"><flow source="5" target="2"/></arc>
+<arc id="523"><flow source="6" target="54"/></arc>
+<arc id="549"><flow source="7" target="2"/></arc>
+<arc id="658"><flow source="8" target="33"/></arc>
+<arc id="911"><flow source="11" target="52"/></arc>
+<arc id="960"><flow source="12" target="23"/></arc>
+<arc id="1026"><flow source="13" target="11"/></arc>
+<arc id="1133"><flow source="14" target="40"/></arc>
+<arc id="1141"><flow source="14" target="48"/></arc>
+<arc id="1151"><flow source="14" target="58"/></arc>
+<arc id="1315"><flow source="16" target="66"/></arc>
+<arc id="1397"><flow source="17" target="70"/></arc>
+<arc id="1408"><flow source="18" target="3"/></arc>
+<arc id="1536"><flow source="19" target="53"/></arc>
+<arc id="1695"><flow source="21" target="56"/></arc>
+<arc id="1751"><flow source="22" target="34"/></arc>
+<arc id="1813"><flow source="23" target="18"/></arc>
+<arc id="1916"><flow source="24" target="43"/></arc>
+<arc id="1982"><flow source="25" target="31"/></arc>
+<arc id="2195"><flow source="28" target="10"/></arc>
+<arc id="2258"><flow source="28" target="73"/></arc>
+<arc id="2448"><flow source="31" target="29"/></arc>
+<arc id="2479"><flow source="31" target="60"/></arc>
+<arc id="2522"><flow source="32" target="25"/></arc>
+<arc id="2653"><flow source="34" target="0"/></arc>
+<arc id="2654"><flow source="34" target="1"/></arc>
+<arc id="2658"><flow source="34" target="5"/></arc>
+<arc id="2660"><flow source="34" target="7"/></arc>
+<arc id="2665"><flow source="34" target="12"/></arc>
+<arc id="2666"><flow source="34" target="13"/></arc>
+<arc id="2670"><flow source="34" target="17"/></arc>
+<arc id="2698"><flow source="34" target="45"/></arc>
+<arc id="2704"><flow source="34" target="51"/></arc>
+<arc id="2708"><flow source="34" target="55"/></arc>
+<arc id="2715"><flow source="34" target="62"/></arc>
+<arc id="2716"><flow source="34" target="63"/></arc>
+<arc id="2720"><flow source="34" target="67"/></arc>
+<arc id="2721"><flow source="34" target="68"/></arc>
+<arc id="2724"><flow source="34" target="71"/></arc>
+<arc id="2727"><flow source="34" target="74"/></arc>
+<arc id="2728"><flow source="34" target="75"/></arc>
+<arc id="2729"><flow source="34" target="76"/></arc>
+<arc id="2751"><flow source="35" target="20"/></arc>
+<arc id="2839"><flow source="36" target="30"/></arc>
+<arc id="2914"><flow source="37" target="27"/></arc>
+<arc id="3001"><flow source="38" target="36"/></arc>
+<arc id="3067"><flow source="39" target="24"/></arc>
+<arc id="3321"><flow source="42" target="44"/></arc>
+<arc id="3342"><flow source="42" target="65"/></arc>
+<arc id="3396"><flow source="43" target="41"/></arc>
+<arc id="3414"><flow source="43" target="59"/></arc>
+<arc id="3522"><flow source="45" target="11"/></arc>
+<arc id="3673"><flow source="47" target="6"/></arc>
+<arc id="3855"><flow source="49" target="32"/></arc>
+<arc id="3931"><flow source="50" target="30"/></arc>
+<arc id="4002"><flow source="51" target="23"/></arc>
+<arc id="4099"><flow source="52" target="42"/></arc>
+<arc id="4285"><flow source="54" target="72"/></arc>
+<arc id="4299"><flow source="55" target="8"/></arc>
+<arc id="4397"><flow source="56" target="28"/></arc>
+<arc id="4860"><flow source="62" target="23"/></arc>
+<arc id="4938"><flow source="63" target="23"/></arc>
+<arc id="5080"><flow source="65" target="9"/></arc>
+<arc id="5109"><flow source="65" target="38"/></arc>
+<arc id="5117"><flow source="65" target="46"/></arc>
+<arc id="5164"><flow source="66" target="15"/></arc>
+<arc id="5175"><flow source="66" target="26"/></arc>
+<arc id="5264"><flow source="67" target="37"/></arc>
+<arc id="5375"><flow source="68" target="70"/></arc>
+<arc id="5397"><flow source="69" target="14"/></arc>
+<arc id="5477"><flow source="70" target="16"/></arc>
+<arc id="5558"><flow source="71" target="19"/></arc>
+<arc id="5639"><flow source="72" target="22"/></arc>
+<arc id="5805"><flow source="74" target="32"/></arc>
+<arc id="5901"><flow source="75" target="50"/></arc>
+<arc id="5964"><flow source="76" target="35"/></arc>
+<arc id="6079"><flow source="77" target="72"/></arc>
+</epc></epml>

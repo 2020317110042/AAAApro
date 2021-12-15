@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="437" name="1Tr_f9ft">
+<event id="0"><name>Bank
+data
+was processed</name></event>
+<or id="1"/>
+<event id="2"><name>Value
+dates
+were
+compared</name></event>
+<event id="3"><name>Status
+analysis
+carried
+out</name></event>
+<event id="4"><name>Bill
+of exchange
+presentation
+completed</name></event>
+<event id="5"><name>Clearing
+is posted</name></event>
+<event id="6"><name>Payment
+advice
+created</name></event>
+<event id="7"><name>Payment
+advice
+transferred
+to bank</name></event>
+<event id="8"><name>Payment
+advice
+processing
+completed</name></event>
+<and id="9"/>
+<event id="10"><name>Bank
+message
+about
+debit
+memo exists</name></event>
+<function id="11"><name>Status
+Analysis
+Cash
+Position</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="24"><flow source="1" target="11"/></arc>
+<arc id="26"><flow source="2" target="1"/></arc>
+<arc id="50"><flow source="4" target="1"/></arc>
+<arc id="62"><flow source="5" target="1"/></arc>
+<arc id="74"><flow source="6" target="1"/></arc>
+<arc id="94"><flow source="7" target="9"/></arc>
+<arc id="98"><flow source="8" target="1"/></arc>
+<arc id="110"><flow source="9" target="1"/></arc>
+<arc id="130"><flow source="10" target="9"/></arc>
+<arc id="136"><flow source="11" target="3"/></arc>
+</epc></epml>

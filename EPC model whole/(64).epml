@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="65" name="1Be_2rh8">
+<event id="0"><name>Unplanned
+goods
+issue
+occurred</name></event>
+<event id="1"><name>Consignment/
+pipeline
+liability
+is created</name></event>
+<function id="2"><name>Goods
+Issue
+Processing</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="8"><flow source="2" target="1"/></arc>
+</epc></epml>

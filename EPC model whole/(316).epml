@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="317" name="1Pr_1kwn">
+<and id="0"/>
+<event id="1"><name>Stock/
+requirements
+list
+to be
+processed</name></event>
+<function id="2"><name>Transfer
+of Stock/
+Requirement
+Data
+to Inventory Controlling</name></function>
+<and id="3"/>
+<and id="4"/>
+<function id="5"><name>Planning
+Scenario
+Processing</name></function>
+<event id="6"><name>Demand
+Program
+Created</name></event>
+<or id="7"/>
+<event id="8"><name>Demand
+program
+to be
+planned
+in simulative mode</name></event>
+<event id="9"><name>Data
+Transferred
+to Cost
+Accounting</name></event>
+<function id="10"><name>Transfer
+Activity
+Type
+Requirement
+to Cost Accounting</name></function>
+<function id="11"><name>Long-Term
+Planning
+- Total
+Planning</name></function>
+<function id="12"><name>Transfer
+of External
+Procurement
+Data
+to Purchasing Information System</name></function>
+<function id="13"><name>Long-Term
+Planning
+- Single-Item</name></function>
+<function id="14"><name>Long-Term
+Planning:
+Evaluation</name></function>
+<event id="15"><name>Data
+Transferred
+to Inventory
+Controlling</name></event>
+<event id="16"><name>Dependent
+Requirement
+Created</name></event>
+<event id="17"><name>Planning
+scenario
+is processed</name></event>
+<xor id="18"/>
+<event id="19"><name>Planning
+results
+or stock/
+reqmts
+situation is processed</name></event>
+<and id="20"/>
+<event id="21"><name>Data
+trans-
+ferred
+to purchasing
+info system</name></event>
+<event id="22"><name>MRP list
+is created</name></event>
+<event id="23"><name>Planned
+Order
+Created
+Automatically</name></event>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="43"><flow source="1" target="18"/></arc>
+<arc id="64"><flow source="2" target="15"/></arc>
+<arc id="78"><flow source="3" target="5"/></arc>
+<arc id="99"><flow source="4" target="2"/></arc>
+<arc id="107"><flow source="4" target="10"/></arc>
+<arc id="109"><flow source="4" target="12"/></arc>
+<arc id="138"><flow source="5" target="17"/></arc>
+<arc id="148"><flow source="6" target="3"/></arc>
+<arc id="185"><flow source="7" target="16"/></arc>
+<arc id="191"><flow source="7" target="22"/></arc>
+<arc id="192"><flow source="7" target="23"/></arc>
+<arc id="196"><flow source="8" target="3"/></arc>
+<arc id="250"><flow source="10" target="9"/></arc>
+<arc id="285"><flow source="11" target="20"/></arc>
+<arc id="310"><flow source="12" target="21"/></arc>
+<arc id="333"><flow source="13" target="20"/></arc>
+<arc id="356"><flow source="14" target="19"/></arc>
+<arc id="409"><flow source="17" target="0"/></arc>
+<arc id="447"><flow source="18" target="14"/></arc>
+<arc id="488"><flow source="20" target="7"/></arc>
+<arc id="547"><flow source="22" target="18"/></arc>
+<arc id="557"><flow source="23" target="4"/></arc>
+</epc></epml>

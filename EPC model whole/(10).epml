@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="11" name="1An_kjk6">
+<event id="0"><name>Blanket
+order
+to be
+released</name></event>
+<event id="1"><name>Budget
+is assigned</name></event>
+<event id="2"><name>Internal
+order
+is to
+be created</name></event>
+<event id="3"><name>Blanket
+order
+created</name></event>
+<function id="4"><name>Processing
+of Internal
+Orders
+[Direct
+Investment Capitalization]</name></function>
+<function id="5"><name>Order
+Budgeting
+[Investment
+- Direct
+Capitalization]</name></function>
+<event id="6"><name>Order
+is to
+be implemented</name></event>
+<function id="7"><name>Release
+of Order
+[Capital
+Investment
+- Direct Capitalization]</name></function>
+<event id="8"><name>Statistical
+capital
+spending
+order
+is processed</name></event>
+<and id="9"/>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="20"><flow source="1" target="9"/></arc>
+<arc id="25"><flow source="2" target="4"/></arc>
+<arc id="49"><flow source="4" target="8"/></arc>
+<arc id="52"><flow source="5" target="1"/></arc>
+<arc id="70"><flow source="6" target="9"/></arc>
+<arc id="74"><flow source="7" target="3"/></arc>
+<arc id="86"><flow source="8" target="5"/></arc>
+<arc id="98"><flow source="9" target="7"/></arc>
+</epc></epml>

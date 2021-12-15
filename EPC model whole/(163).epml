@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="164" name="1Ex_emr6">
+<or id="0"/>
+<function id="1"><name>Internal
+Transfer
+Posting
+with
+Clearing</name></function>
+<function id="2"><name>Customer
+Credit
+Memo</name></function>
+<or id="3"/>
+<event id="4"><name>Invoice
+to be
+entered
+for one-time
+customer</name></event>
+<event id="5"><name>Document
+parked</name></event>
+<event id="6"><name>Customer
+credit
+memo
+is to
+be parked</name></event>
+<event id="7"><name>Document
+posted</name></event>
+<event id="8"><name>Down
+payment
+is to
+be cleared
+manually</name></event>
+<and id="9"/>
+<event id="10"><name>Items
+to be
+dunned</name></event>
+<event id="11"><name>Invoice
+to be
+entered
+for customer</name></event>
+<event id="12"><name>Customer
+invoice
+is to
+be parked</name></event>
+<event id="13"><name>Internal
+transfer
+posting
+is to
+be carried out</name></event>
+<function id="14"><name>Outgoing
+Invoice</name></function>
+<function id="15"><name>Parked
+Document
+Posting
+[Customers]</name></function>
+<or id="16"/>
+<event id="17"><name>Credit
+memo
+for one-time
+account
+customer is to be entered</name></event>
+<event id="18"><name>Internal
+transfer
+posting
+with
+clearing to be carried out</name></event>
+<event id="19"><name>Credit
+memo
+posted</name></event>
+<function id="20"><name>Customer
+Document
+Parking</name></function>
+<or id="21"/>
+<event id="22"><name>Customer
+credit
+memo
+is to
+be entered</name></event>
+<event id="23"><name>Customer
+invoice
+is posted</name></event>
+<event id="24"><name>Internal
+transfer
+posting
+with
+clearing carried out</name></event>
+<event id="25"><name>Internal
+transfer
+posting
+posted</name></event>
+<function id="26"><name>Internal
+Transfer
+Posting</name></function>
+<arc id="21"><flow source="0" target="20"/></arc>
+<arc id="52"><flow source="1" target="24"/></arc>
+<arc id="74"><flow source="2" target="19"/></arc>
+<arc id="90"><flow source="3" target="8"/></arc>
+<arc id="92"><flow source="3" target="10"/></arc>
+<arc id="95"><flow source="3" target="13"/></arc>
+<arc id="100"><flow source="3" target="18"/></arc>
+<arc id="105"><flow source="3" target="23"/></arc>
+<arc id="130"><flow source="4" target="21"/></arc>
+<arc id="151"><flow source="5" target="15"/></arc>
+<arc id="163"><flow source="6" target="0"/></arc>
+<arc id="199"><flow source="7" target="9"/></arc>
+<arc id="258"><flow source="9" target="14"/></arc>
+<arc id="319"><flow source="11" target="21"/></arc>
+<arc id="325"><flow source="12" target="0"/></arc>
+<arc id="378"><flow source="13" target="26"/></arc>
+<arc id="382"><flow source="14" target="3"/></arc>
+<arc id="413"><flow source="15" target="7"/></arc>
+<arc id="435"><flow source="16" target="2"/></arc>
+<arc id="476"><flow source="17" target="16"/></arc>
+<arc id="488"><flow source="18" target="1"/></arc>
+<arc id="523"><flow source="19" target="9"/></arc>
+<arc id="546"><flow source="20" target="5"/></arc>
+<arc id="577"><flow source="21" target="9"/></arc>
+<arc id="611"><flow source="22" target="16"/></arc>
+<arc id="728"><flow source="26" target="25"/></arc>
+</epc></epml>

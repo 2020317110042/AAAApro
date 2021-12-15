@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="330" name="1Pr_33k-">
+<and id="0"/>
+<function id="1"><name>Shift
+Planning</name></function>
+<function id="2"><name>Project
+Scheduling</name></function>
+<function id="3"><name>Project
+Release</name></function>
+<and id="4"/>
+<event id="5"><name>Define
+project
+data</name></event>
+<function id="6"><name>Cost
+Planning
+in Networks</name></function>
+<function id="7"><name>Project
+Structuring</name></function>
+<function id="8"><name>Budget
+Allocation</name></function>
+<event id="9"><name>Release
+project
+planning</name></event>
+<function id="10"><name>Budget
+Release</name></function>
+<function id="11"><name>Cost
+Planning
+in Work
+Breakdown
+Structure</name></function>
+<event id="12"><name>Carry
+out project
+development
+in the
+project</name></event>
+<and id="13"/>
+<event id="14"><name>Carry
+out product
+development</name></event>
+<and id="15"/>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="17"><flow source="1" target="0"/></arc>
+<arc id="33"><flow source="2" target="0"/></arc>
+<arc id="53"><flow source="3" target="4"/></arc>
+<arc id="79"><flow source="4" target="14"/></arc>
+<arc id="94"><flow source="5" target="13"/></arc>
+<arc id="97"><flow source="6" target="0"/></arc>
+<arc id="118"><flow source="7" target="5"/></arc>
+<arc id="129"><flow source="8" target="0"/></arc>
+<arc id="160"><flow source="9" target="15"/></arc>
+<arc id="165"><flow source="10" target="4"/></arc>
+<arc id="177"><flow source="11" target="0"/></arc>
+<arc id="200"><flow source="12" target="7"/></arc>
+<arc id="210"><flow source="13" target="1"/></arc>
+<arc id="211"><flow source="13" target="2"/></arc>
+<arc id="215"><flow source="13" target="6"/></arc>
+<arc id="217"><flow source="13" target="8"/></arc>
+<arc id="220"><flow source="13" target="11"/></arc>
+<arc id="244"><flow source="15" target="3"/></arc>
+<arc id="251"><flow source="15" target="10"/></arc>
+</epc></epml>

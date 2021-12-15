@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="91" name="1En_cnx7">
+<function id="0"><name>Report
+Search
+Using
+Report
+Information System</name></function>
+<and id="1"/>
+<event id="2"><name>Result
+is displayed</name></event>
+<function id="3"><name>Substance
+Search
+Using
+Substance
+Information System</name></function>
+<event id="4"><name>Drilldown
+reporting
+is to
+be carried
+out</name></event>
+<and id="5"/>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="7"><flow source="1" target="0"/></arc>
+<arc id="10"><flow source="1" target="3"/></arc>
+<arc id="24"><flow source="3" target="5"/></arc>
+<arc id="26"><flow source="4" target="1"/></arc>
+<arc id="33"><flow source="5" target="2"/></arc>
+</epc></epml>

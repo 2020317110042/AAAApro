@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="447" name="1Tr_g68b">
+<function id="0"><name>Process
+OTC Interest
+Rate
+Instrument
+(Cap/Floor)</name></function>
+<xor id="1"/>
+<function id="2"><name>Settlement</name></function>
+<function id="3"><name>Process
+OTC Interest
+Rate
+Instrument
+(Swap)</name></function>
+<event id="4"><name>OTC interest
+rate
+instrument
+was edited
+in order status</name></event>
+<xor id="5"/>
+<function id="6"><name>Order
+Execution</name></function>
+<xor id="7"/>
+<function id="8"><name>Process
+OTC Interest
+Rate
+Instrument
+(FRA)</name></function>
+<event id="9"><name>OTC derivative
+interest
+rate
+instrument
+was selected</name></event>
+<and id="10"/>
+<xor id="11"/>
+<xor id="12"/>
+<event id="13"><name>OTC interest
+rate
+instrument
+exists
+in contract status</name></event>
+<event id="14"><name>OTC interest
+rate
+instrument
+was terminated</name></event>
+<event id="15"><name>Netting
+proposal
+to be
+edited</name></event>
+<or id="16"/>
+<function id="17"><name>Notice</name></function>
+<function id="18"><name>Netting
+Processing</name></function>
+<or id="19"/>
+<event id="20"><name>Netting
+proposal
+was accepted</name></event>
+<event id="21"><name>Accrual/
+deferral
+is to
+be performed</name></event>
+<event id="22"><name>Termination
+of derivative
+instrument
+was settled</name></event>
+<event id="23"><name>OTC interest
+rate
+instrument
+to be
+terminated</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="38"><flow source="1" target="13"/></arc>
+<arc id="68"><flow source="2" target="19"/></arc>
+<arc id="80"><flow source="3" target="7"/></arc>
+<arc id="103"><flow source="4" target="6"/></arc>
+<arc id="122"><flow source="5" target="1"/></arc>
+<arc id="125"><flow source="5" target="4"/></arc>
+<arc id="146"><flow source="6" target="1"/></arc>
+<arc id="174"><flow source="7" target="5"/></arc>
+<arc id="200"><flow source="8" target="7"/></arc>
+<arc id="229"><flow source="9" target="12"/></arc>
+<arc id="258"><flow source="10" target="17"/></arc>
+<arc id="267"><flow source="11" target="2"/></arc>
+<arc id="289"><flow source="12" target="0"/></arc>
+<arc id="292"><flow source="12" target="3"/></arc>
+<arc id="297"><flow source="12" target="8"/></arc>
+<arc id="329"><flow source="13" target="16"/></arc>
+<arc id="348"><flow source="14" target="11"/></arc>
+<arc id="379"><flow source="15" target="18"/></arc>
+<arc id="395"><flow source="16" target="10"/></arc>
+<arc id="396"><flow source="16" target="11"/></arc>
+<arc id="423"><flow source="17" target="14"/></arc>
+<arc id="453"><flow source="18" target="20"/></arc>
+<arc id="472"><flow source="19" target="15"/></arc>
+<arc id="478"><flow source="19" target="21"/></arc>
+<arc id="479"><flow source="19" target="22"/></arc>
+<arc id="563"><flow source="23" target="10"/></arc>
+</epc></epml>

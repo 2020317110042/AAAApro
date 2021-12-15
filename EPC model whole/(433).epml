@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="434" name="1Tr_f6wa">
+<or id="0"/>
+<or id="1"/>
+<function id="2"><name>Status
+Analysis</name></function>
+<event id="3"><name>Bank
+data
+was processed</name></event>
+<event id="4"><name>Bill
+of exchange
+presentation
+completed</name></event>
+<event id="5"><name>Balance
+of bills
+of exchange
+payable
+to be settled</name></event>
+<event id="6"><name>Bank
+sends
+DME file
+on bill
+holdings</name></event>
+<event id="7"><name>Bank
+document
+posted</name></event>
+<function id="8"><name>Planning</name></function>
+<event id="9"><name>Clear
+items
+using
+bank
+procedure (specific to Germany)</name></event>
+<event id="10"><name>Planned
+value
+date
+to be
+compared with actual value date</name></event>
+<event id="11"><name>Carry
+out incoming
+payment
+via account
+statement transfer</name></event>
+<event id="12"><name>Bank/
+customer
+payment
+advice
+for payment inflow/outflow</name></event>
+<event id="13"><name>Cash
+concentration
+posted</name></event>
+<event id="14"><name>Cash
+Management
+advice
+notes
+exist</name></event>
+<event id="15"><name>Payment
+advices
+to be
+changed</name></event>
+<function id="16"><name>Check</name></function>
+<and id="17"/>
+<and id="18"/>
+<event id="19"><name>Status
+analysis
+carried
+out</name></event>
+<or id="20"/>
+<event id="21"><name>Payment
+advices
+to be
+archived</name></event>
+<event id="22"><name>Electronic
+bank
+statements
+received</name></event>
+<event id="23"><name>Payment
+advice
+transferred
+to bank</name></event>
+<or id="24"/>
+<event id="25"><name>Account
+statement
+(paper)
+received</name></event>
+<xor id="26"/>
+<event id="27"><name>Bank
+message
+about
+debit
+memo exists</name></event>
+<event id="28"><name>Clearing
+is posted</name></event>
+<function id="29"><name>Incoming
+Data</name></function>
+<event id="30"><name>Value
+dates
+were
+compared</name></event>
+<and id="31"/>
+<event id="32"><name>Items
+to be
+cleared
+using
+POR procedure (CH)</name></event>
+<and id="33"/>
+<xor id="34"/>
+<event id="35"><name>Cashed
+checks
+to be
+edited</name></event>
+<event id="36"><name>Bill
+of exchange
+payment
+posted</name></event>
+<event id="37"><name>Lockbox
+file
+has arrived</name></event>
+<or id="38"/>
+<event id="39"><name>Payment
+order
+with
+reference
+number received</name></event>
+<and id="40"/>
+<xor id="41"/>
+<or id="42"/>
+<event id="43"><name>Payment
+advice
+processing
+completed</name></event>
+<event id="44"><name>Payment
+advice
+created</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="48"><flow source="1" target="2"/></arc>
+<arc id="110"><flow source="2" target="19"/></arc>
+<arc id="137"><flow source="3" target="1"/></arc>
+<arc id="182"><flow source="4" target="1"/></arc>
+<arc id="243"><flow source="5" target="17"/></arc>
+<arc id="288"><flow source="6" target="17"/></arc>
+<arc id="354"><flow source="7" target="38"/></arc>
+<arc id="374"><flow source="8" target="13"/></arc>
+<arc id="424"><flow source="9" target="18"/></arc>
+<arc id="485"><flow source="10" target="34"/></arc>
+<arc id="514"><flow source="11" target="18"/></arc>
+<arc id="565"><flow source="12" target="24"/></arc>
+<arc id="669"><flow source="14" target="38"/></arc>
+<arc id="696"><flow source="15" target="20"/></arc>
+<arc id="747"><flow source="16" target="26"/></arc>
+<arc id="790"><flow source="17" target="24"/></arc>
+<arc id="835"><flow source="18" target="24"/></arc>
+<arc id="864"><flow source="19" target="8"/></arc>
+<arc id="925"><flow source="20" target="24"/></arc>
+<arc id="966"><flow source="21" target="20"/></arc>
+<arc id="1015"><flow source="22" target="24"/></arc>
+<arc id="1067"><flow source="23" target="31"/></arc>
+<arc id="1110"><flow source="24" target="29"/></arc>
+<arc id="1150"><flow source="25" target="24"/></arc>
+<arc id="1174"><flow source="26" target="3"/></arc>
+<arc id="1201"><flow source="26" target="30"/></arc>
+<arc id="1247"><flow source="27" target="31"/></arc>
+<arc id="1262"><flow source="28" target="1"/></arc>
+<arc id="1348"><flow source="29" target="42"/></arc>
+<arc id="1352"><flow source="30" target="1"/></arc>
+<arc id="1397"><flow source="31" target="1"/></arc>
+<arc id="1481"><flow source="32" target="40"/></arc>
+<arc id="1509"><flow source="33" target="23"/></arc>
+<arc id="1513"><flow source="33" target="27"/></arc>
+<arc id="1547"><flow source="34" target="16"/></arc>
+<arc id="1600"><flow source="35" target="24"/></arc>
+<arc id="1645"><flow source="36" target="24"/></arc>
+<arc id="1690"><flow source="37" target="24"/></arc>
+<arc id="1745"><flow source="38" target="34"/></arc>
+<arc id="1796"><flow source="39" target="40"/></arc>
+<arc id="1825"><flow source="40" target="24"/></arc>
+<arc id="1846"><flow source="41" target="0"/></arc>
+<arc id="1856"><flow source="41" target="10"/></arc>
+<arc id="1895"><flow source="42" target="4"/></arc>
+<arc id="1919"><flow source="42" target="28"/></arc>
+<arc id="1924"><flow source="42" target="33"/></arc>
+<arc id="1932"><flow source="42" target="41"/></arc>
+<arc id="1934"><flow source="42" target="43"/></arc>
+<arc id="1935"><flow source="42" target="44"/></arc>
+<arc id="1937"><flow source="43" target="1"/></arc>
+<arc id="1982"><flow source="44" target="1"/></arc>
+</epc></epml>

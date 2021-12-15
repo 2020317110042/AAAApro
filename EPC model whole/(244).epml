@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="245" name="1Ku_9yyx">
+<event id="0"><name>Goods
+movement
+is posted</name></event>
+<event id="1"><name>Transfer
+order
+item
+is confirmed</name></event>
+<function id="2"><name>Difference
+Processing
+During
+Picking</name></function>
+<and id="3"/>
+<xor id="4"/>
+<xor id="5"/>
+<event id="6"><name>Transfer
+order
+item
+with
+difference exists</name></event>
+<event id="7"><name>Material
+is removed
+from
+stock</name></event>
+<function id="8"><name>Confirmation
+of Picking</name></function>
+<event id="9"><name>Difference
+is settled
+on srce
+bin location</name></event>
+<event id="10"><name>Inventory
+management
+posting
+already
+carried out</name></event>
+<and id="11"/>
+<event id="12"><name>Difference
+has been
+posted
+to interface</name></event>
+<arc id="38"><flow source="2" target="11"/></arc>
+<arc id="44"><flow source="3" target="4"/></arc>
+<arc id="46"><flow source="3" target="6"/></arc>
+<arc id="53"><flow source="4" target="0"/></arc>
+<arc id="63"><flow source="4" target="10"/></arc>
+<arc id="75"><flow source="5" target="9"/></arc>
+<arc id="78"><flow source="5" target="12"/></arc>
+<arc id="81"><flow source="6" target="2"/></arc>
+<arc id="100"><flow source="7" target="8"/></arc>
+<arc id="108"><flow source="8" target="3"/></arc>
+<arc id="145"><flow source="11" target="1"/></arc>
+<arc id="149"><flow source="11" target="5"/></arc>
+</epc></epml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="298" name="1Pe_meqq">
+<event id="0"><name>Activity
+allocation
+specifications
+are available</name></event>
+<event id="1"><name>Operative
+remuneration
+specification
+is available</name></event>
+<function id="2"><name>Entry
+of employee
+remuneration
+specifications</name></function>
+<and id="3"/>
+<event id="4"><name>Personnel
+cost
+assignment
+specification
+is available</name></event>
+<event id="5"><name>Need
+for remuneration
+specifications
+is available</name></event>
+<arc id="16"><flow source="2" target="3"/></arc>
+<arc id="19"><flow source="3" target="0"/></arc>
+<arc id="20"><flow source="3" target="1"/></arc>
+<arc id="23"><flow source="3" target="4"/></arc>
+<arc id="33"><flow source="5" target="2"/></arc>
+</epc></epml>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="131" name="1Ex_dzq9">
+<function id="0"><name>Budget
+Version
+Processing</name></function>
+<or id="1"/>
+<xor id="2"/>
+<function id="3"><name>Budget
+Return
+(Outward
+by Rollup)</name></function>
+<function id="4"><name>Budget
+Return
+(Within
+Budget
+Structure/Outward)</name></function>
+<function id="5"><name>Budget
+Supplement
+(Top
+Down/
+Bottom Up)</name></function>
+<event id="6"><name>Budget
+structure
+edited</name></event>
+<xor id="7"/>
+<function id="8"><name>Budget
+Supplement
+(Bottom
+Up through
+Rollup)</name></function>
+<event id="9"><name>Budget
+supplement
+(bottom
+up) to
+be carried out</name></event>
+<event id="10"><name>Change
+master
+data/
+structure</name></event>
+<event id="11"><name>Commitment
+item
+group
+edited</name></event>
+<event id="12"><name>Budget
+release
+(bottom
+up by
+rollup) to be carried out</name></event>
+<event id="13"><name>Budget
+transfer
+to be
+carried
+out</name></event>
+<xor id="14"/>
+<event id="15"><name>Budget
+return
+(internal)
+to be
+carried out</name></event>
+<function id="16"><name>Budget
+Transfer</name></function>
+<event id="17"><name>Budget
+supplement
+(top
+down)
+to be carried out</name></event>
+<function id="18"><name>Copy
+CO Plan
+for FM
+Budget</name></function>
+<function id="19"><name>Budget
+Release
+(Top
+Down/
+Bottom Up)</name></function>
+<xor id="20"/>
+<function id="21"><name>Original
+Budget
+Processing
+(Top
+Down/Bottom Up)</name></function>
+<function id="22"><name>Budget
+Release
+(Bottom
+Up Using
+Rollup)</name></function>
+<event id="23"><name>Original
+budget
+(bottom
+up/rollup)
+to be processed</name></event>
+<event id="24"><name>Budget
+execution
+due</name></event>
+<function id="25"><name>Editing
+Commitment
+Item
+Group</name></function>
+<and id="26"/>
+<event id="27"><name>Budget
+return
+(outwards)
+to be
+carried out</name></event>
+<function id="28"><name>Budget
+Structure
+Processing</name></function>
+<xor id="29"/>
+<event id="30"><name>Budget
+must
+be planned</name></event>
+<event id="31"><name>Budgeting
+must
+be executed
+with
+structure</name></event>
+<event id="32"><name>Budget
+data
+from
+CO plan
+values to be adopted</name></event>
+<and id="33"/>
+<and id="34"/>
+<or id="35"/>
+<event id="36"><name>Original
+budget
+(top
+down/
+bottom up) to be processed</name></event>
+<event id="37"><name>Budget
+version
+edited</name></event>
+<xor id="38"/>
+<event id="39"><name>Budget
+release
+available</name></event>
+<event id="40"><name>Budgeting
+must
+be executed
+in several
+versions</name></event>
+<and id="41"/>
+<event id="42"><name>Budget
+release
+(top
+down/
+bottom up) to be carried out</name></event>
+<function id="43"><name>Original
+Budget
+Processing
+(Bottom
+Up through Rollup)</name></function>
+<function id="44"><name>Automatic
+Budget
+Processing</name></function>
+<event id="45"><name>Funds
+must
+be estimated</name></event>
+<arc id="38"><flow source="0" target="37"/></arc>
+<arc id="88"><flow source="1" target="41"/></arc>
+<arc id="128"><flow source="2" target="35"/></arc>
+<arc id="141"><flow source="3" target="2"/></arc>
+<arc id="187"><flow source="4" target="2"/></arc>
+<arc id="233"><flow source="5" target="2"/></arc>
+<arc id="278"><flow source="6" target="1"/></arc>
+<arc id="332"><flow source="7" target="9"/></arc>
+<arc id="336"><flow source="7" target="13"/></arc>
+<arc id="338"><flow source="7" target="15"/></arc>
+<arc id="340"><flow source="7" target="17"/></arc>
+<arc id="350"><flow source="7" target="27"/></arc>
+<arc id="371"><flow source="8" target="2"/></arc>
+<arc id="423"><flow source="9" target="8"/></arc>
+<arc id="505"><flow source="10" target="44"/></arc>
+<arc id="535"><flow source="11" target="28"/></arc>
+<arc id="575"><flow source="12" target="22"/></arc>
+<arc id="615"><flow source="13" target="16"/></arc>
+<arc id="652"><flow source="14" target="7"/></arc>
+<arc id="695"><flow source="15" target="4"/></arc>
+<arc id="739"><flow source="16" target="2"/></arc>
+<arc id="788"><flow source="17" target="5"/></arc>
+<arc id="843"><flow source="18" target="14"/></arc>
+<arc id="904"><flow source="19" target="29"/></arc>
+<arc id="944"><flow source="20" target="23"/></arc>
+<arc id="953"><flow source="20" target="32"/></arc>
+<arc id="957"><flow source="20" target="36"/></arc>
+<arc id="981"><flow source="21" target="14"/></arc>
+<arc id="1042"><flow source="22" target="29"/></arc>
+<arc id="1102"><flow source="23" target="43"/></arc>
+<arc id="1162"><flow source="25" target="11"/></arc>
+<arc id="1222"><flow source="26" target="25"/></arc>
+<arc id="1246"><flow source="27" target="3"/></arc>
+<arc id="1295"><flow source="28" target="6"/></arc>
+<arc id="1374"><flow source="29" target="39"/></arc>
+<arc id="1414"><flow source="30" target="33"/></arc>
+<arc id="1453"><flow source="31" target="26"/></arc>
+<arc id="1491"><flow source="32" target="18"/></arc>
+<arc id="1520"><flow source="33" target="1"/></arc>
+<arc id="1545"><flow source="33" target="26"/></arc>
+<arc id="1553"><flow source="33" target="34"/></arc>
+<arc id="1565"><flow source="34" target="0"/></arc>
+<arc id="1621"><flow source="35" target="10"/></arc>
+<arc id="1649"><flow source="35" target="38"/></arc>
+<arc id="1678"><flow source="36" target="21"/></arc>
+<arc id="1704"><flow source="37" target="1"/></arc>
+<arc id="1761"><flow source="38" target="12"/></arc>
+<arc id="1773"><flow source="38" target="24"/></arc>
+<arc id="1791"><flow source="38" target="42"/></arc>
+<arc id="1875"><flow source="40" target="34"/></arc>
+<arc id="1907"><flow source="41" target="20"/></arc>
+<arc id="1952"><flow source="42" target="19"/></arc>
+<arc id="1993"><flow source="43" target="14"/></arc>
+<arc id="2063"><flow source="44" target="38"/></arc>
+<arc id="2112"><flow source="45" target="41"/></arc>
+</epc></epml>

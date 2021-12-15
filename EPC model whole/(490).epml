@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="491" name="1Un_k5qb">
+<event id="0"><name>Preparation
+of Sending
+System
+Completed</name></event>
+<event id="1"><name>Consolidation-Type-Specific
+Preparation
+Required</name></event>
+<function id="2"><name>Preparations
+Sending
+System:
+Consolidation
+Type Specific</name></function>
+<or id="3"/>
+<event id="4"><name>Preparation
+of Consolidation
+System
+Is Completed</name></event>
+<event id="5"><name>Cross-Consolidation-Type
+Preparation
+Required</name></event>
+<function id="6"><name>Preparations
+Consolidation
+System</name></function>
+<function id="7"><name>Preparations
+Sender
+System:
+Related
+to All Consolidation Types</name></function>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="11"><flow source="1" target="2"/></arc>
+<arc id="20"><flow source="2" target="3"/></arc>
+<arc id="25"><flow source="3" target="0"/></arc>
+<arc id="48"><flow source="5" target="7"/></arc>
+<arc id="53"><flow source="6" target="4"/></arc>
+<arc id="60"><flow source="7" target="3"/></arc>
+</epc></epml>

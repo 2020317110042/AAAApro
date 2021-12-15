@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="570" name="1Ve_8ak0">
+<event id="0"><name>Sales
+document
+preliminary
+costed
+via unit costing</name></event>
+<event id="1"><name>Product
+costng
+to material
+in sales
+document to be created</name></event>
+<function id="2"><name>Product
+Costing
+for Sales
+Document</name></function>
+<event id="3"><name>Sales
+order
+preliminary
+costing
+via product costing</name></event>
+<event id="4"><name>Unit
+costing
+for material
+in sales
+document to be created</name></event>
+<function id="5"><name>Individual
+Determination
+for Sales
+Document</name></function>
+<arc id="9"><flow source="1" target="2"/></arc>
+<arc id="16"><flow source="2" target="3"/></arc>
+<arc id="30"><flow source="4" target="5"/></arc>
+<arc id="31"><flow source="5" target="0"/></arc>
+</epc></epml>

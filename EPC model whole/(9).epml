@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="10" name="1An_kjdg">
+<and id="0"/>
+<event id="1"><name>Order
+analysis
+completed</name></event>
+<function id="2"><name>Update</name></function>
+<event id="3"><name>Blanket
+order
+created</name></event>
+<function id="4"><name>Procurement
+and capitalization</name></function>
+<or id="5"/>
+<event id="6"><name>Procurement
+and capitalization
+carried
+out</name></event>
+<event id="7"><name>Internal
+order
+is to
+be created</name></event>
+<function id="8"><name>Analysis</name></function>
+<and id="9"/>
+<event id="10"><name>Budget
+is updated</name></event>
+<event id="11"><name>Simulation
+was carried
+out</name></event>
+<event id="12"><name>Budget
+to be
+updated</name></event>
+<function id="13"><name>Blanket
+Order</name></function>
+<event id="14"><name>Program
+analysis
+completed</name></event>
+<event id="15"><name>Planned
+accrued
+depreciation
+and interest
+were transferred to CO</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="15"><flow source="0" target="14"/></arc>
+<arc id="16"><flow source="0" target="15"/></arc>
+<arc id="43"><flow source="2" target="10"/></arc>
+<arc id="54"><flow source="3" target="5"/></arc>
+<arc id="71"><flow source="4" target="6"/></arc>
+<arc id="85"><flow source="5" target="4"/></arc>
+<arc id="89"><flow source="5" target="8"/></arc>
+<arc id="106"><flow source="6" target="9"/></arc>
+<arc id="126"><flow source="7" target="13"/></arc>
+<arc id="129"><flow source="8" target="0"/></arc>
+<arc id="147"><flow source="9" target="2"/></arc>
+<arc id="202"><flow source="12" target="9"/></arc>
+<arc id="212"><flow source="13" target="3"/></arc>
+</epc></epml>

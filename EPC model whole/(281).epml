@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="282" name="1Pe_lxhj">
+<event id="0"><name>Need
+for personnel
+development
+system
+exists</name></event>
+<event id="1"><name>Personnel
+development
+system
+is implemented</name></event>
+<xor id="2"/>
+<event id="3"><name>Personnel
+development
+system
+is adopted</name></event>
+<function id="4"><name>Design
+of Personnel
+Development
+System</name></function>
+<event id="5"><name>Additional
+implementation
+actions
+are required</name></event>
+<event id="6"><name>Personnel
+development
+system
+must
+be corrected</name></event>
+<function id="7"><name>Implementation
+of Personnel
+Development
+System</name></function>
+<xor id="8"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="23"><flow source="2" target="4"/></arc>
+<arc id="36"><flow source="3" target="8"/></arc>
+<arc id="40"><flow source="4" target="3"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="57"><flow source="6" target="2"/></arc>
+<arc id="65"><flow source="7" target="1"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

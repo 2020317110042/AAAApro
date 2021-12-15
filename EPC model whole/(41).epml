@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="42" name="1An_lc1c">
+<event id="0"><name>Acquisition
+posted
+to Asset
+Accounting</name></event>
+<event id="1"><name>Asset
+class
+was determined</name></event>
+<event id="2"><name>New Capital
+Lease
+para-
+meters
+were determined</name></event>
+<or id="3"/>
+<event id="4"><name>Goods
+receipt
+of leased
+asset
+carri.out</name></event>
+<and id="5"/>
+<event id="6"><name>Fixed
+asset
+created</name></event>
+<event id="7"><name>New sub-
+number
+was determined</name></event>
+<event id="8"><name>Acquisitions
+to be
+entered</name></event>
+<xor id="9"/>
+<function id="10"><name>Acquisition
+of Leased
+Asset</name></function>
+<arc id="21"><flow source="1" target="9"/></arc>
+<arc id="32"><flow source="2" target="9"/></arc>
+<arc id="44"><flow source="3" target="10"/></arc>
+<arc id="54"><flow source="4" target="9"/></arc>
+<arc id="59"><flow source="5" target="3"/></arc>
+<arc id="72"><flow source="6" target="5"/></arc>
+<arc id="87"><flow source="7" target="9"/></arc>
+<arc id="94"><flow source="8" target="5"/></arc>
+<arc id="103"><flow source="9" target="3"/></arc>
+<arc id="111"><flow source="10" target="0"/></arc>
+</epc></epml>

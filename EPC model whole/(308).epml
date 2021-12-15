@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="309" name="1Pe_mie0">
+<function id="0"><name>Payroll
+Processing
+of Social
+Insurance</name></function>
+<or id="1"/>
+<event id="2"><name>Need
+to calculate
+vacation
+pay</name></event>
+<function id="3"><name>Payroll
+Processing
+of Other
+Benefits</name></function>
+<function id="4"><name>Calculation
+of Further
+Benefits
+for Payroll
+Processing</name></function>
+<or id="5"/>
+<function id="6"><name>Calculation
+of Capital
+Formation
+Payments</name></function>
+<event id="7"><name>Need
+for payroll
+processing
+of company
+loan contract</name></event>
+<function id="8"><name>Payroll
+Processing
+for Company
+Loan
+Contract</name></function>
+<event id="9"><name>Need
+for coninued
+remuneration
+in case
+of sickness</name></event>
+<event id="10"><name>Need
+for payroll
+processing
+for other
+benefits</name></event>
+<event id="11"><name>Need
+for payroll
+processing
+of social
+insurance</name></event>
+<event id="12"><name>Need
+for payroll
+processing
+of company
+car contract</name></event>
+<event id="13"><name>Payroll
+Processing
+of Further
+Benefits
+Required</name></event>
+<function id="14"><name>Payroll
+Processing
+of Company
+Car Contract</name></function>
+<function id="15"><name>Calculation
+of Leave
+Remuneration</name></function>
+<event id="16"><name>Settlement
+amounts
+for further
+benefits
+exist</name></event>
+<event id="17"><name>Need
+for calculation
+of capital
+formation
+savings</name></event>
+<function id="18"><name>Continued
+Pay for
+Sickness</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="36"><flow source="1" target="16"/></arc>
+<arc id="54"><flow source="2" target="15"/></arc>
+<arc id="59"><flow source="3" target="1"/></arc>
+<arc id="82"><flow source="4" target="5"/></arc>
+<arc id="98"><flow source="5" target="2"/></arc>
+<arc id="103"><flow source="5" target="7"/></arc>
+<arc id="105"><flow source="5" target="9"/></arc>
+<arc id="106"><flow source="5" target="10"/></arc>
+<arc id="107"><flow source="5" target="11"/></arc>
+<arc id="108"><flow source="5" target="12"/></arc>
+<arc id="113"><flow source="5" target="17"/></arc>
+<arc id="116"><flow source="6" target="1"/></arc>
+<arc id="142"><flow source="7" target="8"/></arc>
+<arc id="154"><flow source="8" target="1"/></arc>
+<arc id="190"><flow source="9" target="18"/></arc>
+<arc id="194"><flow source="10" target="3"/></arc>
+<arc id="210"><flow source="11" target="0"/></arc>
+<arc id="243"><flow source="12" target="14"/></arc>
+<arc id="252"><flow source="13" target="4"/></arc>
+<arc id="268"><flow source="14" target="1"/></arc>
+<arc id="287"><flow source="15" target="1"/></arc>
+<arc id="330"><flow source="17" target="6"/></arc>
+<arc id="344"><flow source="18" target="1"/></arc>
+</epc></epml>

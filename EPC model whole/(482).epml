@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="483" name="1Un_jwkf">
+<and id="0"/>
+<event id="1"><name>File
+Defined</name></event>
+<event id="2"><name>Transfer
+Procedure
+Defined</name></event>
+<event id="3"><name>Data
+is to
+be transferred
+from
+Other Applications</name></event>
+<or id="4"/>
+<function id="5"><name>Steps
+when
+setting
+up a
+data transfer</name></function>
+<event id="6"><name>Master
+Data
+Hierarchy
+Defined</name></event>
+<event id="7"><name>Control
+Report
+Portfolio
+Defined</name></event>
+<event id="8"><name>Data
+Transfer
+Set Up</name></event>
+<and id="9"/>
+<event id="10"><name>Data
+is to
+be transferred
+from
+Source System</name></event>
+<event id="11"><name>Non-SAP
+Systems
+Defined</name></event>
+<event id="12"><name>Transaction
+Data
+Defined</name></event>
+<function id="13"><name>Control
+Report
+Portfolio</name></function>
+<function id="14"><name>External
+Systems</name></function>
+<event id="15"><name>Master
+Data
+Defined</name></event>
+<function id="16"><name>File</name></function>
+<function id="17"><name>Transfer
+procedure</name></function>
+<function id="18"><name>Comments</name></function>
+<function id="19"><name>Transaction
+data</name></function>
+<function id="20"><name>Master
+Data
+Hierarchy</name></function>
+<event id="21"><name>Comments
+Defined</name></event>
+<event id="22"><name>Data
+Transfer
+Steps
+Defined</name></event>
+<function id="23"><name>Repeatability
+of Data
+Transfer
+(Automation/
+Scheduling)</name></function>
+<function id="24"><name>Master
+data</name></function>
+<arc id="19"><flow source="0" target="18"/></arc>
+<arc id="39"><flow source="1" target="13"/></arc>
+<arc id="67"><flow source="2" target="16"/></arc>
+<arc id="80"><flow source="3" target="4"/></arc>
+<arc id="115"><flow source="4" target="14"/></arc>
+<arc id="148"><flow source="5" target="22"/></arc>
+<arc id="168"><flow source="6" target="17"/></arc>
+<arc id="181"><flow source="7" target="5"/></arc>
+<arc id="245"><flow source="9" target="19"/></arc>
+<arc id="250"><flow source="9" target="24"/></arc>
+<arc id="255"><flow source="10" target="4"/></arc>
+<arc id="285"><flow source="11" target="9"/></arc>
+<arc id="301"><flow source="12" target="0"/></arc>
+<arc id="333"><flow source="13" target="7"/></arc>
+<arc id="362"><flow source="14" target="11"/></arc>
+<arc id="376"><flow source="15" target="0"/></arc>
+<arc id="402"><flow source="16" target="1"/></arc>
+<arc id="428"><flow source="17" target="2"/></arc>
+<arc id="472"><flow source="18" target="21"/></arc>
+<arc id="488"><flow source="19" target="12"/></arc>
+<arc id="507"><flow source="20" target="6"/></arc>
+<arc id="546"><flow source="21" target="20"/></arc>
+<arc id="574"><flow source="22" target="23"/></arc>
+<arc id="584"><flow source="23" target="8"/></arc>
+<arc id="616"><flow source="24" target="15"/></arc>
+</epc></epml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="76" name="1Be_32fe">
+<function id="0"><name>Stock
+Placement
+Processing</name></function>
+<xor id="1"/>
+<event id="2"><name>Material
+placed
+in storage</name></event>
+<event id="3"><name>Transfer
+order
+item
+is confirmed</name></event>
+<event id="4"><name>TO item
+confirmed
+without
+differences</name></event>
+<function id="5"><name>Confirmation</name></function>
+<event id="6"><name>Goods
+receipt
+posted</name></event>
+<event id="7"><name>Transfer
+order
+item
+with
+difference exists</name></event>
+<function id="8"><name>Difference
+Processing</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="14"><flow source="1" target="4"/></arc>
+<arc id="17"><flow source="1" target="7"/></arc>
+<arc id="24"><flow source="2" target="5"/></arc>
+<arc id="47"><flow source="5" target="1"/></arc>
+<arc id="55"><flow source="6" target="0"/></arc>
+<arc id="72"><flow source="7" target="8"/></arc>
+<arc id="76"><flow source="8" target="3"/></arc>
+</epc></epml>

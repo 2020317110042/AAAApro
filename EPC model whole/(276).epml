@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="277" name="1Pe_lv0n">
+<xor id="0"/>
+<event id="1"><name>Vacancy
+and assigned
+applicants
+exist</name></event>
+<event id="2"><name>Applicant
+has been
+entered</name></event>
+<event id="3"><name>Applicant
+pool
+must
+be updated</name></event>
+<and id="4"/>
+<and id="5"/>
+<function id="6"><name>Applicant
+Pool
+Administration</name></function>
+<event id="7"><name>Recruitment
+request
+is in
+process</name></event>
+<and id="8"/>
+<event id="9"><name>Applicant
+is on
+hold</name></event>
+<event id="10"><name>On hold
+notification
+is transmitted
+to applicant</name></event>
+<event id="11"><name>Rejection
+and application
+documents
+transmitted
+to applicant</name></event>
+<event id="12"><name>Applicant
+is conclusively
+rejected</name></event>
+<event id="13"><name>Enterprise
+requires
+notification
+of rejection</name></event>
+<event id="14"><name>Enterprise
+requires
+on hold
+notification</name></event>
+<function id="15"><name>Notification
+of Rejection
+of Application</name></function>
+<event id="16"><name>Applicant
+is rejected
+for vacancy</name></event>
+<event id="17"><name>Applicant
+is put
+on hold
+for vacancy</name></event>
+<and id="18"/>
+<or id="19"/>
+<event id="20"><name>Application
+is rejected</name></event>
+<function id="21"><name>Notification
+that
+Application
+is on
+Hold</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="21"><flow source="0" target="20"/></arc>
+<arc id="64"><flow source="2" target="19"/></arc>
+<arc id="85"><flow source="3" target="18"/></arc>
+<arc id="104"><flow source="4" target="15"/></arc>
+<arc id="117"><flow source="5" target="6"/></arc>
+<arc id="133"><flow source="6" target="0"/></arc>
+<arc id="160"><flow source="7" target="5"/></arc>
+<arc id="198"><flow source="8" target="21"/></arc>
+<arc id="207"><flow source="9" target="8"/></arc>
+<arc id="291"><flow source="13" target="4"/></arc>
+<arc id="317"><flow source="14" target="8"/></arc>
+<arc id="342"><flow source="15" target="11"/></arc>
+<arc id="372"><flow source="16" target="19"/></arc>
+<arc id="394"><flow source="17" target="19"/></arc>
+<arc id="402"><flow source="18" target="5"/></arc>
+<arc id="437"><flow source="19" target="18"/></arc>
+<arc id="445"><flow source="20" target="4"/></arc>
+<arc id="473"><flow source="21" target="10"/></arc>
+</epc></epml>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="583" name="1Ve_m5jn">
+<function id="0"><name>Design
+of Long-Term
+Incentives
+Program</name></function>
+<xor id="1"/>
+<event id="2"><name>Long-term
+incentives
+program
+is adopted</name></event>
+<event id="3"><name>Need
+for correction
+of long-term
+incentives
+program</name></event>
+<function id="4"><name>Implementation
+of Long-Term
+Incentives
+Program</name></function>
+<event id="5"><name>Need
+for long-term
+incentives
+program</name></event>
+<event id="6"><name>Long-term
+incentives
+program
+is implemented</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="8"><flow source="1" target="0"/></arc>
+<arc id="19"><flow source="2" target="4"/></arc>
+<arc id="23"><flow source="3" target="1"/></arc>
+<arc id="35"><flow source="4" target="6"/></arc>
+<arc id="37"><flow source="5" target="1"/></arc>
+</epc></epml>

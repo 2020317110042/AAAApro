@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="114" name="1Er_hsc3">
+<or id="0"/>
+<or id="1"/>
+<or id="2"/>
+<or id="3"/>
+<xor id="4"/>
+<and id="5"/>
+<and id="6"/>
+<and id="7"/>
+<event id="8"><name>Costs
+were
+transferred
+to Overhead
+Cost Controlling</name></event>
+<event id="9"><name>Actual
+cost
+recording
+for period
+is closed</name></event>
+<function id="10"><name>Period-End
+Closing:
+Material
+Ledger</name></function>
+<function id="11"><name>Period-End
+Closing
+for Profitability
+Analysis</name></function>
+<function id="12"><name>Period-End
+Closing:
+Periodic
+Product
+Cost Controlling</name></function>
+<function id="13"><name>Period-End
+Closing
+in Overhead
+Cost
+Controlling</name></function>
+<event id="14"><name>Profit
+center
+plan
+exists</name></event>
+<function id="15"><name>Period-End
+Closing
+for Profit
+Center
+Accounting</name></function>
+<function id="16"><name>Period-End
+Closing:
+Order-Related
+Product
+Cost Controlling</name></function>
+<function id="17"><name>Period-End
+Closing:
+Sales
+Order
+Controlling</name></function>
+<or id="18"/>
+<event id="19"><name>Process
+costs
+(cost
+objects)
+to be allocated</name></event>
+<event id="20"><name>Production
+order
+settled
+to warehouse</name></event>
+<event id="21"><name>Organizational
+operating
+profit
+(actual)
+exists</name></event>
+<event id="22"><name>Production
+Variances
+Are to
+Be Settled</name></event>
+<event id="23"><name>Sales
+and Costs
+Settled</name></event>
+<xor id="24"/>
+<or id="25"/>
+<event id="26"><name>Control
+measures
+set based
+on variances</name></event>
+<event id="27"><name>Price
+Updated
+in Actual
+Costing</name></event>
+<event id="28"><name>Balance
+sheet
+items
+were
+copied to Profit Center Accounting</name></event>
+<event id="29"><name>Profit
+center
+plan
+data
+complete</name></event>
+<event id="30"><name>Overhead
+Costs
+Are to
+Be Settled
+to Profitability Analysis</name></event>
+<and id="31"/>
+<event id="32"><name>Process
+costs
+(production
+order)
+to be allocated</name></event>
+<event id="33"><name>Product
+cost
+collector
+settled</name></event>
+<event id="34"><name>Process
+costs
+(product
+cost
+collector) to be allocated</name></event>
+<event id="35"><name>Process
+costs
+(sales
+order)
+to be allocated</name></event>
+<event id="36"><name>Cost
+Object
+Hierarchy
+Settled</name></event>
+<event id="37"><name>Inventories/
+Reserves
+Posted</name></event>
+<event id="38"><name>Product
+Costs
+Are Allocated</name></event>
+<or id="39"/>
+<and id="40"/>
+<event id="41"><name>Controlling
+is reconciled
+with
+Financial
+Accounting</name></event>
+<arc id="26"><flow source="0" target="25"/></arc>
+<arc id="55"><flow source="1" target="12"/></arc>
+<arc id="111"><flow source="2" target="26"/></arc>
+<arc id="137"><flow source="3" target="10"/></arc>
+<arc id="180"><flow source="4" target="11"/></arc>
+<arc id="213"><flow source="5" target="2"/></arc>
+<arc id="232"><flow source="5" target="21"/></arc>
+<arc id="257"><flow source="6" target="4"/></arc>
+<arc id="318"><flow source="7" target="23"/></arc>
+<arc id="332"><flow source="7" target="37"/></arc>
+<arc id="355"><flow source="8" target="18"/></arc>
+<arc id="397"><flow source="9" target="18"/></arc>
+<arc id="421"><flow source="10" target="0"/></arc>
+<arc id="468"><flow source="11" target="5"/></arc>
+<arc id="545"><flow source="12" target="40"/></arc>
+<arc id="586"><flow source="13" target="39"/></arc>
+<arc id="613"><flow source="14" target="24"/></arc>
+<arc id="633"><flow source="15" target="2"/></arc>
+<arc id="693"><flow source="16" target="20"/></arc>
+<arc id="715"><flow source="17" target="0"/></arc>
+<arc id="770"><flow source="18" target="13"/></arc>
+<arc id="800"><flow source="19" target="1"/></arc>
+<arc id="844"><flow source="20" target="3"/></arc>
+<arc id="929"><flow source="22" target="4"/></arc>
+<arc id="973"><flow source="23" target="6"/></arc>
+<arc id="1024"><flow source="24" target="15"/></arc>
+<arc id="1058"><flow source="25" target="7"/></arc>
+<arc id="1078"><flow source="25" target="27"/></arc>
+<arc id="1201"><flow source="28" target="24"/></arc>
+<arc id="1250"><flow source="29" target="31"/></arc>
+<arc id="1265"><flow source="30" target="4"/></arc>
+<arc id="1327"><flow source="31" target="24"/></arc>
+<arc id="1361"><flow source="32" target="16"/></arc>
+<arc id="1390"><flow source="33" target="3"/></arc>
+<arc id="1430"><flow source="34" target="1"/></arc>
+<arc id="1488"><flow source="35" target="17"/></arc>
+<arc id="1516"><flow source="36" target="3"/></arc>
+<arc id="1561"><flow source="37" target="6"/></arc>
+<arc id="1628"><flow source="38" target="31"/></arc>
+<arc id="1669"><flow source="39" target="30"/></arc>
+<arc id="1680"><flow source="39" target="41"/></arc>
+<arc id="1714"><flow source="40" target="33"/></arc>
+<arc id="1717"><flow source="40" target="36"/></arc>
+</epc></epml>

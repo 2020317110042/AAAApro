@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="405" name="1Pr_smx-">
+<xor id="0"/>
+<and id="1"/>
+<function id="2"><name>Integrated
+Product
+and Process
+Data
+Processing - EWB</name></function>
+<event id="3"><name>Put together
+objects
+in the
+configuration
+folder</name></event>
+<and id="4"/>
+<function id="5"><name>Routing
+Processing</name></function>
+<function id="6"><name>Order
+BOM Processing</name></function>
+<function id="7"><name>Edit
+Classes</name></function>
+<function id="8"><name>Inspection
+Plan
+Processing</name></function>
+<function id="9"><name>Document
+Processing</name></function>
+<function id="10"><name>Classification</name></function>
+<function id="11"><name>Production
+Resource/
+Tool
+Processing</name></function>
+<and id="12"/>
+<function id="13"><name>Document
+Structure
+Processing</name></function>
+<event id="14"><name>Check
+dates
+and transactions</name></event>
+<event id="15"><name>Define
+production
+resources/
+tools</name></event>
+<function id="16"><name>Product
+description
+using
+Configuration
+Management</name></function>
+<event id="17"><name>Set up
+product
+structure
+without
+variants</name></event>
+<and id="18"/>
+<event id="19"><name>Create
+order
+BOM</name></event>
+<and id="20"/>
+<xor id="21"/>
+<function id="22"><name>Material
+Master
+Processing</name></function>
+<function id="23"><name>Material
+BOM Processing</name></function>
+<function id="24"><name>Characteristic
+Processing</name></function>
+<event id="25"><name>Create
+project
+BOM</name></event>
+<function id="26"><name>Graphical
+Product
+Structure
+Processing</name></function>
+<function id="27"><name>WBS BOM
+Processing</name></function>
+<event id="28"><name>Check
+product
+data
+structure</name></event>
+<and id="29"/>
+<event id="30"><name>Create
+routings
+and inspection
+plans</name></event>
+<arc id="29"><flow source="0" target="28"/></arc>
+<arc id="37"><flow source="1" target="5"/></arc>
+<arc id="40"><flow source="1" target="8"/></arc>
+<arc id="75"><flow source="2" target="12"/></arc>
+<arc id="110"><flow source="3" target="16"/></arc>
+<arc id="155"><flow source="4" target="30"/></arc>
+<arc id="174"><flow source="5" target="18"/></arc>
+<arc id="187"><flow source="6" target="0"/></arc>
+<arc id="222"><flow source="7" target="4"/></arc>
+<arc id="267"><flow source="8" target="18"/></arc>
+<arc id="284"><flow source="9" target="4"/></arc>
+<arc id="315"><flow source="10" target="4"/></arc>
+<arc id="363"><flow source="11" target="21"/></arc>
+<arc id="376"><flow source="12" target="3"/></arc>
+<arc id="408"><flow source="13" target="4"/></arc>
+<arc id="477"><flow source="15" target="11"/></arc>
+<arc id="511"><flow source="16" target="14"/></arc>
+<arc id="557"><flow source="17" target="29"/></arc>
+<arc id="574"><flow source="18" target="15"/></arc>
+<arc id="596"><flow source="19" target="6"/></arc>
+<arc id="623"><flow source="20" target="2"/></arc>
+<arc id="647"><flow source="20" target="26"/></arc>
+<arc id="671"><flow source="21" target="19"/></arc>
+<arc id="677"><flow source="21" target="25"/></arc>
+<arc id="687"><flow source="22" target="4"/></arc>
+<arc id="718"><flow source="23" target="4"/></arc>
+<arc id="749"><flow source="24" target="4"/></arc>
+<arc id="803"><flow source="25" target="27"/></arc>
+<arc id="819"><flow source="26" target="12"/></arc>
+<arc id="838"><flow source="27" target="0"/></arc>
+<arc id="889"><flow source="28" target="20"/></arc>
+<arc id="907"><flow source="29" target="7"/></arc>
+<arc id="909"><flow source="29" target="9"/></arc>
+<arc id="910"><flow source="29" target="10"/></arc>
+<arc id="913"><flow source="29" target="13"/></arc>
+<arc id="922"><flow source="29" target="22"/></arc>
+<arc id="923"><flow source="29" target="23"/></arc>
+<arc id="924"><flow source="29" target="24"/></arc>
+<arc id="932"><flow source="30" target="1"/></arc>
+</epc></epml>

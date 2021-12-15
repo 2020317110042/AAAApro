@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="363" name="1Pr_d957">
+<function id="0"><name>Processing
+the Configuration
+Folder</name></function>
+<event id="1"><name>Query
+current
+status</name></event>
+<event id="2"><name>Object
+processing
+is complete</name></event>
+<xor id="3"/>
+<event id="4"><name>Changes
+should
+be adopted</name></event>
+<function id="5"><name>Status
+Tracking</name></function>
+<event id="6"><name>Objects
+processed
+must
+be sent
+for review</name></event>
+<event id="7"><name>Compare
+processed
+objects
+with
+the originals</name></event>
+<function id="8"><name>Upload
+Objects</name></function>
+<function id="9"><name>Offline
+Object
+Processing</name></function>
+<function id="10"><name>Object
+Transfer</name></function>
+<function id="11"><name>Review</name></function>
+<event id="12"><name>Collaborative
+object
+processing
+required</name></event>
+<event id="13"><name>Select
+objects
+for processing</name></event>
+<function id="14"><name>Download
+Objects</name></function>
+<event id="15"><name>Collaborative
+object
+processing
+is complete</name></event>
+<event id="16"><name>Objects
+to be
+processed</name></event>
+<function id="17"><name>Object
+Comparison</name></function>
+<xor id="18"/>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="25"><flow source="1" target="5"/></arc>
+<arc id="47"><flow source="2" target="8"/></arc>
+<arc id="64"><flow source="3" target="6"/></arc>
+<arc id="76"><flow source="3" target="18"/></arc>
+<arc id="87"><flow source="4" target="10"/></arc>
+<arc id="103"><flow source="5" target="7"/></arc>
+<arc id="126"><flow source="6" target="11"/></arc>
+<arc id="151"><flow source="7" target="17"/></arc>
+<arc id="154"><flow source="8" target="1"/></arc>
+<arc id="174"><flow source="9" target="2"/></arc>
+<arc id="206"><flow source="10" target="15"/></arc>
+<arc id="228"><flow source="11" target="18"/></arc>
+<arc id="229"><flow source="12" target="0"/></arc>
+<arc id="262"><flow source="13" target="14"/></arc>
+<arc id="283"><flow source="14" target="16"/></arc>
+<arc id="314"><flow source="16" target="9"/></arc>
+<arc id="327"><flow source="17" target="3"/></arc>
+<arc id="347"><flow source="18" target="4"/></arc>
+</epc></epml>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="324" name="1Pr_1p3a">
+<function id="0"><name>Material
+Requirements
+Planning</name></function>
+<event id="1"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="2"><name>Mat.forecast
+is to
+be carried
+out</name></event>
+<function id="3"><name>Forecast</name></function>
+<event id="4"><name>Forecast
+requirements
+generated</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="14"><flow source="2" target="3"/></arc>
+<arc id="20"><flow source="3" target="4"/></arc>
+<arc id="21"><flow source="4" target="0"/></arc>
+</epc></epml>

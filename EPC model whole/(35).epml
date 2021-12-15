@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="36" name="1An_l89b">
+<xor id="0"/>
+<and id="1"/>
+<event id="2"><name>Asset
+master
+record
+does
+not exist</name></event>
+<xor id="3"/>
+<xor id="4"/>
+<event id="5"><name>Acquisitions
+to be
+entered</name></event>
+<or id="6"/>
+<event id="7"><name>Asset
+master
+record
+is incomplete</name></event>
+<event id="8"><name>Fixed
+asset
+is changed</name></event>
+<event id="9"><name>Operating
+lease
+procedure
+should
+be used</name></event>
+<event id="10"><name>Assign
+asset
+to property,
+if required</name></event>
+<event id="11"><name>Valuation
+leased
+asset
+is determined</name></event>
+<event id="12"><name>An asset
+master
+record
+should
+be changed</name></event>
+<event id="13"><name>Assign
+asset
+to building,
+if required</name></event>
+<xor id="14"/>
+<event id="15"><name>Leased
+asset
+is created</name></event>
+<event id="16"><name>Cost
+center
+plan
+was changed</name></event>
+<event id="17"><name>Revaluation
+is necessary
+due to
+post-capi-
+talization</name></event>
+<function id="18"><name>Asset
+Master
+Record
+Change</name></function>
+<function id="19"><name>Creation
+of Leased
+Asset
+Master
+Record</name></function>
+<function id="20"><name>Mass
+Change</name></function>
+<event id="21"><name>Mass
+changes
+were
+made</name></event>
+<event id="22"><name>Depreciation
+terms
+should
+be changed</name></event>
+<or id="23"/>
+<or id="24"/>
+<event id="25"><name>Depreciation
+should
+be posted
+regularly</name></event>
+<event id="26"><name>Retirements
+to be
+entered</name></event>
+<event id="27"><name>Several
+asset
+master
+records
+should be changed</name></event>
+<event id="28"><name>Worklist
+was created</name></event>
+<event id="29"><name>Index
+series
+must
+be updated</name></event>
+<or id="30"/>
+<event id="31"><name>Post-capitalization
+to be
+posted</name></event>
+<arc id="19"><flow source="0" target="18"/></arc>
+<arc id="37"><flow source="1" target="4"/></arc>
+<arc id="48"><flow source="1" target="15"/></arc>
+<arc id="71"><flow source="2" target="6"/></arc>
+<arc id="98"><flow source="3" target="1"/></arc>
+<arc id="104"><flow source="3" target="7"/></arc>
+<arc id="139"><flow source="4" target="10"/></arc>
+<arc id="142"><flow source="4" target="13"/></arc>
+<arc id="212"><flow source="6" target="19"/></arc>
+<arc id="295"><flow source="9" target="6"/></arc>
+<arc id="359"><flow source="11" target="6"/></arc>
+<arc id="385"><flow source="12" target="0"/></arc>
+<arc id="461"><flow source="14" target="12"/></arc>
+<arc id="466"><flow source="14" target="17"/></arc>
+<arc id="473"><flow source="14" target="24"/></arc>
+<arc id="511"><flow source="15" target="30"/></arc>
+<arc id="536"><flow source="16" target="23"/></arc>
+<arc id="545"><flow source="17" target="0"/></arc>
+<arc id="585"><flow source="18" target="8"/></arc>
+<arc id="612"><flow source="19" target="3"/></arc>
+<arc id="662"><flow source="20" target="21"/></arc>
+<arc id="728"><flow source="22" target="23"/></arc>
+<arc id="757"><flow source="23" target="20"/></arc>
+<arc id="785"><flow source="24" target="16"/></arc>
+<arc id="791"><flow source="24" target="22"/></arc>
+<arc id="796"><flow source="24" target="27"/></arc>
+<arc id="797"><flow source="24" target="28"/></arc>
+<arc id="888"><flow source="27" target="23"/></arc>
+<arc id="975"><flow source="30" target="14"/></arc>
+<arc id="986"><flow source="30" target="25"/></arc>
+<arc id="987"><flow source="30" target="26"/></arc>
+<arc id="990"><flow source="30" target="29"/></arc>
+<arc id="992"><flow source="30" target="31"/></arc>
+</epc></epml>

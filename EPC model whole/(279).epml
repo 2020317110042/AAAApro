@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="280" name="1Pe_lwqx">
+<and id="0"/>
+<event id="1"><name>Need
+for personnel
+advertising
+exists</name></event>
+<event id="2"><name>Time
+for order
+monitoring
+is reached</name></event>
+<xor id="3"/>
+<event id="4"><name>Recruitment
+request
+is in
+process</name></event>
+<event id="5"><name>Recruitment
+request
+is complete</name></event>
+<function id="6"><name>Recruitment
+Request
+Monitoring</name></function>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="15"><flow source="2" target="0"/></arc>
+<arc id="23"><flow source="3" target="1"/></arc>
+<arc id="26"><flow source="3" target="4"/></arc>
+<arc id="27"><flow source="3" target="5"/></arc>
+<arc id="29"><flow source="4" target="0"/></arc>
+<arc id="46"><flow source="6" target="3"/></arc>
+</epc></epml>

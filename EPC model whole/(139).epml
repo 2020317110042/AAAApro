@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="140" name="1Ex_e68v">
+<event id="0"><name>Data
+is updated
+realtime</name></event>
+<event id="1"><name>Rollup
+extract
+file
+is transferred</name></event>
+<event id="2"><name>Individual/
+subgroup
+financial
+state-
+ments are to be sent to parent company</name></event>
+<event id="3"><name>Extract
+is transferred
+by IDOC</name></event>
+<event id="4"><name>Extract
+is transferred
+from
+R/2</name></event>
+<event id="5"><name>File
+is transferred
+as PC
+file</name></event>
+<event id="6"><name>Extract/
+download
+for R/
+2 is
+created</name></event>
+<function id="7"><name>Data
+Transfer</name></function>
+<event id="8"><name>Export
+file
+(PC)
+is transferred</name></event>
+<event id="9"><name>Extract
+is transferred
+as UNIX
+file</name></event>
+<xor id="10"/>
+<arc id="30"><flow source="2" target="7"/></arc>
+<arc id="88"><flow source="7" target="10"/></arc>
+<arc id="111"><flow source="10" target="0"/></arc>
+<arc id="112"><flow source="10" target="1"/></arc>
+<arc id="114"><flow source="10" target="3"/></arc>
+<arc id="115"><flow source="10" target="4"/></arc>
+<arc id="116"><flow source="10" target="5"/></arc>
+<arc id="117"><flow source="10" target="6"/></arc>
+<arc id="119"><flow source="10" target="8"/></arc>
+<arc id="120"><flow source="10" target="9"/></arc>
+</epc></epml>

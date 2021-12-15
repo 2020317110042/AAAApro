@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="122" name="1Er_ixgh">
+<event id="0"><name/></event>
+<or id="1"/>
+<function id="2"><name>Cost
+and Revenue
+Allocation
+to Profitability
+Analysis</name></function>
+<event id="3"><name/></event>
+<event id="4"><name>Labor
+and salary
+costs
+transferred
+to cost accounting</name></event>
+<event id="5"><name>Internal
+Activity
+Should
+Be Allocated
+Internally</name></event>
+<event id="6"><name>Trip
+costs
+must
+be included
+in cost accounting</name></event>
+<event id="7"><name>Billing
+Documents
+(Complaints
+Processing)
+Are to be Transferred and Valuated</name></event>
+<event id="8"><name>Cost-accounting
+depreciation/
+interest
+transferred
+to Cost Accounting</name></event>
+<event id="9"><name>Customer
+Agreements
+Are to
+Be Transferred</name></event>
+<event id="10"><name>Open
+item
+was detailed</name></event>
+<event id="11"><name>Costs
+were
+reposted</name></event>
+<function id="12"><name>Overhead
+Allocation</name></function>
+<or id="13"/>
+<function id="14"><name>Profit
+Center
+Allocation</name></function>
+<event id="15"><name>Costs
+Posted
+from
+Feeder
+Systems (MM, FI)</name></event>
+<event id="16"><name>Additional
+Data
+Is to
+Be Entered
+in Profit Center Accounting</name></event>
+<event id="17"><name>Actual
+cost
+recording
+for period
+is closed</name></event>
+<event id="18"><name>Internal
+Activity
+Was Allocated</name></event>
+<event id="19"><name>Costs
+Allocated
+Manually</name></event>
+<event id="20"><name>Additional
+Balance
+Sheet
+Items
+Are to Be Transferred</name></event>
+<or id="21"/>
+<event id="22"><name>Revenues/
+Costs
+Allocated
+to Profitability
+Analysis</name></event>
+<event id="23"><name>Incoming
+Sales
+Orders
+Are to
+Be Valuated and Transferred</name></event>
+<or id="24"/>
+<event id="25"><name>Additional
+Manual
+Key Figures
+Are to
+Be Entered</name></event>
+<event id="26"><name>Data
+transferred
+to Profit
+Center
+Accounting</name></event>
+<event id="27"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<event id="28"><name>Billing
+Documents
+(Direct
+Sales)
+Are to Be Transferred and Valuated</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="42"><flow source="1" target="12"/></arc>
+<arc id="81"><flow source="2" target="22"/></arc>
+<arc id="101"><flow source="3" target="13"/></arc>
+<arc id="118"><flow source="4" target="1"/></arc>
+<arc id="147"><flow source="5" target="1"/></arc>
+<arc id="176"><flow source="6" target="1"/></arc>
+<arc id="217"><flow source="7" target="13"/></arc>
+<arc id="234"><flow source="8" target="1"/></arc>
+<arc id="275"><flow source="9" target="13"/></arc>
+<arc id="370"><flow source="12" target="21"/></arc>
+<arc id="380"><flow source="13" target="2"/></arc>
+<arc id="433"><flow source="14" target="26"/></arc>
+<arc id="449"><flow source="15" target="13"/></arc>
+<arc id="489"><flow source="16" target="24"/></arc>
+<arc id="518"><flow source="17" target="24"/></arc>
+<arc id="536"><flow source="18" target="13"/></arc>
+<arc id="605"><flow source="20" target="24"/></arc>
+<arc id="620"><flow source="21" target="10"/></arc>
+<arc id="621"><flow source="21" target="11"/></arc>
+<arc id="627"><flow source="21" target="17"/></arc>
+<arc id="628"><flow source="21" target="18"/></arc>
+<arc id="629"><flow source="21" target="19"/></arc>
+<arc id="663"><flow source="22" target="24"/></arc>
+<arc id="681"><flow source="23" target="13"/></arc>
+<arc id="711"><flow source="24" target="14"/></arc>
+<arc id="750"><flow source="25" target="24"/></arc>
+<arc id="785"><flow source="27" target="1"/></arc>
+<arc id="826"><flow source="28" target="13"/></arc>
+</epc></epml>

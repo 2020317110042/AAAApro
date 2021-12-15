@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="144" name="1Ex_e7kd">
+<event id="0"><name>Validity
+date
+reset</name></event>
+<function id="1"><name>Activate
+Future
+Material
+Price</name></function>
+<and id="2"/>
+<event id="3"><name>Batch
+input
+has been
+created
+for price change</name></event>
+<event id="4"><name>Material
+price
+has been
+changed</name></event>
+<event id="5"><name>Future
+price
+reset</name></event>
+<function id="6"><name>Change
+in Material
+Price</name></function>
+<event id="7"><name>Revaluation
+document
+has been
+created</name></event>
+<event id="8"><name>Future
+material
+price
+must
+be activated</name></event>
+<function id="9"><name>Material
+Master
+Change
+(BI for
+Price Change)</name></function>
+<and id="10"/>
+<arc id="15"><flow source="1" target="3"/></arc>
+<arc id="27"><flow source="2" target="4"/></arc>
+<arc id="30"><flow source="2" target="7"/></arc>
+<arc id="40"><flow source="3" target="6"/></arc>
+<arc id="54"><flow source="4" target="9"/></arc>
+<arc id="69"><flow source="6" target="2"/></arc>
+<arc id="90"><flow source="8" target="1"/></arc>
+<arc id="110"><flow source="9" target="10"/></arc>
+<arc id="111"><flow source="10" target="0"/></arc>
+<arc id="116"><flow source="10" target="5"/></arc>
+</epc></epml>

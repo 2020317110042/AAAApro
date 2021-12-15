@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="125" name="1Er_j5sl">
+<function id="0"><name>Manual
+Entry
+of Statistical
+Key Figures</name></function>
+<function id="1"><name>Actual
+Data
+Transfers
+on Profit
+Center</name></function>
+<or id="2"/>
+<event id="3"><name>Plan
+Data
+Can Be
+Transferred</name></event>
+<event id="4"><name>Additional
+Manual
+Key Figures
+Are to
+Be Entered</name></event>
+<event id="5"><name>Additional
+Data
+Is to
+Be Entered
+in Profit Center Accounting</name></event>
+<event id="6"><name>Data
+transferred
+to Profit
+Center
+Accounting</name></event>
+<function id="7"><name>Actual
+Transfer
+of Additional
+Balance
+Sheet Items to EC-PCA</name></function>
+<function id="8"><name>Document
+Entry
+in Profit
+Center
+Accounting</name></function>
+<event id="9"><name>Additional
+Balance
+Sheet
+Items
+Are to Be Transferred</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="13"><flow source="1" target="2"/></arc>
+<arc id="27"><flow source="2" target="6"/></arc>
+<arc id="32"><flow source="3" target="1"/></arc>
+<arc id="41"><flow source="4" target="0"/></arc>
+<arc id="59"><flow source="5" target="8"/></arc>
+<arc id="73"><flow source="7" target="2"/></arc>
+<arc id="83"><flow source="8" target="2"/></arc>
+<arc id="98"><flow source="9" target="7"/></arc>
+</epc></epml>

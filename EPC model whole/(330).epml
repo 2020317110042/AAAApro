@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="331" name="1Pr_3nmw">
+<and id="0"/>
+<function id="1"><name>Production
+Order
+Execution</name></function>
+<event id="2"><name>Inspection
+lot is
+created
+automatically
+for order</name></event>
+<event id="3"><name>Conversion
+date
+is reached</name></event>
+<function id="4"><name>Production
+Order
+Creation</name></function>
+<event id="5"><name>Capacity
+requirement
+is created</name></event>
+<event id="6"><name>Production
+order
+is completely
+confirmed</name></event>
+<event id="7"><name>Material
+reservation
+is created</name></event>
+<and id="8"/>
+<event id="9"><name>Prelim.
+Costing
+Carried
+Out for
+Planned Order</name></event>
+<function id="10"><name>Capacity
+Requirements
+Planning</name></function>
+<event id="11"><name>Goods
+Receipt
+Posted</name></event>
+<event id="12"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="13"><name>Goods
+Issue
+is Posted</name></event>
+<or id="14"/>
+<event id="15"><name>Capacity
+Leveling
+or Planning
+Is Performed</name></event>
+<event id="16"><name>Production
+order
+is released</name></event>
+<or id="17"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="27"><flow source="1" target="8"/></arc>
+<arc id="55"><flow source="3" target="0"/></arc>
+<arc id="90"><flow source="4" target="17"/></arc>
+<arc id="151"><flow source="8" target="6"/></arc>
+<arc id="156"><flow source="8" target="11"/></arc>
+<arc id="158"><flow source="8" target="13"/></arc>
+<arc id="196"><flow source="10" target="15"/></arc>
+<arc id="217"><flow source="12" target="0"/></arc>
+<arc id="272"><flow source="15" target="1"/></arc>
+<arc id="299"><flow source="16" target="10"/></arc>
+<arc id="309"><flow source="17" target="2"/></arc>
+<arc id="312"><flow source="17" target="5"/></arc>
+<arc id="314"><flow source="17" target="7"/></arc>
+<arc id="316"><flow source="17" target="9"/></arc>
+<arc id="323"><flow source="17" target="16"/></arc>
+</epc></epml>

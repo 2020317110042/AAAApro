@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="499" name="1Ve_4geh">
+<event id="0"><name>Inquiry
+items
+are rejected</name></event>
+<event id="1"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<event id="2"><name>Customer
+inquires
+about
+products</name></event>
+<xor id="3"/>
+<event id="4"><name>Inquiry
+is created</name></event>
+<event id="5"><name>Customer
+Inquiry
+is Transmitted</name></event>
+<xor id="6"/>
+<event id="7"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<function id="8"><name>Customer
+Inquiry
+Processing</name></function>
+<and id="9"/>
+<arc id="27"><flow source="2" target="6"/></arc>
+<arc id="31"><flow source="3" target="0"/></arc>
+<arc id="32"><flow source="3" target="1"/></arc>
+<arc id="69"><flow source="6" target="8"/></arc>
+<arc id="77"><flow source="7" target="6"/></arc>
+<arc id="90"><flow source="8" target="9"/></arc>
+<arc id="94"><flow source="9" target="3"/></arc>
+<arc id="95"><flow source="9" target="4"/></arc>
+<arc id="96"><flow source="9" target="5"/></arc>
+</epc></epml>

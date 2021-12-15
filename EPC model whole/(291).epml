@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="292" name="1Pe_mbsh">
+<event id="0"><name>Need
+to create
+calendar
+and work
+schedule</name></event>
+<and id="1"/>
+<and id="2"/>
+<event id="3"><name>EE -
+planned
+working
+time
+determination - operative is available</name></event>
+<function id="4"><name>Operative
+personnel
+time
+planning</name></function>
+<event id="5"><name>Planned
+personnel
+time
+specifications
+are available</name></event>
+<and id="6"/>
+<function id="7"><name>Operative
+planned
+working
+time
+specification</name></function>
+<and id="8"/>
+<event id="9"><name>Person-based
+work
+schedules
+are available</name></event>
+<function id="10"><name>Work
+schedule
+creation</name></function>
+<function id="11"><name>Long-term
+working
+time
+planning</name></function>
+<event id="12"><name>Work
+schedule
+is available</name></event>
+<event id="13"><name>Need
+for long-term
+work
+scheduling</name></event>
+<event id="14"><name>Requirement
+for operative
+planned
+working
+time determination</name></event>
+<or id="15"/>
+<event id="16"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="23"><flow source="1" target="5"/></arc>
+<arc id="32"><flow source="1" target="14"/></arc>
+<arc id="42"><flow source="2" target="7"/></arc>
+<arc id="70"><flow source="4" target="1"/></arc>
+<arc id="107"><flow source="6" target="4"/></arc>
+<arc id="123"><flow source="7" target="3"/></arc>
+<arc id="139"><flow source="8" target="2"/></arc>
+<arc id="143"><flow source="8" target="6"/></arc>
+<arc id="162"><flow source="9" target="8"/></arc>
+<arc id="183"><flow source="10" target="12"/></arc>
+<arc id="197"><flow source="11" target="9"/></arc>
+<arc id="220"><flow source="12" target="15"/></arc>
+<arc id="237"><flow source="13" target="15"/></arc>
+<arc id="241"><flow source="14" target="2"/></arc>
+<arc id="267"><flow source="15" target="11"/></arc>
+<arc id="279"><flow source="16" target="6"/></arc>
+</epc></epml>

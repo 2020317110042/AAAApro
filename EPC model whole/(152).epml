@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="153" name="1Ex_ecum">
+<event id="0"><name>Planning
+is to
+be carried
+out</name></event>
+<function id="1"><name>Planning</name></function>
+<event id="2"><name>Planning
+carried
+out</name></event>
+<event id="3"><name>Ledger
+is ready
+to be
+updated</name></event>
+<and id="4"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="8"><flow source="1" target="2"/></arc>
+<arc id="20"><flow source="3" target="4"/></arc>
+<arc id="22"><flow source="4" target="1"/></arc>
+</epc></epml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="183" name="1Im_lgn9">
+<event id="0"><name>General
+contract
+(lease-in)
+to be
+edited</name></event>
+<or id="1"/>
+<event id="2"><name>Termination
+of general
+contract
+to be
+edited</name></event>
+<function id="3"><name>Editing
+General
+Contract</name></function>
+<function id="4"><name>Periodic
+Posting
+(General
+RE Contract)</name></function>
+<or id="5"/>
+<event id="6"><name>Credit
+posting
+is made</name></event>
+<event id="7"><name>Renew
+lease-outs</name></event>
+<event id="8"><name>Credit
+posting
+to be
+made</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="13"><flow source="1" target="3"/></arc>
+<arc id="20"><flow source="2" target="1"/></arc>
+<arc id="33"><flow source="3" target="5"/></arc>
+<arc id="43"><flow source="4" target="6"/></arc>
+<arc id="48"><flow source="5" target="2"/></arc>
+<arc id="53"><flow source="5" target="7"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="65"><flow source="7" target="1"/></arc>
+<arc id="77"><flow source="8" target="4"/></arc>
+</epc></epml>

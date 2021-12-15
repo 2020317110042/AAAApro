@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="18" name="1An_kr8w">
+<event id="0"><name>Order
+analysis
+completed</name></event>
+<function id="1"><name>Processing
+of Depreciation
+Simulation
+Data</name></function>
+<event id="2"><name>Investment
+profile
+with
+line
+item settlement is specified</name></event>
+<and id="3"/>
+<function id="4"><name>Depreciation
+Simulation/
+Forecast
+[Investment
+Project]</name></function>
+<event id="5"><name>Planned
+accrued
+depreciation
+and interest
+were transferred to CO</name></event>
+<function id="6"><name>Program
+Analysis</name></function>
+<xor id="7"/>
+<event id="8"><name>Inv.
+profile
+specified
+w/summary
+settlement</name></event>
+<event id="9"><name>Simulation
+is to
+be car-
+ried
+out for portion of fixed assets (future FY)</name></event>
+<event id="10"><name>Deprec-
+iation
+simula-
+tion
+data is maintained</name></event>
+<event id="11"><name>Capital
+investment
+program
+is to
+be analyzed</name></event>
+<event id="12"><name>Planned
+deprec-
+iation
+should
+be transferred to controlling</name></event>
+<event id="13"><name>Simulation
+was carried
+out</name></event>
+<event id="14"><name>Program
+analysis
+completed</name></event>
+<event id="15"><name>Cost
+development
+of order
+is to
+be checked</name></event>
+<function id="16"><name>Integrated
+Planning
+in CO</name></function>
+<arc id="28"><flow source="1" target="10"/></arc>
+<arc id="42"><flow source="2" target="7"/></arc>
+<arc id="61"><flow source="3" target="9"/></arc>
+<arc id="63"><flow source="3" target="11"/></arc>
+<arc id="64"><flow source="3" target="12"/></arc>
+<arc id="67"><flow source="3" target="15"/></arc>
+<arc id="82"><flow source="4" target="13"/></arc>
+<arc id="117"><flow source="6" target="14"/></arc>
+<arc id="121"><flow source="7" target="1"/></arc>
+<arc id="144"><flow source="8" target="7"/></arc>
+<arc id="158"><flow source="9" target="4"/></arc>
+<arc id="174"><flow source="10" target="3"/></arc>
+<arc id="194"><flow source="11" target="6"/></arc>
+<arc id="221"><flow source="12" target="16"/></arc>
+<arc id="278"><flow source="16" target="5"/></arc>
+</epc></epml>

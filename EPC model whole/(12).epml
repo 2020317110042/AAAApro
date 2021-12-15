@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="13" name="1An_klol">
+<event id="0"><name>Budget
+is updated</name></event>
+<event id="1"><name>Purchase
+order
+commitment
+created</name></event>
+<event id="2"><name>Reserved
+funds
+were
+reduced</name></event>
+<event id="3"><name>Procurement
+and capitalization
+carried
+out</name></event>
+<event id="4"><name>Vendor
+down
+payment
+request
+is created</name></event>
+<event id="5"><name>Open
+item
+was detailed</name></event>
+<or id="6"/>
+<function id="7"><name>Check
+of Order
+Update
+[Direct
+Capitalization]</name></function>
+<function id="8"><name>Budget
+Update
+[Capital
+Investment]</name></function>
+<event id="9"><name>Service
+is accepted</name></event>
+<event id="10"><name>Payment
+posted</name></event>
+<event id="11"><name>Budget
+is to
+be updated</name></event>
+<event id="12"><name>Material
+is reserved</name></event>
+<event id="13"><name>Payment
+must
+be effected</name></event>
+<event id="14"><name>Goods
+Receipt
+Posted</name></event>
+<event id="15"><name>Vendor
+down
+payment
+posted</name></event>
+<event id="16"><name>Goods
+issue
+is posted</name></event>
+<event id="17"><name>Posting
+was rejected
+due to
+budget
+overrun</name></event>
+<event id="18"><name>Purchase
+requisition
+commitment
+created</name></event>
+<event id="19"><name>Internal
+Activity
+Was Allocated</name></event>
+<event id="20"><name>Assigned
+funds
+are within
+tolerance
+limits</name></event>
+<event id="21"><name>Incorrectly
+assigned
+object
+was credited</name></event>
+<event id="22"><name>Posting
+was allowed
+despite
+budget
+overrun</name></event>
+<event id="23"><name>Program
+positions
+released</name></event>
+<event id="24"><name>Object
+to be
+assigned
+was debited</name></event>
+<and id="25"/>
+<xor id="26"/>
+<arc id="34"><flow source="1" target="6"/></arc>
+<arc id="61"><flow source="2" target="6"/></arc>
+<arc id="107"><flow source="3" target="25"/></arc>
+<arc id="115"><flow source="4" target="6"/></arc>
+<arc id="142"><flow source="5" target="6"/></arc>
+<arc id="188"><flow source="6" target="25"/></arc>
+<arc id="201"><flow source="7" target="11"/></arc>
+<arc id="217"><flow source="8" target="0"/></arc>
+<arc id="250"><flow source="9" target="6"/></arc>
+<arc id="277"><flow source="10" target="6"/></arc>
+<arc id="324"><flow source="11" target="26"/></arc>
+<arc id="331"><flow source="12" target="6"/></arc>
+<arc id="358"><flow source="13" target="6"/></arc>
+<arc id="385"><flow source="14" target="6"/></arc>
+<arc id="412"><flow source="15" target="6"/></arc>
+<arc id="439"><flow source="16" target="6"/></arc>
+<arc id="486"><flow source="17" target="26"/></arc>
+<arc id="493"><flow source="18" target="6"/></arc>
+<arc id="520"><flow source="19" target="6"/></arc>
+<arc id="567"><flow source="20" target="26"/></arc>
+<arc id="574"><flow source="21" target="6"/></arc>
+<arc id="621"><flow source="22" target="26"/></arc>
+<arc id="648"><flow source="23" target="26"/></arc>
+<arc id="655"><flow source="24" target="6"/></arc>
+<arc id="683"><flow source="25" target="7"/></arc>
+<arc id="711"><flow source="26" target="8"/></arc>
+</epc></epml>

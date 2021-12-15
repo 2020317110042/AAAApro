@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="138" name="1Ex_e5xq">
+<event id="0"><name>Standardizing
+entries
+were
+made</name></event>
+<function id="1"><name>Standardizing
+Entries</name></function>
+<event id="2"><name>Information
+exists
+for central
+adjustments
+to valuation</name></event>
+<arc id="4"><flow source="1" target="0"/></arc>
+<arc id="8"><flow source="2" target="1"/></arc>
+</epc></epml>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="107" name="1En_cuik">
+<event id="0"><name>Dangerous
+goods
+master
+is to
+be processed</name></event>
+<function id="1"><name>Dangerous
+Goods
+Master
+Processing</name></function>
+<event id="2"><name>Processing
+is completed</name></event>
+<function id="3"><name>Dangerous
+Goods
+Master
+Distribution</name></function>
+<event id="4"><name>Dangerous
+goods
+master
+is to
+be distributed</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="10"><flow source="1" target="4"/></arc>
+<arc id="18"><flow source="3" target="2"/></arc>
+<arc id="24"><flow source="4" target="3"/></arc>
+</epc></epml>

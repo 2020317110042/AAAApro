@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="294" name="1Pe_mcyk">
+<event id="0"><name>Personnel
+time
+accounts
+are updated</name></event>
+<event id="1"><name>Time
+statement
+transmitted
+to employee</name></event>
+<and id="2"/>
+<function id="3"><name>Time
+statement
+creation</name></function>
+<event id="4"><name>Time
+statement
+creation
+is desired</name></event>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="14"><flow source="2" target="3"/></arc>
+<arc id="17"><flow source="3" target="1"/></arc>
+<arc id="23"><flow source="4" target="2"/></arc>
+</epc></epml>

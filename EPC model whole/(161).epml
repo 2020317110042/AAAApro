@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="162" name="1Ex_ek3t">
+<and id="0"/>
+<event id="1"><name>Payment
+posted</name></event>
+<event id="2"><name>Payment
+advice
+note
+has arrived</name></event>
+<event id="3"><name>Partial
+payment
+should
+be made</name></event>
+<event id="4"><name>Payment
+deadline
+is reached</name></event>
+<xor id="5"/>
+<function id="6"><name>Payment
+Advice
+Note
+Processing</name></function>
+<event id="7"><name>Customer
+open
+items
+were
+generated</name></event>
+<event id="8"><name>Payment
+advice
+note
+created</name></event>
+<event id="9"><name>Automatic
+debit
+exists</name></event>
+<event id="10"><name>Payment
+received</name></event>
+<event id="11"><name>Payment
+advice
+is sent</name></event>
+<xor id="12"/>
+<event id="13"><name>Payment
+request
+was created</name></event>
+<event id="14"><name>Individual
+posting
+items
+should
+be checked via workflow</name></event>
+<event id="15"><name>Payment
+medium
+transferred</name></event>
+<and id="16"/>
+<and id="17"/>
+<event id="18"><name>Items
+are cleared</name></event>
+<event id="19"><name>Incoming
+payment
+was posted
+to bank
+clearing account</name></event>
+<event id="20"><name>Payment
+to be
+made
+manually</name></event>
+<event id="21"><name>Incoming
+payment
+to be
+made</name></event>
+<event id="22"><name>Payment
+is transferred
+by EDI</name></event>
+<event id="23"><name>Document
+is to
+be reworked</name></event>
+<and id="24"/>
+<or id="25"/>
+<event id="26"><name>Payment
+to be
+made
+with
+form printout</name></event>
+<or id="27"/>
+<event id="28"><name>Data
+medium
+is created</name></event>
+<and id="29"/>
+<function id="30"><name>Automatic
+Incoming
+Payments</name></function>
+<function id="31"><name>Release
+for Payment</name></function>
+<function id="32"><name>Manual
+Incoming
+Payments</name></function>
+<event id="33"><name>Payment
+medium
+to be
+created</name></event>
+<event id="34"><name>Payment
+must
+be effected</name></event>
+<event id="35"><name>Clear
+items
+using
+automatic
+payment program</name></event>
+<event id="36"><name>Payment
+request
+is created</name></event>
+<event id="37"><name>Payment
+must
+be effected</name></event>
+<function id="38"><name>Customer
+Payment
+Request</name></function>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="85"><flow source="2" target="6"/></arc>
+<arc id="156"><flow source="3" target="38"/></arc>
+<arc id="157"><flow source="4" target="0"/></arc>
+<arc id="196"><flow source="5" target="0"/></arc>
+<arc id="243"><flow source="6" target="8"/></arc>
+<arc id="286"><flow source="7" target="12"/></arc>
+<arc id="337"><flow source="8" target="24"/></arc>
+<arc id="368"><flow source="9" target="16"/></arc>
+<arc id="396"><flow source="10" target="5"/></arc>
+<arc id="499"><flow source="12" target="30"/></arc>
+<arc id="520"><flow source="13" target="12"/></arc>
+<arc id="578"><flow source="14" target="31"/></arc>
+<arc id="637"><flow source="16" target="12"/></arc>
+<arc id="665"><flow source="17" target="1"/></arc>
+<arc id="682"><flow source="17" target="18"/></arc>
+<arc id="697"><flow source="17" target="33"/></arc>
+<arc id="754"><flow source="19" target="12"/></arc>
+<arc id="805"><flow source="20" target="24"/></arc>
+<arc id="836"><flow source="21" target="16"/></arc>
+<arc id="923"><flow source="23" target="25"/></arc>
+<arc id="962"><flow source="24" target="25"/></arc>
+<arc id="1008"><flow source="25" target="32"/></arc>
+<arc id="1040"><flow source="26" target="25"/></arc>
+<arc id="1065"><flow source="27" target="11"/></arc>
+<arc id="1069"><flow source="27" target="15"/></arc>
+<arc id="1076"><flow source="27" target="22"/></arc>
+<arc id="1082"><flow source="27" target="28"/></arc>
+<arc id="1141"><flow source="29" target="9"/></arc>
+<arc id="1153"><flow source="29" target="21"/></arc>
+<arc id="1168"><flow source="29" target="36"/></arc>
+<arc id="1198"><flow source="30" target="27"/></arc>
+<arc id="1247"><flow source="31" target="37"/></arc>
+<arc id="1266"><flow source="32" target="17"/></arc>
+<arc id="1332"><flow source="34" target="5"/></arc>
+<arc id="1378"><flow source="35" target="12"/></arc>
+<arc id="1469"><flow source="37" target="25"/></arc>
+<arc id="1512"><flow source="38" target="29"/></arc>
+</epc></epml>

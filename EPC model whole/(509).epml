@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="510" name="1Ve_4qka">
+<and id="0"/>
+<event id="1"><name>Credit/
+debit
+memo
+request
+is rejected</name></event>
+<event id="2"><name>Credit
+memo
+can be
+created</name></event>
+<xor id="3"/>
+<event id="4"><name>Returns
+already
+dispatched</name></event>
+<event id="5"><name>Invoice
+correction
+needs
+to be
+created</name></event>
+<xor id="6"/>
+<event id="7"><name>Credit
+memo
+is rejected</name></event>
+<event id="8"><name>Returns
+to be
+collected</name></event>
+<event id="9"><name>Customer
+wants
+subsequent
+delivery
+free-of-charge</name></event>
+<function id="10"><name>Invoice
+Correction
+Request</name></function>
+<event id="11"><name>Credit/
+debit
+memo
+is granted</name></event>
+<event id="12"><name>Credit/
+debit
+memo
+request
+is rejected</name></event>
+<event id="13"><name>Complaint
+received
+(without
+goods
+return)</name></event>
+<function id="14"><name>Credit/
+Debit
+Memo
+Request
+Processing</name></function>
+<xor id="15"/>
+<event id="16"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<event id="17"><name>Subsequent
+debit
+reason
+occurred</name></event>
+<event id="18"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<xor id="19"/>
+<event id="20"><name>Credit/
+debit
+memo
+is granted</name></event>
+<function id="21"><name>Returns
+Processing</name></function>
+<xor id="22"/>
+<event id="23"><name>Complaints
+with
+goods
+returns
+is received</name></event>
+<xor id="24"/>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="78"><flow source="3" target="2"/></arc>
+<arc id="83"><flow source="3" target="7"/></arc>
+<arc id="85"><flow source="3" target="9"/></arc>
+<arc id="136"><flow source="5" target="10"/></arc>
+<arc id="155"><flow source="6" target="4"/></arc>
+<arc id="159"><flow source="6" target="8"/></arc>
+<arc id="273"><flow source="10" target="22"/></arc>
+<arc id="341"><flow source="13" target="15"/></arc>
+<arc id="375"><flow source="14" target="24"/></arc>
+<arc id="390"><flow source="15" target="14"/></arc>
+<arc id="420"><flow source="16" target="19"/></arc>
+<arc id="441"><flow source="17" target="15"/></arc>
+<arc id="466"><flow source="18" target="15"/></arc>
+<arc id="497"><flow source="19" target="21"/></arc>
+<arc id="526"><flow source="21" target="0"/></arc>
+<arc id="562"><flow source="22" target="11"/></arc>
+<arc id="563"><flow source="22" target="12"/></arc>
+<arc id="595"><flow source="23" target="19"/></arc>
+<arc id="602"><flow source="24" target="1"/></arc>
+<arc id="621"><flow source="24" target="20"/></arc>
+</epc></epml>

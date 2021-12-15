@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="111" name="1Er_h8hr">
+<function id="0"><name>Profit
+Center
+Analysis</name></function>
+<function id="1"><name>Profit
+Center
+Distribution:
+Plan</name></function>
+<event id="2"><name>Profit
+center
+planning
+is to
+be prepared (copy plan)</name></event>
+<and id="3"/>
+<event id="4"><name>Profit
+center
+planning
+to be
+prepared (Excel upload)</name></event>
+<xor id="5"/>
+<function id="6"><name>Manual
+Profit
+Center
+Planning</name></function>
+<event id="7"><name>Profit
+center
+planning
+to be
+prepared (copy actual)</name></event>
+<event id="8"><name>Profit
+center
+planning
+is prepared</name></event>
+<function id="9"><name>Excel
+Upload
+-&gt; Profit
+Center
+Planning</name></function>
+<event id="10"><name>Profit
+center
+planning
+to be
+prepared (new definition)</name></event>
+<event id="11"><name>Plan
+Data
+Transferred
+from
+Other Applications</name></event>
+<event id="12"><name>All master
+data
+assigned
+to profit
+centers</name></event>
+<function id="13"><name>Plan
+Data
+Transfer
+to EC-PCA
+from Profitability Analysis</name></function>
+<function id="14"><name>Copy
+Plan
+from
+Previous
+Year -&gt; Profit Center Planning</name></function>
+<and id="15"/>
+<and id="16"/>
+<event id="17"><name>Plan
+data
+transferred
+from
+profitability analysis</name></event>
+<event id="18"><name>Tranferred
+plan
+data
+is to
+be changed manually</name></event>
+<event id="19"><name>Create
+plan
+for profit
+center</name></event>
+<event id="20"><name>Plan
+data
+to be
+transferred
+from profitability analysis</name></event>
+<function id="21"><name>Plan
+Integration
+of Profit
+Centers</name></function>
+<function id="22"><name>Copy
+Actual
+Costs
+-&gt; Profit
+Center Planning</name></function>
+<event id="23"><name>Distribute
+profit
+center
+overhead
+costs</name></event>
+<event id="24"><name>Profit
+center
+plan
+exists</name></event>
+<function id="25"><name>Redefinition
+of Plan
+Version
+(Profit
+Center Planning)</name></function>
+<event id="26"><name>Control
+measures
+set based
+on variances</name></event>
+<event id="27"><name>Organizational
+operating
+profit
+(plan)
+exists</name></event>
+<event id="28"><name>Assess
+profit
+center
+overhead
+costs</name></event>
+<function id="29"><name>Plan:
+Profit
+Center
+Assessment</name></function>
+<arc id="27"><flow source="0" target="26"/></arc>
+<arc id="54"><flow source="1" target="23"/></arc>
+<arc id="75"><flow source="2" target="14"/></arc>
+<arc id="112"><flow source="3" target="21"/></arc>
+<arc id="130"><flow source="4" target="9"/></arc>
+<arc id="159"><flow source="5" target="8"/></arc>
+<arc id="205"><flow source="6" target="24"/></arc>
+<arc id="233"><flow source="7" target="22"/></arc>
+<arc id="257"><flow source="8" target="16"/></arc>
+<arc id="276"><flow source="9" target="5"/></arc>
+<arc id="326"><flow source="10" target="25"/></arc>
+<arc id="347"><flow source="11" target="16"/></arc>
+<arc id="364"><flow source="12" target="3"/></arc>
+<arc id="408"><flow source="13" target="17"/></arc>
+<arc id="426"><flow source="14" target="5"/></arc>
+<arc id="464"><flow source="15" target="13"/></arc>
+<arc id="487"><flow source="16" target="6"/></arc>
+<arc id="527"><flow source="17" target="16"/></arc>
+<arc id="557"><flow source="18" target="16"/></arc>
+<arc id="574"><flow source="19" target="3"/></arc>
+<arc id="616"><flow source="20" target="15"/></arc>
+<arc id="642"><flow source="21" target="11"/></arc>
+<arc id="666"><flow source="22" target="5"/></arc>
+<arc id="720"><flow source="23" target="29"/></arc>
+<arc id="722"><flow source="24" target="1"/></arc>
+<arc id="756"><flow source="25" target="5"/></arc>
+<arc id="826"><flow source="27" target="15"/></arc>
+<arc id="841"><flow source="28" target="0"/></arc>
+<arc id="899"><flow source="29" target="28"/></arc>
+</epc></epml>

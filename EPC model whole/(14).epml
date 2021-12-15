@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="15" name="1An_kmmd">
+<or id="0"/>
+<function id="1"><name>Period-End
+Closing
+and Settlement</name></function>
+<function id="2"><name>Appropriation
+Request</name></function>
+<xor id="3"/>
+<event id="4"><name>Period-end
+closing
+and settlement
+to be
+carried out</name></event>
+<event id="5"><name>Order
+analysis
+completed</name></event>
+<event id="6"><name>Simulation
+was carried
+out</name></event>
+<and id="7"/>
+<function id="8"><name>Measure
+Processing</name></function>
+<function id="9"><name>Updating
+[Investment
+Projects]</name></function>
+<event id="10"><name>Order
+is processed</name></event>
+<event id="11"><name>Release
+and execution
+of measure
+to be
+triggered</name></event>
+<event id="12"><name>Release
+and execution
+of measure
+completed</name></event>
+<event id="13"><name>Inv.
+profile
+specified
+w/summary
+settlement</name></event>
+<event id="14"><name>Program
+analysis
+completed</name></event>
+<event id="15"><name>Appropri-
+ation
+request
+is to
+be processed</name></event>
+<function id="16"><name>Analysis</name></function>
+<xor id="17"/>
+<event id="18"><name>Budget
+is updated</name></event>
+<event id="19"><name>Internal
+order
+is to
+be created</name></event>
+<function id="20"><name>Measure
+Planning</name></function>
+<event id="21"><name>Investment
+profile
+with
+line
+item settlement is specified</name></event>
+<event id="22"><name>Measure
+settled
+partially</name></event>
+<event id="23"><name>Measure
+is settled
+completely</name></event>
+<event id="24"><name>Valuation
+of balances
+affecting
+financial
+statement to be carried out</name></event>
+<and id="25"/>
+<event id="26"><name>Planned
+accrued
+depreciation
+and interest
+were transferred to CO</name></event>
+<function id="27"><name>Release
+and Implementation
+of Measure</name></function>
+<xor id="28"/>
+<or id="29"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="12"><flow source="0" target="11"/></arc>
+<arc id="38"><flow source="1" target="7"/></arc>
+<arc id="80"><flow source="2" target="19"/></arc>
+<arc id="113"><flow source="3" target="22"/></arc>
+<arc id="114"><flow source="3" target="23"/></arc>
+<arc id="122"><flow source="4" target="1"/></arc>
+<arc id="214"><flow source="7" target="3"/></arc>
+<arc id="235"><flow source="7" target="24"/></arc>
+<arc id="270"><flow source="8" target="29"/></arc>
+<arc id="289"><flow source="9" target="18"/></arc>
+<arc id="321"><flow source="10" target="20"/></arc>
+<arc id="358"><flow source="11" target="27"/></arc>
+<arc id="370"><flow source="12" target="9"/></arc>
+<arc id="419"><flow source="13" target="28"/></arc>
+<arc id="453"><flow source="15" target="2"/></arc>
+<arc id="506"><flow source="16" target="25"/></arc>
+<arc id="524"><flow source="17" target="13"/></arc>
+<arc id="532"><flow source="17" target="21"/></arc>
+<arc id="579"><flow source="19" target="8"/></arc>
+<arc id="601"><flow source="20" target="0"/></arc>
+<arc id="659"><flow source="21" target="28"/></arc>
+<arc id="756"><flow source="25" target="5"/></arc>
+<arc id="757"><flow source="25" target="6"/></arc>
+<arc id="765"><flow source="25" target="14"/></arc>
+<arc id="777"><flow source="25" target="26"/></arc>
+<arc id="823"><flow source="27" target="12"/></arc>
+<arc id="857"><flow source="28" target="16"/></arc>
+<arc id="881"><flow source="29" target="10"/></arc>
+<arc id="888"><flow source="29" target="17"/></arc>
+</epc></epml>

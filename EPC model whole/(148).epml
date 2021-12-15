@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="149" name="1Ex_eal7">
+<xor id="0"/>
+<and id="1"/>
+<event id="2"><name>Assessment
+was carried
+out</name></event>
+<event id="3"><name>Planning
+is to
+be carried
+out</name></event>
+<event id="4"><name>Translation
+was carried
+out</name></event>
+<event id="5"><name>Translation
+is to
+be carried
+out for
+company</name></event>
+<function id="6"><name>Table
+Maintenance</name></function>
+<event id="7"><name>Pl. distri-
+bution
+is to
+be carried
+out</name></event>
+<event id="8"><name>Ledger
+to be
+prepared</name></event>
+<event id="9"><name>Planning
+carried
+out</name></event>
+<event id="10"><name>Master
+data
+is to
+be maintained
+in other components</name></event>
+<event id="11"><name>Document
+was transferred
+to FI-Special
+Ledger</name></event>
+<event id="12"><name>Data
+transferred
+from
+external
+systems</name></event>
+<event id="13"><name>Data
+is to
+be summarized</name></event>
+<and id="14"/>
+<function id="15"><name>Planning</name></function>
+<function id="16"><name>Prepare
+Ledger</name></function>
+<event id="17"><name>Actual
+postings
+to be
+made</name></event>
+<event id="18"><name>Planned
+assessment
+to be
+performed</name></event>
+<and id="19"/>
+<event id="20"><name>Rollup
+was carried
+out</name></event>
+<event id="21"><name>Table
+group
+must
+be created</name></event>
+<and id="22"/>
+<xor id="23"/>
+<event id="24"><name>Translation
+is to
+be carried
+out for
+company code</name></event>
+<event id="25"><name>Balances
+were
+carried
+forward</name></event>
+<event id="26"><name>Ledger
+is ready
+to be
+updated</name></event>
+<event id="27"><name>Actual
+assessment
+is to
+be made</name></event>
+<event id="28"><name>Act.
+distri-
+bution
+is to
+be carried out</name></event>
+<function id="29"><name>Actual
+Posting</name></function>
+<event id="30"><name>Balances
+are to
+be carried
+forward</name></event>
+<event id="31"><name>Distribution
+was carried
+out</name></event>
+<function id="32"><name>Periodic
+Processing</name></function>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="11"><flow source="0" target="10"/></arc>
+<arc id="36"><flow source="1" target="2"/></arc>
+<arc id="38"><flow source="1" target="4"/></arc>
+<arc id="54"><flow source="1" target="20"/></arc>
+<arc id="59"><flow source="1" target="25"/></arc>
+<arc id="65"><flow source="1" target="31"/></arc>
+<arc id="122"><flow source="3" target="22"/></arc>
+<arc id="180"><flow source="5" target="14"/></arc>
+<arc id="225"><flow source="6" target="26"/></arc>
+<arc id="246"><flow source="7" target="14"/></arc>
+<arc id="281"><flow source="8" target="16"/></arc>
+<arc id="317"><flow source="9" target="19"/></arc>
+<arc id="387"><flow source="11" target="23"/></arc>
+<arc id="420"><flow source="12" target="23"/></arc>
+<arc id="444"><flow source="13" target="14"/></arc>
+<arc id="495"><flow source="14" target="32"/></arc>
+<arc id="496"><flow source="15" target="0"/></arc>
+<arc id="550"><flow source="16" target="21"/></arc>
+<arc id="581"><flow source="17" target="19"/></arc>
+<arc id="609"><flow source="18" target="14"/></arc>
+<arc id="657"><flow source="19" target="29"/></arc>
+<arc id="700"><flow source="21" target="6"/></arc>
+<arc id="742"><flow source="22" target="15"/></arc>
+<arc id="774"><flow source="23" target="14"/></arc>
+<arc id="807"><flow source="24" target="14"/></arc>
+<arc id="881"><flow source="26" target="22"/></arc>
+<arc id="906"><flow source="27" target="14"/></arc>
+<arc id="939"><flow source="28" target="14"/></arc>
+<arc id="970"><flow source="29" target="12"/></arc>
+<arc id="1005"><flow source="30" target="14"/></arc>
+<arc id="1058"><flow source="32" target="1"/></arc>
+</epc></epml>

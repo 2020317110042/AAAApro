@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="133" name="1Ex_e334">
+<event id="0"><name>Notification
+of accounting
+standards
+for local
+valuation has been received</name></event>
+<event id="1"><name>Currency
+translation
+is to
+be carried
+out locally</name></event>
+<event id="2"><name>Data
+is updated
+realtime</name></event>
+<event id="3"><name>Group
+chart
+of accounts
+created/
+G/L accounts assigned</name></event>
+<event id="4"><name>Breakdown
+by transaction
+type
+is prepared</name></event>
+<xor id="5"/>
+<or id="6"/>
+<event id="7"><name>Rollup
+is carried
+out in
+the same
+system</name></event>
+<and id="8"/>
+<event id="9"><name>Data
+is updated
+realtime</name></event>
+<function id="10"><name>Setting
+Up Consolidation
+Rules</name></function>
+<event id="11"><name>Worksheet
+analyses
+are required</name></event>
+<event id="12"><name>Breakdown
+by transaction
+type
+is required</name></event>
+<function id="13"><name>Decentralized
+Corporate
+Valuation
+Postings</name></function>
+<event id="14"><name>Divestiture
+of company
+was posted</name></event>
+<event id="15"><name>G/L accounts
+are assigned
+to financial
+statement
+items</name></event>
+<event id="16"><name>Step
+consolidation
+is carried
+out in
+local consolidation system</name></event>
+<event id="17"><name>Data
+is transferred
+from
+FI to
+R/3 by extract</name></event>
+<event id="18"><name>Data
+is transferred
+to R/
+2</name></event>
+<event id="19"><name>Data
+is transferred
+to higher-level
+subgroup</name></event>
+<event id="20"><name>Local
+chart
+of accounts
+is assigned
+to corporate chart of accounts</name></event>
+<event id="21"><name>Currency
+translation
+is to
+be carried
+out locally</name></event>
+<event id="22"><name>Rollup
+is carried
+out in
+the same
+system</name></event>
+<xor id="23"/>
+<xor id="24"/>
+<event id="25"><name>Balance
+reconcil-
+iation
+was carried
+out</name></event>
+<event id="26"><name>Main
+consolidation
+process
+to be
+started</name></event>
+<event id="27"><name>Balance
+reconciliation
+is to
+be carried
+out in local FI system</name></event>
+<event id="28"><name>Realtime
+update
+is activated</name></event>
+<event id="29"><name>Cross-system
+rollup
+exists</name></event>
+<function id="30"><name>Decentralized
+Currency
+Translation</name></function>
+<xor id="31"/>
+<event id="32"><name>Data
+is transferred
+from
+FI to
+R/3 by extract</name></event>
+<event id="33"><name>Company
+has been
+assigned
+in master
+records</name></event>
+<event id="34"><name>Data
+is updated
+realtime</name></event>
+<event id="35"><name>Data
+is transferred
+from
+R/2 by
+extract</name></event>
+<event id="36"><name>Acquisition
+of a
+company
+was carried
+out</name></event>
+<event id="37"><name>Breakdown
+by company
+is required</name></event>
+<function id="38"><name>Applying
+Consolidation
+Rules</name></function>
+<and id="39"/>
+<and id="40"/>
+<event id="41"><name>Data
+is transferred
+by rollup</name></event>
+<function id="42"><name>Decentralized
+Balance
+Reconciliation</name></function>
+<event id="43"><name>Currency
+translation
+is to
+be carried
+out centrally</name></event>
+<event id="44"><name>Realtime
+update
+using
+extract
+from FI is activated</name></event>
+<event id="45"><name>Master
+data
+is maintained
+in local
+system</name></event>
+<event id="46"><name>Exchange
+rates
+/ translation
+methods
+are maintained centrally</name></event>
+<event id="47"><name>Data
+is transferred
+from
+FI to
+R/3 by extract</name></event>
+<xor id="48"/>
+<event id="49"><name>Items
+are relevant
+for elimination</name></event>
+<and id="50"/>
+<event id="51"><name>Consolidation
+policy
+is to
+be established</name></event>
+<event id="52"><name>Group
+financial
+state-
+ment
+version created; G/L accounts assigned</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="62"><flow source="1" target="8"/></arc>
+<arc id="300"><flow source="5" target="34"/></arc>
+<arc id="305"><flow source="5" target="39"/></arc>
+<arc id="307"><flow source="5" target="41"/></arc>
+<arc id="359"><flow source="6" target="40"/></arc>
+<arc id="463"><flow source="8" target="38"/></arc>
+<arc id="536"><flow source="10" target="5"/></arc>
+<arc id="592"><flow source="11" target="8"/></arc>
+<arc id="645"><flow source="12" target="8"/></arc>
+<arc id="721"><flow source="13" target="31"/></arc>
+<arc id="749"><flow source="14" target="6"/></arc>
+<arc id="857"><flow source="16" target="8"/></arc>
+<arc id="925"><flow source="17" target="23"/></arc>
+<arc id="978"><flow source="18" target="23"/></arc>
+<arc id="1016"><flow source="19" target="8"/></arc>
+<arc id="1069"><flow source="20" target="8"/></arc>
+<arc id="1144"><flow source="21" target="30"/></arc>
+<arc id="1259"><flow source="23" target="39"/></arc>
+<arc id="1282"><flow source="24" target="9"/></arc>
+<arc id="1320"><flow source="24" target="47"/></arc>
+<arc id="1419"><flow source="26" target="40"/></arc>
+<arc id="1474"><flow source="27" target="42"/></arc>
+<arc id="1493"><flow source="28" target="8"/></arc>
+<arc id="1615"><flow source="30" target="24"/></arc>
+<arc id="1646"><flow source="31" target="2"/></arc>
+<arc id="1676"><flow source="31" target="32"/></arc>
+<arc id="1811"><flow source="34" target="8"/></arc>
+<arc id="1864"><flow source="35" target="8"/></arc>
+<arc id="1915"><flow source="36" target="6"/></arc>
+<arc id="1970"><flow source="37" target="8"/></arc>
+<arc id="2065"><flow source="38" target="50"/></arc>
+<arc id="2076"><flow source="39" target="8"/></arc>
+<arc id="2131"><flow source="40" target="10"/></arc>
+<arc id="2182"><flow source="41" target="8"/></arc>
+<arc id="2252"><flow source="42" target="25"/></arc>
+<arc id="2288"><flow source="43" target="8"/></arc>
+<arc id="2372"><flow source="44" target="39"/></arc>
+<arc id="2567"><flow source="48" target="22"/></arc>
+<arc id="2574"><flow source="48" target="29"/></arc>
+<arc id="2606"><flow source="49" target="8"/></arc>
+<arc id="2651"><flow source="50" target="0"/></arc>
+<arc id="2654"><flow source="50" target="3"/></arc>
+<arc id="2655"><flow source="50" target="4"/></arc>
+<arc id="2658"><flow source="50" target="7"/></arc>
+<arc id="2666"><flow source="50" target="15"/></arc>
+<arc id="2672"><flow source="50" target="21"/></arc>
+<arc id="2678"><flow source="50" target="27"/></arc>
+<arc id="2684"><flow source="50" target="33"/></arc>
+<arc id="2696"><flow source="50" target="45"/></arc>
+<arc id="2697"><flow source="50" target="46"/></arc>
+<arc id="2699"><flow source="50" target="48"/></arc>
+<arc id="2703"><flow source="50" target="52"/></arc>
+<arc id="2710"><flow source="51" target="6"/></arc>
+</epc></epml>

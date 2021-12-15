@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="57" name="1Be_2fyv">
+<event id="0"><name>Task-dependent
+follow-up
+actions
+are triggered</name></event>
+<event id="1"><name>Defect
+requires
+manual
+quality
+notification</name></event>
+<function id="2"><name>Creation
+of a
+Quality
+Notification</name></function>
+<event id="3"><name>Quality
+notification
+entered</name></event>
+<and id="4"/>
+<arc id="8"><flow source="1" target="2"/></arc>
+<arc id="15"><flow source="2" target="4"/></arc>
+<arc id="21"><flow source="4" target="0"/></arc>
+<arc id="24"><flow source="4" target="3"/></arc>
+</epc></epml>

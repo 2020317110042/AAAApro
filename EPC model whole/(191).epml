@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="192" name="1In_anvm">
+<function id="0"><name>Goods
+Issue
+Processing</name></function>
+<xor id="1"/>
+<xor id="2"/>
+<event id="3"><name>Material
+is not
+available</name></event>
+<event id="4"><name>Goods
+issue
+is posted</name></event>
+<event id="5"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<event id="6"><name>Material
+is issued</name></event>
+<event id="7"><name>Retrograde
+withdrawal
+to be
+posted</name></event>
+<and id="8"/>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="13"><flow source="1" target="3"/></arc>
+<arc id="18"><flow source="1" target="8"/></arc>
+<arc id="19"><flow source="2" target="0"/></arc>
+<arc id="48"><flow source="5" target="2"/></arc>
+<arc id="66"><flow source="7" target="2"/></arc>
+<arc id="77"><flow source="8" target="4"/></arc>
+<arc id="79"><flow source="8" target="6"/></arc>
+</epc></epml>

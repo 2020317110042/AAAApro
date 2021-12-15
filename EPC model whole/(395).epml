@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="396" name="1Pr_jfy-">
+<event id="0"><name>Guarantee
+product
+service</name></event>
+<function id="1"><name>Equipment
+Processing</name></function>
+<and id="2"/>
+<event id="3"><name>Product
+service
+performed</name></event>
+<function id="4"><name>Functional
+Location
+Processing</name></function>
+<function id="5"><name>Equipment
+BOM Processing</name></function>
+<function id="6"><name>Functional
+Location
+BOM Processing</name></function>
+<function id="7"><name>Material/
+Serial
+Number
+Processing</name></function>
+<and id="8"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="18"><flow source="1" target="8"/></arc>
+<arc id="20"><flow source="2" target="1"/></arc>
+<arc id="23"><flow source="2" target="4"/></arc>
+<arc id="24"><flow source="2" target="5"/></arc>
+<arc id="25"><flow source="2" target="6"/></arc>
+<arc id="26"><flow source="2" target="7"/></arc>
+<arc id="45"><flow source="4" target="8"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="63"><flow source="6" target="8"/></arc>
+<arc id="72"><flow source="7" target="8"/></arc>
+<arc id="76"><flow source="8" target="3"/></arc>
+</epc></epml>

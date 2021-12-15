@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="115" name="1Er_hsto">
+<function id="0"><name>Actual
+Indirect
+Activity
+Allocation
+(Indirect Entry)</name></function>
+<function id="1"><name>Reconciliation
+Financial
+Accounting/
+Controlling</name></function>
+<event id="2"><name>Cost
+Accrual
+to Be
+Executed
+Using Target=Actual Procedure</name></event>
+<event id="3"><name>Costs
+were
+reposted</name></event>
+<function id="4"><name>Accrual
+Calculation
+in Cost
+Center
+Accounting (Percentage Method)</name></function>
+<event id="5"><name>Cost
+Accrual
+Executed
+Using
+Target=Actual Procedure</name></event>
+<or id="6"/>
+<event id="7"><name>Order
+settled
+in CO
+with
+secondary cost element</name></event>
+<and id="8"/>
+<function id="9"><name>Analysis
+of Overhead
+Orders</name></function>
+<event id="10"><name>Interest
+Is Calculated</name></event>
+<function id="11"><name>Accrual
+Calculation
+in Cost
+Center
+Accounting (Target = Actual Method)</name></function>
+<and id="12"/>
+<function id="13"><name>Actual
+Cost
+Assessment</name></function>
+<function id="14"><name>Target=Actual
+Activity
+Allocation</name></function>
+<function id="15"><name>Actual
+Periodic
+Reposting</name></function>
+<event id="16"><name>Cost
+situation
+of cost
+center
+to be checked</name></event>
+<event id="17"><name>Controlling
+is to
+be reconciled
+with
+Financial Accounting</name></event>
+<event id="18"><name>Data
+was revaluated
+using
+difference
+between plan and actual prices</name></event>
+<function id="19"><name>Revaluation
+at Actual
+Prices</name></function>
+<function id="20"><name>Business
+Process
+Analysis</name></function>
+<or id="21"/>
+<event id="22"><name>Process
+costs
+were
+allocated</name></event>
+<function id="23"><name>Variance
+Calculation
+for Overhead</name></function>
+<event id="24"><name>Orders
+Settled
+to Profitability
+Analysis</name></event>
+<function id="25"><name>Settlement
+of Accrual
+Orders</name></function>
+<function id="26"><name>Entry
+of Sender
+Activities</name></function>
+<event id="27"><name>Control
+measures
+set based
+on variances</name></event>
+<event id="28"><name>Overhead
+Costs
+Are to
+Be Allocated
+Using Overhead Rates</name></event>
+<event id="29"><name>Business
+Process
+Is Charged
+with
+Overhead Costs</name></event>
+<event id="30"><name>Determine
+activity
+quantity
+via target-to-actual
+activity allocation</name></event>
+<event id="31"><name>Indirectly
+allocated
+activity
+is to
+be entered</name></event>
+<event id="32"><name>Order
+was settled
+by cost
+element</name></event>
+<event id="33"><name>Periodic
+transfer
+is to
+be performed</name></event>
+<or id="34"/>
+<event id="35"><name>Data
+was revaluated
+using
+difference
+between plan and actual prices</name></event>
+<function id="36"><name>Template
+Allocation
+(Overhead
+Cost
+Order)</name></function>
+<and id="37"/>
+<function id="38"><name>Cost
+Center
+Analysis</name></function>
+<event id="39"><name>Overhead
+Is Allocated
+to Project/
+Order</name></event>
+<event id="40"><name>Costs
+were
+transferred
+to Overhead
+Cost Controlling</name></event>
+<function id="41"><name>Settlement
+of Overhead
+Orders
+(Actual
+Data)</name></function>
+<event id="42"><name>Cost
+Accrual
+Executed
+Using
+Percentage Method</name></event>
+<event id="43"><name>Controlling
+is reconciled
+with
+Financial
+Accounting</name></event>
+<event id="44"><name>Activity
+price/
+cost
+rate
+determined via iteration</name></event>
+<function id="45"><name>Actual
+Price
+Calculation</name></function>
+<xor id="46"/>
+<and id="47"/>
+<xor id="48"/>
+<and id="49"/>
+<event id="50"><name>Cost
+development
+of order
+is to
+be checked</name></event>
+<or id="51"/>
+<function id="52"><name>Actual
+Interest
+Calculation
+For Order</name></function>
+<function id="53"><name>Predistribution
+of Fixed
+Costs</name></function>
+<event id="54"><name>Costs
+were
+split</name></event>
+<event id="55"><name>Actual
+cost
+recording
+for period
+is closed</name></event>
+<function id="56"><name>Overhead
+Calculation
+(Cost
+Center)</name></function>
+<or id="57"/>
+<event id="58"><name>Cost
+Accrual
+to Be
+Executed
+Using Percentage Method</name></event>
+<or id="59"/>
+<function id="60"><name>Actual
+Indirect
+Activity
+Allocation
+(Manual Entry)</name></function>
+<event id="61"><name>Order
+costs
+to be
+settled</name></event>
+<function id="62"><name>Overhead
+Calculation
+(Business
+Process)</name></function>
+<event id="63"><name>Fixed
+costs
+predistributed
+to receiver
+cost centers</name></event>
+<or id="64"/>
+<event id="65"><name>Cost
+trend
+of business
+process
+is to be analyzed</name></event>
+<event id="66"><name>Overhead
+Was Charged
+to Cost
+Center</name></event>
+<and id="67"/>
+<xor id="68"/>
+<or id="69"/>
+<event id="70"><name>Actual
+sender
+activity
+quantity
+is posted</name></event>
+<function id="71"><name>Splitting</name></function>
+<function id="72"><name>Actual
+Cost
+Distribution</name></function>
+<function id="73"><name>Overhead
+Calculation
+(Overhead
+Cost
+Order)</name></function>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="118"><flow source="1" target="43"/></arc>
+<arc id="160"><flow source="2" target="11"/></arc>
+<arc id="282"><flow source="3" target="59"/></arc>
+<arc id="339"><flow source="4" target="42"/></arc>
+<arc id="417"><flow source="5" target="46"/></arc>
+<arc id="494"><flow source="6" target="49"/></arc>
+<arc id="593"><flow source="8" target="0"/></arc>
+<arc id="653"><flow source="8" target="60"/></arc>
+<arc id="728"><flow source="9" target="61"/></arc>
+<arc id="747"><flow source="10" target="6"/></arc>
+<arc id="820"><flow source="11" target="5"/></arc>
+<arc id="933"><flow source="12" target="44"/></arc>
+<arc id="966"><flow source="13" target="3"/></arc>
+<arc id="1049"><flow source="14" target="12"/></arc>
+<arc id="1148"><flow source="15" target="37"/></arc>
+<arc id="1223"><flow source="16" target="38"/></arc>
+<arc id="1260"><flow source="17" target="1"/></arc>
+<arc id="1356"><flow source="18" target="23"/></arc>
+<arc id="1442"><flow source="19" target="35"/></arc>
+<arc id="1538"><flow source="20" target="57"/></arc>
+<arc id="1562"><flow source="21" target="7"/></arc>
+<arc id="1579"><flow source="21" target="24"/></arc>
+<arc id="1587"><flow source="21" target="32"/></arc>
+<arc id="1648"><flow source="22" target="19"/></arc>
+<arc id="1772"><flow source="23" target="69"/></arc>
+<arc id="1898"><flow source="25" target="47"/></arc>
+<arc id="1995"><flow source="26" target="70"/></arc>
+<arc id="2124"><flow source="28" target="51"/></arc>
+<arc id="2211"><flow source="29" target="64"/></arc>
+<arc id="2235"><flow source="30" target="14"/></arc>
+<arc id="2321"><flow source="31" target="26"/></arc>
+<arc id="2491"><flow source="33" target="48"/></arc>
+<arc id="2523"><flow source="34" target="6"/></arc>
+<arc id="2589"><flow source="34" target="72"/></arc>
+<arc id="2664"><flow source="35" target="73"/></arc>
+<arc id="2687"><flow source="36" target="22"/></arc>
+<arc id="2806"><flow source="37" target="67"/></arc>
+<arc id="2870"><flow source="38" target="57"/></arc>
+<arc id="2939"><flow source="39" target="52"/></arc>
+<arc id="3009"><flow source="40" target="48"/></arc>
+<arc id="3082"><flow source="41" target="47"/></arc>
+<arc id="3155"><flow source="42" target="46"/></arc>
+<arc id="3316"><flow source="44" target="59"/></arc>
+<arc id="3349"><flow source="45" target="18"/></arc>
+<arc id="3439"><flow source="46" target="34"/></arc>
+<arc id="3500"><flow source="47" target="21"/></arc>
+<arc id="3568"><flow source="48" target="15"/></arc>
+<arc id="3652"><flow source="49" target="25"/></arc>
+<arc id="3668"><flow source="49" target="41"/></arc>
+<arc id="3710"><flow source="50" target="9"/></arc>
+<arc id="3831"><flow source="51" target="56"/></arc>
+<arc id="3837"><flow source="51" target="62"/></arc>
+<arc id="3859"><flow source="52" target="10"/></arc>
+<arc id="3986"><flow source="53" target="63"/></arc>
+<arc id="4042"><flow source="54" target="45"/></arc>
+<arc id="4108"><flow source="55" target="37"/></arc>
+<arc id="4211"><flow source="56" target="66"/></arc>
+<arc id="4246"><flow source="57" target="27"/></arc>
+<arc id="4297"><flow source="58" target="4"/></arc>
+<arc id="4420"><flow source="59" target="53"/></arc>
+<arc id="4453"><flow source="60" target="12"/></arc>
+<arc id="4521"><flow source="61" target="6"/></arc>
+<arc id="4618"><flow source="62" target="29"/></arc>
+<arc id="4734"><flow source="63" target="71"/></arc>
+<arc id="4750"><flow source="64" target="13"/></arc>
+<arc id="4831"><flow source="65" target="20"/></arc>
+<arc id="4949"><flow source="66" target="64"/></arc>
+<arc id="4995"><flow source="67" target="36"/></arc>
+<arc id="5027"><flow source="67" target="68"/></arc>
+<arc id="5035"><flow source="68" target="2"/></arc>
+<arc id="5091"><flow source="68" target="58"/></arc>
+<arc id="5123"><flow source="69" target="16"/></arc>
+<arc id="5124"><flow source="69" target="17"/></arc>
+<arc id="5189"><flow source="70" target="8"/></arc>
+<arc id="5309"><flow source="71" target="54"/></arc>
+<arc id="5357"><flow source="72" target="28"/></arc>
+<arc id="5442"><flow source="73" target="39"/></arc>
+</epc></epml>

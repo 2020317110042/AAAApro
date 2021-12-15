@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="352" name="1Pr_cv1j">
+<event id="0"><name>Customer
+project
+required</name></event>
+<function id="1"><name>Resource-Related
+Quotation</name></function>
+<xor id="2"/>
+<function id="3"><name>Customer
+Inquiry
+Processing</name></function>
+<event id="4"><name>Quotation
+must
+be created
+on basis
+of plan data</name></event>
+<event id="5"><name>Customer
+inquires
+about
+products</name></event>
+<event id="6"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<function id="7"><name>Customer
+Quotation
+Processing</name></function>
+<arc id="11"><flow source="1" target="2"/></arc>
+<arc id="17"><flow source="2" target="0"/></arc>
+<arc id="31"><flow source="3" target="6"/></arc>
+<arc id="34"><flow source="4" target="1"/></arc>
+<arc id="44"><flow source="5" target="3"/></arc>
+<arc id="56"><flow source="6" target="7"/></arc>
+<arc id="59"><flow source="7" target="2"/></arc>
+</epc></epml>

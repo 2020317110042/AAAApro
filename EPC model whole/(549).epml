@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="550" name="1Ve_7647">
+<and id="0"/>
+<event id="1"><name>Pro forma
+invoice
+for order/
+delivery
+to be created</name></event>
+<event id="2"><name>Invoice
+list
+date
+has arrived</name></event>
+<and id="3"/>
+<event id="4"><name>Pro forma
+invoice
+is created</name></event>
+<function id="5"><name>Processing
+Billing
+Documents</name></function>
+<event id="6"><name>Billing
+document/
+items
+are cancelled</name></event>
+<event id="7"><name>Invoice
+list
+is created</name></event>
+<event id="8"><name>Customer
+invoice
+is posted</name></event>
+<function id="9"><name>Billing
+document
+cancellation</name></function>
+<event id="10"><name>Goods
+issue
+is posted</name></event>
+<and id="11"/>
+<event id="12"><name>Delivery
+is relevant
+for billing</name></event>
+<function id="13"><name>Invoice
+List
+Processing</name></function>
+<event id="14"><name>Billing
+document
+to be
+cancelled</name></event>
+<event id="15"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<function id="16"><name>Pro Forma
+Invoice
+Processing</name></function>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="34"><flow source="1" target="16"/></arc>
+<arc id="35"><flow source="2" target="0"/></arc>
+<arc id="59"><flow source="3" target="7"/></arc>
+<arc id="60"><flow source="3" target="8"/></arc>
+<arc id="101"><flow source="5" target="15"/></arc>
+<arc id="160"><flow source="9" target="6"/></arc>
+<arc id="182"><flow source="10" target="11"/></arc>
+<arc id="193"><flow source="11" target="5"/></arc>
+<arc id="216"><flow source="12" target="11"/></arc>
+<arc id="225"><flow source="13" target="3"/></arc>
+<arc id="248"><flow source="14" target="9"/></arc>
+<arc id="256"><flow source="15" target="0"/></arc>
+<arc id="277"><flow source="16" target="4"/></arc>
+</epc></epml>

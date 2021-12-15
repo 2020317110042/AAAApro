@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="508" name="1Ve_4ose">
+<event id="0"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="1"><name>Credit/
+debit
+memo
+is granted</name></event>
+<event id="2"><name>Rebate
+agreement
+is to
+be settled</name></event>
+<function id="3"><name>Credit
+Memo
+Request
+for Rebate
+Settlement</name></function>
+<function id="4"><name>Rebate
+/ Commission
+Calculation
+Processing</name></function>
+<event id="5"><name>Credit
+memo
+request
+to be
+created</name></event>
+<function id="6"><name>Rebate
+Credit
+Memo</name></function>
+<arc id="14"><flow source="1" target="6"/></arc>
+<arc id="19"><flow source="2" target="4"/></arc>
+<arc id="23"><flow source="3" target="1"/></arc>
+<arc id="34"><flow source="4" target="5"/></arc>
+<arc id="39"><flow source="5" target="3"/></arc>
+<arc id="43"><flow source="6" target="0"/></arc>
+</epc></epml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="194" name="1In_aoot">
+<event id="0"><name>Capacity
+situation
+is to
+be evaluated</name></event>
+<event id="1"><name>Maintenance
+order
+is released</name></event>
+<function id="2"><name>Capacity
+Evaluation</name></function>
+<event id="3"><name>Capacity
+is not
+available</name></event>
+<event id="4"><name>Sequencing
+to be
+carried
+out</name></event>
+<xor id="5"/>
+<function id="6"><name>Capacity
+Dispatching
+and Leveling</name></function>
+<and id="7"/>
+<event id="8"><name>Capacity
+is available</name></event>
+<event id="9"><name>Capacity
+Leveling
+or Planning
+Is Performed</name></event>
+<or id="10"/>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="19"><flow source="1" target="7"/></arc>
+<arc id="28"><flow source="2" target="5"/></arc>
+<arc id="44"><flow source="3" target="10"/></arc>
+<arc id="55"><flow source="4" target="10"/></arc>
+<arc id="59"><flow source="5" target="3"/></arc>
+<arc id="64"><flow source="5" target="8"/></arc>
+<arc id="76"><flow source="6" target="9"/></arc>
+<arc id="80"><flow source="7" target="2"/></arc>
+<arc id="117"><flow source="10" target="6"/></arc>
+</epc></epml>

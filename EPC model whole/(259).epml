@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="260" name="1Ku_agcd">
+<event id="0"><name>Call
+Registered</name></event>
+<function id="1"><name>Evaluations
+(Call
+Center)</name></function>
+<or id="2"/>
+<event id="3"><name>Analysis
+performed</name></event>
+<event id="4"><name>Evaluations
+are to
+be performed</name></event>
+<event id="5"><name>Required
+Data
+must
+be Processed</name></event>
+<function id="6"><name>Front
+Office</name></function>
+<event id="7"><name>Call
+Processed</name></event>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="12"><flow source="1" target="3"/></arc>
+<arc id="21"><flow source="2" target="4"/></arc>
+<arc id="22"><flow source="2" target="5"/></arc>
+<arc id="24"><flow source="2" target="7"/></arc>
+<arc id="34"><flow source="4" target="1"/></arc>
+<arc id="51"><flow source="6" target="2"/></arc>
+</epc></epml>

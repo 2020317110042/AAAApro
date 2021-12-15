@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="306" name="1Pe_mi5q">
+<event id="0"><name>Need
+for wage
+garnishment
+exists</name></event>
+<event id="1"><name>Net remuneration
+exists</name></event>
+<and id="2"/>
+<event id="3"><name>Garnishment
+amounts
+exist</name></event>
+<function id="4"><name>Garnishment
+of Wages</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="8"><flow source="1" target="2"/></arc>
+<arc id="15"><flow source="2" target="4"/></arc>
+<arc id="24"><flow source="4" target="3"/></arc>
+</epc></epml>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="338" name="1Pr_43cw">
+<function id="0"><name>Process
+Data
+Documentation
+/ Process
+Order Completion</name></function>
+<event id="1"><name>Conversion
+date
+is reached</name></event>
+<event id="2"><name>Planned
+Order
+Created
+Automatically</name></event>
+<or id="3"/>
+<event id="4"><name>Capacity
+Leveling
+or Planning
+Is Performed</name></event>
+<or id="5"/>
+<function id="6"><name>Capacity
+Requirements
+Planning</name></function>
+<function id="7"><name>Process
+Order</name></function>
+<event id="8"><name>Prelim.
+Costing
+Carried
+Out for
+Planned Order</name></event>
+<event id="9"><name>Batch
+record
+is archived</name></event>
+<or id="10"/>
+<event id="11"><name>Process
+order
+is released</name></event>
+<event id="12"><name>Inspection
+lot is
+created
+automatically
+for order</name></event>
+<event id="13"><name>Process
+order
+is finally
+confirmed</name></event>
+<event id="14"><name>Order
+log is
+archived</name></event>
+<event id="15"><name>Material
+reservation
+is created</name></event>
+<event id="16"><name>Goods
+Issue
+is Posted</name></event>
+<event id="17"><name>Production
+Without
+Process
+Control</name></event>
+<or id="18"/>
+<event id="19"><name>Capacity
+requirement
+is created</name></event>
+<and id="20"/>
+<event id="21"><name>Goods
+Receipt
+Posted</name></event>
+<function id="22"><name>Process
+Management</name></function>
+<and id="23"/>
+<event id="24"><name>Actual
+data
+is transferred
+to destination
+from process control</name></event>
+<event id="25"><name>Material
+is produced</name></event>
+<and id="26"/>
+<event id="27"><name>Production
+with
+process
+control</name></event>
+<and id="28"/>
+<function id="29"><name>Process
+Order
+Execution</name></function>
+<event id="30"><name>Process
+order
+is archived</name></event>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="60"><flow source="1" target="28"/></arc>
+<arc id="91"><flow source="2" target="28"/></arc>
+<arc id="102"><flow source="3" target="8"/></arc>
+<arc id="105"><flow source="3" target="11"/></arc>
+<arc id="106"><flow source="3" target="12"/></arc>
+<arc id="109"><flow source="3" target="15"/></arc>
+<arc id="113"><flow source="3" target="19"/></arc>
+<arc id="145"><flow source="4" target="20"/></arc>
+<arc id="165"><flow source="5" target="9"/></arc>
+<arc id="170"><flow source="5" target="14"/></arc>
+<arc id="186"><flow source="5" target="30"/></arc>
+<arc id="191"><flow source="6" target="4"/></arc>
+<arc id="221"><flow source="7" target="3"/></arc>
+<arc id="311"><flow source="10" target="0"/></arc>
+<arc id="348"><flow source="11" target="6"/></arc>
+<arc id="414"><flow source="13" target="10"/></arc>
+<arc id="507"><flow source="16" target="10"/></arc>
+<arc id="554"><flow source="17" target="26"/></arc>
+<arc id="572"><flow source="18" target="13"/></arc>
+<arc id="575"><flow source="18" target="16"/></arc>
+<arc id="580"><flow source="18" target="21"/></arc>
+<arc id="584"><flow source="18" target="25"/></arc>
+<arc id="644"><flow source="20" target="23"/></arc>
+<arc id="647"><flow source="20" target="26"/></arc>
+<arc id="662"><flow source="21" target="10"/></arc>
+<arc id="707"><flow source="22" target="24"/></arc>
+<arc id="736"><flow source="23" target="22"/></arc>
+<arc id="755"><flow source="24" target="10"/></arc>
+<arc id="786"><flow source="25" target="10"/></arc>
+<arc id="836"><flow source="26" target="29"/></arc>
+<arc id="861"><flow source="27" target="23"/></arc>
+<arc id="876"><flow source="28" target="7"/></arc>
+<arc id="918"><flow source="29" target="18"/></arc>
+</epc></epml>

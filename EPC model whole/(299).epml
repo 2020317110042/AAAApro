@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="300" name="1Pe_mg24">
+<event id="0"><name>Need
+for personnel
+time
+recording
+infrastructure</name></event>
+<function id="1"><name>Infrastructure
+setup
+for personnel
+time
+recording</name></function>
+<event id="2"><name>Personnel
+time
+recording
+infrastructure
+is available</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="6"><flow source="1" target="2"/></arc>
+</epc></epml>

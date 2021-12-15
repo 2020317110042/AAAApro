@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="123" name="1Er_ixso">
+<xor id="0"/>
+<function id="1"><name>Cost
+Reposting,
+Line
+Item</name></function>
+<function id="2"><name>Activity
+Allocation
+Reposting</name></function>
+<xor id="3"/>
+<event id="4"><name>Labor
+and salary
+costs
+transferred
+to cost accounting</name></event>
+<event id="5"><name>Assigned
+funds
+are within
+tolerance
+limits</name></event>
+<xor id="6"/>
+<event id="7"><name>Working
+hours
+data
+was analyzed</name></event>
+<event id="8"><name>Costs
+were
+transferred
+to Overhead
+Cost Controlling</name></event>
+<event id="9"><name>Follow-on
+documents
+of target
+application
+are generated</name></event>
+<function id="10"><name>Time
+Sheet
+Report</name></function>
+<event id="11"><name>Budget
+is updated</name></event>
+<event id="12"><name>Internal
+Activity
+Should
+Be Allocated
+Internally</name></event>
+<or id="13"/>
+<and id="14"/>
+<event id="15"><name>Working
+hours
+data
+can be
+transferred directly to target application</name></event>
+<event id="16"><name>Budget
+is assigned</name></event>
+<or id="17"/>
+<or id="18"/>
+<xor id="19"/>
+<event id="20"><name>Internal
+Activity
+Was Allocated</name></event>
+<and id="21"/>
+<event id="22"><name>Statistical
+Key Figures
+Entered</name></event>
+<event id="23"><name>Actual
+cost
+recording
+for period
+is closed</name></event>
+<function id="24"><name>Time
+Sheet
+Permit</name></function>
+<event id="25"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<event id="26"><name>Open
+item
+was detailed</name></event>
+<xor id="27"/>
+<function id="28"><name>Manual
+Entry
+of Statistical
+Key Figures</name></function>
+<event id="29"><name>Posting
+was allowed
+despite
+budget
+overrun</name></event>
+<or id="30"/>
+<or id="31"/>
+<xor id="32"/>
+<and id="33"/>
+<function id="34"><name>Transfer
+Time
+Sheet
+Data
+to CO</name></function>
+<function id="35"><name>Manual
+Cost
+Allocation</name></function>
+<event id="36"><name>Activity
+Allocation
+Was Reposted</name></event>
+<or id="37"/>
+<function id="38"><name>Transfer
+of Statistical
+Key Figures
+From
+LIS (Actual)</name></function>
+<or id="39"/>
+<and id="40"/>
+<event id="41"><name>Time
+sheet
+is to
+be revised</name></event>
+<function id="42"><name>Direct
+Activity
+Allocation
+(Controlling)</name></function>
+<function id="43"><name>Update
+of Overhead
+Cost
+Order
+Budget</name></function>
+<event id="44"><name>Commitment
+is structured
+on cost
+center</name></event>
+<event id="45"><name>Funds
+are reserved</name></event>
+<event id="46"><name>Working
+hours
+data
+is to
+be approved</name></event>
+<event id="47"><name>Statistical
+Key Figure
+Is to
+Be Transferred
+from LIS</name></event>
+<event id="48"><name>Commitment
+structured
+on project</name></event>
+<event id="49"><name>Cost-accounting
+depreciation/
+interest
+transferred
+to Cost Accounting</name></event>
+<event id="50"><name>Additional
+account
+assignment
+entered</name></event>
+<or id="51"/>
+<event id="52"><name>Open
+item
+is based
+on order</name></event>
+<function id="53"><name>Manual
+Funds
+Reservation</name></function>
+<or id="54"/>
+<event id="55"><name>Costs
+Allocated
+Manually</name></event>
+<event id="56"><name>Funds
+for anticipated
+costs
+are to
+be set aside</name></event>
+<event id="57"><name>Working
+hours
+data
+is approved</name></event>
+<event id="58"><name>Working
+hours
+data
+is to
+be analyzed</name></event>
+<xor id="59"/>
+<event id="60"><name>Origin
+of the
+costs
+is uncertain</name></event>
+<event id="61"><name>Statistical
+Key Figure
+Is to
+Be Entered
+Manually</name></event>
+<function id="62"><name>Cost
+Reposting
+(Controlling)</name></function>
+<xor id="63"/>
+<or id="64"/>
+<function id="65"><name>Manual
+Funds
+Reduction</name></function>
+<event id="66"><name>Actual
+costs
+incurred
+are known</name></event>
+<function id="67"><name>Direct
+Activity
+Assignment
+Using
+Time Sheet Processing</name></function>
+<event id="68"><name>Reserved
+funds
+were
+reduced</name></event>
+<function id="69"><name>Cost
+Reposting
+Using
+FI Document
+Reversal</name></function>
+<and id="70"/>
+<event id="71"><name>Costs
+were
+reposted</name></event>
+<and id="72"/>
+<function id="73"><name>Transfer
+of Primary
+Costs
+to Cost
+Center/Order</name></function>
+<and id="74"/>
+<event id="75"><name>Costs
+are expected</name></event>
+<event id="76"><name>Budget
+is to
+be updated</name></event>
+<event id="77"><name>Posting
+was rejected
+due to
+budget
+overrun</name></event>
+<event id="78"><name>Trip
+costs
+must
+be included
+in cost accounting</name></event>
+<and id="79"/>
+<event id="80"><name>Reserved
+funds
+are to
+be reduced</name></event>
+<event id="81"><name>Internal
+Activity
+Should
+Be Allocated
+Internally</name></event>
+<or id="82"/>
+<arc id="68"><flow source="0" target="67"/></arc>
+<arc id="114"><flow source="1" target="30"/></arc>
+<arc id="203"><flow source="2" target="36"/></arc>
+<arc id="291"><flow source="3" target="41"/></arc>
+<arc id="307"><flow source="3" target="57"/></arc>
+<arc id="346"><flow source="4" target="13"/></arc>
+<arc id="443"><flow source="5" target="27"/></arc>
+<arc id="513"><flow source="6" target="14"/></arc>
+<arc id="737"><flow source="8" target="72"/></arc>
+<arc id="802"><flow source="9" target="54"/></arc>
+<arc id="838"><flow source="10" target="7"/></arc>
+<arc id="1039"><flow source="12" target="42"/></arc>
+<arc id="1153"><flow source="13" target="73"/></arc>
+<arc id="1228"><flow source="14" target="65"/></arc>
+<arc id="1278"><flow source="15" target="32"/></arc>
+<arc id="1408"><flow source="16" target="79"/></arc>
+<arc id="1421"><flow source="17" target="9"/></arc>
+<arc id="1430"><flow source="17" target="18"/></arc>
+<arc id="1569"><flow source="18" target="74"/></arc>
+<arc id="1593"><flow source="19" target="15"/></arc>
+<arc id="1624"><flow source="19" target="46"/></arc>
+<arc id="1663"><flow source="20" target="2"/></arc>
+<arc id="1770"><flow source="21" target="26"/></arc>
+<arc id="1812"><flow source="21" target="68"/></arc>
+<arc id="1996"><flow source="24" target="3"/></arc>
+<arc id="2076"><flow source="25" target="0"/></arc>
+<arc id="2321"><flow source="27" target="79"/></arc>
+<arc id="2388"><flow source="28" target="63"/></arc>
+<arc id="2435"><flow source="29" target="27"/></arc>
+<arc id="2562"><flow source="30" target="71"/></arc>
+<arc id="2575"><flow source="31" target="1"/></arc>
+<arc id="2636"><flow source="31" target="62"/></arc>
+<arc id="2643"><flow source="31" target="69"/></arc>
+<arc id="2691"><flow source="32" target="34"/></arc>
+<arc id="2785"><flow source="33" target="45"/></arc>
+<arc id="2799"><flow source="33" target="59"/></arc>
+<arc id="2840"><flow source="34" target="17"/></arc>
+<arc id="2863"><flow source="34" target="40"/></arc>
+<arc id="2961"><flow source="35" target="55"/></arc>
+<arc id="3095"><flow source="37" target="23"/></arc>
+<arc id="3218"><flow source="38" target="63"/></arc>
+<arc id="3258"><flow source="39" target="20"/></arc>
+<arc id="3330"><flow source="40" target="9"/></arc>
+<arc id="3404"><flow source="41" target="0"/></arc>
+<arc id="3505"><flow source="42" target="18"/></arc>
+<arc id="3581"><flow source="43" target="11"/></arc>
+<arc id="3659"><flow source="44" target="6"/></arc>
+<arc id="3750"><flow source="45" target="14"/></arc>
+<arc id="3843"><flow source="46" target="24"/></arc>
+<arc id="3940"><flow source="47" target="38"/></arc>
+<arc id="3991"><flow source="48" target="6"/></arc>
+<arc id="4081"><flow source="49" target="13"/></arc>
+<arc id="4164"><flow source="50" target="13"/></arc>
+<arc id="4242"><flow source="51" target="8"/></arc>
+<arc id="4271"><flow source="51" target="37"/></arc>
+<arc id="4323"><flow source="52" target="6"/></arc>
+<arc id="4433"><flow source="53" target="33"/></arc>
+<arc id="4493"><flow source="54" target="10"/></arc>
+<arc id="4731"><flow source="56" target="82"/></arc>
+<arc id="4764"><flow source="57" target="32"/></arc>
+<arc id="4869"><flow source="58" target="54"/></arc>
+<arc id="4942"><flow source="59" target="44"/></arc>
+<arc id="4946"><flow source="59" target="48"/></arc>
+<arc id="4950"><flow source="59" target="52"/></arc>
+<arc id="5051"><flow source="60" target="70"/></arc>
+<arc id="5092"><flow source="61" target="28"/></arc>
+<arc id="5177"><flow source="62" target="30"/></arc>
+<arc id="5252"><flow source="63" target="22"/></arc>
+<arc id="5327"><flow source="64" target="14"/></arc>
+<arc id="5417"><flow source="65" target="21"/></arc>
+<arc id="5543"><flow source="66" target="64"/></arc>
+<arc id="5581"><flow source="67" target="19"/></arc>
+<arc id="5758"><flow source="69" target="30"/></arc>
+<arc id="5893"><flow source="70" target="82"/></arc>
+<arc id="6008"><flow source="72" target="31"/></arc>
+<arc id="6012"><flow source="72" target="35"/></arc>
+<arc id="6111"><flow source="73" target="51"/></arc>
+<arc id="6180"><flow source="74" target="37"/></arc>
+<arc id="6182"><flow source="74" target="39"/></arc>
+<arc id="6296"><flow source="75" target="70"/></arc>
+<arc id="6336"><flow source="76" target="27"/></arc>
+<arc id="6419"><flow source="77" target="27"/></arc>
+<arc id="6488"><flow source="78" target="13"/></arc>
+<arc id="6601"><flow source="79" target="43"/></arc>
+<arc id="6705"><flow source="80" target="64"/></arc>
+<arc id="6724"><flow source="81" target="0"/></arc>
+<arc id="6860"><flow source="82" target="53"/></arc>
+</epc></epml>

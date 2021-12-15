@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="392" name="1Pr_fx--">
+<event id="0"><name>Product
+idea
+exists</name></event>
+<xor id="1"/>
+<event id="2"><name>Carry
+out project
+development
+in the
+project</name></event>
+<event id="3"><name>Carry
+out product
+development</name></event>
+<function id="4"><name>Non-Order-Specific
+Trigger</name></function>
+<function id="5"><name>Order-Specific
+Trigger</name></function>
+<event id="6"><name>Customer
+order
+exists</name></event>
+<xor id="7"/>
+<event id="8"><name>Carry
+out product
+development</name></event>
+<function id="9"><name>Project
+Planning</name></function>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="13"><flow source="1" target="2"/></arc>
+<arc id="14"><flow source="1" target="3"/></arc>
+<arc id="30"><flow source="2" target="9"/></arc>
+<arc id="48"><flow source="4" target="7"/></arc>
+<arc id="58"><flow source="5" target="7"/></arc>
+<arc id="66"><flow source="6" target="5"/></arc>
+<arc id="72"><flow source="7" target="1"/></arc>
+<arc id="99"><flow source="9" target="8"/></arc>
+</epc></epml>

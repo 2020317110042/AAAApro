@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="254" name="1Ku_a8h7">
+<event id="0"><name>Goods
+issue
+is posted</name></event>
+<function id="1"><name>Fixed
+Price
+Billing</name></function>
+<and id="2"/>
+<xor id="3"/>
+<event id="4"><name>Billing
+doc.
+relevant
+to accounting
+is created</name></event>
+<event id="5"><name>Declarations
+to the
+authorities
+to be
+carried out</name></event>
+<event id="6"><name>Delivery
+is relevant
+for billing</name></event>
+<function id="7"><name>Declarations
+to Authorities</name></function>
+<and id="8"/>
+<event id="9"><name>Declarations
+transmitted</name></event>
+<event id="10"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="11"><name>Billing
+document
+is monitored</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="15"><flow source="1" target="2"/></arc>
+<arc id="29"><flow source="2" target="4"/></arc>
+<arc id="35"><flow source="2" target="10"/></arc>
+<arc id="36"><flow source="2" target="11"/></arc>
+<arc id="38"><flow source="3" target="1"/></arc>
+<arc id="57"><flow source="4" target="8"/></arc>
+<arc id="69"><flow source="5" target="8"/></arc>
+<arc id="76"><flow source="6" target="3"/></arc>
+<arc id="94"><flow source="7" target="9"/></arc>
+<arc id="104"><flow source="8" target="7"/></arc>
+</epc></epml>

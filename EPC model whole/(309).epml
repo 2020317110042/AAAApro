@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="310" name="1Pr_10om">
+<and id="0"/>
+<and id="1"/>
+<function id="2"><name>Production
+Resource/
+Tool
+Processing</name></function>
+<function id="3"><name>Material
+Variant
+Processing</name></function>
+<event id="4"><name>Check
+dates
+and transactions</name></event>
+<and id="5"/>
+<event id="6"><name>Put together
+objects
+in the
+configuration
+folder</name></event>
+<function id="7"><name>Document
+Structure
+Processing</name></function>
+<function id="8"><name>Material
+BOM Processing</name></function>
+<function id="9"><name>Classification</name></function>
+<function id="10"><name>Object
+Dependency
+Maintenance</name></function>
+<function id="11"><name>Document
+Processing</name></function>
+<event id="12"><name>Check
+configuration
+model</name></event>
+<function id="13"><name>Variant
+Table
+Processing</name></function>
+<and id="14"/>
+<event id="15"><name>Define
+dependency
+between
+chracteristics
+and characteristic values</name></event>
+<function id="16"><name>Integrated
+Product
+and Process
+Data
+Processing - EWB</name></function>
+<function id="17"><name>Graphical
+Product
+Structure
+Processing</name></function>
+<and id="18"/>
+<and id="19"/>
+<event id="20"><name>Configuration
+profile
+is to
+be edited</name></event>
+<event id="21"><name>Create
+order
+BOM</name></event>
+<function id="22"><name>Edit
+Classes</name></function>
+<function id="23"><name>Variant
+Function
+Processing</name></function>
+<function id="24"><name>Order
+BOM Processing</name></function>
+<event id="25"><name>Define
+value
+combinations
+for characteristics</name></event>
+<function id="26"><name>Characteristic
+Processing</name></function>
+<function id="27"><name>Variant
+Condition
+Processing</name></function>
+<and id="28"/>
+<event id="29"><name>Define
+production
+resources/
+tools</name></event>
+<event id="30"><name>Define
+price
+depending
+on characteristic
+values</name></event>
+<event id="31"><name>Check
+product
+data
+structure</name></event>
+<function id="32"><name>Configuration
+Profile
+Processing</name></function>
+<event id="33"><name>Create
+routings
+and inspection
+plans</name></event>
+<event id="34"><name>Assign
+function
+module
+to function</name></event>
+<event id="35"><name>Define
+variants
+for configurable
+material</name></event>
+<and id="36"/>
+<function id="37"><name>Configuration
+Simulation</name></function>
+<function id="38"><name>Product
+description
+using
+Configuration
+Management</name></function>
+<function id="39"><name>Inspection
+Plan
+Processing</name></function>
+<event id="40"><name>Product
+structure
+for variants
+to be
+set up</name></event>
+<function id="41"><name>Material
+Master
+Processing</name></function>
+<function id="42"><name>Routing
+Processing</name></function>
+<arc id="30"><flow source="0" target="29"/></arc>
+<arc id="59"><flow source="1" target="15"/></arc>
+<arc id="64"><flow source="1" target="20"/></arc>
+<arc id="69"><flow source="1" target="25"/></arc>
+<arc id="74"><flow source="1" target="30"/></arc>
+<arc id="78"><flow source="1" target="34"/></arc>
+<arc id="79"><flow source="1" target="35"/></arc>
+<arc id="108"><flow source="2" target="21"/></arc>
+<arc id="144"><flow source="3" target="14"/></arc>
+<arc id="255"><flow source="5" target="39"/></arc>
+<arc id="258"><flow source="5" target="42"/></arc>
+<arc id="297"><flow source="6" target="38"/></arc>
+<arc id="320"><flow source="7" target="18"/></arc>
+<arc id="363"><flow source="8" target="18"/></arc>
+<arc id="406"><flow source="9" target="18"/></arc>
+<arc id="445"><flow source="10" target="14"/></arc>
+<arc id="492"><flow source="11" target="18"/></arc>
+<arc id="554"><flow source="12" target="37"/></arc>
+<arc id="574"><flow source="13" target="14"/></arc>
+<arc id="615"><flow source="14" target="12"/></arc>
+<arc id="656"><flow source="15" target="10"/></arc>
+<arc id="708"><flow source="16" target="19"/></arc>
+<arc id="751"><flow source="17" target="19"/></arc>
+<arc id="776"><flow source="18" target="1"/></arc>
+<arc id="824"><flow source="19" target="6"/></arc>
+<arc id="893"><flow source="20" target="32"/></arc>
+<arc id="928"><flow source="21" target="24"/></arc>
+<arc id="965"><flow source="22" target="18"/></arc>
+<arc id="1004"><flow source="23" target="14"/></arc>
+<arc id="1064"><flow source="24" target="31"/></arc>
+<arc id="1089"><flow source="25" target="13"/></arc>
+<arc id="1137"><flow source="26" target="18"/></arc>
+<arc id="1176"><flow source="27" target="14"/></arc>
+<arc id="1221"><flow source="28" target="16"/></arc>
+<arc id="1222"><flow source="28" target="17"/></arc>
+<arc id="1250"><flow source="29" target="2"/></arc>
+<arc id="1318"><flow source="30" target="27"/></arc>
+<arc id="1362"><flow source="31" target="28"/></arc>
+<arc id="1391"><flow source="32" target="14"/></arc>
+<arc id="1425"><flow source="33" target="5"/></arc>
+<arc id="1486"><flow source="34" target="23"/></arc>
+<arc id="1509"><flow source="35" target="3"/></arc>
+<arc id="1556"><flow source="36" target="7"/></arc>
+<arc id="1557"><flow source="36" target="8"/></arc>
+<arc id="1558"><flow source="36" target="9"/></arc>
+<arc id="1560"><flow source="36" target="11"/></arc>
+<arc id="1571"><flow source="36" target="22"/></arc>
+<arc id="1575"><flow source="36" target="26"/></arc>
+<arc id="1590"><flow source="36" target="41"/></arc>
+<arc id="1625"><flow source="37" target="33"/></arc>
+<arc id="1639"><flow source="38" target="4"/></arc>
+<arc id="1678"><flow source="39" target="0"/></arc>
+<arc id="1757"><flow source="40" target="36"/></arc>
+<arc id="1782"><flow source="41" target="18"/></arc>
+<arc id="1807"><flow source="42" target="0"/></arc>
+</epc></epml>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="129" name="1Ex_dy43">
+<event id="0"><name>Evaluations
+to be
+carried
+out</name></event>
+<event id="1"><name>Actual
+data
+does
+not need
+to be checked</name></event>
+<event id="2"><name>Overview
+of master
+data
+required</name></event>
+<event id="3"><name>Budget
+structure
+was edited</name></event>
+<and id="4"/>
+<event id="5"><name>Additional
+budget
+structuring
+is not
+required</name></event>
+<function id="6"><name>Matching
+Line
+Item
+Totals</name></function>
+<xor id="7"/>
+<event id="8"><name>Line
+item
+report
+is required</name></event>
+<event id="9"><name>Actual
+data
+must
+be checked</name></event>
+<event id="10"><name>Fund
+edited</name></event>
+<function id="11"><name>Reports</name></function>
+<event id="12"><name>Matching
+has taken
+place</name></event>
+<event id="13"><name>Overview
+of closing
+operations
+is required</name></event>
+<xor id="14"/>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="35"><flow source="2" target="4"/></arc>
+<arc id="50"><flow source="3" target="4"/></arc>
+<arc id="72"><flow source="4" target="11"/></arc>
+<arc id="83"><flow source="5" target="7"/></arc>
+<arc id="103"><flow source="6" target="12"/></arc>
+<arc id="110"><flow source="7" target="4"/></arc>
+<arc id="142"><flow source="9" target="6"/></arc>
+<arc id="158"><flow source="10" target="7"/></arc>
+<arc id="180"><flow source="11" target="14"/></arc>
+<arc id="212"><flow source="14" target="1"/></arc>
+<arc id="220"><flow source="14" target="9"/></arc>
+</epc></epml>

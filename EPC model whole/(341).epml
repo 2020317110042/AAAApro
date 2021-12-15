@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="342" name="1Pr_47ww">
+<function id="0"><name>GR Processing
+from
+Production</name></function>
+<event id="1"><name>Capacity
+Leveling
+or Planning
+Is Performed</name></event>
+<event id="2"><name>Production
+Without
+Process
+Control</name></event>
+<function id="3"><name>Process
+Order
+Confirmation</name></function>
+<event id="4"><name>Goods
+Receipt
+Posted</name></event>
+<function id="5"><name>Process
+Order
+Execution</name></function>
+<function id="6"><name>Goods
+Issue
+for Process
+Order</name></function>
+<event id="7"><name>Process
+order
+is finally
+confirmed</name></event>
+<or id="8"/>
+<event id="9"><name>Material
+is produced</name></event>
+<event id="10"><name>Goods
+Issue
+is Posted</name></event>
+<event id="11"><name>Components
+are to
+be withdrawn
+for process
+order</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="21"><flow source="1" target="8"/></arc>
+<arc id="33"><flow source="2" target="8"/></arc>
+<arc id="44"><flow source="3" target="7"/></arc>
+<arc id="70"><flow source="5" target="9"/></arc>
+<arc id="83"><flow source="6" target="10"/></arc>
+<arc id="85"><flow source="7" target="0"/></arc>
+<arc id="102"><flow source="8" target="5"/></arc>
+<arc id="112"><flow source="9" target="3"/></arc>
+<arc id="129"><flow source="10" target="8"/></arc>
+<arc id="139"><flow source="11" target="6"/></arc>
+</epc></epml>

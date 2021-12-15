@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="176" name="1Ex_evsj">
+<and id="0"/>
+<function id="1"><name>Financial
+Statement
+Creation</name></function>
+<event id="2"><name>Flat-rate
+individual
+adjustment
+is carried
+out</name></event>
+<event id="3"><name>Periodic
+reports
+are created</name></event>
+<event id="4"><name>Carry
+out P&amp;L
+adjustment</name></event>
+<event id="5"><name>Balances
+carried
+forward</name></event>
+<xor id="6"/>
+<function id="7"><name>Foreign
+Currency
+Valuation
+for Open
+Items</name></function>
+<event id="8"><name>Financial
+statement
+is created</name></event>
+<event id="9"><name>Balances
+are to
+be carried
+forward</name></event>
+<function id="10"><name>Foreign
+Currency
+Valuation
+for Balances</name></function>
+<event id="11"><name>P&amp;L adjustmant
+carried
+out</name></event>
+<and id="12"/>
+<event id="13"><name>Long-term
+receivables
+should
+be discounted</name></event>
+<function id="14"><name>Manual
+Foreign
+Currency
+Valuation</name></function>
+<and id="15"/>
+<function id="16"><name>GR/IR
+Clearing
+Account
+Maintenance</name></function>
+<xor id="17"/>
+<event id="18"><name>Doubtful
+receivables
+to be
+devalued
+due to country del credere</name></event>
+<event id="19"><name>Valuation
+of open
+items
+in foreign
+currency is to be carried out</name></event>
+<function id="20"><name>Regroup
+Receivables/
+Payables</name></function>
+<event id="21"><name>Customer-specific
+valuation
+to be
+made</name></event>
+<xor id="22"/>
+<event id="23"><name>Foreign
+currency
+valuation
+carried
+out</name></event>
+<event id="24"><name>Foreign
+currency
+valuation
+for balances
+to be carried out</name></event>
+<event id="25"><name>Manual
+foreign
+currency
+valuation
+carried out</name></event>
+<or id="26"/>
+<function id="27"><name>Flat-Rate
+Individual
+Value
+Adjustment
+due to Default or Credit Risk</name></function>
+<event id="28"><name>Manual
+foreign
+currency
+valuation
+to be carried out</name></event>
+<event id="29"><name>Reclassification
+completed</name></event>
+<event id="30"><name>Payables/
+receivables
+to be
+regrouped
+by remaining term</name></event>
+<function id="31"><name>Carry
+Forward
+G/L Balances</name></function>
+<event id="32"><name>GR/IR
+clearing
+account
+must
+be maintained</name></event>
+<event id="33"><name>GR/IR
+clearing
+account
+maintained</name></event>
+<function id="34"><name>Profit
+and Loss
+Adjustment</name></function>
+<function id="35"><name>Periodic
+Reports</name></function>
+<arc id="13"><flow source="0" target="12"/></arc>
+<arc id="45"><flow source="1" target="8"/></arc>
+<arc id="90"><flow source="2" target="17"/></arc>
+<arc id="179"><flow source="4" target="34"/></arc>
+<arc id="181"><flow source="5" target="0"/></arc>
+<arc id="244"><flow source="6" target="27"/></arc>
+<arc id="279"><flow source="7" target="26"/></arc>
+<arc id="356"><flow source="9" target="31"/></arc>
+<arc id="387"><flow source="10" target="26"/></arc>
+<arc id="397"><flow source="11" target="0"/></arc>
+<arc id="434"><flow source="12" target="1"/></arc>
+<arc id="468"><flow source="12" target="35"/></arc>
+<arc id="475"><flow source="13" target="6"/></arc>
+<arc id="530"><flow source="14" target="25"/></arc>
+<arc id="561"><flow source="15" target="20"/></arc>
+<arc id="610"><flow source="16" target="33"/></arc>
+<arc id="628"><flow source="17" target="15"/></arc>
+<arc id="655"><flow source="18" target="6"/></arc>
+<arc id="692"><flow source="19" target="7"/></arc>
+<arc id="750"><flow source="20" target="29"/></arc>
+<arc id="763"><flow source="21" target="6"/></arc>
+<arc id="810"><flow source="22" target="17"/></arc>
+<arc id="851"><flow source="23" target="22"/></arc>
+<arc id="875"><flow source="24" target="10"/></arc>
+<arc id="923"><flow source="25" target="22"/></arc>
+<arc id="960"><flow source="26" target="23"/></arc>
+<arc id="975"><flow source="27" target="2"/></arc>
+<arc id="1023"><flow source="28" target="14"/></arc>
+<arc id="1045"><flow source="29" target="0"/></arc>
+<arc id="1096"><flow source="30" target="15"/></arc>
+<arc id="1122"><flow source="31" target="5"/></arc>
+<arc id="1169"><flow source="32" target="16"/></arc>
+<arc id="1189"><flow source="33" target="0"/></arc>
+<arc id="1236"><flow source="34" target="11"/></arc>
+<arc id="1264"><flow source="35" target="3"/></arc>
+</epc></epml>

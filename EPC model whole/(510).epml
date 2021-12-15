@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="511" name="1Ve_4xoy">
+<event id="0"><name>Billing
+document
+to be
+cancelled</name></event>
+<event id="1"><name>Credit
+memo
+can be
+created</name></event>
+<event id="2"><name>Credit/
+debit
+memo
+is granted</name></event>
+<function id="3"><name>Credit
+Memo
+from
+Customer
+Complaint / Returns</name></function>
+<xor id="4"/>
+<event id="5"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<event id="6"><name>Billing
+document/
+items
+are cancelled</name></event>
+<function id="7"><name>Billing
+Document
+Cancellation</name></function>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="13"><flow source="1" target="4"/></arc>
+<arc id="21"><flow source="2" target="4"/></arc>
+<arc id="30"><flow source="3" target="5"/></arc>
+<arc id="36"><flow source="4" target="3"/></arc>
+<arc id="63"><flow source="7" target="6"/></arc>
+</epc></epml>

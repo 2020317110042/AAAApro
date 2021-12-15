@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="228" name="1Ku_93jr">
+<event id="0"><name>Goods
+issue
+is posted</name></event>
+<xor id="1"/>
+<event id="2"><name>Delivery
+is relevant
+for billing</name></event>
+<and id="3"/>
+<event id="4"><name>Order-related
+invoice
+to be
+created</name></event>
+<event id="5"><name>Billing
+doc.
+relevant
+to accounting
+is created</name></event>
+<event id="6"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<xor id="7"/>
+<event id="8"><name>Declarations
+transmitted</name></event>
+<event id="9"><name>Billing
+document
+is monitored</name></event>
+<event id="10"><name>Credit/
+debit
+memo
+is granted</name></event>
+<xor id="11"/>
+<and id="12"/>
+<function id="13"><name>Declarations
+to Authorities</name></function>
+<xor id="14"/>
+<xor id="15"/>
+<event id="16"><name>Credit/
+debit
+memo
+request
+is rejected</name></event>
+<event id="17"><name>Credit
+memo
+request
+to be
+created</name></event>
+<event id="18"><name>Billing
+document
+is monitored</name></event>
+<and id="19"/>
+<and id="20"/>
+<event id="21"><name>Declarations
+to the
+authorities
+to be
+carried out</name></event>
+<event id="22"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="23"><name>Bil.
+doc.
+is released
+for billing</name></event>
+<function id="24"><name>Credit
+Memo
+Request
+Processing</name></function>
+<and id="25"/>
+<function id="26"><name>Fixed
+Price
+Billing</name></function>
+<event id="27"><name>Goods
+issue
+is posted</name></event>
+<event id="28"><name>Billing
+doc.
+relevant
+to accounting
+is created</name></event>
+<function id="29"><name>Resource-Related
+Billing</name></function>
+<event id="30"><name>Billing
+request
+released
+for billing
+document</name></event>
+<function id="31"><name>Billing
+Request
+Processing</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="58"><flow source="1" target="25"/></arc>
+<arc id="66"><flow source="2" target="1"/></arc>
+<arc id="104"><flow source="3" target="7"/></arc>
+<arc id="154"><flow source="4" target="25"/></arc>
+<arc id="164"><flow source="5" target="3"/></arc>
+<arc id="238"><flow source="7" target="13"/></arc>
+<arc id="363"><flow source="11" target="10"/></arc>
+<arc id="369"><flow source="11" target="16"/></arc>
+<arc id="390"><flow source="12" target="5"/></arc>
+<arc id="391"><flow source="12" target="6"/></arc>
+<arc id="394"><flow source="12" target="9"/></arc>
+<arc id="425"><flow source="13" target="8"/></arc>
+<arc id="452"><flow source="14" target="3"/></arc>
+<arc id="469"><flow source="14" target="20"/></arc>
+<arc id="507"><flow source="15" target="26"/></arc>
+<arc id="569"><flow source="17" target="24"/></arc>
+<arc id="627"><flow source="19" target="18"/></arc>
+<arc id="632"><flow source="19" target="23"/></arc>
+<arc id="637"><flow source="19" target="28"/></arc>
+<arc id="648"><flow source="20" target="7"/></arc>
+<arc id="687"><flow source="21" target="14"/></arc>
+<arc id="720"><flow source="22" target="15"/></arc>
+<arc id="780"><flow source="24" target="11"/></arc>
+<arc id="832"><flow source="25" target="31"/></arc>
+<arc id="852"><flow source="26" target="19"/></arc>
+<arc id="880"><flow source="27" target="15"/></arc>
+<arc id="917"><flow source="28" target="20"/></arc>
+<arc id="941"><flow source="29" target="12"/></arc>
+<arc id="990"><flow source="30" target="29"/></arc>
+<arc id="1023"><flow source="31" target="30"/></arc>
+</epc></epml>

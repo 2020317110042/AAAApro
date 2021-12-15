@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="117" name="1Er_i9qm">
+<function id="0"><name>Profit
+Center:
+Transfer
+of Assets</name></function>
+<function id="1"><name>Profit
+Center:
+Transfer
+of Receivables/
+Payables</name></function>
+<event id="2"><name>Profit
+Center
+Transfer
+of Receivables/
+Payables Required</name></event>
+<event id="3"><name>Profit
+center
+transfer
+of fixed
+assets required</name></event>
+<xor id="4"/>
+<event id="5"><name>Profit
+Center
+Transfer
+of WIP
+Required</name></event>
+<event id="6"><name>Profit
+Center
+Balance
+Carryforward
+Required</name></event>
+<function id="7"><name>Profit
+Center
+Distribution:
+Actual</name></function>
+<event id="8"><name>Profit
+Center
+Transfer
+of Material
+Inventories Required</name></event>
+<event id="9"><name>Balance
+sheet
+items
+were
+copied to Profit Center Accounting</name></event>
+<function id="10"><name>Profit
+Center
+Analysis</name></function>
+<event id="11"><name>Balance
+sheet
+items
+were
+distributed</name></event>
+<function id="12"><name>Profit
+Center
+Balance
+Carryforward</name></function>
+<xor id="13"/>
+<event id="14"><name>All profit
+center
+actual
+data
+exists</name></event>
+<function id="15"><name>Profit
+Center:
+Transfer
+of Work
+in Process</name></function>
+<and id="16"/>
+<xor id="17"/>
+<event id="18"><name>Distribute
+profit
+center
+overhead
+costs</name></event>
+<event id="19"><name>Control
+measures
+set based
+on variances</name></event>
+<function id="20"><name>Actual
+Profit
+Center
+Assessment</name></function>
+<function id="21"><name>Profit
+Center:
+Transfer
+of Material
+Stock</name></function>
+<event id="22"><name>Balances
+carried
+forward
+to Profit
+Center Accounting</name></event>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="28"><flow source="1" target="4"/></arc>
+<arc id="48"><flow source="2" target="1"/></arc>
+<arc id="70"><flow source="3" target="0"/></arc>
+<arc id="102"><flow source="4" target="9"/></arc>
+<arc id="131"><flow source="5" target="15"/></arc>
+<arc id="151"><flow source="6" target="12"/></arc>
+<arc id="179"><flow source="7" target="17"/></arc>
+<arc id="206"><flow source="8" target="21"/></arc>
+<arc id="215"><flow source="9" target="7"/></arc>
+<arc id="250"><flow source="10" target="19"/></arc>
+<arc id="267"><flow source="11" target="13"/></arc>
+<arc id="293"><flow source="12" target="16"/></arc>
+<arc id="320"><flow source="13" target="20"/></arc>
+<arc id="333"><flow source="14" target="10"/></arc>
+<arc id="350"><flow source="15" target="4"/></arc>
+<arc id="383"><flow source="16" target="14"/></arc>
+<arc id="391"><flow source="16" target="22"/></arc>
+<arc id="403"><flow source="17" target="11"/></arc>
+<arc id="410"><flow source="17" target="18"/></arc>
+<arc id="428"><flow source="18" target="13"/></arc>
+<arc id="467"><flow source="20" target="6"/></arc>
+<arc id="488"><flow source="21" target="4"/></arc>
+</epc></epml>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="250" name="1Ku_a4cg">
+<event id="0"><name>Archiving
+carried
+out</name></event>
+<xor id="1"/>
+<event id="2"><name>Credit
+limit
+check
+is to
+be performed automatically</name></event>
+<and id="3"/>
+<function id="4"><name>Service
+Notification
+Creation
+and Processing</name></function>
+<function id="5"><name>Debit
+Memo
+Request
+Processing</name></function>
+<xor id="6"/>
+<event id="7"><name>Credit/
+debit
+memo
+request
+is rejected</name></event>
+<event id="8"><name>Credit/
+debit
+memo
+is granted</name></event>
+<event id="9"><name>Notification
+is to
+be archived</name></event>
+<event id="10"><name>Shop
+papers
+are to
+be printed
+from order</name></event>
+<event id="11"><name>Measurement
+doc.
+should
+be created
+for notif.</name></event>
+<and id="12"/>
+<and id="13"/>
+<function id="14"><name>Notification
+Archiving</name></function>
+<event id="15"><name>Notification
+is printed</name></event>
+<event id="16"><name>Notification
+is to
+be billed</name></event>
+<event id="17"><name>Warranty
+is to
+be checked</name></event>
+<and id="18"/>
+<xor id="19"/>
+<event id="20"><name>Contract
+is created</name></event>
+<event id="21"><name>Service
+notification
+download
+is performed</name></event>
+<event id="22"><name>Notification
+is completed</name></event>
+<event id="23"><name>Notification
+and order
+assigned
+to one
+another</name></event>
+<event id="24"><name>Technical
+findings
+are to
+be entered</name></event>
+<function id="25"><name>Entry
+of Technical
+Findings</name></function>
+<or id="26"/>
+<event id="27"><name>Completion
+of Hotline
+call</name></event>
+<xor id="28"/>
+<or id="29"/>
+<or id="30"/>
+<event id="31"><name>Print
+log is
+created</name></event>
+<event id="32"><name>Service
+notification
+is being
+processed</name></event>
+<event id="33"><name>Notification
+papers
+are to
+be printed</name></event>
+<function id="34"><name>Notification
+Printing</name></function>
+<and id="35"/>
+<event id="36"><name>Technical
+findings
+are entered</name></event>
+<event id="37"><name>Service
+order
+is created
+in background</name></event>
+<event id="38"><name>Service
+requirement
+arose</name></event>
+<event id="39"><name>Shop
+papers
+are to
+be printed
+from notification</name></event>
+<event id="40"><name>Maintenance
+notification
+is assigned
+to the
+existing maintenance order</name></event>
+<event id="41"><name>Service
+notification
+data
+is to
+be processed</name></event>
+<event id="42"><name>Service
+order
+should
+be created
+directly from service notification</name></event>
+<event id="43"><name>Credit
+limit
+check
+is to
+be performed manually</name></event>
+<arc id="47"><flow source="1" target="2"/></arc>
+<arc id="88"><flow source="1" target="43"/></arc>
+<arc id="147"><flow source="3" target="14"/></arc>
+<arc id="203"><flow source="4" target="26"/></arc>
+<arc id="240"><flow source="5" target="19"/></arc>
+<arc id="299"><flow source="6" target="34"/></arc>
+<arc id="400"><flow source="9" target="3"/></arc>
+<arc id="453"><flow source="10" target="12"/></arc>
+<arc id="535"><flow source="12" target="6"/></arc>
+<arc id="588"><flow source="13" target="15"/></arc>
+<arc id="604"><flow source="13" target="31"/></arc>
+<arc id="617"><flow source="14" target="0"/></arc>
+<arc id="710"><flow source="16" target="5"/></arc>
+<arc id="802"><flow source="18" target="9"/></arc>
+<arc id="815"><flow source="18" target="22"/></arc>
+<arc id="844"><flow source="19" target="7"/></arc>
+<arc id="845"><flow source="19" target="8"/></arc>
+<arc id="911"><flow source="20" target="30"/></arc>
+<arc id="972"><flow source="22" target="3"/></arc>
+<arc id="1025"><flow source="23" target="12"/></arc>
+<arc id="1082"><flow source="24" target="25"/></arc>
+<arc id="1130"><flow source="25" target="29"/></arc>
+<arc id="1146"><flow source="26" target="1"/></arc>
+<arc id="1156"><flow source="26" target="11"/></arc>
+<arc id="1161"><flow source="26" target="16"/></arc>
+<arc id="1162"><flow source="26" target="17"/></arc>
+<arc id="1163"><flow source="26" target="18"/></arc>
+<arc id="1166"><flow source="26" target="21"/></arc>
+<arc id="1169"><flow source="26" target="24"/></arc>
+<arc id="1172"><flow source="26" target="27"/></arc>
+<arc id="1173"><flow source="26" target="28"/></arc>
+<arc id="1178"><flow source="26" target="33"/></arc>
+<arc id="1184"><flow source="26" target="39"/></arc>
+<arc id="1192"><flow source="27" target="3"/></arc>
+<arc id="1268"><flow source="28" target="35"/></arc>
+<arc id="1275"><flow source="28" target="42"/></arc>
+<arc id="1313"><flow source="29" target="36"/></arc>
+<arc id="1317"><flow source="29" target="40"/></arc>
+<arc id="1325"><flow source="30" target="4"/></arc>
+<arc id="1459"><flow source="33" target="6"/></arc>
+<arc id="1510"><flow source="34" target="13"/></arc>
+<arc id="1573"><flow source="35" target="32"/></arc>
+<arc id="1578"><flow source="35" target="37"/></arc>
+<arc id="1703"><flow source="38" target="30"/></arc>
+<arc id="1835"><flow source="41" target="30"/></arc>
+</epc></epml>

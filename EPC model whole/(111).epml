@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="112" name="1Er_hct3">
+<event id="0"><name>Cost
+and activity
+planning
+executed</name></event>
+<event id="1"><name>Costing
+(for
+co-products)
+is prepared</name></event>
+<function id="2"><name>Standard
+Cost
+Estimate
+with
+Quantity Structure</name></function>
+<xor id="3"/>
+<function id="4"><name>Price
+Release
+with
+Standard
+Cost Estimate</name></function>
+<and id="5"/>
+<function id="6"><name>Standard
+Cost
+Estimate
+for Co-Products</name></function>
+<function id="7"><name>Costing
+Analysis</name></function>
+<event id="8"><name>Cost
+estimate
+needs
+to be
+revised due to variances</name></event>
+<event id="9"><name>Result
+complete;
+costing
+released</name></event>
+<event id="10"><name>Costing
+(with
+quantity
+structure)
+prepared</name></event>
+<event id="11"><name>Costing
+results
+recorded
+in material
+master as future standard price</name></event>
+<event id="12"><name>Standard
+price
+updated
+in material
+master[]</name></event>
+<function id="13"><name>Preparation
+for Costing</name></function>
+<function id="14"><name>Price
+Marking</name></function>
+<event id="15"><name>Fiscal
+year/
+period
+is to
+be costed</name></event>
+<xor id="16"/>
+<event id="17"><name>Product
+Costs
+Are Allocated</name></event>
+<event id="18"><name>Stock
+revaluated</name></event>
+<function id="19"><name>Standard
+Cost
+Estimate
+Without
+Quantity Structure</name></function>
+<xor id="20"/>
+<event id="21"><name>Costing
+(without
+quantity
+structure)
+prepared</name></event>
+<or id="22"/>
+<arc id="23"><flow source="0" target="22"/></arc>
+<arc id="30"><flow source="1" target="6"/></arc>
+<arc id="67"><flow source="2" target="20"/></arc>
+<arc id="78"><flow source="3" target="8"/></arc>
+<arc id="79"><flow source="3" target="9"/></arc>
+<arc id="98"><flow source="4" target="5"/></arc>
+<arc id="128"><flow source="5" target="12"/></arc>
+<arc id="134"><flow source="5" target="18"/></arc>
+<arc id="159"><flow source="6" target="20"/></arc>
+<arc id="165"><flow source="7" target="3"/></arc>
+<arc id="222"><flow source="9" target="14"/></arc>
+<arc id="233"><flow source="10" target="2"/></arc>
+<arc id="258"><flow source="11" target="4"/></arc>
+<arc id="316"><flow source="13" target="16"/></arc>
+<arc id="334"><flow source="14" target="11"/></arc>
+<arc id="368"><flow source="15" target="22"/></arc>
+<arc id="370"><flow source="16" target="1"/></arc>
+<arc id="379"><flow source="16" target="10"/></arc>
+<arc id="390"><flow source="16" target="21"/></arc>
+<arc id="399"><flow source="17" target="7"/></arc>
+<arc id="458"><flow source="19" target="20"/></arc>
+<arc id="478"><flow source="20" target="17"/></arc>
+<arc id="503"><flow source="21" target="19"/></arc>
+<arc id="520"><flow source="22" target="13"/></arc>
+</epc></epml>

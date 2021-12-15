@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="77" name="1Be_343s">
+<event id="0"><name>Inbound
+delivery
+entered</name></event>
+<and id="1"/>
+<event id="2"><name>Goods
+received</name></event>
+<function id="3"><name>Goods
+Receipt
+Processing
+with
+Reference</name></function>
+<event id="4"><name>Goods
+receipt
+posted</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="9"><flow source="1" target="3"/></arc>
+<arc id="12"><flow source="2" target="1"/></arc>
+<arc id="20"><flow source="3" target="4"/></arc>
+</epc></epml>

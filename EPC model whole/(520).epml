@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="521" name="1Ve_5e1y">
+<xor id="0"/>
+<event id="1"><name>Free-of-charge
+delivery
+is to
+be created</name></event>
+<event id="2"><name>Items
+are cancelled</name></event>
+<event id="3"><name>Sales
+requirements
+are created</name></event>
+<event id="4"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<function id="5"><name>Sending
+Samples
+and Advertising
+Materials</name></function>
+<event id="6"><name>Document
+blocked
+due to
+legal
+control</name></event>
+<event id="7"><name>Order
+is created</name></event>
+<and id="8"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="5"><flow source="0" target="4"/></arc>
+<arc id="7"><flow source="0" target="6"/></arc>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="15"><flow source="1" target="5"/></arc>
+<arc id="46"><flow source="5" target="0"/></arc>
+<arc id="76"><flow source="8" target="3"/></arc>
+<arc id="80"><flow source="8" target="7"/></arc>
+</epc></epml>

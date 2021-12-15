@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="181" name="1Im_lcbm">
+<event id="0"><name>General
+contract
+(lease-in)
+to be
+edited</name></event>
+<and id="1"/>
+<event id="2"><name>Credit
+posting
+is made</name></event>
+<event id="3"><name>If required,
+tenant-rented
+object
+to be
+rented</name></event>
+<event id="4"><name>Adjustment
+of advance
+payments/
+flat
+rates should be carried out</name></event>
+<or id="5"/>
+<function id="6"><name>Rent
+Change</name></function>
+<function id="7"><name>General
+Contract</name></function>
+<or id="8"/>
+<function id="9"><name>Rental
+Accounting</name></function>
+<event id="10"><name>Application-
+/rental
+request
+should
+be processed</name></event>
+<function id="11"><name>Service
+Charge
+Settlement</name></function>
+<event id="12"><name>Change
+conditions
+on lease-out/
+rental
+unit</name></event>
+<event id="13"><name>Carry
+out debit
+position</name></event>
+<event id="14"><name>Offer
+should
+be processed</name></event>
+<or id="15"/>
+<event id="16"><name>Post
+external
+heating
+expenses
+settlement</name></event>
+<event id="17"><name>Items
+were
+cleared</name></event>
+<function id="18"><name>Rental</name></function>
+<and id="19"/>
+<event id="20"><name>Items
+are still
+open
+and should
+be cleared using a suitable process</name></event>
+<event id="21"><name>Rent
+adjustment
+was carried
+out</name></event>
+<or id="22"/>
+<event id="23"><name>Lease-out
+should
+be processed</name></event>
+<event id="24"><name>Correspondence
+on SCS
+was carried
+out</name></event>
+<event id="25"><name>Post
+one-time
+receiv-
+able
+to lease-out</name></event>
+<arc id="8"><flow source="0" target="7"/></arc>
+<arc id="29"><flow source="1" target="2"/></arc>
+<arc id="30"><flow source="1" target="3"/></arc>
+<arc id="101"><flow source="3" target="22"/></arc>
+<arc id="120"><flow source="4" target="15"/></arc>
+<arc id="140"><flow source="5" target="9"/></arc>
+<arc id="178"><flow source="6" target="21"/></arc>
+<arc id="184"><flow source="7" target="1"/></arc>
+<arc id="226"><flow source="8" target="17"/></arc>
+<arc id="229"><flow source="8" target="20"/></arc>
+<arc id="243"><flow source="9" target="8"/></arc>
+<arc id="283"><flow source="10" target="22"/></arc>
+<arc id="306"><flow source="11" target="19"/></arc>
+<arc id="328"><flow source="12" target="15"/></arc>
+<arc id="344"><flow source="13" target="5"/></arc>
+<arc id="387"><flow source="14" target="22"/></arc>
+<arc id="397"><flow source="15" target="6"/></arc>
+<arc id="428"><flow source="16" target="11"/></arc>
+<arc id="482"><flow source="18" target="13"/></arc>
+<arc id="499"><flow source="19" target="4"/></arc>
+<arc id="519"><flow source="19" target="24"/></arc>
+<arc id="591"><flow source="22" target="18"/></arc>
+<arc id="621"><flow source="23" target="22"/></arc>
+<arc id="656"><flow source="25" target="5"/></arc>
+</epc></epml>

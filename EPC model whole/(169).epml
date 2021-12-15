@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="170" name="1Ex_eqm0">
+<function id="0"><name>Check/
+Bill
+of Exchange
+Payable</name></function>
+<xor id="1"/>
+<event id="2"><name>Bill
+of exchange
+payable
+posted</name></event>
+<xor id="3"/>
+<event id="4"><name>Bill
+of exchange
+payable
+to be
+posted</name></event>
+<function id="5"><name>Bill
+of Exchange
+Payable</name></function>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="9"><flow source="1" target="2"/></arc>
+<arc id="19"><flow source="3" target="0"/></arc>
+<arc id="24"><flow source="3" target="5"/></arc>
+<arc id="28"><flow source="4" target="3"/></arc>
+<arc id="32"><flow source="5" target="1"/></arc>
+</epc></epml>

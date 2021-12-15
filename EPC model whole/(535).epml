@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="536" name="1Ve_6dlt">
+<function id="0"><name>Packing
+Processing</name></function>
+<function id="1"><name>Goods
+Issue
+for Consignment
+Fill-Up</name></function>
+<event id="2"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<event id="3"><name>Material
+is issued</name></event>
+<and id="4"/>
+<function id="5"><name>Delivery
+for Consignment
+Fill-up</name></function>
+<event id="6"><name>Inward
+material
+movement
+to be
+posted</name></event>
+<event id="7"><name>Shipping
+unit
+is to
+be created</name></event>
+<event id="8"><name>Delivery
+is not
+relevant
+for billing</name></event>
+<and id="9"/>
+<function id="10"><name>Picking
+(Lean
+WM)</name></function>
+<event id="11"><name>Shipping
+unit
+is created</name></event>
+<event id="12"><name>Delivery
+is to
+be created</name></event>
+<event id="13"><name>Goods
+Receipt
+Posted</name></event>
+<event id="14"><name>Material
+has been
+picked</name></event>
+<function id="15"><name>Delivery
+for Consignment
+Pickup</name></function>
+<and id="16"/>
+<and id="17"/>
+<event id="18"><name>Delivery
+is relevant
+for shipment</name></event>
+<event id="19"><name>Inspection
+before
+goods
+issue
+is to be carried out</name></event>
+<event id="20"><name>Delivery
+is created</name></event>
+<event id="21"><name>Goods
+issue
+is posted</name></event>
+<event id="22"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<event id="23"><name>Certificate
+has to
+be created
+for delivery
+item</name></event>
+<event id="24"><name>Picking
+needs
+to be
+carried
+out</name></event>
+<event id="25"><name>Delivery
+is relevant
+for billing</name></event>
+<event id="26"><name>Delivery
+is relevant
+for shipment</name></event>
+<function id="27"><name>Delivery
+for Consignment
+Issue</name></function>
+<event id="28"><name>Delivery
+is to
+be created</name></event>
+<function id="29"><name>Goods
+Receipt
+for Consignment
+Pick-Up</name></function>
+<or id="30"/>
+<xor id="31"/>
+<event id="32"><name>Delivery
+is not
+relevant
+for billing</name></event>
+<event id="33"><name>Goods
+receipt/
+issue
+slip
+is printed</name></event>
+<event id="34"><name>Goods
+issue
+is posted</name></event>
+<event id="35"><name>Transfer
+order
+created
+manually</name></event>
+<event id="36"><name>Transfer
+order
+created
+automatically</name></event>
+<and id="37"/>
+<and id="38"/>
+<event id="39"><name>Delivery
+is to
+be created</name></event>
+<function id="40"><name>Goods
+Issue
+for Consignment
+Issue</name></function>
+<arc id="10"><flow source="0" target="9"/></arc>
+<arc id="80"><flow source="1" target="38"/></arc>
+<arc id="84"><flow source="2" target="1"/></arc>
+<arc id="172"><flow source="4" target="7"/></arc>
+<arc id="179"><flow source="4" target="14"/></arc>
+<arc id="236"><flow source="5" target="30"/></arc>
+<arc id="276"><flow source="6" target="29"/></arc>
+<arc id="288"><flow source="7" target="0"/></arc>
+<arc id="372"><flow source="9" target="2"/></arc>
+<arc id="381"><flow source="9" target="11"/></arc>
+<arc id="415"><flow source="10" target="4"/></arc>
+<arc id="520"><flow source="12" target="27"/></arc>
+<arc id="632"><flow source="15" target="16"/></arc>
+<arc id="663"><flow source="16" target="6"/></arc>
+<arc id="665"><flow source="16" target="8"/></arc>
+<arc id="675"><flow source="16" target="18"/></arc>
+<arc id="718"><flow source="17" target="20"/></arc>
+<arc id="722"><flow source="17" target="24"/></arc>
+<arc id="724"><flow source="17" target="26"/></arc>
+<arc id="730"><flow source="17" target="32"/></arc>
+<arc id="943"><flow source="22" target="40"/></arc>
+<arc id="995"><flow source="24" target="10"/></arc>
+<arc id="1145"><flow source="27" target="37"/></arc>
+<arc id="1154"><flow source="28" target="5"/></arc>
+<arc id="1203"><flow source="29" target="13"/></arc>
+<arc id="1248"><flow source="30" target="17"/></arc>
+<arc id="1250"><flow source="30" target="19"/></arc>
+<arc id="1254"><flow source="30" target="23"/></arc>
+<arc id="1275"><flow source="31" target="3"/></arc>
+<arc id="1307"><flow source="31" target="35"/></arc>
+<arc id="1308"><flow source="31" target="36"/></arc>
+<arc id="1540"><flow source="37" target="22"/></arc>
+<arc id="1543"><flow source="37" target="25"/></arc>
+<arc id="1590"><flow source="38" target="31"/></arc>
+<arc id="1592"><flow source="38" target="33"/></arc>
+<arc id="1593"><flow source="38" target="34"/></arc>
+<arc id="1615"><flow source="39" target="15"/></arc>
+<arc id="1662"><flow source="40" target="21"/></arc>
+</epc></epml>

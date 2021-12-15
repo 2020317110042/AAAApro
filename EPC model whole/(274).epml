@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="275" name="1Pe_lu4d">
+<and id="0"/>
+<function id="1"><name>Preparation
+for Hiring</name></function>
+<event id="2"><name>Enterprise
+receives
+acceptance
+of offer
+of contract</name></event>
+<xor id="3"/>
+<function id="4"><name>Processing
+Offer
+of Work
+Contract</name></function>
+<event id="5"><name>Applicant
+must
+be offered
+contract
+for vacancy</name></event>
+<or id="6"/>
+<event id="7"><name>Offer
+of work
+contract
+must
+be revised</name></event>
+<event id="8"><name>Offer
+of work
+contract
+is transmitted</name></event>
+<event id="9"><name>Applicant
+must
+be hired</name></event>
+<function id="10"><name>Work
+Contract
+Rejection
+Processing</name></function>
+<event id="11"><name>Enterprise
+receives
+rejection
+of offer
+of contract</name></event>
+<and id="12"/>
+<xor id="13"/>
+<function id="14"><name>Entry
+of Rejection
+of Work
+Contract</name></function>
+<event id="15"><name>Enterprise
+does
+not require
+a new
+offer of work contract</name></event>
+<event id="16"><name>Applicant
+has rejected
+offer
+of work
+contract</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="27"><flow source="1" target="9"/></arc>
+<arc id="35"><flow source="2" target="0"/></arc>
+<arc id="52"><flow source="3" target="0"/></arc>
+<arc id="64"><flow source="3" target="12"/></arc>
+<arc id="77"><flow source="4" target="8"/></arc>
+<arc id="92"><flow source="5" target="6"/></arc>
+<arc id="107"><flow source="6" target="4"/></arc>
+<arc id="126"><flow source="7" target="6"/></arc>
+<arc id="140"><flow source="8" target="3"/></arc>
+<arc id="184"><flow source="10" target="13"/></arc>
+<arc id="200"><flow source="11" target="12"/></arc>
+<arc id="219"><flow source="12" target="14"/></arc>
+<arc id="229"><flow source="13" target="7"/></arc>
+<arc id="237"><flow source="13" target="15"/></arc>
+<arc id="255"><flow source="14" target="16"/></arc>
+<arc id="283"><flow source="16" target="10"/></arc>
+</epc></epml>

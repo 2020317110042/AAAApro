@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="106" name="1En_ctjd">
+<event id="0"><name>EH+S
+master
+data
+is to
+be created</name></event>
+<event id="1"><name>Dangerous
+goods
+master
+is to
+be processed</name></event>
+<function id="2"><name>Material
+Master
+Processing
+EH+S</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="8"><flow source="2" target="1"/></arc>
+</epc></epml>

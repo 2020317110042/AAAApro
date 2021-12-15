@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="546" name="1Ve_701w">
+<event id="0"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<event id="1"><name>Purchase
+requisition
+released
+for purchase
+order</name></event>
+<function id="2"><name>Purchase
+Requisition
+Assignment</name></function>
+<event id="3"><name>Requisition
+released
+for scheduling
+agreement
+schedule/SA release</name></event>
+<event id="4"><name>Source
+of supply
+assigned</name></event>
+<event id="5"><name>Purchase
+requisition
+released
+for contract
+release order</name></event>
+<function id="6"><name>Release
+Purchase
+Requisition</name></function>
+<xor id="7"/>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="21"><flow source="2" target="4"/></arc>
+<arc id="39"><flow source="4" target="6"/></arc>
+<arc id="56"><flow source="6" target="7"/></arc>
+<arc id="58"><flow source="7" target="1"/></arc>
+<arc id="60"><flow source="7" target="3"/></arc>
+<arc id="62"><flow source="7" target="5"/></arc>
+</epc></epml>

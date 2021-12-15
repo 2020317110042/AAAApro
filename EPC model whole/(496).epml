@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="497" name="1Ve_4fbt">
+<event id="0"><name>Cust.
+mail.
+campaign
+to be
+carried out</name></event>
+<and id="1"/>
+<event id="2"><name>Inquiry
+is created</name></event>
+<event id="3"><name>Direct
+mailing
+campaign
+is processed</name></event>
+<function id="4"><name>Customer
+Inquiry</name></function>
+<xor id="5"/>
+<xor id="6"/>
+<event id="7"><name>Quotation
+to be
+created
+from
+inquiry</name></event>
+<function id="8"><name>Sales
+Support
+(CAS)</name></function>
+<event id="9"><name>Free-of-charge
+delivery
+is to
+be created</name></event>
+<event id="10"><name>Inquiry
+items
+are rejected</name></event>
+<or id="11"/>
+<event id="12"><name>Subsequent
+Document
+is to
+be Created
+from Sales Activity</name></event>
+<and id="13"/>
+<event id="14"><name>Customer
+inquires
+about
+products</name></event>
+<event id="15"><name>Sales
+activity
+is processed</name></event>
+<arc id="9"><flow source="0" target="8"/></arc>
+<arc id="19"><flow source="1" target="2"/></arc>
+<arc id="22"><flow source="1" target="5"/></arc>
+<arc id="66"><flow source="4" target="1"/></arc>
+<arc id="88"><flow source="5" target="7"/></arc>
+<arc id="91"><flow source="5" target="10"/></arc>
+<arc id="101"><flow source="6" target="4"/></arc>
+<arc id="142"><flow source="8" target="13"/></arc>
+<arc id="186"><flow source="11" target="9"/></arc>
+<arc id="189"><flow source="11" target="12"/></arc>
+<arc id="199"><flow source="12" target="6"/></arc>
+<arc id="212"><flow source="13" target="3"/></arc>
+<arc id="220"><flow source="13" target="11"/></arc>
+<arc id="224"><flow source="13" target="15"/></arc>
+<arc id="231"><flow source="14" target="6"/></arc>
+</epc></epml>

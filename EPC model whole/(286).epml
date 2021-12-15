@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="287" name="1Pe_m11m">
+<event id="0"><name>Personnel
+appraisal
+system
+is implemented</name></event>
+<event id="1"><name>Additional
+implementation
+actions
+are required</name></event>
+<function id="2"><name>Design
+of Personnel
+Appraisal
+System</name></function>
+<xor id="3"/>
+<function id="4"><name>Implementation
+of Personnel
+Appraisal
+System</name></function>
+<xor id="5"/>
+<event id="6"><name>Personnel
+appraisal
+system
+must
+be corrected</name></event>
+<event id="7"><name>Need
+for personnel
+appraisal
+system
+exists</name></event>
+<event id="8"><name>Personnel
+appraisal
+system
+is adopted</name></event>
+<arc id="13"><flow source="1" target="3"/></arc>
+<arc id="27"><flow source="2" target="8"/></arc>
+<arc id="32"><flow source="3" target="4"/></arc>
+<arc id="37"><flow source="4" target="0"/></arc>
+<arc id="48"><flow source="5" target="2"/></arc>
+<arc id="60"><flow source="6" target="5"/></arc>
+<arc id="69"><flow source="7" target="5"/></arc>
+<arc id="76"><flow source="8" target="3"/></arc>
+</epc></epml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="449" name="1Tr_g7vi">
+<event id="0"><name>Interest
+rate
+adjustment
+was carried
+out</name></event>
+<xor id="1"/>
+<event id="2"><name>Interest
+rate
+adjustment
+to be
+carried out automatically</name></event>
+<event id="3"><name>Interest
+rate
+adjustment
+to be
+carried out</name></event>
+<function id="4"><name>Process
+Interest
+Rate
+Adjustment</name></function>
+<function id="5"><name>Create
+Automatically</name></function>
+<event id="6"><name>Interest
+rate
+adjustment
+to be
+carried out manually</name></event>
+<function id="7"><name>Create
+Manually</name></function>
+<xor id="8"/>
+<arc id="12"><flow source="1" target="2"/></arc>
+<arc id="16"><flow source="1" target="6"/></arc>
+<arc id="24"><flow source="2" target="5"/></arc>
+<arc id="32"><flow source="3" target="4"/></arc>
+<arc id="38"><flow source="4" target="1"/></arc>
+<arc id="54"><flow source="5" target="8"/></arc>
+<arc id="62"><flow source="6" target="7"/></arc>
+<arc id="72"><flow source="7" target="8"/></arc>
+<arc id="73"><flow source="8" target="0"/></arc>
+</epc></epml>

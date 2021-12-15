@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="500" name="1Ve_4gw1">
+<event id="0"><name>Declarations
+to the
+authorities
+to be
+carried out</name></event>
+<function id="1"><name>Preference
+Processing</name></function>
+<or id="2"/>
+<event id="3"><name>Foreign
+trade
+data
+to be
+processed</name></event>
+<event id="4"><name>Billing
+doc.
+relevant
+to accounting
+is created</name></event>
+<and id="5"/>
+<or id="6"/>
+<function id="7"><name>Basic
+Data</name></function>
+<event id="8"><name>Declarations
+transmitted</name></event>
+<event id="9"><name>Goods
+catalog
+to be
+created</name></event>
+<function id="10"><name>Communication/
+Print</name></function>
+<event id="11"><name>Foreign
+trade
+data
+are complete</name></event>
+<event id="12"><name>Declarations
+to the
+authorities
+to be
+carried out</name></event>
+<event id="13"><name>Statistical
+goods
+numbers
+are processed</name></event>
+<event id="14"><name>Billing
+doc.
+relevant
+to accounting
+is created</name></event>
+<event id="15"><name>Import
+code
+numbers
+are to
+be processed</name></event>
+<and id="16"/>
+<event id="17"><name>Declarations
+transmitted</name></event>
+<function id="18"><name>Declarations
+to the
+Authorities</name></function>
+<function id="19"><name>Documentary
+Payments</name></function>
+<function id="20"><name>Legal
+Control</name></function>
+<event id="21"><name>Financial
+document
+to be
+processed</name></event>
+<event id="22"><name>Import
+code
+numbers
+are processed</name></event>
+<event id="23"><name>Financial
+document
+is released</name></event>
+<event id="24"><name>Out-of-date
+vendor
+declarations
+are to
+be created</name></event>
+<event id="25"><name>Legal
+control
+data
+is processed</name></event>
+<event id="26"><name>Financial
+document
+is to
+assigned
+to sales document</name></event>
+<event id="27"><name>Export
+license
+master
+to be
+processed</name></event>
+<and id="28"/>
+<event id="29"><name>Hedging
+of financial
+document
+to be
+carried out</name></event>
+<event id="30"><name>Customer
+master
+record
+is created</name></event>
+<and id="31"/>
+<or id="32"/>
+<and id="33"/>
+<or id="34"/>
+<event id="35"><name>Statistical
+goods
+numbers
+are to
+be processed</name></event>
+<event id="36"><name>Costing
+is carried
+out</name></event>
+<event id="37"><name>Material
+master
+has been
+processed</name></event>
+<event id="38"><name>Goods
+catalog
+to be
+created</name></event>
+<arc id="32"><flow source="0" target="31"/></arc>
+<arc id="76"><flow source="1" target="36"/></arc>
+<arc id="89"><flow source="2" target="10"/></arc>
+<arc id="152"><flow source="3" target="34"/></arc>
+<arc id="162"><flow source="4" target="5"/></arc>
+<arc id="198"><flow source="5" target="2"/></arc>
+<arc id="253"><flow source="6" target="18"/></arc>
+<arc id="306"><flow source="7" target="32"/></arc>
+<arc id="354"><flow source="9" target="2"/></arc>
+<arc id="399"><flow source="10" target="8"/></arc>
+<arc id="474"><flow source="12" target="5"/></arc>
+<arc id="578"><flow source="14" target="31"/></arc>
+<arc id="620"><flow source="15" target="34"/></arc>
+<arc id="648"><flow source="16" target="23"/></arc>
+<arc id="651"><flow source="16" target="26"/></arc>
+<arc id="720"><flow source="18" target="17"/></arc>
+<arc id="758"><flow source="19" target="16"/></arc>
+<arc id="806"><flow source="20" target="25"/></arc>
+<arc id="848"><flow source="21" target="28"/></arc>
+<arc id="938"><flow source="24" target="1"/></arc>
+<arc id="1087"><flow source="27" target="33"/></arc>
+<arc id="1112"><flow source="28" target="19"/></arc>
+<arc id="1160"><flow source="29" target="28"/></arc>
+<arc id="1204"><flow source="30" target="33"/></arc>
+<arc id="1216"><flow source="31" target="6"/></arc>
+<arc id="1260"><flow source="32" target="11"/></arc>
+<arc id="1262"><flow source="32" target="13"/></arc>
+<arc id="1271"><flow source="32" target="22"/></arc>
+<arc id="1308"><flow source="33" target="20"/></arc>
+<arc id="1334"><flow source="34" target="7"/></arc>
+<arc id="1400"><flow source="35" target="34"/></arc>
+<arc id="1477"><flow source="37" target="33"/></arc>
+<arc id="1489"><flow source="38" target="6"/></arc>
+</epc></epml>

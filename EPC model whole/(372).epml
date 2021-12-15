@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="373" name="1Pr_djki">
+<or id="0"/>
+<event id="1"><name>Purchase
+requisition
+must
+be created</name></event>
+<event id="2"><name>Dates
+to be
+updated</name></event>
+<event id="3"><name>Order
+is created</name></event>
+<event id="4"><name>Actual
+dates
+to be
+entered</name></event>
+<event id="5"><name>Delivery
+from
+project
+is to
+be created</name></event>
+<event id="6"><name>Activity
+allocation
+to be
+carried
+out</name></event>
+<event id="7"><name>Project
+is to
+be released</name></event>
+<event id="8"><name>Conversion
+date
+is reached</name></event>
+<event id="9"><name>Confirmation
+from
+external
+systems
+required</name></event>
+<event id="10"><name>Activity
+confirmation
+required</name></event>
+<event id="11"><name>Statistical
+figures
+are to
+be entered</name></event>
+<event id="12"><name>Order-related
+invoice
+to be
+created</name></event>
+<event id="13"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<event id="14"><name>Resource-related
+billing
+document
+required</name></event>
+<event id="15"><name>Down
+payment
+is agreed
+with
+vendor</name></event>
+<event id="16"><name>Actual
+process
+cost
+allocation
+required</name></event>
+<event id="17"><name>Periodic
+actual
+reposting
+required</name></event>
+<event id="18"><name>Project
+must
+be monitored</name></event>
+<event id="19"><name>Down
+payment
+agreed
+with
+customer</name></event>
+<event id="20"><name>Project
+evaluation
+required</name></event>
+<function id="21"><name>Project
+Release</name></function>
+<or id="22"/>
+<arc id="22"><flow source="0" target="21"/></arc>
+<arc id="70"><flow source="3" target="0"/></arc>
+<arc id="162"><flow source="7" target="0"/></arc>
+<arc id="506"><flow source="21" target="22"/></arc>
+<arc id="508"><flow source="22" target="1"/></arc>
+<arc id="509"><flow source="22" target="2"/></arc>
+<arc id="511"><flow source="22" target="4"/></arc>
+<arc id="512"><flow source="22" target="5"/></arc>
+<arc id="513"><flow source="22" target="6"/></arc>
+<arc id="515"><flow source="22" target="8"/></arc>
+<arc id="516"><flow source="22" target="9"/></arc>
+<arc id="517"><flow source="22" target="10"/></arc>
+<arc id="518"><flow source="22" target="11"/></arc>
+<arc id="519"><flow source="22" target="12"/></arc>
+<arc id="520"><flow source="22" target="13"/></arc>
+<arc id="521"><flow source="22" target="14"/></arc>
+<arc id="522"><flow source="22" target="15"/></arc>
+<arc id="523"><flow source="22" target="16"/></arc>
+<arc id="524"><flow source="22" target="17"/></arc>
+<arc id="525"><flow source="22" target="18"/></arc>
+<arc id="526"><flow source="22" target="19"/></arc>
+<arc id="527"><flow source="22" target="20"/></arc>
+</epc></epml>

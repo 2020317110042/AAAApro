@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="203" name="1In_b19m">
+<and id="0"/>
+<event id="1"><name>Capacity
+is available</name></event>
+<event id="2"><name>Capacity
+requirement
+records
+are deleted</name></event>
+<event id="3"><name>Open
+purchase
+requisitions
+for non-stock
+material are deleted</name></event>
+<xor id="4"/>
+<event id="5"><name>Equipment
+is installed,
+dismantled
+or modified</name></event>
+<event id="6"><name>Technical
+findings
+are entered</name></event>
+<event id="7"><name>Order
+type
+supports
+automatic
+generation of a notification</name></event>
+<and id="8"/>
+<and id="9"/>
+<and id="10"/>
+<xor id="11"/>
+<event id="12"><name>Actual
+costs
+are updated
+to maintenance
+order</name></event>
+<function id="13"><name>Order</name></function>
+<event id="14"><name>Retrograde
+withdrawal
+to be
+posted</name></event>
+<or id="15"/>
+<event id="16"><name>Maintenance
+order
+is partially
+confirmed</name></event>
+<event id="17"><name>Individual
+operations
+are confirmed</name></event>
+<event id="18"><name>Completion
+confirmations
+of time
+to be
+created using time sheet</name></event>
+<event id="19"><name>Archiving
+carried
+out</name></event>
+<event id="20"><name>Maintenance
+order
+is printed</name></event>
+<event id="21"><name>Operations
+and Order
+Must
+Be Confirmed</name></event>
+<event id="22"><name>Service
+is accepted</name></event>
+<or id="23"/>
+<and id="24"/>
+<event id="25"><name>Maintenance
+order
+is completed
+with
+time reference</name></event>
+<and id="26"/>
+<function id="27"><name>Capacity
+Planning</name></function>
+<event id="28"><name>Maintenance
+order
+is to
+be created
+for maintenance notification</name></event>
+<event id="29"><name>Maintenance
+requirement
+has arisen</name></event>
+<and id="30"/>
+<event id="31"><name>Equipment
+must
+be installed,
+dismantled
+or modified</name></event>
+<function id="32"><name>Modification
+of Technical
+Systems</name></function>
+<event id="33"><name>Material
+reservation
+can be
+withdrawn</name></event>
+<xor id="34"/>
+<event id="35"><name>Maintenance
+requirement
+has arisen</name></event>
+<event id="36"><name>Maintenance
+tasks
+are to
+be processed</name></event>
+<event id="37"><name>Equipment
+is processed</name></event>
+<event id="38"><name>Maintenance
+order
+is released</name></event>
+<event id="39"><name>Notification
+is to
+be processed
+by planner
+group</name></event>
+<xor id="40"/>
+<and id="41"/>
+<xor id="42"/>
+<and id="43"/>
+<xor id="44"/>
+<event id="45"><name>Services
+are to
+be entered</name></event>
+<event id="46"><name>Capacity
+Leveling
+or Planning
+Is Performed</name></event>
+<function id="47"><name>Material
+Movements</name></function>
+<event id="48"><name>Capacity
+load
+is updated</name></event>
+<function id="49"><name>Notification</name></function>
+<function id="50"><name>Settlement
+and Completion</name></function>
+<or id="51"/>
+<event id="52"><name>Order
+Should
+Be Technically
+Completed</name></event>
+<event id="53"><name>Material
+is issued</name></event>
+<event id="54"><name>Goods
+issue
+is posted</name></event>
+<event id="55"><name>Working
+hours
+data
+was analyzed</name></event>
+<event id="56"><name>Material
+is not
+available</name></event>
+<function id="57"><name>Completion
+Confirmation</name></function>
+<xor id="58"/>
+<event id="59"><name>Measurement
+doc.
+should
+be created
+for notif.</name></event>
+<and id="60"/>
+<event id="61"><name>Notification
+is printed</name></event>
+<event id="62"><name>Maintenance
+notification
+is to
+be generated
+from maintenance order</name></event>
+<event id="63"><name>Maintenance
+order
+to be
+created
+for WBS element or network</name></event>
+<event id="64"><name>Open
+material
+reservations
+are deleted</name></event>
+<and id="65"/>
+<and id="66"/>
+<xor id="67"/>
+<event id="68"><name>Maintenance
+tasks
+are determined</name></event>
+<event id="69"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<event id="70"><name>Functional
+location
+is processed</name></event>
+<event id="71"><name>Purchase
+requisition
+without
+source
+of supply created</name></event>
+<event id="72"><name>Archiving
+carried
+out</name></event>
+<event id="73"><name>Capacity
+situation
+is to
+be evaluated</name></event>
+<event id="74"><name>Maintenance
+order
+is to
+be created
+manually</name></event>
+<event id="75"><name>Maintenance
+order
+is confirmed
+completely</name></event>
+<arc id="24"><flow source="0" target="23"/></arc>
+<arc id="29"><flow source="0" target="28"/></arc>
+<arc id="144"><flow source="1" target="67"/></arc>
+<arc id="354"><flow source="4" target="49"/></arc>
+<arc id="576"><flow source="7" target="43"/></arc>
+<arc id="621"><flow source="8" target="12"/></arc>
+<arc id="664"><flow source="8" target="55"/></arc>
+<arc id="738"><flow source="9" target="53"/></arc>
+<arc id="739"><flow source="9" target="54"/></arc>
+<arc id="811"><flow source="10" target="50"/></arc>
+<arc id="846"><flow source="11" target="9"/></arc>
+<arc id="893"><flow source="11" target="56"/></arc>
+<arc id="1004"><flow source="13" target="15"/></arc>
+<arc id="1109"><flow source="14" target="44"/></arc>
+<arc id="1159"><flow source="15" target="18"/></arc>
+<arc id="1161"><flow source="15" target="20"/></arc>
+<arc id="1162"><flow source="15" target="21"/></arc>
+<arc id="1167"><flow source="15" target="26"/></arc>
+<arc id="1171"><flow source="15" target="30"/></arc>
+<arc id="1172"><flow source="15" target="31"/></arc>
+<arc id="1186"><flow source="15" target="45"/></arc>
+<arc id="1212"><flow source="15" target="71"/></arc>
+<arc id="1427"><flow source="18" target="58"/></arc>
+<arc id="1655"><flow source="21" target="58"/></arc>
+<arc id="1755"><flow source="23" target="6"/></arc>
+<arc id="1768"><flow source="23" target="19"/></arc>
+<arc id="1808"><flow source="23" target="59"/></arc>
+<arc id="1810"><flow source="23" target="61"/></arc>
+<arc id="1817"><flow source="23" target="68"/></arc>
+<arc id="1827"><flow source="24" target="2"/></arc>
+<arc id="1828"><flow source="24" target="3"/></arc>
+<arc id="1850"><flow source="24" target="25"/></arc>
+<arc id="1889"><flow source="24" target="64"/></arc>
+<arc id="1897"><flow source="24" target="72"/></arc>
+<arc id="2015"><flow source="26" target="38"/></arc>
+<arc id="2050"><flow source="26" target="73"/></arc>
+<arc id="2087"><flow source="27" target="34"/></arc>
+<arc id="2169"><flow source="28" target="40"/></arc>
+<arc id="2271"><flow source="29" target="66"/></arc>
+<arc id="2314"><flow source="30" target="33"/></arc>
+<arc id="2350"><flow source="30" target="69"/></arc>
+<arc id="2417"><flow source="31" target="60"/></arc>
+<arc id="2438"><flow source="32" target="5"/></arc>
+<arc id="2550"><flow source="33" target="41"/></arc>
+<arc id="2586"><flow source="34" target="1"/></arc>
+<arc id="2631"><flow source="34" target="46"/></arc>
+<arc id="2665"><flow source="35" target="4"/></arc>
+<arc id="2741"><flow source="36" target="4"/></arc>
+<arc id="2873"><flow source="37" target="60"/></arc>
+<arc id="2954"><flow source="38" target="65"/></arc>
+<arc id="2969"><flow source="39" target="4"/></arc>
+<arc id="3054"><flow source="40" target="13"/></arc>
+<arc id="3161"><flow source="41" target="44"/></arc>
+<arc id="3209"><flow source="42" target="16"/></arc>
+<arc id="3210"><flow source="42" target="17"/></arc>
+<arc id="3268"><flow source="42" target="75"/></arc>
+<arc id="3273"><flow source="43" target="4"/></arc>
+<arc id="3392"><flow source="44" target="47"/></arc>
+<arc id="3479"><flow source="45" target="58"/></arc>
+<arc id="3564"><flow source="46" target="67"/></arc>
+<arc id="3584"><flow source="47" target="11"/></arc>
+<arc id="3725"><flow source="49" target="0"/></arc>
+<arc id="3825"><flow source="50" target="24"/></arc>
+<arc id="3885"><flow source="51" target="8"/></arc>
+<arc id="3891"><flow source="51" target="14"/></arc>
+<arc id="3899"><flow source="51" target="22"/></arc>
+<arc id="3919"><flow source="51" target="42"/></arc>
+<arc id="3925"><flow source="51" target="48"/></arc>
+<arc id="3963"><flow source="52" target="10"/></arc>
+<arc id="4384"><flow source="57" target="51"/></arc>
+<arc id="4466"><flow source="58" target="57"/></arc>
+<arc id="4593"><flow source="60" target="32"/></arc>
+<arc id="4756"><flow source="62" target="43"/></arc>
+<arc id="4829"><flow source="63" target="40"/></arc>
+<arc id="4968"><flow source="65" target="27"/></arc>
+<arc id="5057"><flow source="66" target="40"/></arc>
+<arc id="5133"><flow source="67" target="40"/></arc>
+<arc id="5286"><flow source="69" target="41"/></arc>
+<arc id="5381"><flow source="70" target="60"/></arc>
+<arc id="5614"><flow source="73" target="65"/></arc>
+<arc id="5691"><flow source="74" target="66"/></arc>
+<arc id="5711"><flow source="75" target="10"/></arc>
+</epc></epml>

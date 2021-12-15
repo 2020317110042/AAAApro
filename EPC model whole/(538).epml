@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="539" name="1Ve_6mnb">
+<xor id="0"/>
+<event id="1"><name>Document
+Blocked
+due to
+Insufficient
+Payment Guarantee</name></event>
+<event id="2"><name>Terms
+of credit
+have
+changed</name></event>
+<event id="3"><name>Change
+to terms
+of credit
+refused</name></event>
+<function id="4"><name>Credit
+Control</name></function>
+<arc id="3"><flow source="0" target="2"/></arc>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="10"><flow source="1" target="4"/></arc>
+<arc id="21"><flow source="4" target="0"/></arc>
+</epc></epml>

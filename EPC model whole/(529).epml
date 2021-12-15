@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="530" name="1Ve_5ycw">
+<function id="0"><name>Packing
+Processing</name></function>
+<event id="1"><name>Shipping
+unit
+is created</name></event>
+<event id="2"><name>Goods
+issue
+is posted</name></event>
+<xor id="3"/>
+<function id="4"><name>Picking
+(Lean
+WM)</name></function>
+<event id="5"><name>Goods
+receipt/
+issue
+slip
+is printed</name></event>
+<event id="6"><name>Transfer
+order
+created
+manually</name></event>
+<function id="7"><name>Delivery
+Processing</name></function>
+<event id="8"><name>Transfer
+order
+created
+automatically</name></event>
+<event id="9"><name>Material
+is issued</name></event>
+<and id="10"/>
+<event id="11"><name>Delivery
+is generated
+in delivering
+company
+code</name></event>
+<event id="12"><name>Delivery
+is created</name></event>
+<event id="13"><name>Picking
+needs
+to be
+carried
+out</name></event>
+<function id="14"><name>Goods
+Issue
+Processing</name></function>
+<and id="15"/>
+<event id="16"><name>Delivery
+is relevant
+for shipment</name></event>
+<event id="17"><name>Shipping
+unit
+is to
+be created</name></event>
+<event id="18"><name>Material
+withdrawal
+is to
+be posted</name></event>
+<and id="19"/>
+<event id="20"><name>Material
+has been
+picked</name></event>
+<and id="21"/>
+<arc id="20"><flow source="0" target="19"/></arc>
+<arc id="73"><flow source="3" target="6"/></arc>
+<arc id="75"><flow source="3" target="8"/></arc>
+<arc id="76"><flow source="3" target="9"/></arc>
+<arc id="104"><flow source="4" target="15"/></arc>
+<arc id="165"><flow source="7" target="10"/></arc>
+<arc id="233"><flow source="10" target="12"/></arc>
+<arc id="234"><flow source="10" target="13"/></arc>
+<arc id="237"><flow source="10" target="16"/></arc>
+<arc id="250"><flow source="11" target="7"/></arc>
+<arc id="291"><flow source="13" target="4"/></arc>
+<arc id="330"><flow source="14" target="21"/></arc>
+<arc id="348"><flow source="15" target="17"/></arc>
+<arc id="351"><flow source="15" target="20"/></arc>
+<arc id="375"><flow source="17" target="0"/></arc>
+<arc id="411"><flow source="18" target="14"/></arc>
+<arc id="420"><flow source="19" target="1"/></arc>
+<arc id="437"><flow source="19" target="18"/></arc>
+<arc id="465"><flow source="21" target="2"/></arc>
+<arc id="466"><flow source="21" target="3"/></arc>
+<arc id="468"><flow source="21" target="5"/></arc>
+</epc></epml>

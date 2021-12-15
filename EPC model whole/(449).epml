@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="450" name="1Tr_g866">
+<event id="0"><name>G/L posting
+was generated</name></event>
+<event id="1"><name>Payment
+is transferred
+by EDI</name></event>
+<event id="2"><name>Payment
+medium
+transferred</name></event>
+<or id="3"/>
+<xor id="4"/>
+<event id="5"><name>Netting
+proposal
+was accepted</name></event>
+<function id="6"><name>Process
+Payment
+Request</name></function>
+<event id="7"><name>Interest
+rate
+adjustment
+was carried
+out</name></event>
+<event id="8"><name>Accrual/
+deferral
+flows
+were
+generated</name></event>
+<function id="9"><name>Perform
+Posting</name></function>
+<function id="10"><name>Posting
+Release</name></function>
+<xor id="11"/>
+<event id="12"><name>Payment
+request
+was generated</name></event>
+<event id="13"><name>Customer
+open
+items
+were
+generated</name></event>
+<event id="14"><name>Payment
+advice
+is sent</name></event>
+<arc id="47"><flow source="3" target="1"/></arc>
+<arc id="48"><flow source="3" target="2"/></arc>
+<arc id="60"><flow source="3" target="14"/></arc>
+<arc id="61"><flow source="4" target="0"/></arc>
+<arc id="73"><flow source="4" target="12"/></arc>
+<arc id="74"><flow source="4" target="13"/></arc>
+<arc id="86"><flow source="5" target="10"/></arc>
+<arc id="94"><flow source="6" target="3"/></arc>
+<arc id="117"><flow source="7" target="11"/></arc>
+<arc id="132"><flow source="8" target="11"/></arc>
+<arc id="140"><flow source="9" target="4"/></arc>
+<arc id="162"><flow source="10" target="11"/></arc>
+<arc id="175"><flow source="11" target="9"/></arc>
+<arc id="187"><flow source="12" target="6"/></arc>
+</epc></epml>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="259" name="1Ku_afas">
+<event id="0"><name>Contract
+is created</name></event>
+<event id="1"><name>Required
+Data
+must
+be Processed</name></event>
+<and id="2"/>
+<event id="3"><name>Service
+Requirement
+Arose</name></event>
+<function id="4"><name>Notification
+Printing</name></function>
+<or id="5"/>
+<event id="6"><name>Notification
+papers
+are to
+be printed</name></event>
+<event id="7"><name>Notification
+is to
+be archived</name></event>
+<and id="8"/>
+<event id="9"><name>Print
+log is
+created</name></event>
+<function id="10"><name>Service
+Notification
+Creation
+and Processing</name></function>
+<event id="11"><name>Notification
+Is Completed</name></event>
+<event id="12"><name>Archiving
+carried
+out</name></event>
+<event id="13"><name>Notification
+is printed</name></event>
+<event id="14"><name>Sales
+and Distribution
+Document
+Must
+Be Created for Service Notification</name></event>
+<function id="15"><name>Notification
+Archiving</name></function>
+<or id="16"/>
+<arc id="17"><flow source="0" target="16"/></arc>
+<arc id="34"><flow source="1" target="16"/></arc>
+<arc id="44"><flow source="2" target="9"/></arc>
+<arc id="48"><flow source="2" target="13"/></arc>
+<arc id="68"><flow source="3" target="16"/></arc>
+<arc id="71"><flow source="4" target="2"/></arc>
+<arc id="92"><flow source="5" target="6"/></arc>
+<arc id="97"><flow source="5" target="11"/></arc>
+<arc id="100"><flow source="5" target="14"/></arc>
+<arc id="107"><flow source="6" target="4"/></arc>
+<arc id="128"><flow source="7" target="8"/></arc>
+<arc id="152"><flow source="8" target="15"/></arc>
+<arc id="176"><flow source="10" target="5"/></arc>
+<arc id="196"><flow source="11" target="8"/></arc>
+<arc id="268"><flow source="15" target="12"/></arc>
+<arc id="283"><flow source="16" target="10"/></arc>
+</epc></epml>

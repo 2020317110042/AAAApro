@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="104" name="1En_cstn">
+<and id="0"/>
+<function id="1"><name>Phrase
+Processing</name></function>
+<event id="2"><name>Processing
+is completed</name></event>
+<function id="3"><name>Substance
+Master
+Processing
+Product</name></function>
+<and id="4"/>
+<xor id="5"/>
+<event id="6"><name>Phrases
+are to
+be assigned
+to the
+characteristics of the substance properties</name></event>
+<event id="7"><name>Basic
+data
+is to
+be processed</name></event>
+<event id="8"><name>Attributes
+are to
+be formulated
+in text
+form</name></event>
+<function id="9"><name>Dangerous
+Goods
+Classification</name></function>
+<function id="10"><name>Dangerous
+Goods
+Basic
+Data
+Processing</name></function>
+<function id="11"><name>Phrase
+Set Processing</name></function>
+<arc id="6"><flow source="0" target="5"/></arc>
+<arc id="19"><flow source="1" target="6"/></arc>
+<arc id="37"><flow source="3" target="0"/></arc>
+<arc id="52"><flow source="4" target="3"/></arc>
+<arc id="58"><flow source="4" target="9"/></arc>
+<arc id="59"><flow source="4" target="10"/></arc>
+<arc id="63"><flow source="5" target="2"/></arc>
+<arc id="84"><flow source="6" target="11"/></arc>
+<arc id="89"><flow source="7" target="4"/></arc>
+<arc id="98"><flow source="8" target="1"/></arc>
+<arc id="109"><flow source="9" target="0"/></arc>
+<arc id="121"><flow source="10" target="0"/></arc>
+<arc id="138"><flow source="11" target="5"/></arc>
+</epc></epml>

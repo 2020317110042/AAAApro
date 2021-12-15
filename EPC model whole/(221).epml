@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="222" name="1Ku_8w3g">
+<event id="0"><name>Quotation
+is valid</name></event>
+<function id="1"><name>Service
+Contract
+Processing</name></function>
+<event id="2"><name>Service
+contract
+to be
+offered</name></event>
+<function id="3"><name>Presales
+Activities</name></function>
+<or id="4"/>
+<and id="5"/>
+<event id="6"><name>Cust.
+mail.
+campaign
+to be
+carried out</name></event>
+<event id="7"><name>Service
+contract
+to be
+created
+w/o ref. to quotation</name></event>
+<event id="8"><name>Contract
+is created</name></event>
+<event id="9"><name>Sales
+activity
+is to
+be processed</name></event>
+<xor id="10"/>
+<event id="11"><name>Payment
+must
+be effected</name></event>
+<event id="12"><name>Service
+contract
+canceled</name></event>
+<and id="13"/>
+<xor id="14"/>
+<event id="15"><name>Miscellaneous
+Subsequent
+Activity
+Performed</name></event>
+<event id="16"><name>Service
+contract
+to be
+created
+from contact</name></event>
+<event id="17"><name>Customer
+inquires
+about
+products</name></event>
+<arc id="14"><flow source="0" target="13"/></arc>
+<arc id="24"><flow source="1" target="5"/></arc>
+<arc id="47"><flow source="2" target="10"/></arc>
+<arc id="57"><flow source="3" target="2"/></arc>
+<arc id="85"><flow source="4" target="12"/></arc>
+<arc id="88"><flow source="4" target="15"/></arc>
+<arc id="95"><flow source="5" target="4"/></arc>
+<arc id="99"><flow source="5" target="8"/></arc>
+<arc id="102"><flow source="5" target="11"/></arc>
+<arc id="123"><flow source="6" target="14"/></arc>
+<arc id="137"><flow source="7" target="10"/></arc>
+<arc id="177"><flow source="9" target="14"/></arc>
+<arc id="182"><flow source="10" target="1"/></arc>
+<arc id="249"><flow source="13" target="14"/></arc>
+<arc id="256"><flow source="14" target="3"/></arc>
+<arc id="302"><flow source="16" target="13"/></arc>
+<arc id="321"><flow source="17" target="14"/></arc>
+</epc></epml>

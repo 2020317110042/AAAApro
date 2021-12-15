@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="165" name="1Ex_eoxo">
+<event id="0"><name>Interest
+on arrears
+to be
+calculated</name></event>
+<event id="1"><name>Line
+items
+to be
+cleared</name></event>
+<event id="2"><name>Interest
+calculation
+is completed</name></event>
+<event id="3"><name>Evaluations
+exist</name></event>
+<event id="4"><name>Customer
+initiates
+invoice/
+credit
+memo</name></event>
+<event id="5"><name>Payment
+advice
+is sent</name></event>
+<function id="6"><name>Vendor
+Account
+Analysis</name></function>
+<event id="7"><name>Payment
+medium
+transferred</name></event>
+<or id="8"/>
+<function id="9"><name>Bill
+of Exchange
+Payable</name></function>
+<event id="10"><name>Down
+payment
+is agreed
+with
+vendor</name></event>
+<event id="11"><name>Payment
+is transferred
+by EDI</name></event>
+<event id="12"><name>Bill
+of exchange
+payable
+posted</name></event>
+<function id="13"><name>Interest
+Calculation
+[A/P]</name></function>
+<or id="14"/>
+<event id="15"><name>Data
+medium
+is created</name></event>
+<event id="16"><name>Automatic
+clearing
+completed</name></event>
+<event id="17"><name>Correspondence
+processed</name></event>
+<event id="18"><name>Payment
+medium
+created</name></event>
+<function id="19"><name>Correspondence
+with
+Vendors</name></function>
+<function id="20"><name>Account
+Clearing
+[AP]</name></function>
+<xor id="21"/>
+<event id="22"><name>Bill
+of exchange
+payable
+to be
+posted</name></event>
+<event id="23"><name>Line
+item
+analysis
+to be
+carried out</name></event>
+<function id="24"><name>Invoices
+and Credit
+Memos</name></function>
+<xor id="25"/>
+<event id="26"><name>Vendor
+invoice
+is to
+be parked</name></event>
+<event id="27"><name>Line
+items
+to be
+cleared</name></event>
+<event id="28"><name>Correspondence
+to be
+sent</name></event>
+<or id="29"/>
+<event id="30"><name>Clearing
+is posted</name></event>
+<event id="31"><name>Balance
+analysis
+to be
+carried
+out</name></event>
+<event id="32"><name>Item
+balance
+is zero</name></event>
+<function id="33"><name>Vendor
+Down
+Payments</name></function>
+<and id="34"/>
+<event id="35"><name>Interest
+to be
+calculated
+on account
+balances</name></event>
+<event id="36"><name>Vendor
+Payments</name></event>
+<xor id="37"/>
+<event id="38"><name>Manual
+clearing
+is complete</name></event>
+<event id="39"><name>Vendor
+invoice
+is to
+be parked</name></event>
+<arc id="22"><flow source="0" target="21"/></arc>
+<arc id="61"><flow source="1" target="20"/></arc>
+<arc id="186"><flow source="4" target="25"/></arc>
+<arc id="244"><flow source="6" target="3"/></arc>
+<arc id="326"><flow source="8" target="5"/></arc>
+<arc id="328"><flow source="8" target="7"/></arc>
+<arc id="332"><flow source="8" target="11"/></arc>
+<arc id="336"><flow source="8" target="15"/></arc>
+<arc id="339"><flow source="8" target="18"/></arc>
+<arc id="373"><flow source="9" target="12"/></arc>
+<arc id="434"><flow source="10" target="33"/></arc>
+<arc id="523"><flow source="13" target="2"/></arc>
+<arc id="567"><flow source="14" target="6"/></arc>
+<arc id="778"><flow source="19" target="17"/></arc>
+<arc id="838"><flow source="20" target="37"/></arc>
+<arc id="854"><flow source="21" target="13"/></arc>
+<arc id="890"><flow source="22" target="9"/></arc>
+<arc id="935"><flow source="23" target="14"/></arc>
+<arc id="990"><flow source="24" target="29"/></arc>
+<arc id="1025"><flow source="25" target="24"/></arc>
+<arc id="1066"><flow source="26" target="25"/></arc>
+<arc id="1140"><flow source="28" target="19"/></arc>
+<arc id="1171"><flow source="29" target="10"/></arc>
+<arc id="1183"><flow source="29" target="22"/></arc>
+<arc id="1255"><flow source="31" target="14"/></arc>
+<arc id="1351"><flow source="33" target="30"/></arc>
+<arc id="1377"><flow source="34" target="16"/></arc>
+<arc id="1393"><flow source="34" target="32"/></arc>
+<arc id="1422"><flow source="35" target="21"/></arc>
+<arc id="1449"><flow source="36" target="8"/></arc>
+<arc id="1508"><flow source="37" target="27"/></arc>
+<arc id="1515"><flow source="37" target="34"/></arc>
+<arc id="1519"><flow source="37" target="38"/></arc>
+<arc id="1586"><flow source="39" target="25"/></arc>
+</epc></epml>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="75" name="1Be_322n">
+<event id="0"><name>Payment
+must
+be effected</name></event>
+<event id="1"><name>Consignment/
+pipeline
+liabilities
+are to
+be settled</name></event>
+<function id="2"><name>Consignment/
+Pipeline
+Settlement</name></function>
+<function id="3"><name>Invoice
+Release</name></function>
+<and id="4"/>
+<event id="5"><name>Invoice
+is posted
+and blocked
+for payment</name></event>
+<event id="6"><name>Consignment/
+pipeline
+settlement
+document
+transmitted</name></event>
+<arc id="10"><flow source="1" target="2"/></arc>
+<arc id="19"><flow source="2" target="4"/></arc>
+<arc id="22"><flow source="3" target="0"/></arc>
+<arc id="34"><flow source="4" target="5"/></arc>
+<arc id="35"><flow source="4" target="6"/></arc>
+<arc id="39"><flow source="5" target="3"/></arc>
+</epc></epml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="595" name="1Ve_mx29">
+<function id="0"><name>Registration
+Order
+Processing</name></function>
+<xor id="1"/>
+<event id="2"><name>Business
+event
+attendance
+exists</name></event>
+<event id="3"><name>Registration
+order
+is rejected</name></event>
+<or id="4"/>
+<event id="5"><name>Need
+for operative
+personnel
+time
+scheduling</name></event>
+<event id="6"><name>Registration
+order
+exists</name></event>
+<arc id="2"><flow source="0" target="1"/></arc>
+<arc id="11"><flow source="1" target="3"/></arc>
+<arc id="12"><flow source="1" target="4"/></arc>
+<arc id="31"><flow source="4" target="2"/></arc>
+<arc id="34"><flow source="4" target="5"/></arc>
+<arc id="43"><flow source="6" target="0"/></arc>
+</epc></epml>

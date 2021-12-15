@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="315" name="1Pr_1gm8">
+<xor id="0"/>
+<or id="1"/>
+<event id="2"><name>Planning
+results
+or stock/
+reqmts
+situation is processed</name></event>
+<function id="3"><name>Material
+Requirements
+Planning
+- Evaluation</name></function>
+<function id="4"><name>Overall
+Material
+Requirements
+Planning</name></function>
+<event id="5"><name>Demand
+Program
+Created</name></event>
+<or id="6"/>
+<event id="7"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="8"><name>Dependent
+Requirement
+Created</name></event>
+<and id="9"/>
+<function id="10"><name>Material
+Requirements
+Planning
+- Individual</name></function>
+<event id="11"><name>Stock/
+requirements
+list
+to be
+processed</name></event>
+<event id="12"><name>MRP list
+is created</name></event>
+<event id="13"><name>Purchase
+Requisition
+Created</name></event>
+<arc id="4"><flow source="0" target="3"/></arc>
+<arc id="22"><flow source="1" target="7"/></arc>
+<arc id="23"><flow source="1" target="8"/></arc>
+<arc id="27"><flow source="1" target="12"/></arc>
+<arc id="28"><flow source="1" target="13"/></arc>
+<arc id="45"><flow source="3" target="2"/></arc>
+<arc id="63"><flow source="4" target="6"/></arc>
+<arc id="80"><flow source="5" target="9"/></arc>
+<arc id="86"><flow source="6" target="1"/></arc>
+<arc id="131"><flow source="9" target="4"/></arc>
+<arc id="137"><flow source="9" target="10"/></arc>
+<arc id="147"><flow source="10" target="6"/></arc>
+<arc id="155"><flow source="11" target="0"/></arc>
+<arc id="169"><flow source="12" target="0"/></arc>
+</epc></epml>

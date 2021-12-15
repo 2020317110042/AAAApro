@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><epml><epc xmlns:fo="http://www.w3.org/1999/XSL/Format" epcId="345" name="1Pr_4bgy">
+<event id="0"><name>Master
+production
+schedule
+is processed</name></event>
+<event id="1"><name>Master
+plan
+(RS quantities)
+to be
+processed in planning table</name></event>
+<function id="2"><name>Sequencing</name></function>
+<and id="3"/>
+<event id="4"><name>Planned
+Order
+Created
+Automatically</name></event>
+<event id="5"><name>Planning
+executed
+with
+capacity
+planning</name></event>
+<or id="6"/>
+<event id="7"><name>Sequencing
+to be
+executed
+for planned
+orders</name></event>
+<event id="8"><name>Production
+quantities
+assigned
+to production
+lines</name></event>
+<function id="9"><name>Production
+Planning
+in the
+Planning
+Table</name></function>
+<event id="10"><name>Planning
+executed
+with
+sequencing</name></event>
+<event id="11"><name>Sequencing
+was carried
+out</name></event>
+<arc id="16"><flow source="1" target="3"/></arc>
+<arc id="36"><flow source="2" target="11"/></arc>
+<arc id="46"><flow source="3" target="9"/></arc>
+<arc id="52"><flow source="4" target="3"/></arc>
+<arc id="73"><flow source="6" target="0"/></arc>
+<arc id="78"><flow source="6" target="5"/></arc>
+<arc id="81"><flow source="6" target="8"/></arc>
+<arc id="83"><flow source="6" target="10"/></arc>
+<arc id="87"><flow source="7" target="2"/></arc>
+<arc id="115"><flow source="9" target="6"/></arc>
+</epc></epml>
